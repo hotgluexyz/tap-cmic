@@ -55,7 +55,7 @@ tap-cmic --help
 | Setting | Type | Required | Default | Description |
 | ------- | ---- | -------- | ------- | ----------- |
 | `start_date` | string (datetime) | no | `2000-01-01T00:00:00Z` | Earliest record date to sync. |
-| `base_url` | string | yes | — | CMiC API base URL, without a trailing slash. |
+| `base_url` | string | yes | — | CMiC Basic Auth API base URL, without a trailing slash. See CMiC's [Cloud Web APP and API URLs](https://developers.cmicglobal.com/v1/docs/cloud-api-server-urls). |
 | `user` | string | yes | — | Account username. |
 | `password` | string | yes | — | Account password. |
 
@@ -66,8 +66,8 @@ Run `tap-cmic --about` (or `tap-cmic --about --format=markdown`) for the authori
 ```json
 {
   "start_date": "2000-01-01T00:00:00Z",
-  "base_url": "https://partner-sandbox-api-basic.cmiccloud.com/cmicprtn",
-  "user": "YOUR_USERNAME",
+  "base_url": "https://atlas-api.cmiccloud.com/cmicprod",
+  "user": "YOUR_API_SERVICE_ACCOUNT",
   "password": "YOUR_PASSWORD"
 }
 ```
