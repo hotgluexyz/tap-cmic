@@ -80,12 +80,6 @@ class CMiCStream(RESTStream):
             return None
         return previous_offset + self.page_size
 
-    def _get_incremental_start(self, context: dict | None) -> datetime.datetime:
-        start_time = self.get_starting_time(context, self.is_inclusive)
-        if start_time is None:
-            msg = f"Stream {self.name} requires start_date or state for incremental sync"
-            raise RuntimeError(msg)
-        return start_time
 
     @override
     def get_url_params(
@@ -106,7 +100,7 @@ class CMiCStream(RESTStream):
         if next_page_token is not None:
             params[self.offset_param] = next_page_token
         if self.finder_template:
-            start_time = self._get_incremental_start(context)
+            start_time = self.get_starting_time(context, self.is_inclusive)
             replication_key_value = start_time.strftime(self.replication_datetime_format)
             params[self.finder_param] = self.finder_template.replace(
                 "{replication_key_value}",
