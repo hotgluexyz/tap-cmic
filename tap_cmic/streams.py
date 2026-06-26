@@ -3,7 +3,12 @@
 from __future__ import annotations
 
 from tap_cmic.client import CMiCStream
-from tap_cmic.schemas import CONTRACTS_SCHEMA, PROJECTS_SCHEMA, VENDORS_SCHEMA
+from tap_cmic.schemas import (
+    CONTRACTS_SCHEMA,
+    INSURANCES_SCHEMA,
+    PROJECTS_SCHEMA,
+    VENDORS_SCHEMA,
+)
 
 
 class ProjectsStream(CMiCStream):
@@ -42,3 +47,19 @@ class VendorsStream(CMiCStream):
     finder_template = "selectByDate;auditDate={replication_key_value}"
     is_inclusive = True
     schema = VENDORS_SCHEMA
+
+
+class InsurancesStream(CMiCStream):
+    """Stream for ``insurances``."""
+
+    name = "insurances"
+    path = "/ap-rest-api/rest/1/apinsurance"
+    primary_keys = "InsVUuid"  # type: ignore[assignment]
+    replication_key = "hg_modified_at"
+    replication_key_sources = ("InsIuUpdateDate", "InsIuCreateDate")
+    query_template = (
+        "InsIuUpdateDate >= '{replication_key_value}' "
+        "or InsIuCreateDate >= '{replication_key_value}'"
+    )
+    is_inclusive = True
+    schema = INSURANCES_SCHEMA

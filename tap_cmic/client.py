@@ -22,6 +22,7 @@ class CMiCStream(RESTStream):
     replication_datetime_format = "%Y-%m-%dT%H:%M:%S%z"
     replication_key_sources: tuple[str, ...] = ()
     finder_template: str | None = None
+    query_template: str | None = None
     is_inclusive = False
 
     next_page_token_jsonpath = None
@@ -80,7 +81,6 @@ class CMiCStream(RESTStream):
             return None
         return previous_offset + self.page_size
 
-
     @override
     def get_url_params(
         self,
@@ -100,13 +100,31 @@ class CMiCStream(RESTStream):
         if next_page_token is not None:
             params[self.offset_param] = next_page_token
         if self.finder_template:
-            start_time = self.get_starting_time(context, self.is_inclusive)
+            start_time = self._get_incremental_start(context)
             replication_key_value = start_time.strftime(self.replication_datetime_format)
             params[self.finder_param] = self.finder_template.replace(
                 "{replication_key_value}",
                 replication_key_value,
             )
+        if self.query_template:
+            start_time = self._get_incremental_start(context)
+            replication_key_value = start_time.strftime(self.replication_datetime_format)
+            params["q"] = self.query_template.replace(
+                "{replication_key_value}",
+                replication_key_value,
+            )
         return params
+
+    def _get_incremental_start(self, context: dict | None) -> datetime.datetime:
+        bookmark_start = self.get_starting_timestamp(context)
+        if bookmark_start is not None and self.is_inclusive:
+            return bookmark_start + datetime.timedelta(seconds=1)
+
+        start_time = self.get_starting_time(context, False)
+        if start_time is None:
+            msg = f"Stream {self.name} requires start_date or state for incremental sync"
+            raise RuntimeError(msg)
+        return start_time
 
     @override
     def post_process(

@@ -48,6 +48,26 @@ def test_stream_params_match_cmic_definition():
     }
 
 
+def test_insurances_stream_uses_query_filter_params():
+    """insurances uses q because CMiC rejects finder for this endpoint."""
+    tap = TapCMiC(config=SAMPLE_CONFIG)
+    insurances = cast(
+        CMiCStream,
+        next(stream for stream in tap.streams.values() if stream.name == "insurances"),
+    )
+
+    params = insurances.get_url_params(context=None, next_page_token=500)
+
+    assert params == {
+        "limit": 500,
+        "offset": 500,
+        "q": "InsIuUpdateDate >= "
+        f"'{SAMPLE_CONFIG['start_date']}T00:00:00+0000' "
+        "or InsIuCreateDate >= "
+        f"'{SAMPLE_CONFIG['start_date']}T00:00:00+0000'",
+    }
+
+
 def test_post_process_sets_synthetic_replication_key():
     """CMiC bookmarks use hg_modified_at coalesced from update/create fields."""
     tap = TapCMiC(config=SAMPLE_CONFIG)
