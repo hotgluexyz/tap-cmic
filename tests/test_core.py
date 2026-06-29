@@ -38,6 +38,7 @@ def test_stream_params_match_cmic_definition():
         CMiCStream,
         next(stream for stream in tap.streams.values() if stream.name == "projects"),
     )
+    projects._write_starting_replication_value(None)
 
     params = projects.get_url_params(context=None, next_page_token=500)
 
@@ -55,16 +56,21 @@ def test_insurances_stream_uses_query_filter_params():
         CMiCStream,
         next(stream for stream in tap.streams.values() if stream.name == "insurances"),
     )
+    insurances._write_starting_replication_value(None)
+    start_time = (
+        datetime.datetime.fromisoformat(SAMPLE_CONFIG["start_date"]).replace(
+            tzinfo=datetime.timezone.utc,
+        )
+        + datetime.timedelta(seconds=1)
+    ).strftime("%Y-%m-%dT%H:%M:%S%z")
 
     params = insurances.get_url_params(context=None, next_page_token=500)
 
     assert params == {
         "limit": 500,
         "offset": 500,
-        "q": "InsIuUpdateDate >= "
-        f"'{SAMPLE_CONFIG['start_date']}T00:00:00+0000' "
-        "or InsIuCreateDate >= "
-        f"'{SAMPLE_CONFIG['start_date']}T00:00:00+0000'",
+        "q": f"InsIuUpdateDate >= '{start_time}' "
+        f"or InsIuCreateDate >= '{start_time}'",
     }
 
 

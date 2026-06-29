@@ -2,7 +2,6 @@
 
 from __future__ import annotations
 
-import datetime
 from typing import Any
 
 import requests
@@ -16,16 +15,11 @@ class CMiCStream(RESTStream):
 
     records_jsonpath = "$.items[*]"
     page_size = 500
-    offset_param = "offset"
-    page_size_param = "limit"
-    finder_param = "finder"
     replication_datetime_format = "%Y-%m-%dT%H:%M:%S%z"
     replication_key_sources: tuple[str, ...] = ()
     finder_template: str | None = None
     query_template: str | None = None
     is_inclusive = False
-
-    next_page_token_jsonpath = None
 
     @override
     @property
@@ -47,18 +41,6 @@ class CMiCStream(RESTStream):
             password=self.config["password"],
         )
 
-    @override
-    @property
-    def http_headers(self) -> dict:
-        """Return the http headers needed.
-
-        Returns:
-            A dictionary of HTTP headers.
-        """
-        headers = dict(super().http_headers)
-        headers["Accept"] = "application/json"
-        return headers
-
     def get_next_page_token(
         self,
         response: requests.Response,
@@ -77,7 +59,7 @@ class CMiCStream(RESTStream):
             https://requests.readthedocs.io/en/latest/api/#requests.Response
         """
         previous_offset = previous_token or 0
-        if len(list(self.parse_response(response))) < self.page_size:
+        if not response.json()["hasMore"]:
             return None
         return previous_offset + self.page_size
 
@@ -96,35 +78,21 @@ class CMiCStream(RESTStream):
         Returns:
             A dictionary of URL query parameters.
         """
-        params: dict[str, Any] = {self.page_size_param: self.page_size}
+        params: dict[str, Any] = {"limit": self.page_size}
         if next_page_token is not None:
-            params[self.offset_param] = next_page_token
-        if self.finder_template:
-            start_time = self._get_incremental_start(context)
-            replication_key_value = start_time.strftime(self.replication_datetime_format)
-            params[self.finder_param] = self.finder_template.replace(
-                "{replication_key_value}",
-                replication_key_value,
-            )
-        if self.query_template:
-            start_time = self._get_incremental_start(context)
-            replication_key_value = start_time.strftime(self.replication_datetime_format)
-            params["q"] = self.query_template.replace(
+            params["offset"] = next_page_token
+
+        filter_template = self.finder_template or self.query_template
+        if filter_template:
+            replication_key_value = self.get_starting_time(
+                context,
+                self.is_inclusive,
+            ).strftime(self.replication_datetime_format)
+            params["finder" if self.finder_template else "q"] = filter_template.replace(
                 "{replication_key_value}",
                 replication_key_value,
             )
         return params
-
-    def _get_incremental_start(self, context: dict | None) -> datetime.datetime:
-        bookmark_start = self.get_starting_timestamp(context)
-        if bookmark_start is not None and self.is_inclusive:
-            return bookmark_start + datetime.timedelta(seconds=1)
-
-        start_time = self.get_starting_time(context, False)
-        if start_time is None:
-            msg = f"Stream {self.name} requires start_date or state for incremental sync"
-            raise RuntimeError(msg)
-        return start_time
 
     @override
     def post_process(
