@@ -69,7 +69,11 @@ def test_insurances_stream_uses_query_filter_params():
     assert params == {
         "limit": 500,
         "offset": 500,
-        "q": f"InsIuUpdateDate >= '{start_time}' or InsIuCreateDate >= '{start_time}'",
+        "q": (
+            "InsCoverTypeCode = 'COI' "
+            f"and (InsIuUpdateDate >= '{start_time}' "
+            f"or InsIuCreateDate >= '{start_time}')"
+        ),
     }
 
 

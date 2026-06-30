@@ -58,8 +58,9 @@ class InsurancesStream(CMiCStream):
     replication_key = "hg_modified_at"
     replication_key_sources = ("InsIuUpdateDate", "InsIuCreateDate")
     query_template = (
-        "InsIuUpdateDate >= '{replication_key_value}' "
-        "or InsIuCreateDate >= '{replication_key_value}'"
+        "InsCoverTypeCode = 'COI' "
+        "and (InsIuUpdateDate >= '{replication_key_value}' "
+        "or InsIuCreateDate >= '{replication_key_value}')"
     )
     is_inclusive = True
     schema = INSURANCES_SCHEMA
