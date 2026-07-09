@@ -648,84 +648,9 @@ INSURANCES_SCHEMA = {
     },
 }
 
-CONTRACTS_REQUEST_FOR_PAYMENT_SCHEMA = {
-    "type": "object",
-    "properties": {
-        "ScmstCompCode": {"type": ["string", "null"]},
-        "ScmstVenCode": {"type": ["string", "null"]},
-        "ScmstContCode": {"type": ["string", "null"]},
-        "VsovVouUuid": {"type": ["string", "null"]},
-        "VsovCompCode": {"type": ["string", "null"]},
-        "VsovVenCode": {"type": ["string", "null"]},
-        "VsovContCode": {"type": ["string", "null"]},
-        "VsovTaskAmt": {"type": ["number", "null"]},
-        "VsovComplPct": {"type": ["number", "null"]},
-        "VsovComplAmt": {"type": ["number", "null"]},
-        "VsovPrevCertAmt": {"type": ["number", "null"]},
-        "VsovTaskQty": {"type": ["number", "null"]},
-        "VsovComplQty": {"type": ["number", "null"]},
-        "VsovPrevCertQty": {"type": ["number", "null"]},
-        "VsovRetainagePct": {"type": ["number", "null"]},
-        "VsovContRetainedAmt": {"type": ["number", "null"]},
-        "VsovVouRetainedAmt": {"type": ["number", "null"]},
-        "VsovVouRetainRlsAmt": {"type": ["number", "null"]},
-        "VsovInvLineAmt": {"type": ["number", "null"]},
-        "links": {
-            "type": ["array", "null"],
-            "items": {
-                "type": "object",
-                "properties": {
-                    "rel": {"type": ["string", "null"]},
-                    "href": {"type": ["string", "null"]},
-                    "name": {"type": ["string", "null"]},
-                    "kind": {"type": ["string", "null"]},
-                },
-            },
-        },
-    },
-}
-
 VOUCHERS_SCHEMA = {
     "type": "object",
     "properties": {
-        "VouNum": {"type": ["integer", "null"]},
-        "VouCompCode": {"type": ["string", "null"]},
-        "VouVenCode": {"type": ["string", "null"]},
-        "VouContCode": {"type": ["string", "null"]},
-        "VouJobCode": {"type": ["string", "null"]},
-        "VouInvCode": {"type": ["string", "null"]},
-        "VouInvDate": {"type": ["string", "null"], "format": "date-time"},
-        "VouPostDate": {"type": ["string", "null"], "format": "date-time"},
-        "VouStatusCode": {"type": ["string", "null"]},
-        "VouInvAmt": {"type": ["number", "null"]},
-        "VouInvOutstandAmt": {"type": ["number", "null"]},
-        "VouInvOutStandGrandAmt": {"type": ["number", "null"]},
-        "VouPaidAmt": {"type": ["number", "null"]},
-        "VouPartialApprovedAmt": {"type": ["number", "null"]},
-        "VouHldbkAmt": {"type": ["number", "null"]},
-        "VouHldbkPaid": {"type": ["number", "null"]},
-        "VouLastPayAmt": {"type": ["number", "null"]},
-        "links": {
-            "type": ["array", "null"],
-            "items": {
-                "type": "object",
-                "properties": {
-                    "rel": {"type": ["string", "null"]},
-                    "href": {"type": ["string", "null"]},
-                    "name": {"type": ["string", "null"]},
-                    "kind": {"type": ["string", "null"]},
-                },
-            },
-        },
-    },
-}
-
-CONTRACTS_VOUCHERS_SCHEMA = {
-    "type": "object",
-    "properties": {
-        "ScmstCompCode": {"type": ["string", "null"]},
-        "ScmstVenCode": {"type": ["string", "null"]},
-        "ScmstContCode": {"type": ["string", "null"]},
         "VouNum": {"type": ["integer", "null"]},
         "VouCompCode": {"type": ["string", "null"]},
         "VouVenCode": {"type": ["string", "null"]},
