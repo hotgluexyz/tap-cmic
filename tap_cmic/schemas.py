@@ -550,7 +550,7 @@ COMPANIES_SCHEMA = {
         "CompOfGlSetOfBooksId": {"type": ["string", "null"]},
         "CompOfGlValues": {"type": ["string", "null"]},
         "CompOwnershipPc": {"type": ["number", "null"]},
-        "CompPerNum": {"type": ["string", "null"]},
+        "CompPerNum": {"type": ["integer", "null"]},
         "CompPhoneAreaCode": {"type": ["string", "null"]},
         "CompPhoneCountryCode": {"type": ["string", "null"]},
         "CompPhoneNum": {"type": ["string", "null"]},
