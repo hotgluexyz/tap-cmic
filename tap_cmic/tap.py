@@ -7,16 +7,20 @@ from hotglue_singer_sdk import typing as th  # JSON schema typing helpers
 from typing_extensions import override
 
 from tap_cmic.streams import (
+    CompaniesStream,
     ContractsStream,
     InsurancesStream,
     ProjectsStream,
+    VouchersStream,
     VendorsStream,
 )
 
 STREAM_TYPES = [
+    CompaniesStream,
     ContractsStream,
     InsurancesStream,
     ProjectsStream,
+    VouchersStream,
     VendorsStream,
 ]
 

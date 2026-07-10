@@ -95,3 +95,60 @@ def test_post_process_sets_synthetic_replication_key():
 
     assert record is not None
     assert record["hg_modified_at"] == "2024-02-01T00:00:00Z"
+
+
+def test_companies_stream_params_match_cmic_definition():
+    """companies uses selectByDate finder on glcompany."""
+    tap = TapCMiC(config=SAMPLE_CONFIG)
+    companies = cast(
+        CMiCStream,
+        next(stream for stream in tap.streams.values() if stream.name == "companies"),
+    )
+    companies._write_starting_replication_value(None)
+    start_time = (
+        datetime.datetime.fromisoformat(SAMPLE_CONFIG["start_date"]).replace(
+            tzinfo=datetime.timezone.utc,
+        )
+        + datetime.timedelta(seconds=1)
+    ).strftime("%Y-%m-%dT%H:%M:%S%z")
+
+    params = companies.get_url_params(context=None, next_page_token=500)
+
+    assert params == {
+        "limit": 500,
+        "offset": 500,
+        "finder": f"selectByDate;auditDate={start_time}",
+    }
+
+
+def test_companies_post_process_sets_synthetic_replication_key():
+    """companies bookmarks use hg_modified_at from CompIu update/create dates."""
+    tap = TapCMiC(config=SAMPLE_CONFIG)
+    companies = cast(
+        CMiCStream,
+        next(stream for stream in tap.streams.values() if stream.name == "companies"),
+    )
+
+    record = companies.post_process(
+        {
+            "CompVUuid": "company-1",
+            "CompIuCreateDate": "2024-01-01T00:00:00Z",
+            "CompIuUpdateDate": "2024-02-01T00:00:00Z",
+        },
+    )
+
+    assert record is not None
+    assert record["hg_modified_at"] == "2024-02-01T00:00:00Z"
+
+
+def test_vouchers_stream_has_no_finder_filter():
+    """vouchers lists apallvouchers without contract-scoped finders."""
+    tap = TapCMiC(config=SAMPLE_CONFIG)
+    vouchers = cast(
+        CMiCStream,
+        next(stream for stream in tap.streams.values() if stream.name == "vouchers"),
+    )
+
+    params = vouchers.get_url_params(context=None, next_page_token=500)
+
+    assert params == {"limit": 500, "offset": 500}

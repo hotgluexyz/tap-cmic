@@ -4,11 +4,26 @@ from __future__ import annotations
 
 from tap_cmic.client import CMiCStream
 from tap_cmic.schemas import (
+    COMPANIES_SCHEMA,
     CONTRACTS_SCHEMA,
     INSURANCES_SCHEMA,
     PROJECTS_SCHEMA,
     VENDORS_SCHEMA,
+    VOUCHERS_SCHEMA,
 )
+
+
+class CompaniesStream(CMiCStream):
+    """Stream for ``companies`` (GL company master)."""
+
+    name = "companies"
+    path = "/glrestapi/rest/v1/glcompany"
+    primary_keys = "CompVUuid"  # type: ignore[assignment]
+    replication_key = "hg_modified_at"
+    replication_key_sources = ("CompIuUpdateDate", "CompIuCreateDate")
+    finder_template = "selectByDate;auditDate={replication_key_value}"
+    is_inclusive = True
+    schema = COMPANIES_SCHEMA
 
 
 class ProjectsStream(CMiCStream):
@@ -34,6 +49,15 @@ class ContractsStream(CMiCStream):
     finder_template = "selectByPostDate;AuditDate={replication_key_value}"
     is_inclusive = True
     schema = CONTRACTS_SCHEMA
+
+
+class VouchersStream(CMiCStream):
+    """All AP vouchers."""
+
+    name = "vouchers"
+    path = "/ap-rest-api/rest/1/apallvouchers"
+    primary_keys = "VouNum"  # type: ignore[assignment]
+    schema = VOUCHERS_SCHEMA
 
 
 class VendorsStream(CMiCStream):
