@@ -12,7 +12,7 @@ from tap_cmic.tap import TapCMiC
 SAMPLE_CONFIG = {
     "start_date": datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%d"),
     "base_url": "https://example.com/cmicprtn",
-    "user": "placeholder",
+    "username": "placeholder",
     "password": "placeholder",
 }
 
