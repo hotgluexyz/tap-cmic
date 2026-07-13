@@ -7,7 +7,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "tap-cmic"
-dynamic = ["version"]
+version = "0.0.1"
 description = "Singer tap for CMiC, built with Hotglue's hotglue_singer_sdk."
 readme = "README.md"
 authors = [{ name = "Otavio Trentin"}]
