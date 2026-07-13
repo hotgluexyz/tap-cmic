@@ -5,7 +5,7 @@ A [Singer](https://www.singer.io/) tap that extracts data from **CMiC**. It is b
 ## Features
 
 - **REST**-style HTTP streams (see `client.py` / `streams.py`).
-- **Basic** authentication (`user` / `password`).
+- **Basic** authentication (`username` / `password`).
 
 - Configurable **`base_url`** and optional **`start_date`** (see [Configuration](#configuration)).
 - Incremental sync uses CMiC `finder` request parameters and bookmarks on synthetic `hg_modified_at`.
@@ -56,7 +56,7 @@ tap-cmic --help
 | ------- | ---- | -------- | ------- | ----------- |
 | `start_date` | string (datetime) | no | `2000-01-01T00:00:00Z` | Earliest record date to sync. |
 | `base_url` | string | yes | — | CMiC Basic Auth API base URL, without a trailing slash. See CMiC's [Cloud Web APP and API URLs](https://developers.cmicglobal.com/v1/docs/cloud-api-server-urls). |
-| `user` | string | yes | — | Account username. |
+| `username` | string | yes | — | Account username. |
 | `password` | string | yes | — | Account password. |
 
 Run `tap-cmic --about` (or `tap-cmic --about --format=markdown`) for the authoritative schema for your installed version.
@@ -67,7 +67,7 @@ Run `tap-cmic --about` (or `tap-cmic --about --format=markdown`) for the authori
 {
   "start_date": "2000-01-01T00:00:00Z",
   "base_url": "https://atlas-api.cmiccloud.com/cmicprod",
-  "user": "YOUR_API_SERVICE_ACCOUNT",
+  "username": "YOUR_API_SERVICE_ACCOUNT",
   "password": "YOUR_PASSWORD"
 }
 ```
