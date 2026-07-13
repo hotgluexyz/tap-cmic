@@ -54,7 +54,6 @@ typing = [
 
 [tool.hatch.version]
 fallback-version = "0.1.0.dev0"
-source = "vcs"
 
 [tool.mypy]
 enable_error_code = [
