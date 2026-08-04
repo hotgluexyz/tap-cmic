@@ -161,10 +161,7 @@ def test_vouchers_stream_uses_query_filter_params():
     assert params == {
         "limit": 500,
         "offset": 500,
-        "q": (
-            f"VouIuUpdateDate >= '{start_time}' "
-            f"or VouIuCreateDate >= '{start_time}'"
-        ),
+        "q": (f"VouIuUpdateDate >= '{start_time}' or VouIuCreateDate >= '{start_time}'"),
     }
 
 
@@ -213,11 +210,7 @@ def test_contract_details_stream_uses_query_filter_params():
     tap = TapCMiC(config=SAMPLE_CONFIG)
     details = cast(
         CMiCStream,
-        next(
-            stream
-            for stream in tap.streams.values()
-            if stream.name == "contract_details"
-        ),
+        next(stream for stream in tap.streams.values() if stream.name == "contract_details"),
     )
     details._write_starting_replication_value(None)
     start_time = (
@@ -232,10 +225,7 @@ def test_contract_details_stream_uses_query_filter_params():
     assert params == {
         "limit": 500,
         "offset": 500,
-        "q": (
-            f"ScschIuUpdateDate >= '{start_time}' "
-            f"or ScschIuCreateDate >= '{start_time}'"
-        ),
+        "q": (f"ScschIuUpdateDate >= '{start_time}' or ScschIuCreateDate >= '{start_time}'"),
     }
 
 
@@ -244,11 +234,7 @@ def test_contract_details_post_process_prefers_update_date():
     tap = TapCMiC(config=SAMPLE_CONFIG)
     details = cast(
         CMiCStream,
-        next(
-            stream
-            for stream in tap.streams.values()
-            if stream.name == "contract_details"
-        ),
+        next(stream for stream in tap.streams.values() if stream.name == "contract_details"),
     )
 
     record = details.post_process(
@@ -268,11 +254,7 @@ def test_contract_details_post_process_falls_back_to_create_date():
     tap = TapCMiC(config=SAMPLE_CONFIG)
     details = cast(
         CMiCStream,
-        next(
-            stream
-            for stream in tap.streams.values()
-            if stream.name == "contract_details"
-        ),
+        next(stream for stream in tap.streams.values() if stream.name == "contract_details"),
     )
 
     record = details.post_process(
