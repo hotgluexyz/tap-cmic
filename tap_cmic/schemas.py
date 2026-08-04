@@ -737,6 +737,7 @@ INSURANCES_SCHEMA = {
 VOUCHERS_SCHEMA = {
     "type": "object",
     "properties": {
+        "hg_modified_at": {"type": ["string", "null"], "format": "date-time"},
         "VouNum": {"type": "integer"},
         "VouCompCode": {"type": ["string", "null"]},
         "VouVenCode": {"type": ["string", "null"]},
@@ -745,6 +746,8 @@ VOUCHERS_SCHEMA = {
         "VouInvCode": {"type": ["string", "null"]},
         "VouInvDate": {"type": ["string", "null"], "format": "date-time"},
         "VouPostDate": {"type": ["string", "null"], "format": "date-time"},
+        "VouIuCreateDate": {"type": ["string", "null"], "format": "date-time"},
+        "VouIuUpdateDate": {"type": ["string", "null"], "format": "date-time"},
         "VouStatusCode": {"type": ["string", "null"]},
         "VouInvAmt": {"type": ["number", "null"]},
         "VouInvOutstandAmt": {"type": ["number", "null"]},

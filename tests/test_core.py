@@ -141,17 +141,71 @@ def test_companies_post_process_sets_synthetic_replication_key():
     assert record["hg_modified_at"] == "2024-02-01T00:00:00Z"
 
 
-def test_vouchers_stream_has_no_finder_filter():
-    """vouchers lists apallvouchers without contract-scoped finders."""
+def test_vouchers_stream_uses_query_filter_params():
+    """vouchers uses q so create and update dates both drive incremental sync."""
+    tap = TapCMiC(config=SAMPLE_CONFIG)
+    vouchers = cast(
+        CMiCStream,
+        next(stream for stream in tap.streams.values() if stream.name == "vouchers"),
+    )
+    vouchers._write_starting_replication_value(None)
+    start_time = (
+        datetime.datetime.fromisoformat(SAMPLE_CONFIG["start_date"]).replace(
+            tzinfo=datetime.timezone.utc,
+        )
+        + datetime.timedelta(seconds=1)
+    ).strftime("%Y-%m-%dT%H:%M:%S%z")
+
+    params = vouchers.get_url_params(context=None, next_page_token=500)
+
+    assert params == {
+        "limit": 500,
+        "offset": 500,
+        "q": (
+            f"VouIuUpdateDate >= '{start_time}' "
+            f"or VouIuCreateDate >= '{start_time}'"
+        ),
+    }
+
+
+def test_vouchers_post_process_prefers_update_date():
+    """hg_modified_at prefers VouIuUpdateDate when present (e.g. after payment)."""
     tap = TapCMiC(config=SAMPLE_CONFIG)
     vouchers = cast(
         CMiCStream,
         next(stream for stream in tap.streams.values() if stream.name == "vouchers"),
     )
 
-    params = vouchers.get_url_params(context=None, next_page_token=500)
+    record = vouchers.post_process(
+        {
+            "VouNum": 251507376,
+            "VouIuCreateDate": "2026-07-01T09:14:13-04:00",
+            "VouIuUpdateDate": "2026-07-01T10:21:40-04:00",
+        },
+    )
 
-    assert params == {"limit": 500, "offset": 500}
+    assert record is not None
+    assert record["hg_modified_at"] == "2026-07-01T10:21:40-04:00"
+
+
+def test_vouchers_post_process_falls_back_to_create_date():
+    """hg_modified_at falls back to VouIuCreateDate when update is null."""
+    tap = TapCMiC(config=SAMPLE_CONFIG)
+    vouchers = cast(
+        CMiCStream,
+        next(stream for stream in tap.streams.values() if stream.name == "vouchers"),
+    )
+
+    record = vouchers.post_process(
+        {
+            "VouNum": 1,
+            "VouIuCreateDate": "2026-08-04T12:33:11-04:00",
+            "VouIuUpdateDate": None,
+        },
+    )
+
+    assert record is not None
+    assert record["hg_modified_at"] == "2026-08-04T12:33:11-04:00"
 
 
 def test_contract_details_stream_uses_query_filter_params():
