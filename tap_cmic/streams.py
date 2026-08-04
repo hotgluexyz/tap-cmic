@@ -5,8 +5,8 @@ from __future__ import annotations
 from tap_cmic.client import CMiCStream
 from tap_cmic.schemas import (
     COMPANIES_SCHEMA,
-    CONTRACTS_SCHEMA,
     CONTRACT_DETAILS_SCHEMA,
+    CONTRACTS_SCHEMA,
     INSURANCES_SCHEMA,
     PROJECTS_SCHEMA,
     VENDORS_SCHEMA,

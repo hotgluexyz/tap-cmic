@@ -8,22 +8,22 @@ from typing_extensions import override
 
 from tap_cmic.streams import (
     CompaniesStream,
-    ContractsStream,
     ContractDetailsStream,
+    ContractsStream,
     InsurancesStream,
     ProjectsStream,
-    VouchersStream,
     VendorsStream,
+    VouchersStream,
 )
 
 STREAM_TYPES = [
     CompaniesStream,
-    ContractsStream,
     ContractDetailsStream,
+    ContractsStream,
     InsurancesStream,
     ProjectsStream,
-    VouchersStream,
     VendorsStream,
+    VouchersStream,
 ]
 
 
