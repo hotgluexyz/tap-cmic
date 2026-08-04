@@ -9,6 +9,7 @@ from typing_extensions import override
 from tap_cmic.streams import (
     CompaniesStream,
     ContractsStream,
+    ContractDetailsStream,
     InsurancesStream,
     ProjectsStream,
     VouchersStream,
@@ -18,6 +19,7 @@ from tap_cmic.streams import (
 STREAM_TYPES = [
     CompaniesStream,
     ContractsStream,
+    ContractDetailsStream,
     InsurancesStream,
     ProjectsStream,
     VouchersStream,

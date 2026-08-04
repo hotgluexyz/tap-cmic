@@ -6,6 +6,7 @@ from tap_cmic.client import CMiCStream
 from tap_cmic.schemas import (
     COMPANIES_SCHEMA,
     CONTRACTS_SCHEMA,
+    CONTRACT_DETAILS_SCHEMA,
     INSURANCES_SCHEMA,
     PROJECTS_SCHEMA,
     VENDORS_SCHEMA,
@@ -49,6 +50,23 @@ class ContractsStream(CMiCStream):
     finder_template = "selectByPostDate;AuditDate={replication_key_value}"
     is_inclusive = True
     schema = CONTRACTS_SCHEMA
+
+
+class ContractDetailsStream(CMiCStream):
+    """Stream for subcontract Schedule of Values (``scsched``)."""
+
+    name = "contract_details"
+    path = "/pm-rest-api/rest/1/scsched"
+    primary_keys = "ScschVUuid"  # type: ignore[assignment]
+    replication_key = "hg_modified_at"
+    replication_key_sources = ("ScschIuUpdateDate", "ScschIuCreateDate")
+    # finder CreateDateGTEQ is create-only; q= covers create and progress updates
+    query_template = (
+        "ScschIuUpdateDate >= '{replication_key_value}' "
+        "or ScschIuCreateDate >= '{replication_key_value}'"
+    )
+    is_inclusive = True
+    schema = CONTRACT_DETAILS_SCHEMA
 
 
 class VouchersStream(CMiCStream):

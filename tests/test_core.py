@@ -152,3 +152,82 @@ def test_vouchers_stream_has_no_finder_filter():
     params = vouchers.get_url_params(context=None, next_page_token=500)
 
     assert params == {"limit": 500, "offset": 500}
+
+
+def test_contract_details_stream_uses_query_filter_params():
+    """contract_details uses q so create and update dates both drive incremental sync."""
+    tap = TapCMiC(config=SAMPLE_CONFIG)
+    details = cast(
+        CMiCStream,
+        next(
+            stream
+            for stream in tap.streams.values()
+            if stream.name == "contract_details"
+        ),
+    )
+    details._write_starting_replication_value(None)
+    start_time = (
+        datetime.datetime.fromisoformat(SAMPLE_CONFIG["start_date"]).replace(
+            tzinfo=datetime.timezone.utc,
+        )
+        + datetime.timedelta(seconds=1)
+    ).strftime("%Y-%m-%dT%H:%M:%S%z")
+
+    params = details.get_url_params(context=None, next_page_token=500)
+
+    assert params == {
+        "limit": 500,
+        "offset": 500,
+        "q": (
+            f"ScschIuUpdateDate >= '{start_time}' "
+            f"or ScschIuCreateDate >= '{start_time}'"
+        ),
+    }
+
+
+def test_contract_details_post_process_prefers_update_date():
+    """hg_modified_at prefers ScschIuUpdateDate when present (progress updates)."""
+    tap = TapCMiC(config=SAMPLE_CONFIG)
+    details = cast(
+        CMiCStream,
+        next(
+            stream
+            for stream in tap.streams.values()
+            if stream.name == "contract_details"
+        ),
+    )
+
+    record = details.post_process(
+        {
+            "ScschVUuid": "sov-1",
+            "ScschIuCreateDate": "2026-06-30T14:52:24-04:00",
+            "ScschIuUpdateDate": "2026-08-04T12:37:30-04:00",
+        },
+    )
+
+    assert record is not None
+    assert record["hg_modified_at"] == "2026-08-04T12:37:30-04:00"
+
+
+def test_contract_details_post_process_falls_back_to_create_date():
+    """hg_modified_at falls back to ScschIuCreateDate when update is null (new SOV)."""
+    tap = TapCMiC(config=SAMPLE_CONFIG)
+    details = cast(
+        CMiCStream,
+        next(
+            stream
+            for stream in tap.streams.values()
+            if stream.name == "contract_details"
+        ),
+    )
+
+    record = details.post_process(
+        {
+            "ScschVUuid": "sov-2",
+            "ScschIuCreateDate": "2026-08-04T11:53:48-04:00",
+            "ScschIuUpdateDate": None,
+        },
+    )
+
+    assert record is not None
+    assert record["hg_modified_at"] == "2026-08-04T11:53:48-04:00"

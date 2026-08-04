@@ -1,8 +1,8 @@
 # Secrets and internal config files
 config.json
 
+.DS_Store
 # Ignore meltano internal cache and sqlite systemdb
-
 .meltano/
 
 # Byte-compiled / optimized / DLL files
