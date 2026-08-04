@@ -44,7 +44,7 @@ class TapCMiC(Tap):
             description="Base URL for the CMiC API",
         ),
         th.Property(
-            "user",
+            "username",
             th.StringType,
             required=True,
             description="The CMiC username",
