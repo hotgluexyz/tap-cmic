@@ -107,7 +107,7 @@ commands = [ [ "pytest", { replace = "posargs", default = [ "tests" ], extend = 
 description = "run ruff linter and formatter check"
 skip_install = true
 dependency_groups = []
-deps = ["ruff>=0.15"]
+deps = ["ruff==0.15.12"]
 commands = [
     ["ruff", "check", "."],
     ["ruff", "format", "--check", "."],
