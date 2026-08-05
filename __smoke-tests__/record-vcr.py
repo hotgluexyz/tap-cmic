@@ -4,9 +4,7 @@ from tap_cmic.tap import TapCMiC
 
 
 class Runner(VCRTapTestRunner):
-    FILTER_HEADERS = [
-        *VCRTapTestRunner.FILTER_HEADERS
-    ]
+    FILTER_HEADERS = [*VCRTapTestRunner.FILTER_HEADERS]
     PRESERVE_KEYS = {"hasMore"}
 
     def module(self) -> str:
