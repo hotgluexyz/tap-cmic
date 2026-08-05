@@ -1,0 +1,1023 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.33.1
+    method: GET
+    uri: https://partner-sandbox-api-basic.cmiccloud.com/cmicprtn/pm-rest-api/rest/1/scmast?limit=500&finder=selectByPostDate%3BAuditDate%3D2000-01-01T00%3A00%3A01%2B0000
+  response:
+    body:
+      string: '{"items": [{"CChangeDesc": "-Fallback-scrubbed-MqiXfOlPxPewrDz", "CNewRevisedDesc":
+        "-Fallback-scrubbed-qiHtjUprIxo", "COriginalDesc": "-Fallback-scrubbed-tzmjZkHd",
+        "CRecievedDesc": "-Fallback-scrubbed-FjNETgu", "CTitle1": "-Fallback-scrubbed-tzmjZkHd",
+        "CTitle2": "-Fallback-scrubbed-dAGiVNuPjDgIZ", "CTitle3": "-Fallback-scrubbed-NFdUvTLFIzJemE",
+        "CTitle4": "-Fallback-scrubbed-FjNETgu", "CUnpostedDesc": "-Fallback-scrubbed-rmmEaJhRuWpnDniX",
+        "PartnTypeCode": "-Fallback-scrubbed-l", "PostOverrideFlag": "-Fallback-scrubbed-N",
+        "ScmstAbbrevPartnCode": "-Fallback-scrubbed-nntpUw", "ScmstAcctDescription":
+        null, "ScmstActionCode": null, "ScmstAltVenAddCode": null, "ScmstAppCode":
+        null, "ScmstArAmt": null, "ScmstBankAccount": "-Fallback-scrubbed-qNZW", "ScmstBankDept":
+        "-Fallback-scrubbed-nK", "ScmstBillCode": null, "ScmstCashAmt": null, "ScmstCdiFlag":
+        "-Fallback-scrubbed-S", "ScmstChgCode": "-Fallback-scrubbed-lUc", "ScmstChqHandleCode":
+        null, "ScmstCloseDate": null, "ScmstClvValueCode1": null, "ScmstClvValueCode2":
+        null, "ScmstClvValueCode3": null, "ScmstClvValueCode4": null, "ScmstClvValueCode5":
+        null, "ScmstClvValueCode6": null, "ScmstCmBudrCode": null, "ScmstCmChgCode":
+        null, "ScmstCmCompCode": null, "ScmstCmJobCode": null, "ScmstCompCode": "-Fallback-scrubbed-cxu",
+        "ScmstComplFlag": "-Fallback-scrubbed-S", "ScmstContAmt": null, "ScmstContCode":
+        "-Fallback-scrubbed-lfltQleFnXm", "ScmstContType": "-Fallback-scrubbed-ngVIDJLziua",
+        "ScmstContactCode": null, "ScmstContactName": null, "ScmstCorrespAddCode":
+        null, "ScmstCreateContOnFlyFlag": "-Fallback-scrubbed-h", "ScmstCurcFactorNum":
+        6070, "ScmstCurrCode": "-Fallback-scrubbed-mHK", "ScmstCurrName": "-Fallback-scrubbed-mSRXsfwiD",
+        "ScmstDate": "-Fallback-scrubbed-zSoUXrPCLi", "ScmstDefaultTaxesFlag": "-Fallback-scrubbed-h",
+        "ScmstDesc": null, "ScmstDfltAmt": null, "ScmstDfltCatCode": null, "ScmstDfltPhsCode":
+        null, "ScmstDoNotExceedAmt": null, "ScmstEndDate": "-Fallback-scrubbed-TXqrDxjXtO",
+        "ScmstExecutedDate": null, "ScmstGcsPayRequestFlag": "-Fallback-scrubbed-S",
+        "ScmstGstAmt": null, "ScmstGstPc": 2678, "ScmstHldbkPc": 2678, "ScmstHldbkPcRule":
+        null, "ScmstHldbkRlsFromSc": "-Fallback-scrubbed-h", "ScmstHoldPaymentDays":
+        2678, "ScmstHoldPaymentFlag": "-Fallback-scrubbed-h", "ScmstImpactDays": null,
+        "ScmstInvEntryState": "-Fallback-scrubbed-Kr", "ScmstInvHldbkTaxFlag": "-Fallback-scrubbed-S",
+        "ScmstIssuedDate": null, "ScmstIuCreateDate": "-Fallback-scrubbed-bRFkshCnkrbQitMchZBdbirzN",
+        "ScmstIuUpdateDate": "-Fallback-scrubbed-bRFkshCnkrbQitMchZBdbirzN", "ScmstJobCode":
+        "-Fallback-scrubbed-oVhKHbDmR", "ScmstJobCtrlCode": "-Fallback-scrubbed-SAL",
+        "ScmstMainChgCode": null, "ScmstMainContCode": null, "ScmstMainVenCode": null,
+        "ScmstName": "-Fallback-scrubbed-ACSaXOXgnRCszVcLsHlz", "ScmstNonCreditInclTaxAmt":
+        null, "ScmstNonCreditTaxAmt": null, "ScmstOrigBidpAmt": null, "ScmstOrigBidpOraseq":
+        null, "ScmstOvrrideNotExceedFlag": "-Fallback-scrubbed-S", "ScmstOverrideFlag":
+        null, "ScmstPbContCode": null, "ScmstPbCustCode": null, "ScmstPostBatch":
+        null, "ScmstPostDate": null, "ScmstPreferedQuoteFlag": "-Fallback-scrubbed-h",
+        "ScmstPrintedCoFlag": null, "ScmstProjOraseq": 4730, "ScmstRating": null,
+        "ScmstRctReferenceNum": null, "ScmstReceivedDate": null, "ScmstRecipientEmail":
+        null, "ScmstRevBatch": null, "ScmstRevDate": null, "ScmstScControlAmt": 2265,
+        "ScmstSchedExistsFlag": "-Fallback-scrubbed-S", "ScmstScheduleFlag": "-Fallback-scrubbed-h",
+        "ScmstScopeDesc": null, "ScmstScschLastSeqNumUsed": 2678, "ScmstSelfBilledFlag":
+        "-Fallback-scrubbed-S", "ScmstSenderEmail": null, "ScmstSepVouPerJobFlag":
+        "-Fallback-scrubbed-S", "ScmstSrcCode": "-Fallback-scrubbed-api", "ScmstStartDate":
+        "-Fallback-scrubbed-QHvYaRpgDr", "ScmstStatCode": "-Fallback-scrubbed-l",
+        "ScmstStatusCode": "-Fallback-scrubbed-dkzJaTk", "ScmstSubcontrCode": "-Fallback-scrubbed-ZgYi",
+        "ScmstSubcontractorChgCode": null, "ScmstTax1Code": "-Fallback-scrubbed-Wg",
+        "ScmstTax2Code": null, "ScmstTax3Code": null, "ScmstTermCode": "-Fallback-scrubbed-aUNCc",
+        "ScmstTermName": "-Fallback-scrubbed-tOdIyy", "ScmstTexturaFlag": "-Fallback-scrubbed-S",
+        "ScmstUser": "-Fallback-scrubbed-DGGexO", "ScmstUserPrvlgFlag": "-Fallback-scrubbed-h",
+        "ScmstVenCode": "-Fallback-scrubbed-nntpUw", "ScmstVenName": "-Fallback-scrubbed-PFUHxpGejDDiYsZdJKFnzBWeqGTIRARXJe",
+        "ScmstVUuid": "-Fallback-scrubbed-OGuhNRhqodhjqDBnbZauFwlIlqkBGDGd", "ScmstDepositAmt":
+        2678, "ScmstDepositApprovalDate": null, "ScmstDepositPct": 2678, "ScmstWorkflowStatus":
+        null, "ScmstDateTimePost": null, "ScmstPost": null, "links": [{"rel": "-Fallback-scrubbed-dFbn",
+        "href": "-Fallback-scrubbed-oZhsYJBpWvSppAGxXblsXGiQfFTAEGgkPtMnlszbhrBbYaVbWATZtwjXKRcLzFIxmeYeusFSwPsshGiJbUmFLDPFgtfdkhJTzjXxzLbCpkejQqQoRAKzn",
+        "name": "Brian Montoya", "kind": "-Fallback-scrubbed-OepF"}, {"rel": "-Fallback-scrubbed-ICiXPIhnH",
+        "href": "-Fallback-scrubbed-oZhsYJBpWvSppAGxXblsXGiQfFTAEGgkPtMnlszbhrBbYaVbWATZtwjXKRcLzFIxmeYeusFSwPsshGiJbUmFLDPFgtfdkhJTzjXxzLbCpkejQqQoRAKzn",
+        "name": "Brian Montoya", "kind": "-Fallback-scrubbed-OepF"}, {"rel": "-Fallback-scrubbed-XNIPn",
+        "href": "-Fallback-scrubbed-QinRdXANgnHZjCvrkurBFkImoHLraMCSPQeFwriVGAJlrrRJnolDaScozJuUsrQOORQHdhZkEmLqHpbhngHexaOGuPBnmbDXWRWKHtbgwhpEUriPPEwJxpGadZmQPUwSHWRBAvvmAqGBIWcvDecH",
+        "name": "Tammy Stone", "kind": "-Fallback-scrubbed-HypKEUVcQi"}, {"rel": "-Fallback-scrubbed-KoswBusJH",
+        "href": "-Fallback-scrubbed-owOfnyCdlBXVQICRZrnBDRRlTHNViFBRURPUVudvgWNwmianWRygEEDAyKAjZpiilxJRcnkMBfnjBRxSwcQvZHKxYZjFqZbzXySekRRjVjBxVnFpgrJCzPBAjAaZozZjEtSLJBzxnQHeRuJd",
+        "name": "Dawn Brewer", "kind": "-Fallback-scrubbed-XIxqx"}]}, {"CChangeDesc":
+        "-Fallback-scrubbed-MqiXfOlPxPewrDz", "CNewRevisedDesc": "-Fallback-scrubbed-qiHtjUprIxo",
+        "COriginalDesc": "-Fallback-scrubbed-tzmjZkHd", "CRecievedDesc": "-Fallback-scrubbed-FjNETgu",
+        "CTitle1": "-Fallback-scrubbed-tzmjZkHd", "CTitle2": "-Fallback-scrubbed-dAGiVNuPjDgIZ",
+        "CTitle3": "-Fallback-scrubbed-NFdUvTLFIzJemE", "CTitle4": "-Fallback-scrubbed-FjNETgu",
+        "CUnpostedDesc": "-Fallback-scrubbed-rmmEaJhRuWpnDniX", "PartnTypeCode": "-Fallback-scrubbed-l",
+        "PostOverrideFlag": "-Fallback-scrubbed-N", "ScmstAbbrevPartnCode": "-Fallback-scrubbed-jLYiXGn",
+        "ScmstAcctDescription": null, "ScmstActionCode": null, "ScmstAltVenAddCode":
+        null, "ScmstAppCode": null, "ScmstArAmt": null, "ScmstBankAccount": "-Fallback-scrubbed-qNZW",
+        "ScmstBankDept": "-Fallback-scrubbed-nK", "ScmstBillCode": null, "ScmstCashAmt":
+        null, "ScmstCdiFlag": "-Fallback-scrubbed-S", "ScmstChgCode": "-Fallback-scrubbed-lUc",
+        "ScmstChqHandleCode": null, "ScmstCloseDate": null, "ScmstClvValueCode1":
+        null, "ScmstClvValueCode2": null, "ScmstClvValueCode3": null, "ScmstClvValueCode4":
+        null, "ScmstClvValueCode5": null, "ScmstClvValueCode6": null, "ScmstCmBudrCode":
+        null, "ScmstCmChgCode": null, "ScmstCmCompCode": null, "ScmstCmJobCode": null,
+        "ScmstCompCode": "-Fallback-scrubbed-cxu", "ScmstComplFlag": "-Fallback-scrubbed-S",
+        "ScmstContAmt": 1893, "ScmstContCode": "-Fallback-scrubbed-lJUSZImk", "ScmstContType":
+        "-Fallback-scrubbed-ngVIDJLziua", "ScmstContactCode": null, "ScmstContactName":
+        null, "ScmstCorrespAddCode": null, "ScmstCreateContOnFlyFlag": "-Fallback-scrubbed-h",
+        "ScmstCurcFactorNum": 6070, "ScmstCurrCode": "-Fallback-scrubbed-mHK", "ScmstCurrName":
+        "-Fallback-scrubbed-mSRXsfwiD", "ScmstDate": "-Fallback-scrubbed-uTinXFNttn",
+        "ScmstDefaultTaxesFlag": "-Fallback-scrubbed-h", "ScmstDesc": null, "ScmstDfltAmt":
+        566, "ScmstDfltCatCode": "-Fallback-scrubbed-g", "ScmstDfltPhsCode": "-Fallback-scrubbed-MTPsL",
+        "ScmstDoNotExceedAmt": null, "ScmstEndDate": null, "ScmstExecutedDate": null,
+        "ScmstGcsPayRequestFlag": null, "ScmstGstAmt": 2678, "ScmstGstPc": 2678, "ScmstHldbkPc":
+        3800, "ScmstHldbkPcRule": null, "ScmstHldbkRlsFromSc": "-Fallback-scrubbed-h",
+        "ScmstHoldPaymentDays": 2678, "ScmstHoldPaymentFlag": "-Fallback-scrubbed-h",
+        "ScmstImpactDays": null, "ScmstInvEntryState": "-Fallback-scrubbed-Kr", "ScmstInvHldbkTaxFlag":
+        "-Fallback-scrubbed-S", "ScmstIssuedDate": null, "ScmstIuCreateDate": "-Fallback-scrubbed-iClqnTSuRatViCHQjxmvXmMaO",
+        "ScmstIuUpdateDate": "-Fallback-scrubbed-nvmjYAsDgrHiTNeLajzYJwXBf", "ScmstJobCode":
+        "-Fallback-scrubbed-fwpGg", "ScmstJobCtrlCode": "-Fallback-scrubbed-SAL",
+        "ScmstMainChgCode": null, "ScmstMainContCode": null, "ScmstMainVenCode": null,
+        "ScmstName": "-Fallback-scrubbed-WCqZpIumyKGhWWoJujceVzSuwThTLt", "ScmstNonCreditInclTaxAmt":
+        2678, "ScmstNonCreditTaxAmt": 2678, "ScmstOrigBidpAmt": null, "ScmstOrigBidpOraseq":
+        null, "ScmstOvrrideNotExceedFlag": "-Fallback-scrubbed-S", "ScmstOverrideFlag":
+        null, "ScmstPbContCode": null, "ScmstPbCustCode": null, "ScmstPostBatch":
+        6929, "ScmstPostDate": "-Fallback-scrubbed-DEghodvfNe", "ScmstPreferedQuoteFlag":
+        "-Fallback-scrubbed-h", "ScmstPrintedCoFlag": null, "ScmstProjOraseq": 7099,
+        "ScmstRating": null, "ScmstRctReferenceNum": null, "ScmstReceivedDate": null,
+        "ScmstRecipientEmail": null, "ScmstRevBatch": null, "ScmstRevDate": null,
+        "ScmstScControlAmt": null, "ScmstSchedExistsFlag": "-Fallback-scrubbed-h",
+        "ScmstScheduleFlag": "-Fallback-scrubbed-h", "ScmstScopeDesc": "-Fallback-scrubbed-IeeuAWboGtXhDRxWEsVUlK",
+        "ScmstScschLastSeqNumUsed": 7212, "ScmstSelfBilledFlag": "-Fallback-scrubbed-S",
+        "ScmstSenderEmail": null, "ScmstSepVouPerJobFlag": "-Fallback-scrubbed-S",
+        "ScmstSrcCode": null, "ScmstStartDate": null, "ScmstStatCode": "-Fallback-scrubbed-D",
+        "ScmstStatusCode": "-Fallback-scrubbed-GwoiZX", "ScmstSubcontrCode": "-Fallback-scrubbed-ZgYi",
+        "ScmstSubcontractorChgCode": null, "ScmstTax1Code": "-Fallback-scrubbed-Wg",
+        "ScmstTax2Code": null, "ScmstTax3Code": null, "ScmstTermCode": "-Fallback-scrubbed-aUNCc",
+        "ScmstTermName": "-Fallback-scrubbed-tOdIyy", "ScmstTexturaFlag": "-Fallback-scrubbed-S",
+        "ScmstUser": "-Fallback-scrubbed-DGGexO", "ScmstUserPrvlgFlag": "-Fallback-scrubbed-h",
+        "ScmstVenCode": "-Fallback-scrubbed-jLYiXGn", "ScmstVenName": "-Fallback-scrubbed-DyXSNJciSjBRJgFr",
+        "ScmstVUuid": "-Fallback-scrubbed-VElpbcEJnySiIyZHNTglKjtGyAtbtMvF", "ScmstDepositAmt":
+        2678, "ScmstDepositApprovalDate": null, "ScmstDepositPct": 2678, "ScmstWorkflowStatus":
+        null, "ScmstDateTimePost": "-Fallback-scrubbed-gtfAnQTWokEYqnpDwiUuqXgds",
+        "ScmstPost": null, "links": [{"rel": "-Fallback-scrubbed-dFbn", "href": "-Fallback-scrubbed-NagUFmwFcNaCgWxvRTFlYWLDqcVJjlqBQygdxnsEVeUELjpKrbumgKzSlXvANlweGvhByXDrrWWUEMWNOapLhUQbpccqAealthBvrDaqdzsLBumYVbpca",
+        "name": "Brian Montoya", "kind": "-Fallback-scrubbed-OepF"}, {"rel": "-Fallback-scrubbed-ICiXPIhnH",
+        "href": "-Fallback-scrubbed-NagUFmwFcNaCgWxvRTFlYWLDqcVJjlqBQygdxnsEVeUELjpKrbumgKzSlXvANlweGvhByXDrrWWUEMWNOapLhUQbpccqAealthBvrDaqdzsLBumYVbpca",
+        "name": "Brian Montoya", "kind": "-Fallback-scrubbed-OepF"}, {"rel": "-Fallback-scrubbed-XNIPn",
+        "href": "-Fallback-scrubbed-eexuvUTjiqJqNvRqSqWDGqZAxVtsbpdFoFoVAoqOZWqnHROJagHrlAEqCihGetwNhYSHMWCzCkXMQleHXJmLhymqXlEVgDTieOmkGvcEfSHKgqUZVNCPgahvglvhFJFeiVFQUrUCgsxPFocfOENc",
+        "name": "Tammy Stone", "kind": "-Fallback-scrubbed-HypKEUVcQi"}, {"rel": "-Fallback-scrubbed-KoswBusJH",
+        "href": "-Fallback-scrubbed-WQBLtSnpBilWYyWoeMWThWeYMaqsqUngOkhgfroaSgkOmWPIXttkYYGQmRKJysqLkrsTujvECfiDruokYaoHIYoTkcTEoFkFdOpOarhkDvWVmuhRFShLpJlZGKCGjIpGbFVEoUjwFhCjGNpV",
+        "name": "Dawn Brewer", "kind": "-Fallback-scrubbed-XIxqx"}]}, {"CChangeDesc":
+        "-Fallback-scrubbed-MqiXfOlPxPewrDz", "CNewRevisedDesc": "-Fallback-scrubbed-qiHtjUprIxo",
+        "COriginalDesc": "-Fallback-scrubbed-tzmjZkHd", "CRecievedDesc": "-Fallback-scrubbed-FjNETgu",
+        "CTitle1": "-Fallback-scrubbed-tzmjZkHd", "CTitle2": "-Fallback-scrubbed-dAGiVNuPjDgIZ",
+        "CTitle3": "-Fallback-scrubbed-NFdUvTLFIzJemE", "CTitle4": "-Fallback-scrubbed-FjNETgu",
+        "CUnpostedDesc": "-Fallback-scrubbed-rmmEaJhRuWpnDniX", "PartnTypeCode": "-Fallback-scrubbed-l",
+        "PostOverrideFlag": "-Fallback-scrubbed-N", "ScmstAbbrevPartnCode": "-Fallback-scrubbed-glWqfk",
+        "ScmstAcctDescription": null, "ScmstActionCode": null, "ScmstAltVenAddCode":
+        null, "ScmstAppCode": null, "ScmstArAmt": null, "ScmstBankAccount": "-Fallback-scrubbed-qNZW",
+        "ScmstBankDept": "-Fallback-scrubbed-nK", "ScmstBillCode": null, "ScmstCashAmt":
+        null, "ScmstCdiFlag": "-Fallback-scrubbed-S", "ScmstChgCode": "-Fallback-scrubbed-lUc",
+        "ScmstChqHandleCode": null, "ScmstCloseDate": null, "ScmstClvValueCode1":
+        null, "ScmstClvValueCode2": null, "ScmstClvValueCode3": null, "ScmstClvValueCode4":
+        null, "ScmstClvValueCode5": null, "ScmstClvValueCode6": null, "ScmstCmBudrCode":
+        null, "ScmstCmChgCode": null, "ScmstCmCompCode": null, "ScmstCmJobCode": null,
+        "ScmstCompCode": "-Fallback-scrubbed-cxu", "ScmstComplFlag": "-Fallback-scrubbed-S",
+        "ScmstContAmt": null, "ScmstContCode": "-Fallback-scrubbed-BbqHDwVB", "ScmstContType":
+        null, "ScmstContactCode": null, "ScmstContactName": null, "ScmstCorrespAddCode":
+        null, "ScmstCreateContOnFlyFlag": "-Fallback-scrubbed-h", "ScmstCurcFactorNum":
+        6070, "ScmstCurrCode": "-Fallback-scrubbed-mHK", "ScmstCurrName": "-Fallback-scrubbed-mSRXsfwiD",
+        "ScmstDate": "-Fallback-scrubbed-OgGqLSuLBU", "ScmstDefaultTaxesFlag": "-Fallback-scrubbed-h",
+        "ScmstDesc": null, "ScmstDfltAmt": null, "ScmstDfltCatCode": null, "ScmstDfltPhsCode":
+        null, "ScmstDoNotExceedAmt": null, "ScmstEndDate": null, "ScmstExecutedDate":
+        null, "ScmstGcsPayRequestFlag": null, "ScmstGstAmt": null, "ScmstGstPc": 2678,
+        "ScmstHldbkPc": 2678, "ScmstHldbkPcRule": null, "ScmstHldbkRlsFromSc": "-Fallback-scrubbed-h",
+        "ScmstHoldPaymentDays": 2678, "ScmstHoldPaymentFlag": "-Fallback-scrubbed-h",
+        "ScmstImpactDays": null, "ScmstInvEntryState": "-Fallback-scrubbed-Kr", "ScmstInvHldbkTaxFlag":
+        "-Fallback-scrubbed-S", "ScmstIssuedDate": null, "ScmstIuCreateDate": "-Fallback-scrubbed-fwKkLmaRDfFBfdCbEvcalHmND",
+        "ScmstIuUpdateDate": "-Fallback-scrubbed-fwKkLmaRDfFBfdCbEvcalHmND", "ScmstJobCode":
+        "-Fallback-scrubbed-fwpGg", "ScmstJobCtrlCode": "-Fallback-scrubbed-SAL",
+        "ScmstMainChgCode": null, "ScmstMainContCode": null, "ScmstMainVenCode": null,
+        "ScmstName": "-Fallback-scrubbed-hJOoPeIqGluHpTuHTKpbGMWvtSC", "ScmstNonCreditInclTaxAmt":
+        null, "ScmstNonCreditTaxAmt": null, "ScmstOrigBidpAmt": null, "ScmstOrigBidpOraseq":
+        null, "ScmstOvrrideNotExceedFlag": "-Fallback-scrubbed-S", "ScmstOverrideFlag":
+        null, "ScmstPbContCode": null, "ScmstPbCustCode": null, "ScmstPostBatch":
+        null, "ScmstPostDate": null, "ScmstPreferedQuoteFlag": "-Fallback-scrubbed-h",
+        "ScmstPrintedCoFlag": "-Fallback-scrubbed-S", "ScmstProjOraseq": 7099, "ScmstRating":
+        null, "ScmstRctReferenceNum": null, "ScmstReceivedDate": null, "ScmstRecipientEmail":
+        null, "ScmstRevBatch": null, "ScmstRevDate": null, "ScmstScControlAmt": null,
+        "ScmstSchedExistsFlag": "-Fallback-scrubbed-S", "ScmstScheduleFlag": "-Fallback-scrubbed-S",
+        "ScmstScopeDesc": null, "ScmstScschLastSeqNumUsed": 2678, "ScmstSelfBilledFlag":
+        "-Fallback-scrubbed-S", "ScmstSenderEmail": null, "ScmstSepVouPerJobFlag":
+        "-Fallback-scrubbed-S", "ScmstSrcCode": null, "ScmstStartDate": null, "ScmstStatCode":
+        "-Fallback-scrubbed-l", "ScmstStatusCode": "-Fallback-scrubbed-dkzJaTk", "ScmstSubcontrCode":
+        "-Fallback-scrubbed-ZgYi", "ScmstSubcontractorChgCode": null, "ScmstTax1Code":
+        null, "ScmstTax2Code": null, "ScmstTax3Code": null, "ScmstTermCode": "-Fallback-scrubbed-aUNCc",
+        "ScmstTermName": "-Fallback-scrubbed-tOdIyy", "ScmstTexturaFlag": null, "ScmstUser":
+        "-Fallback-scrubbed-DGGexO", "ScmstUserPrvlgFlag": "-Fallback-scrubbed-h",
+        "ScmstVenCode": "-Fallback-scrubbed-glWqfk", "ScmstVenName": "-Fallback-scrubbed-ahktQIm",
+        "ScmstVUuid": "-Fallback-scrubbed-PQsGwFvBFNIZMdQEVTEWMbnSHAEMsLoM", "ScmstDepositAmt":
+        2678, "ScmstDepositApprovalDate": null, "ScmstDepositPct": 2678, "ScmstWorkflowStatus":
+        null, "ScmstDateTimePost": null, "ScmstPost": null, "links": [{"rel": "-Fallback-scrubbed-dFbn",
+        "href": "-Fallback-scrubbed-DxyHypXzYuXKMRlYNNwyVgQULLZwyxyqpbIVKbdtibhkroGASvrMKNwQgZlAkPGiQjJRyINUcaLtTHzCasVNTAuvwgOkeXVpieDecfKKBmQwEQZrkUkoX",
+        "name": "Brian Montoya", "kind": "-Fallback-scrubbed-OepF"}, {"rel": "-Fallback-scrubbed-ICiXPIhnH",
+        "href": "-Fallback-scrubbed-DxyHypXzYuXKMRlYNNwyVgQULLZwyxyqpbIVKbdtibhkroGASvrMKNwQgZlAkPGiQjJRyINUcaLtTHzCasVNTAuvwgOkeXVpieDecfKKBmQwEQZrkUkoX",
+        "name": "Brian Montoya", "kind": "-Fallback-scrubbed-OepF"}, {"rel": "-Fallback-scrubbed-XNIPn",
+        "href": "-Fallback-scrubbed-YUAshIaDpWEQvDbswXskANNdIRahAWhWnGTUCobWyezLSvuQNziXauzxGupYrrsfaMosulmJVLfPrTOACHOqeamRxfJvbjvYFWKWLBzpLnQYVRlPEtLyMcTZSMKAejvoPVjohCaMEiBWoaZodLMO",
+        "name": "Tammy Stone", "kind": "-Fallback-scrubbed-HypKEUVcQi"}, {"rel": "-Fallback-scrubbed-KoswBusJH",
+        "href": "-Fallback-scrubbed-LJpJWodUHVHtrRwYulssrWWZfOfjKHfCTOZfXnnoVpZIkHnKXhQcbnsecQGOHiZNydOqMgrTENLAzUQmoYHgZHeSuWXtxSFurkNqkGUHnBhXRxHMcTRsxJjkDPdbYBgZCEZkfsfRyzmxdAgC",
+        "name": "Dawn Brewer", "kind": "-Fallback-scrubbed-XIxqx"}]}, {"CChangeDesc":
+        "-Fallback-scrubbed-MqiXfOlPxPewrDz", "CNewRevisedDesc": "-Fallback-scrubbed-qiHtjUprIxo",
+        "COriginalDesc": "-Fallback-scrubbed-tzmjZkHd", "CRecievedDesc": "-Fallback-scrubbed-FjNETgu",
+        "CTitle1": "-Fallback-scrubbed-tzmjZkHd", "CTitle2": "-Fallback-scrubbed-dAGiVNuPjDgIZ",
+        "CTitle3": "-Fallback-scrubbed-NFdUvTLFIzJemE", "CTitle4": "-Fallback-scrubbed-FjNETgu",
+        "CUnpostedDesc": "-Fallback-scrubbed-rmmEaJhRuWpnDniX", "PartnTypeCode": "-Fallback-scrubbed-l",
+        "PostOverrideFlag": "-Fallback-scrubbed-N", "ScmstAbbrevPartnCode": "-Fallback-scrubbed-nntpUw",
+        "ScmstAcctDescription": null, "ScmstActionCode": null, "ScmstAltVenAddCode":
+        null, "ScmstAppCode": null, "ScmstArAmt": null, "ScmstBankAccount": "-Fallback-scrubbed-qNZW",
+        "ScmstBankDept": "-Fallback-scrubbed-nK", "ScmstBillCode": null, "ScmstCashAmt":
+        null, "ScmstCdiFlag": "-Fallback-scrubbed-S", "ScmstChgCode": "-Fallback-scrubbed-lUc",
+        "ScmstChqHandleCode": null, "ScmstCloseDate": null, "ScmstClvValueCode1":
+        null, "ScmstClvValueCode2": null, "ScmstClvValueCode3": null, "ScmstClvValueCode4":
+        null, "ScmstClvValueCode5": null, "ScmstClvValueCode6": null, "ScmstCmBudrCode":
+        null, "ScmstCmChgCode": null, "ScmstCmCompCode": null, "ScmstCmJobCode": null,
+        "ScmstCompCode": "-Fallback-scrubbed-cxu", "ScmstComplFlag": "-Fallback-scrubbed-S",
+        "ScmstContAmt": null, "ScmstContCode": "-Fallback-scrubbed-kpDIoNCfAuO", "ScmstContType":
+        "-Fallback-scrubbed-ngVIDJLziua", "ScmstContactCode": null, "ScmstContactName":
+        null, "ScmstCorrespAddCode": null, "ScmstCreateContOnFlyFlag": "-Fallback-scrubbed-h",
+        "ScmstCurcFactorNum": 6070, "ScmstCurrCode": "-Fallback-scrubbed-mHK", "ScmstCurrName":
+        "-Fallback-scrubbed-mSRXsfwiD", "ScmstDate": "-Fallback-scrubbed-OgGqLSuLBU",
+        "ScmstDefaultTaxesFlag": "-Fallback-scrubbed-h", "ScmstDesc": null, "ScmstDfltAmt":
+        3214, "ScmstDfltCatCode": null, "ScmstDfltPhsCode": null, "ScmstDoNotExceedAmt":
+        null, "ScmstEndDate": null, "ScmstExecutedDate": null, "ScmstGcsPayRequestFlag":
+        null, "ScmstGstAmt": null, "ScmstGstPc": 2678, "ScmstHldbkPc": 6527, "ScmstHldbkPcRule":
+        null, "ScmstHldbkRlsFromSc": "-Fallback-scrubbed-h", "ScmstHoldPaymentDays":
+        2678, "ScmstHoldPaymentFlag": "-Fallback-scrubbed-h", "ScmstImpactDays": null,
+        "ScmstInvEntryState": "-Fallback-scrubbed-Kr", "ScmstInvHldbkTaxFlag": "-Fallback-scrubbed-S",
+        "ScmstIssuedDate": null, "ScmstIuCreateDate": "-Fallback-scrubbed-squDripQvXiJqXyZinYEGKngQ",
+        "ScmstIuUpdateDate": "-Fallback-scrubbed-squDripQvXiJqXyZinYEGKngQ", "ScmstJobCode":
+        "-Fallback-scrubbed-SrRkdaXIYf", "ScmstJobCtrlCode": "-Fallback-scrubbed-SAL",
+        "ScmstMainChgCode": null, "ScmstMainContCode": null, "ScmstMainVenCode": null,
+        "ScmstName": "-Fallback-scrubbed-xydxzKfuDjXTqNLlbwAvVrRVwtxJEIwrdeAzMdqrSOopINXrOuW",
+        "ScmstNonCreditInclTaxAmt": null, "ScmstNonCreditTaxAmt": null, "ScmstOrigBidpAmt":
+        null, "ScmstOrigBidpOraseq": null, "ScmstOvrrideNotExceedFlag": "-Fallback-scrubbed-S",
+        "ScmstOverrideFlag": null, "ScmstPbContCode": null, "ScmstPbCustCode": null,
+        "ScmstPostBatch": null, "ScmstPostDate": null, "ScmstPreferedQuoteFlag": "-Fallback-scrubbed-h",
+        "ScmstPrintedCoFlag": "-Fallback-scrubbed-S", "ScmstProjOraseq": 3512, "ScmstRating":
+        null, "ScmstRctReferenceNum": null, "ScmstReceivedDate": null, "ScmstRecipientEmail":
+        null, "ScmstRevBatch": null, "ScmstRevDate": null, "ScmstScControlAmt": null,
+        "ScmstSchedExistsFlag": "-Fallback-scrubbed-S", "ScmstScheduleFlag": "-Fallback-scrubbed-S",
+        "ScmstScopeDesc": "-Fallback-scrubbed-xydxzKfuDjXTqNLlbwAvVrRVwtxJEIwrdeAzMdqrSOopINXrOuW",
+        "ScmstScschLastSeqNumUsed": 2678, "ScmstSelfBilledFlag": "-Fallback-scrubbed-S",
+        "ScmstSenderEmail": null, "ScmstSepVouPerJobFlag": "-Fallback-scrubbed-S",
+        "ScmstSrcCode": null, "ScmstStartDate": null, "ScmstStatCode": "-Fallback-scrubbed-l",
+        "ScmstStatusCode": "-Fallback-scrubbed-dkzJaTk", "ScmstSubcontrCode": "-Fallback-scrubbed-ZgYi",
+        "ScmstSubcontractorChgCode": null, "ScmstTax1Code": null, "ScmstTax2Code":
+        null, "ScmstTax3Code": null, "ScmstTermCode": "-Fallback-scrubbed-aUNCc",
+        "ScmstTermName": "-Fallback-scrubbed-tOdIyy", "ScmstTexturaFlag": null, "ScmstUser":
+        "-Fallback-scrubbed-DGGexO", "ScmstUserPrvlgFlag": "-Fallback-scrubbed-h",
+        "ScmstVenCode": "-Fallback-scrubbed-nntpUw", "ScmstVenName": "-Fallback-scrubbed-PFUHxpGejDDiYsZdJKFnzBWeqGTIRARXJe",
+        "ScmstVUuid": "-Fallback-scrubbed-KpcJCSzJutmGrcBXeysbQRFzSTGHMvcH", "ScmstDepositAmt":
+        2678, "ScmstDepositApprovalDate": null, "ScmstDepositPct": 2678, "ScmstWorkflowStatus":
+        null, "ScmstDateTimePost": null, "ScmstPost": null, "links": [{"rel": "-Fallback-scrubbed-dFbn",
+        "href": "-Fallback-scrubbed-FbhtaFknSctgTfktuboByOqEuUgGeTysWnSwsJYZSNqINIVecVxcGhetnmNpwspczYoWAUrTJYOUVIVBYALkhwOoXpCpgaaZtvOWLHurtcUKReiwkGVpI",
+        "name": "Brian Montoya", "kind": "-Fallback-scrubbed-OepF"}, {"rel": "-Fallback-scrubbed-ICiXPIhnH",
+        "href": "-Fallback-scrubbed-FbhtaFknSctgTfktuboByOqEuUgGeTysWnSwsJYZSNqINIVecVxcGhetnmNpwspczYoWAUrTJYOUVIVBYALkhwOoXpCpgaaZtvOWLHurtcUKReiwkGVpI",
+        "name": "Brian Montoya", "kind": "-Fallback-scrubbed-OepF"}, {"rel": "-Fallback-scrubbed-XNIPn",
+        "href": "-Fallback-scrubbed-NGFDUrhaozGDRjTTKssAhNGegkmYrBvZuZVFgZzXNWAfIPZsRogiVcMtsNdDZhMStSDKxzEkYObHYZKTanPJLqaKhKySYdAyEDDVJfxfaCIXkKXHEnuQJXkHvrZhzSjPYkobLodBUhjgoEJRSSUT",
+        "name": "Tammy Stone", "kind": "-Fallback-scrubbed-HypKEUVcQi"}, {"rel": "-Fallback-scrubbed-KoswBusJH",
+        "href": "-Fallback-scrubbed-pEFhPNVEDyCWHEPSNRhulxNrFSuZxhMiefpGrRWZrrSDOTPDHLbLOEeFvrekwvhdxkrZBQPKyTIXZLuxGHKwsAEoxeEDGDzIqoTCQrrYDYxITMXxsQbYTCFXBgnPKnGZzlnqIIHgOKXxPnws",
+        "name": "Dawn Brewer", "kind": "-Fallback-scrubbed-XIxqx"}]}, {"CChangeDesc":
+        "-Fallback-scrubbed-MqiXfOlPxPewrDz", "CNewRevisedDesc": "-Fallback-scrubbed-qiHtjUprIxo",
+        "COriginalDesc": "-Fallback-scrubbed-tzmjZkHd", "CRecievedDesc": "-Fallback-scrubbed-FjNETgu",
+        "CTitle1": "-Fallback-scrubbed-tzmjZkHd", "CTitle2": "-Fallback-scrubbed-dAGiVNuPjDgIZ",
+        "CTitle3": "-Fallback-scrubbed-NFdUvTLFIzJemE", "CTitle4": "-Fallback-scrubbed-FjNETgu",
+        "CUnpostedDesc": "-Fallback-scrubbed-rmmEaJhRuWpnDniX", "PartnTypeCode": "-Fallback-scrubbed-l",
+        "PostOverrideFlag": "-Fallback-scrubbed-N", "ScmstAbbrevPartnCode": "-Fallback-scrubbed-glWqfk",
+        "ScmstAcctDescription": null, "ScmstActionCode": null, "ScmstAltVenAddCode":
+        null, "ScmstAppCode": null, "ScmstArAmt": null, "ScmstBankAccount": "-Fallback-scrubbed-qNZW",
+        "ScmstBankDept": "-Fallback-scrubbed-nK", "ScmstBillCode": null, "ScmstCashAmt":
+        null, "ScmstCdiFlag": "-Fallback-scrubbed-S", "ScmstChgCode": "-Fallback-scrubbed-lUc",
+        "ScmstChqHandleCode": null, "ScmstCloseDate": null, "ScmstClvValueCode1":
+        null, "ScmstClvValueCode2": null, "ScmstClvValueCode3": null, "ScmstClvValueCode4":
+        null, "ScmstClvValueCode5": null, "ScmstClvValueCode6": null, "ScmstCmBudrCode":
+        null, "ScmstCmChgCode": null, "ScmstCmCompCode": null, "ScmstCmJobCode": null,
+        "ScmstCompCode": "-Fallback-scrubbed-cxu", "ScmstComplFlag": "-Fallback-scrubbed-S",
+        "ScmstContAmt": 3849, "ScmstContCode": "-Fallback-scrubbed-KztbhkEZ", "ScmstContType":
+        "-Fallback-scrubbed-ngVIDJLziua", "ScmstContactCode": null, "ScmstContactName":
+        null, "ScmstCorrespAddCode": null, "ScmstCreateContOnFlyFlag": "-Fallback-scrubbed-h",
+        "ScmstCurcFactorNum": 6070, "ScmstCurrCode": "-Fallback-scrubbed-mHK", "ScmstCurrName":
+        "-Fallback-scrubbed-mSRXsfwiD", "ScmstDate": "-Fallback-scrubbed-RjISgvSvGj",
+        "ScmstDefaultTaxesFlag": "-Fallback-scrubbed-h", "ScmstDesc": null, "ScmstDfltAmt":
+        3849, "ScmstDfltCatCode": "-Fallback-scrubbed-g", "ScmstDfltPhsCode": "-Fallback-scrubbed-MTPsL",
+        "ScmstDoNotExceedAmt": null, "ScmstEndDate": null, "ScmstExecutedDate": null,
+        "ScmstGcsPayRequestFlag": null, "ScmstGstAmt": 2678, "ScmstGstPc": 2678, "ScmstHldbkPc":
+        3800, "ScmstHldbkPcRule": null, "ScmstHldbkRlsFromSc": "-Fallback-scrubbed-h",
+        "ScmstHoldPaymentDays": 2678, "ScmstHoldPaymentFlag": "-Fallback-scrubbed-h",
+        "ScmstImpactDays": null, "ScmstInvEntryState": "-Fallback-scrubbed-Kr", "ScmstInvHldbkTaxFlag":
+        "-Fallback-scrubbed-S", "ScmstIssuedDate": null, "ScmstIuCreateDate": "-Fallback-scrubbed-KICFYoNQRLsULxGooBbebqKYc",
+        "ScmstIuUpdateDate": "-Fallback-scrubbed-NFGNnruovwjlpoWFebqQArvtU", "ScmstJobCode":
+        "-Fallback-scrubbed-fwpGg", "ScmstJobCtrlCode": "-Fallback-scrubbed-SAL",
+        "ScmstMainChgCode": null, "ScmstMainContCode": null, "ScmstMainVenCode": null,
+        "ScmstName": "-Fallback-scrubbed-ISxVpxeCRYSEZBGOBeHYTcxqNHYbHhKiOicZKFu",
+        "ScmstNonCreditInclTaxAmt": 2678, "ScmstNonCreditTaxAmt": 2678, "ScmstOrigBidpAmt":
+        null, "ScmstOrigBidpOraseq": null, "ScmstOvrrideNotExceedFlag": "-Fallback-scrubbed-S",
+        "ScmstOverrideFlag": null, "ScmstPbContCode": null, "ScmstPbCustCode": null,
+        "ScmstPostBatch": 1488, "ScmstPostDate": "-Fallback-scrubbed-WspSRvRFiQ",
+        "ScmstPreferedQuoteFlag": "-Fallback-scrubbed-h", "ScmstPrintedCoFlag": "-Fallback-scrubbed-S",
+        "ScmstProjOraseq": 7099, "ScmstRating": null, "ScmstRctReferenceNum": null,
+        "ScmstReceivedDate": null, "ScmstRecipientEmail": null, "ScmstRevBatch": null,
+        "ScmstRevDate": null, "ScmstScControlAmt": null, "ScmstSchedExistsFlag": "-Fallback-scrubbed-h",
+        "ScmstScheduleFlag": "-Fallback-scrubbed-S", "ScmstScopeDesc": "-Fallback-scrubbed-yIwHphSrtPUMoZdqCcyHeNGuOMS",
+        "ScmstScschLastSeqNumUsed": 6070, "ScmstSelfBilledFlag": "-Fallback-scrubbed-S",
+        "ScmstSenderEmail": null, "ScmstSepVouPerJobFlag": "-Fallback-scrubbed-S",
+        "ScmstSrcCode": null, "ScmstStartDate": null, "ScmstStatCode": "-Fallback-scrubbed-D",
+        "ScmstStatusCode": "-Fallback-scrubbed-GwoiZX", "ScmstSubcontrCode": "-Fallback-scrubbed-ZgYi",
+        "ScmstSubcontractorChgCode": null, "ScmstTax1Code": null, "ScmstTax2Code":
+        null, "ScmstTax3Code": null, "ScmstTermCode": "-Fallback-scrubbed-aUNCc",
+        "ScmstTermName": "-Fallback-scrubbed-tOdIyy", "ScmstTexturaFlag": null, "ScmstUser":
+        "-Fallback-scrubbed-DGGexO", "ScmstUserPrvlgFlag": "-Fallback-scrubbed-h",
+        "ScmstVenCode": "-Fallback-scrubbed-glWqfk", "ScmstVenName": "-Fallback-scrubbed-ahktQIm",
+        "ScmstVUuid": "-Fallback-scrubbed-KqHUGzlcCQBcrehiAXLmegujJALIADuf", "ScmstDepositAmt":
+        2678, "ScmstDepositApprovalDate": null, "ScmstDepositPct": 2678, "ScmstWorkflowStatus":
+        null, "ScmstDateTimePost": "-Fallback-scrubbed-NFGNnruovwjlpoWFebqQArvtU",
+        "ScmstPost": null, "links": [{"rel": "-Fallback-scrubbed-dFbn", "href": "-Fallback-scrubbed-QEQcICPTMWcRqEswXbeJAuueDxXPcSDgOHLTjUfwSmEXSxJqMLmxynFPLCwhsaIuvjcPdvzkwlUHhLWGfjjQRBElYRTkmRgARkwkdJNiIPwhLarleNHio",
+        "name": "Brian Montoya", "kind": "-Fallback-scrubbed-OepF"}, {"rel": "-Fallback-scrubbed-ICiXPIhnH",
+        "href": "-Fallback-scrubbed-QEQcICPTMWcRqEswXbeJAuueDxXPcSDgOHLTjUfwSmEXSxJqMLmxynFPLCwhsaIuvjcPdvzkwlUHhLWGfjjQRBElYRTkmRgARkwkdJNiIPwhLarleNHio",
+        "name": "Brian Montoya", "kind": "-Fallback-scrubbed-OepF"}, {"rel": "-Fallback-scrubbed-XNIPn",
+        "href": "-Fallback-scrubbed-XfgGMVPUVxoEsfcfYKWGJBUECJIofFDDlRYYuBOoCHmfRJBKBxGzukHXBUpSYEVkuTsNEoBFUyaYXTMECgAjPXWRYPfABktsyWoyqKHpHaGIXvIrgGlMEQcsQBfbZfKHLpVwAFKyRZLdXbODisHK",
+        "name": "Tammy Stone", "kind": "-Fallback-scrubbed-HypKEUVcQi"}, {"rel": "-Fallback-scrubbed-KoswBusJH",
+        "href": "-Fallback-scrubbed-WrJfgceKcUfpWyWTflseUMTrUYDpIhvxjChQhdonFrJYebeMINAHSVKSWRaXtLnYODZpHFzUQicXwRfpwmPoSCbjSsOCKAYTZEvJllrsZmUThomCXWavKMQPcgJIGAepskTjpgFHtiwUgqLJ",
+        "name": "Dawn Brewer", "kind": "-Fallback-scrubbed-XIxqx"}]}, {"CChangeDesc":
+        "-Fallback-scrubbed-MqiXfOlPxPewrDz", "CNewRevisedDesc": "-Fallback-scrubbed-qiHtjUprIxo",
+        "COriginalDesc": "-Fallback-scrubbed-tzmjZkHd", "CRecievedDesc": "-Fallback-scrubbed-FjNETgu",
+        "CTitle1": "-Fallback-scrubbed-tzmjZkHd", "CTitle2": "-Fallback-scrubbed-dAGiVNuPjDgIZ",
+        "CTitle3": "-Fallback-scrubbed-NFdUvTLFIzJemE", "CTitle4": "-Fallback-scrubbed-FjNETgu",
+        "CUnpostedDesc": "-Fallback-scrubbed-rmmEaJhRuWpnDniX", "PartnTypeCode": "-Fallback-scrubbed-l",
+        "PostOverrideFlag": "-Fallback-scrubbed-N", "ScmstAbbrevPartnCode": "-Fallback-scrubbed-nntpUw",
+        "ScmstAcctDescription": null, "ScmstActionCode": null, "ScmstAltVenAddCode":
+        null, "ScmstAppCode": null, "ScmstArAmt": null, "ScmstBankAccount": "-Fallback-scrubbed-qNZW",
+        "ScmstBankDept": "-Fallback-scrubbed-nK", "ScmstBillCode": null, "ScmstCashAmt":
+        null, "ScmstCdiFlag": "-Fallback-scrubbed-S", "ScmstChgCode": "-Fallback-scrubbed-lUc",
+        "ScmstChqHandleCode": null, "ScmstCloseDate": null, "ScmstClvValueCode1":
+        null, "ScmstClvValueCode2": null, "ScmstClvValueCode3": null, "ScmstClvValueCode4":
+        null, "ScmstClvValueCode5": null, "ScmstClvValueCode6": null, "ScmstCmBudrCode":
+        null, "ScmstCmChgCode": null, "ScmstCmCompCode": null, "ScmstCmJobCode": null,
+        "ScmstCompCode": "-Fallback-scrubbed-cxu", "ScmstComplFlag": "-Fallback-scrubbed-S",
+        "ScmstContAmt": 3206, "ScmstContCode": "-Fallback-scrubbed-qzhauNtE", "ScmstContType":
+        "-Fallback-scrubbed-ngVIDJLziua", "ScmstContactCode": null, "ScmstContactName":
+        null, "ScmstCorrespAddCode": null, "ScmstCreateContOnFlyFlag": "-Fallback-scrubbed-h",
+        "ScmstCurcFactorNum": 6070, "ScmstCurrCode": "-Fallback-scrubbed-mHK", "ScmstCurrName":
+        "-Fallback-scrubbed-mSRXsfwiD", "ScmstDate": "-Fallback-scrubbed-OgGqLSuLBU",
+        "ScmstDefaultTaxesFlag": "-Fallback-scrubbed-S", "ScmstDesc": null, "ScmstDfltAmt":
+        3214, "ScmstDfltCatCode": null, "ScmstDfltPhsCode": null, "ScmstDoNotExceedAmt":
+        null, "ScmstEndDate": null, "ScmstExecutedDate": null, "ScmstGcsPayRequestFlag":
+        "-Fallback-scrubbed-S", "ScmstGstAmt": null, "ScmstGstPc": 2678, "ScmstHldbkPc":
+        3800, "ScmstHldbkPcRule": null, "ScmstHldbkRlsFromSc": "-Fallback-scrubbed-h",
+        "ScmstHoldPaymentDays": 2678, "ScmstHoldPaymentFlag": "-Fallback-scrubbed-h",
+        "ScmstImpactDays": null, "ScmstInvEntryState": "-Fallback-scrubbed-Kr", "ScmstInvHldbkTaxFlag":
+        "-Fallback-scrubbed-S", "ScmstIssuedDate": null, "ScmstIuCreateDate": "-Fallback-scrubbed-oVRjNxvAohpNLSIjERvFJMSOJ",
+        "ScmstIuUpdateDate": "-Fallback-scrubbed-cCHpdxvNOZgFmHdnTsjqepdlk", "ScmstJobCode":
+        "-Fallback-scrubbed-fwpGg", "ScmstJobCtrlCode": "-Fallback-scrubbed-SAL",
+        "ScmstMainChgCode": null, "ScmstMainContCode": null, "ScmstMainVenCode": null,
+        "ScmstName": "-Fallback-scrubbed-xydxzKfuDjXTqNLlbwAvVrRVwtxJEIwrdeAzMdqrSOopINXrOuW",
+        "ScmstNonCreditInclTaxAmt": null, "ScmstNonCreditTaxAmt": null, "ScmstOrigBidpAmt":
+        null, "ScmstOrigBidpOraseq": null, "ScmstOvrrideNotExceedFlag": "-Fallback-scrubbed-S",
+        "ScmstOverrideFlag": null, "ScmstPbContCode": null, "ScmstPbCustCode": null,
+        "ScmstPostBatch": null, "ScmstPostDate": null, "ScmstPreferedQuoteFlag": "-Fallback-scrubbed-h",
+        "ScmstPrintedCoFlag": "-Fallback-scrubbed-S", "ScmstProjOraseq": 7099, "ScmstRating":
+        null, "ScmstRctReferenceNum": null, "ScmstReceivedDate": null, "ScmstRecipientEmail":
+        null, "ScmstRevBatch": null, "ScmstRevDate": null, "ScmstScControlAmt": null,
+        "ScmstSchedExistsFlag": "-Fallback-scrubbed-h", "ScmstScheduleFlag": "-Fallback-scrubbed-S",
+        "ScmstScopeDesc": "-Fallback-scrubbed-xydxzKfuDjXTqNLlbwAvVrRVwtxJEIwrdeAzMdqrSOopINXrOuW",
+        "ScmstScschLastSeqNumUsed": 4417, "ScmstSelfBilledFlag": "-Fallback-scrubbed-S",
+        "ScmstSenderEmail": null, "ScmstSepVouPerJobFlag": "-Fallback-scrubbed-S",
+        "ScmstSrcCode": null, "ScmstStartDate": null, "ScmstStatCode": "-Fallback-scrubbed-l",
+        "ScmstStatusCode": "-Fallback-scrubbed-dkzJaTk", "ScmstSubcontrCode": "-Fallback-scrubbed-ZgYi",
+        "ScmstSubcontractorChgCode": null, "ScmstTax1Code": null, "ScmstTax2Code":
+        null, "ScmstTax3Code": null, "ScmstTermCode": "-Fallback-scrubbed-aUNCc",
+        "ScmstTermName": "-Fallback-scrubbed-tOdIyy", "ScmstTexturaFlag": "-Fallback-scrubbed-S",
+        "ScmstUser": "-Fallback-scrubbed-DGGexO", "ScmstUserPrvlgFlag": "-Fallback-scrubbed-h",
+        "ScmstVenCode": "-Fallback-scrubbed-nntpUw", "ScmstVenName": "-Fallback-scrubbed-PFUHxpGejDDiYsZdJKFnzBWeqGTIRARXJe",
+        "ScmstVUuid": "-Fallback-scrubbed-KgabBdVliEnymJbNlPbQpbkzpAnuLtth", "ScmstDepositAmt":
+        2678, "ScmstDepositApprovalDate": "-Fallback-scrubbed-yVXhKnxhethZTbTJrhubVaGAL",
+        "ScmstDepositPct": 2678, "ScmstWorkflowStatus": null, "ScmstDateTimePost":
+        null, "ScmstPost": null, "links": [{"rel": "-Fallback-scrubbed-dFbn", "href":
+        "-Fallback-scrubbed-umAadzzyylWlanLaIlHBUnwrwgHwdLhgyQfLCbLkVrwfGhdYFZuxODqtzVTCroVPoDNRHSTJTJYcDnvBtQhyjTfplNrUwqUhMITAjkEbuUePPwauMaKeR",
+        "name": "Brian Montoya", "kind": "-Fallback-scrubbed-OepF"}, {"rel": "-Fallback-scrubbed-ICiXPIhnH",
+        "href": "-Fallback-scrubbed-umAadzzyylWlanLaIlHBUnwrwgHwdLhgyQfLCbLkVrwfGhdYFZuxODqtzVTCroVPoDNRHSTJTJYcDnvBtQhyjTfplNrUwqUhMITAjkEbuUePPwauMaKeR",
+        "name": "Brian Montoya", "kind": "-Fallback-scrubbed-OepF"}, {"rel": "-Fallback-scrubbed-XNIPn",
+        "href": "-Fallback-scrubbed-ixFaiylteGWMxfdCstFjeYihdcEQZfdUDJJbkdECOMItQKDGZKncZTbEsmkHdSDtUNitbirzkLgqnRhNQVHpNoeMZzGNIOFCwcLnkqXIKWLZmxyxJhTvWRDLayUuyYuckQAqybdSjBFekXoAUexv",
+        "name": "Tammy Stone", "kind": "-Fallback-scrubbed-HypKEUVcQi"}, {"rel": "-Fallback-scrubbed-KoswBusJH",
+        "href": "-Fallback-scrubbed-LdEYjmnSWkksWBNShsSMDNUppIgxWdlOJQUkKtGVTQiEKPLvnJlmjgaBkPTjjduFZpgWAkOieUGWiYgOkPwNosIMnqfMovNilIJPREkPkUryDoqvbVZXrCrLsXLdJkVlrOzMwhcRwfUVUAwX",
+        "name": "Dawn Brewer", "kind": "-Fallback-scrubbed-XIxqx"}]}, {"CChangeDesc":
+        "-Fallback-scrubbed-MqiXfOlPxPewrDz", "CNewRevisedDesc": "-Fallback-scrubbed-qiHtjUprIxo",
+        "COriginalDesc": "-Fallback-scrubbed-tzmjZkHd", "CRecievedDesc": "-Fallback-scrubbed-FjNETgu",
+        "CTitle1": "-Fallback-scrubbed-tzmjZkHd", "CTitle2": "-Fallback-scrubbed-dAGiVNuPjDgIZ",
+        "CTitle3": "-Fallback-scrubbed-NFdUvTLFIzJemE", "CTitle4": "-Fallback-scrubbed-FjNETgu",
+        "CUnpostedDesc": "-Fallback-scrubbed-rmmEaJhRuWpnDniX", "PartnTypeCode": "-Fallback-scrubbed-l",
+        "PostOverrideFlag": "-Fallback-scrubbed-N", "ScmstAbbrevPartnCode": "-Fallback-scrubbed-UGDNOX",
+        "ScmstAcctDescription": null, "ScmstActionCode": null, "ScmstAltVenAddCode":
+        null, "ScmstAppCode": null, "ScmstArAmt": null, "ScmstBankAccount": "-Fallback-scrubbed-qNZW",
+        "ScmstBankDept": "-Fallback-scrubbed-nK", "ScmstBillCode": null, "ScmstCashAmt":
+        null, "ScmstCdiFlag": "-Fallback-scrubbed-S", "ScmstChgCode": "-Fallback-scrubbed-lUc",
+        "ScmstChqHandleCode": null, "ScmstCloseDate": null, "ScmstClvValueCode1":
+        null, "ScmstClvValueCode2": null, "ScmstClvValueCode3": null, "ScmstClvValueCode4":
+        null, "ScmstClvValueCode5": null, "ScmstClvValueCode6": null, "ScmstCmBudrCode":
+        null, "ScmstCmChgCode": null, "ScmstCmCompCode": null, "ScmstCmJobCode": null,
+        "ScmstCompCode": "-Fallback-scrubbed-cxu", "ScmstComplFlag": "-Fallback-scrubbed-S",
+        "ScmstContAmt": 3214, "ScmstContCode": "-Fallback-scrubbed-iOTsEPuJvV", "ScmstContType":
+        "-Fallback-scrubbed-ngVIDJLziua", "ScmstContactCode": null, "ScmstContactName":
+        null, "ScmstCorrespAddCode": null, "ScmstCreateContOnFlyFlag": "-Fallback-scrubbed-h",
+        "ScmstCurcFactorNum": 6070, "ScmstCurrCode": "-Fallback-scrubbed-mHK", "ScmstCurrName":
+        "-Fallback-scrubbed-mSRXsfwiD", "ScmstDate": "-Fallback-scrubbed-lxZSgxYogn",
+        "ScmstDefaultTaxesFlag": "-Fallback-scrubbed-h", "ScmstDesc": null, "ScmstDfltAmt":
+        null, "ScmstDfltCatCode": null, "ScmstDfltPhsCode": null, "ScmstDoNotExceedAmt":
+        null, "ScmstEndDate": null, "ScmstExecutedDate": null, "ScmstGcsPayRequestFlag":
+        null, "ScmstGstAmt": null, "ScmstGstPc": 2678, "ScmstHldbkPc": 2678, "ScmstHldbkPcRule":
+        null, "ScmstHldbkRlsFromSc": "-Fallback-scrubbed-h", "ScmstHoldPaymentDays":
+        2678, "ScmstHoldPaymentFlag": "-Fallback-scrubbed-h", "ScmstImpactDays": null,
+        "ScmstInvEntryState": "-Fallback-scrubbed-Kr", "ScmstInvHldbkTaxFlag": "-Fallback-scrubbed-S",
+        "ScmstIssuedDate": null, "ScmstIuCreateDate": "-Fallback-scrubbed-kZPwzGHrpNNHCAchhqvqexHMc",
+        "ScmstIuUpdateDate": "-Fallback-scrubbed-kZPwzGHrpNNHCAchhqvqexHMc", "ScmstJobCode":
+        "-Fallback-scrubbed-JxaAzYS", "ScmstJobCtrlCode": "-Fallback-scrubbed-SAL",
+        "ScmstMainChgCode": null, "ScmstMainContCode": null, "ScmstMainVenCode": null,
+        "ScmstName": "-Fallback-scrubbed-fJseWUhNbQkcIdb", "ScmstNonCreditInclTaxAmt":
+        null, "ScmstNonCreditTaxAmt": null, "ScmstOrigBidpAmt": null, "ScmstOrigBidpOraseq":
+        null, "ScmstOvrrideNotExceedFlag": "-Fallback-scrubbed-S", "ScmstOverrideFlag":
+        null, "ScmstPbContCode": null, "ScmstPbCustCode": null, "ScmstPostBatch":
+        null, "ScmstPostDate": null, "ScmstPreferedQuoteFlag": "-Fallback-scrubbed-h",
+        "ScmstPrintedCoFlag": "-Fallback-scrubbed-S", "ScmstProjOraseq": 9061, "ScmstRating":
+        null, "ScmstRctReferenceNum": null, "ScmstReceivedDate": null, "ScmstRecipientEmail":
+        null, "ScmstRevBatch": null, "ScmstRevDate": null, "ScmstScControlAmt": null,
+        "ScmstSchedExistsFlag": "-Fallback-scrubbed-h", "ScmstScheduleFlag": "-Fallback-scrubbed-S",
+        "ScmstScopeDesc": null, "ScmstScschLastSeqNumUsed": 6070, "ScmstSelfBilledFlag":
+        "-Fallback-scrubbed-S", "ScmstSenderEmail": null, "ScmstSepVouPerJobFlag":
+        "-Fallback-scrubbed-S", "ScmstSrcCode": null, "ScmstStartDate": null, "ScmstStatCode":
+        "-Fallback-scrubbed-l", "ScmstStatusCode": "-Fallback-scrubbed-dkzJaTk", "ScmstSubcontrCode":
+        "-Fallback-scrubbed-ZgYi", "ScmstSubcontractorChgCode": null, "ScmstTax1Code":
+        null, "ScmstTax2Code": null, "ScmstTax3Code": null, "ScmstTermCode": "-Fallback-scrubbed-aUNCc",
+        "ScmstTermName": "-Fallback-scrubbed-tOdIyy", "ScmstTexturaFlag": null, "ScmstUser":
+        "-Fallback-scrubbed-AzLszfACQOZnATQx", "ScmstUserPrvlgFlag": "-Fallback-scrubbed-h",
+        "ScmstVenCode": "-Fallback-scrubbed-UGDNOX", "ScmstVenName": "-Fallback-scrubbed-PQADgPxQgooDfUnLhUxkgSHvD",
+        "ScmstVUuid": "-Fallback-scrubbed-pYmUJBzpSuIJlMtpiyZkSvwBQOVZKmzM", "ScmstDepositAmt":
+        2678, "ScmstDepositApprovalDate": "-Fallback-scrubbed-RRzVqZzpEVXtMauNmKRAJwIFp",
+        "ScmstDepositPct": 2678, "ScmstWorkflowStatus": null, "ScmstDateTimePost":
+        null, "ScmstPost": null, "links": [{"rel": "-Fallback-scrubbed-dFbn", "href":
+        "-Fallback-scrubbed-fCNlnRpBukoEuWZmjSpXfnGUHmnnedLzRiLxBvzLFbgHbDbptjSHZFJEjNTeSjXZffSCRYDdqtZLMdtucUVRcKfGyPhowpRArznfqkreimasKteyiNlpr",
+        "name": "Brian Montoya", "kind": "-Fallback-scrubbed-OepF"}, {"rel": "-Fallback-scrubbed-ICiXPIhnH",
+        "href": "-Fallback-scrubbed-fCNlnRpBukoEuWZmjSpXfnGUHmnnedLzRiLxBvzLFbgHbDbptjSHZFJEjNTeSjXZffSCRYDdqtZLMdtucUVRcKfGyPhowpRArznfqkreimasKteyiNlpr",
+        "name": "Brian Montoya", "kind": "-Fallback-scrubbed-OepF"}, {"rel": "-Fallback-scrubbed-XNIPn",
+        "href": "-Fallback-scrubbed-gGtzVjUvAhZibdDdUXocLAQZodtBKLRsMCOxhNRmexAwTyBTCQZhuQcJqJKCqlqGyLOrJCBeUVVgUoWkTASZSzHzyQnRwXPFDeMoewbJppkiozGqfsaNKQfGzVCtAbqHESSHvwzrrCKFHLgiEqPq",
+        "name": "Tammy Stone", "kind": "-Fallback-scrubbed-HypKEUVcQi"}, {"rel": "-Fallback-scrubbed-KoswBusJH",
+        "href": "-Fallback-scrubbed-ZtWnbkHVsgcsGqAsTYonDRgDBNABPIMwEHLJAmBqceQqXzrxCfZCxpmLxHbJKNzzmEbKKVxuBWEvKNGNPXBmDtYVudarreMaXnijSgGhylMFbszMImaeaKUlvllGttzVbAYaYDchKezSBjop",
+        "name": "Dawn Brewer", "kind": "-Fallback-scrubbed-XIxqx"}]}, {"CChangeDesc":
+        "-Fallback-scrubbed-MqiXfOlPxPewrDz", "CNewRevisedDesc": "-Fallback-scrubbed-qiHtjUprIxo",
+        "COriginalDesc": "-Fallback-scrubbed-tzmjZkHd", "CRecievedDesc": "-Fallback-scrubbed-FjNETgu",
+        "CTitle1": "-Fallback-scrubbed-tzmjZkHd", "CTitle2": "-Fallback-scrubbed-dAGiVNuPjDgIZ",
+        "CTitle3": "-Fallback-scrubbed-NFdUvTLFIzJemE", "CTitle4": "-Fallback-scrubbed-FjNETgu",
+        "CUnpostedDesc": "-Fallback-scrubbed-rmmEaJhRuWpnDniX", "PartnTypeCode": "-Fallback-scrubbed-l",
+        "PostOverrideFlag": "-Fallback-scrubbed-N", "ScmstAbbrevPartnCode": "-Fallback-scrubbed-WHOTxA",
+        "ScmstAcctDescription": null, "ScmstActionCode": null, "ScmstAltVenAddCode":
+        null, "ScmstAppCode": null, "ScmstArAmt": null, "ScmstBankAccount": "-Fallback-scrubbed-qNZW",
+        "ScmstBankDept": "-Fallback-scrubbed-nK", "ScmstBillCode": null, "ScmstCashAmt":
+        null, "ScmstCdiFlag": "-Fallback-scrubbed-S", "ScmstChgCode": "-Fallback-scrubbed-lUc",
+        "ScmstChqHandleCode": null, "ScmstCloseDate": null, "ScmstClvValueCode1":
+        null, "ScmstClvValueCode2": null, "ScmstClvValueCode3": null, "ScmstClvValueCode4":
+        null, "ScmstClvValueCode5": null, "ScmstClvValueCode6": null, "ScmstCmBudrCode":
+        null, "ScmstCmChgCode": null, "ScmstCmCompCode": null, "ScmstCmJobCode": null,
+        "ScmstCompCode": "-Fallback-scrubbed-cxu", "ScmstComplFlag": "-Fallback-scrubbed-S",
+        "ScmstContAmt": 6308, "ScmstContCode": "-Fallback-scrubbed-cqJRSzAEVP", "ScmstContType":
+        null, "ScmstContactCode": null, "ScmstContactName": null, "ScmstCorrespAddCode":
+        null, "ScmstCreateContOnFlyFlag": "-Fallback-scrubbed-h", "ScmstCurcFactorNum":
+        6070, "ScmstCurrCode": "-Fallback-scrubbed-mHK", "ScmstCurrName": "-Fallback-scrubbed-mSRXsfwiD",
+        "ScmstDate": "-Fallback-scrubbed-lxZSgxYogn", "ScmstDefaultTaxesFlag": "-Fallback-scrubbed-h",
+        "ScmstDesc": null, "ScmstDfltAmt": null, "ScmstDfltCatCode": null, "ScmstDfltPhsCode":
+        null, "ScmstDoNotExceedAmt": null, "ScmstEndDate": null, "ScmstExecutedDate":
+        null, "ScmstGcsPayRequestFlag": null, "ScmstGstAmt": null, "ScmstGstPc": 2678,
+        "ScmstHldbkPc": 2678, "ScmstHldbkPcRule": null, "ScmstHldbkRlsFromSc": "-Fallback-scrubbed-h",
+        "ScmstHoldPaymentDays": 2678, "ScmstHoldPaymentFlag": "-Fallback-scrubbed-h",
+        "ScmstImpactDays": null, "ScmstInvEntryState": "-Fallback-scrubbed-Kr", "ScmstInvHldbkTaxFlag":
+        "-Fallback-scrubbed-S", "ScmstIssuedDate": null, "ScmstIuCreateDate": "-Fallback-scrubbed-dxbJuPtWwGLqpIqcWAOMlcpXW",
+        "ScmstIuUpdateDate": "-Fallback-scrubbed-XbiORgwyGENGVSGQNZFlmTwyv", "ScmstJobCode":
+        "-Fallback-scrubbed-JxaAzYS", "ScmstJobCtrlCode": "-Fallback-scrubbed-SAL",
+        "ScmstMainChgCode": null, "ScmstMainContCode": null, "ScmstMainVenCode": null,
+        "ScmstName": "-Fallback-scrubbed-ykWVwAXyEedYCqOjBUBnwapOuCC", "ScmstNonCreditInclTaxAmt":
+        null, "ScmstNonCreditTaxAmt": null, "ScmstOrigBidpAmt": null, "ScmstOrigBidpOraseq":
+        null, "ScmstOvrrideNotExceedFlag": "-Fallback-scrubbed-S", "ScmstOverrideFlag":
+        null, "ScmstPbContCode": null, "ScmstPbCustCode": null, "ScmstPostBatch":
+        null, "ScmstPostDate": null, "ScmstPreferedQuoteFlag": "-Fallback-scrubbed-h",
+        "ScmstPrintedCoFlag": "-Fallback-scrubbed-S", "ScmstProjOraseq": 9061, "ScmstRating":
+        null, "ScmstRctReferenceNum": null, "ScmstReceivedDate": null, "ScmstRecipientEmail":
+        null, "ScmstRevBatch": null, "ScmstRevDate": null, "ScmstScControlAmt": null,
+        "ScmstSchedExistsFlag": "-Fallback-scrubbed-h", "ScmstScheduleFlag": "-Fallback-scrubbed-S",
+        "ScmstScopeDesc": null, "ScmstScschLastSeqNumUsed": 6070, "ScmstSelfBilledFlag":
+        "-Fallback-scrubbed-S", "ScmstSenderEmail": null, "ScmstSepVouPerJobFlag":
+        "-Fallback-scrubbed-S", "ScmstSrcCode": null, "ScmstStartDate": null, "ScmstStatCode":
+        "-Fallback-scrubbed-l", "ScmstStatusCode": "-Fallback-scrubbed-dkzJaTk", "ScmstSubcontrCode":
+        "-Fallback-scrubbed-ZgYi", "ScmstSubcontractorChgCode": null, "ScmstTax1Code":
+        null, "ScmstTax2Code": null, "ScmstTax3Code": null, "ScmstTermCode": "-Fallback-scrubbed-aUNCc",
+        "ScmstTermName": "-Fallback-scrubbed-tOdIyy", "ScmstTexturaFlag": null, "ScmstUser":
+        "-Fallback-scrubbed-AzLszfACQOZnATQx", "ScmstUserPrvlgFlag": "-Fallback-scrubbed-h",
+        "ScmstVenCode": "-Fallback-scrubbed-WHOTxA", "ScmstVenName": "-Fallback-scrubbed-HCHgDiZLMkERy",
+        "ScmstVUuid": "-Fallback-scrubbed-hcmQFuNdFeIrviiOVhGvZzqBjmZBgnQW", "ScmstDepositAmt":
+        2678, "ScmstDepositApprovalDate": "-Fallback-scrubbed-RRzVqZzpEVXtMauNmKRAJwIFp",
+        "ScmstDepositPct": 2678, "ScmstWorkflowStatus": null, "ScmstDateTimePost":
+        null, "ScmstPost": null, "links": [{"rel": "-Fallback-scrubbed-dFbn", "href":
+        "-Fallback-scrubbed-BiZngSJekmnKfHqwRXnHwrSeMPEseeupHCsRkQpueYyHKHqOHvunCdRmJYxCspgokArHNgwDrXRGyFhKaXTKnHdQftLNTohicMPzCLwjQCXxnNqICAVrh",
+        "name": "Brian Montoya", "kind": "-Fallback-scrubbed-OepF"}, {"rel": "-Fallback-scrubbed-ICiXPIhnH",
+        "href": "-Fallback-scrubbed-BiZngSJekmnKfHqwRXnHwrSeMPEseeupHCsRkQpueYyHKHqOHvunCdRmJYxCspgokArHNgwDrXRGyFhKaXTKnHdQftLNTohicMPzCLwjQCXxnNqICAVrh",
+        "name": "Brian Montoya", "kind": "-Fallback-scrubbed-OepF"}, {"rel": "-Fallback-scrubbed-XNIPn",
+        "href": "-Fallback-scrubbed-llpUWcQyHtJrxMGZJtKyHmStnQyXvhDJvRFYWNXazaTGvUKDLYtaNOwfXhnkyZCtZPeVgaBWmwRUglllOIdDyadtrLfTVNJCyDcHXkVHYnpwXuqsraTfgQUlHINruWeyXvOVxlQaOktuDfxtIBTF",
+        "name": "Tammy Stone", "kind": "-Fallback-scrubbed-HypKEUVcQi"}, {"rel": "-Fallback-scrubbed-KoswBusJH",
+        "href": "-Fallback-scrubbed-ewsowKJUjNqoPVhfVerppjpfQcfJdcbSBrAFJJLCVjIoidAcQySRvghgMgcNXnlQBKavvQnrYCDYwzVpmyTBBEdpHjZEjYeXSyKqlbdFVaEZuuvlybyOJwcnyGmLmHoFUnnbzKGrImvxUZKf",
+        "name": "Dawn Brewer", "kind": "-Fallback-scrubbed-XIxqx"}]}, {"CChangeDesc":
+        "-Fallback-scrubbed-MqiXfOlPxPewrDz", "CNewRevisedDesc": "-Fallback-scrubbed-qiHtjUprIxo",
+        "COriginalDesc": "-Fallback-scrubbed-tzmjZkHd", "CRecievedDesc": "-Fallback-scrubbed-FjNETgu",
+        "CTitle1": "-Fallback-scrubbed-tzmjZkHd", "CTitle2": "-Fallback-scrubbed-dAGiVNuPjDgIZ",
+        "CTitle3": "-Fallback-scrubbed-NFdUvTLFIzJemE", "CTitle4": "-Fallback-scrubbed-FjNETgu",
+        "CUnpostedDesc": "-Fallback-scrubbed-rmmEaJhRuWpnDniX", "PartnTypeCode": "-Fallback-scrubbed-l",
+        "PostOverrideFlag": "-Fallback-scrubbed-N", "ScmstAbbrevPartnCode": "-Fallback-scrubbed-XVfHjk",
+        "ScmstAcctDescription": null, "ScmstActionCode": null, "ScmstAltVenAddCode":
+        null, "ScmstAppCode": null, "ScmstArAmt": null, "ScmstBankAccount": "-Fallback-scrubbed-qNZW",
+        "ScmstBankDept": "-Fallback-scrubbed-nK", "ScmstBillCode": null, "ScmstCashAmt":
+        null, "ScmstCdiFlag": "-Fallback-scrubbed-S", "ScmstChgCode": "-Fallback-scrubbed-lUc",
+        "ScmstChqHandleCode": null, "ScmstCloseDate": null, "ScmstClvValueCode1":
+        null, "ScmstClvValueCode2": null, "ScmstClvValueCode3": null, "ScmstClvValueCode4":
+        null, "ScmstClvValueCode5": null, "ScmstClvValueCode6": null, "ScmstCmBudrCode":
+        null, "ScmstCmChgCode": null, "ScmstCmCompCode": null, "ScmstCmJobCode": null,
+        "ScmstCompCode": "-Fallback-scrubbed-cxu", "ScmstComplFlag": "-Fallback-scrubbed-S",
+        "ScmstContAmt": 2818, "ScmstContCode": "-Fallback-scrubbed-ZVLJXaUlaI", "ScmstContType":
+        "-Fallback-scrubbed-ngVIDJLziua", "ScmstContactCode": null, "ScmstContactName":
+        null, "ScmstCorrespAddCode": null, "ScmstCreateContOnFlyFlag": "-Fallback-scrubbed-h",
+        "ScmstCurcFactorNum": 6070, "ScmstCurrCode": "-Fallback-scrubbed-mHK", "ScmstCurrName":
+        "-Fallback-scrubbed-mSRXsfwiD", "ScmstDate": "-Fallback-scrubbed-lxZSgxYogn",
+        "ScmstDefaultTaxesFlag": "-Fallback-scrubbed-h", "ScmstDesc": null, "ScmstDfltAmt":
+        null, "ScmstDfltCatCode": null, "ScmstDfltPhsCode": null, "ScmstDoNotExceedAmt":
+        null, "ScmstEndDate": null, "ScmstExecutedDate": null, "ScmstGcsPayRequestFlag":
+        null, "ScmstGstAmt": null, "ScmstGstPc": 2678, "ScmstHldbkPc": 2678, "ScmstHldbkPcRule":
+        null, "ScmstHldbkRlsFromSc": "-Fallback-scrubbed-h", "ScmstHoldPaymentDays":
+        2678, "ScmstHoldPaymentFlag": "-Fallback-scrubbed-h", "ScmstImpactDays": null,
+        "ScmstInvEntryState": "-Fallback-scrubbed-Kr", "ScmstInvHldbkTaxFlag": "-Fallback-scrubbed-S",
+        "ScmstIssuedDate": null, "ScmstIuCreateDate": "-Fallback-scrubbed-pXyDOgIdXhJYiITyQxTtiBrct",
+        "ScmstIuUpdateDate": "-Fallback-scrubbed-pXyDOgIdXhJYiITyQxTtiBrct", "ScmstJobCode":
+        "-Fallback-scrubbed-JxaAzYS", "ScmstJobCtrlCode": "-Fallback-scrubbed-SAL",
+        "ScmstMainChgCode": null, "ScmstMainContCode": null, "ScmstMainVenCode": null,
+        "ScmstName": "-Fallback-scrubbed-pMrwBlltUC", "ScmstNonCreditInclTaxAmt":
+        null, "ScmstNonCreditTaxAmt": null, "ScmstOrigBidpAmt": null, "ScmstOrigBidpOraseq":
+        null, "ScmstOvrrideNotExceedFlag": "-Fallback-scrubbed-S", "ScmstOverrideFlag":
+        null, "ScmstPbContCode": null, "ScmstPbCustCode": null, "ScmstPostBatch":
+        null, "ScmstPostDate": null, "ScmstPreferedQuoteFlag": "-Fallback-scrubbed-h",
+        "ScmstPrintedCoFlag": "-Fallback-scrubbed-S", "ScmstProjOraseq": 9061, "ScmstRating":
+        null, "ScmstRctReferenceNum": null, "ScmstReceivedDate": null, "ScmstRecipientEmail":
+        null, "ScmstRevBatch": null, "ScmstRevDate": null, "ScmstScControlAmt": null,
+        "ScmstSchedExistsFlag": "-Fallback-scrubbed-h", "ScmstScheduleFlag": "-Fallback-scrubbed-S",
+        "ScmstScopeDesc": "-Fallback-scrubbed-KRtrVVjjdnxVAmTdaZPzgLbUBZoBjjsObHYagZEh",
+        "ScmstScschLastSeqNumUsed": 6070, "ScmstSelfBilledFlag": "-Fallback-scrubbed-S",
+        "ScmstSenderEmail": null, "ScmstSepVouPerJobFlag": "-Fallback-scrubbed-S",
+        "ScmstSrcCode": null, "ScmstStartDate": null, "ScmstStatCode": "-Fallback-scrubbed-l",
+        "ScmstStatusCode": "-Fallback-scrubbed-dkzJaTk", "ScmstSubcontrCode": "-Fallback-scrubbed-ZgYi",
+        "ScmstSubcontractorChgCode": null, "ScmstTax1Code": null, "ScmstTax2Code":
+        null, "ScmstTax3Code": null, "ScmstTermCode": "-Fallback-scrubbed-aUNCc",
+        "ScmstTermName": "-Fallback-scrubbed-tOdIyy", "ScmstTexturaFlag": null, "ScmstUser":
+        "-Fallback-scrubbed-AzLszfACQOZnATQx", "ScmstUserPrvlgFlag": "-Fallback-scrubbed-h",
+        "ScmstVenCode": "-Fallback-scrubbed-XVfHjk", "ScmstVenName": "-Fallback-scrubbed-HXRATtBZxKGpTMJaybpNybeFuPqFOEl",
+        "ScmstVUuid": "-Fallback-scrubbed-qgCNMMGiOHxkrPjjIEkoSdNADbZJGkOn", "ScmstDepositAmt":
+        2678, "ScmstDepositApprovalDate": "-Fallback-scrubbed-RRzVqZzpEVXtMauNmKRAJwIFp",
+        "ScmstDepositPct": 2678, "ScmstWorkflowStatus": null, "ScmstDateTimePost":
+        null, "ScmstPost": null, "links": [{"rel": "-Fallback-scrubbed-dFbn", "href":
+        "-Fallback-scrubbed-nshGYnIoMrykskblkKdoFESbymuFrUaJZGHPZdZcuUdpjRLksdpUrYjUsXxzyAwVQuOFnRJFsBxZLmrmhYACAmJtOsPDxsMgDpNbctMEsXWjTsihTBQaD",
+        "name": "Brian Montoya", "kind": "-Fallback-scrubbed-OepF"}, {"rel": "-Fallback-scrubbed-ICiXPIhnH",
+        "href": "-Fallback-scrubbed-nshGYnIoMrykskblkKdoFESbymuFrUaJZGHPZdZcuUdpjRLksdpUrYjUsXxzyAwVQuOFnRJFsBxZLmrmhYACAmJtOsPDxsMgDpNbctMEsXWjTsihTBQaD",
+        "name": "Brian Montoya", "kind": "-Fallback-scrubbed-OepF"}, {"rel": "-Fallback-scrubbed-XNIPn",
+        "href": "-Fallback-scrubbed-TRyednMQeQnlAtYWdHRDjsdELmVDraEjzqDCWCkqiqVPAfDhOPGEOVecdYsONEtbaBmEerQZiiWtBgwLItGWUSJRariODOCavdWjCcyVvqNzkBzWuPfssIKIiYCPwKIXThXdZjRRmeqPHBDCbexE",
+        "name": "Tammy Stone", "kind": "-Fallback-scrubbed-HypKEUVcQi"}, {"rel": "-Fallback-scrubbed-KoswBusJH",
+        "href": "-Fallback-scrubbed-yPXbmVJFuJnixvPAoRXRIKEVrBHGqdiIUqXWYLLAlVChsEILxusyjMSuOzCSnmbAMnthNurrTQSzagMoMHDPOBlPuIJguOkHjmWEPreotfqpFhZjRLdOilzoWxRtpYPXWNMxlPXxalcTbyiw",
+        "name": "Dawn Brewer", "kind": "-Fallback-scrubbed-XIxqx"}]}, {"CChangeDesc":
+        "-Fallback-scrubbed-MqiXfOlPxPewrDz", "CNewRevisedDesc": "-Fallback-scrubbed-qiHtjUprIxo",
+        "COriginalDesc": "-Fallback-scrubbed-tzmjZkHd", "CRecievedDesc": "-Fallback-scrubbed-FjNETgu",
+        "CTitle1": "-Fallback-scrubbed-tzmjZkHd", "CTitle2": "-Fallback-scrubbed-dAGiVNuPjDgIZ",
+        "CTitle3": "-Fallback-scrubbed-NFdUvTLFIzJemE", "CTitle4": "-Fallback-scrubbed-FjNETgu",
+        "CUnpostedDesc": "-Fallback-scrubbed-rmmEaJhRuWpnDniX", "PartnTypeCode": "-Fallback-scrubbed-l",
+        "PostOverrideFlag": "-Fallback-scrubbed-N", "ScmstAbbrevPartnCode": "-Fallback-scrubbed-tjOdSo",
+        "ScmstAcctDescription": null, "ScmstActionCode": null, "ScmstAltVenAddCode":
+        null, "ScmstAppCode": null, "ScmstArAmt": null, "ScmstBankAccount": "-Fallback-scrubbed-qNZW",
+        "ScmstBankDept": "-Fallback-scrubbed-nK", "ScmstBillCode": null, "ScmstCashAmt":
+        null, "ScmstCdiFlag": "-Fallback-scrubbed-S", "ScmstChgCode": "-Fallback-scrubbed-lUc",
+        "ScmstChqHandleCode": null, "ScmstCloseDate": null, "ScmstClvValueCode1":
+        null, "ScmstClvValueCode2": null, "ScmstClvValueCode3": null, "ScmstClvValueCode4":
+        null, "ScmstClvValueCode5": null, "ScmstClvValueCode6": null, "ScmstCmBudrCode":
+        null, "ScmstCmChgCode": null, "ScmstCmCompCode": null, "ScmstCmJobCode": null,
+        "ScmstCompCode": "-Fallback-scrubbed-cxu", "ScmstComplFlag": "-Fallback-scrubbed-S",
+        "ScmstContAmt": null, "ScmstContCode": "-Fallback-scrubbed-jvDhzJVCLHz", "ScmstContType":
+        "-Fallback-scrubbed-ngVIDJLziua", "ScmstContactCode": null, "ScmstContactName":
+        null, "ScmstCorrespAddCode": null, "ScmstCreateContOnFlyFlag": "-Fallback-scrubbed-h",
+        "ScmstCurcFactorNum": 6070, "ScmstCurrCode": "-Fallback-scrubbed-mHK", "ScmstCurrName":
+        "-Fallback-scrubbed-mSRXsfwiD", "ScmstDate": "-Fallback-scrubbed-WlYAxfIGmp",
+        "ScmstDefaultTaxesFlag": "-Fallback-scrubbed-h", "ScmstDesc": null, "ScmstDfltAmt":
+        null, "ScmstDfltCatCode": null, "ScmstDfltPhsCode": null, "ScmstDoNotExceedAmt":
+        6308, "ScmstEndDate": null, "ScmstExecutedDate": null, "ScmstGcsPayRequestFlag":
+        null, "ScmstGstAmt": null, "ScmstGstPc": 2678, "ScmstHldbkPc": 3800, "ScmstHldbkPcRule":
+        null, "ScmstHldbkRlsFromSc": "-Fallback-scrubbed-h", "ScmstHoldPaymentDays":
+        2678, "ScmstHoldPaymentFlag": "-Fallback-scrubbed-h", "ScmstImpactDays": null,
+        "ScmstInvEntryState": "-Fallback-scrubbed-Kr", "ScmstInvHldbkTaxFlag": "-Fallback-scrubbed-S",
+        "ScmstIssuedDate": null, "ScmstIuCreateDate": "-Fallback-scrubbed-jvvetKAztPLgAlUTSCjsbbuYY",
+        "ScmstIuUpdateDate": "-Fallback-scrubbed-jvvetKAztPLgAlUTSCjsbbuYY", "ScmstJobCode":
+        "-Fallback-scrubbed-SvqgOaHSbe", "ScmstJobCtrlCode": "-Fallback-scrubbed-SAL",
+        "ScmstMainChgCode": null, "ScmstMainContCode": null, "ScmstMainVenCode": null,
+        "ScmstName": "-Fallback-scrubbed-WLGPKVyZDdQPIVRFRaggyzNxIZMyR", "ScmstNonCreditInclTaxAmt":
+        null, "ScmstNonCreditTaxAmt": null, "ScmstOrigBidpAmt": null, "ScmstOrigBidpOraseq":
+        null, "ScmstOvrrideNotExceedFlag": "-Fallback-scrubbed-S", "ScmstOverrideFlag":
+        null, "ScmstPbContCode": null, "ScmstPbCustCode": null, "ScmstPostBatch":
+        null, "ScmstPostDate": null, "ScmstPreferedQuoteFlag": "-Fallback-scrubbed-h",
+        "ScmstPrintedCoFlag": "-Fallback-scrubbed-S", "ScmstProjOraseq": 4797, "ScmstRating":
+        null, "ScmstRctReferenceNum": null, "ScmstReceivedDate": null, "ScmstRecipientEmail":
+        null, "ScmstRevBatch": null, "ScmstRevDate": null, "ScmstScControlAmt": null,
+        "ScmstSchedExistsFlag": "-Fallback-scrubbed-S", "ScmstScheduleFlag": "-Fallback-scrubbed-S",
+        "ScmstScopeDesc": null, "ScmstScschLastSeqNumUsed": 2678, "ScmstSelfBilledFlag":
+        "-Fallback-scrubbed-S", "ScmstSenderEmail": null, "ScmstSepVouPerJobFlag":
+        "-Fallback-scrubbed-S", "ScmstSrcCode": null, "ScmstStartDate": null, "ScmstStatCode":
+        "-Fallback-scrubbed-l", "ScmstStatusCode": "-Fallback-scrubbed-dkzJaTk", "ScmstSubcontrCode":
+        "-Fallback-scrubbed-ZgYi", "ScmstSubcontractorChgCode": null, "ScmstTax1Code":
+        null, "ScmstTax2Code": null, "ScmstTax3Code": null, "ScmstTermCode": "-Fallback-scrubbed-aUNCc",
+        "ScmstTermName": "-Fallback-scrubbed-tOdIyy", "ScmstTexturaFlag": null, "ScmstUser":
+        "-Fallback-scrubbed-DGGexO", "ScmstUserPrvlgFlag": "-Fallback-scrubbed-h",
+        "ScmstVenCode": "-Fallback-scrubbed-tjOdSo", "ScmstVenName": "-Fallback-scrubbed-NULAMgAasxrzcDNls",
+        "ScmstVUuid": "-Fallback-scrubbed-XuwnPMYWEGILUzJdeXvCAhhyGETdpCng", "ScmstDepositAmt":
+        2678, "ScmstDepositApprovalDate": null, "ScmstDepositPct": 2678, "ScmstWorkflowStatus":
+        null, "ScmstDateTimePost": null, "ScmstPost": null, "links": [{"rel": "-Fallback-scrubbed-dFbn",
+        "href": "-Fallback-scrubbed-qQAIbHzGpBPkDCCjvgWMQoTpKBuKeAqQLKZvnZWViMwRZzkYltvcwllsIBDNONZpiAuDRznTMyieDZWsaAdBiFgJWaodPonxvJnJkCXdmmmMSDUSNnFrh",
+        "name": "Brian Montoya", "kind": "-Fallback-scrubbed-OepF"}, {"rel": "-Fallback-scrubbed-ICiXPIhnH",
+        "href": "-Fallback-scrubbed-qQAIbHzGpBPkDCCjvgWMQoTpKBuKeAqQLKZvnZWViMwRZzkYltvcwllsIBDNONZpiAuDRznTMyieDZWsaAdBiFgJWaodPonxvJnJkCXdmmmMSDUSNnFrh",
+        "name": "Brian Montoya", "kind": "-Fallback-scrubbed-OepF"}, {"rel": "-Fallback-scrubbed-XNIPn",
+        "href": "-Fallback-scrubbed-ETJoPwfgvvmLyaaBwLcjriMZSMuAlWTJwVLeFlbJhraNPyBvMmeVVeBdFbbkXdvXeEDLgktPvLiNtSUydbZQQSqdJWVecaruhUuDDbAtolCrQlCUyTBCZQygAOaMaUwScGfcYYAeBiGeTlZJRuHa",
+        "name": "Tammy Stone", "kind": "-Fallback-scrubbed-HypKEUVcQi"}, {"rel": "-Fallback-scrubbed-KoswBusJH",
+        "href": "-Fallback-scrubbed-duqimwWLDaPLjzALKqlwxuRhQnURTwTDkkjggalzJjkICnZpzKLmgvSbIKbQsvxeOvqtTvkCRXlZIJBsRtqQrwOLTnLPHJCxnSQOjEruNEDmAYhVfklBelthavoFZOBHqmmibRnFYaYYUert",
+        "name": "Dawn Brewer", "kind": "-Fallback-scrubbed-XIxqx"}]}, {"CChangeDesc":
+        "-Fallback-scrubbed-MqiXfOlPxPewrDz", "CNewRevisedDesc": "-Fallback-scrubbed-qiHtjUprIxo",
+        "COriginalDesc": "-Fallback-scrubbed-tzmjZkHd", "CRecievedDesc": "-Fallback-scrubbed-FjNETgu",
+        "CTitle1": "-Fallback-scrubbed-tzmjZkHd", "CTitle2": "-Fallback-scrubbed-dAGiVNuPjDgIZ",
+        "CTitle3": "-Fallback-scrubbed-NFdUvTLFIzJemE", "CTitle4": "-Fallback-scrubbed-FjNETgu",
+        "CUnpostedDesc": "-Fallback-scrubbed-rmmEaJhRuWpnDniX", "PartnTypeCode": "-Fallback-scrubbed-l",
+        "PostOverrideFlag": "-Fallback-scrubbed-N", "ScmstAbbrevPartnCode": "-Fallback-scrubbed-tjOdSo",
+        "ScmstAcctDescription": null, "ScmstActionCode": null, "ScmstAltVenAddCode":
+        null, "ScmstAppCode": null, "ScmstArAmt": null, "ScmstBankAccount": "-Fallback-scrubbed-qNZW",
+        "ScmstBankDept": "-Fallback-scrubbed-nK", "ScmstBillCode": null, "ScmstCashAmt":
+        null, "ScmstCdiFlag": "-Fallback-scrubbed-S", "ScmstChgCode": "-Fallback-scrubbed-lUc",
+        "ScmstChqHandleCode": null, "ScmstCloseDate": null, "ScmstClvValueCode1":
+        null, "ScmstClvValueCode2": null, "ScmstClvValueCode3": null, "ScmstClvValueCode4":
+        null, "ScmstClvValueCode5": null, "ScmstClvValueCode6": null, "ScmstCmBudrCode":
+        null, "ScmstCmChgCode": null, "ScmstCmCompCode": null, "ScmstCmJobCode": null,
+        "ScmstCompCode": "-Fallback-scrubbed-cxu", "ScmstComplFlag": "-Fallback-scrubbed-S",
+        "ScmstContAmt": null, "ScmstContCode": "-Fallback-scrubbed-UpTQtRaDdsL", "ScmstContType":
+        "-Fallback-scrubbed-ngVIDJLziua", "ScmstContactCode": null, "ScmstContactName":
+        null, "ScmstCorrespAddCode": null, "ScmstCreateContOnFlyFlag": "-Fallback-scrubbed-h",
+        "ScmstCurcFactorNum": 6070, "ScmstCurrCode": "-Fallback-scrubbed-mHK", "ScmstCurrName":
+        "-Fallback-scrubbed-mSRXsfwiD", "ScmstDate": "-Fallback-scrubbed-WlYAxfIGmp",
+        "ScmstDefaultTaxesFlag": "-Fallback-scrubbed-h", "ScmstDesc": null, "ScmstDfltAmt":
+        null, "ScmstDfltCatCode": null, "ScmstDfltPhsCode": null, "ScmstDoNotExceedAmt":
+        5547, "ScmstEndDate": null, "ScmstExecutedDate": null, "ScmstGcsPayRequestFlag":
+        null, "ScmstGstAmt": null, "ScmstGstPc": 2678, "ScmstHldbkPc": 3800, "ScmstHldbkPcRule":
+        null, "ScmstHldbkRlsFromSc": "-Fallback-scrubbed-h", "ScmstHoldPaymentDays":
+        2678, "ScmstHoldPaymentFlag": "-Fallback-scrubbed-h", "ScmstImpactDays": null,
+        "ScmstInvEntryState": "-Fallback-scrubbed-Kr", "ScmstInvHldbkTaxFlag": "-Fallback-scrubbed-S",
+        "ScmstIssuedDate": null, "ScmstIuCreateDate": "-Fallback-scrubbed-QrxOOSbqOPcFiQskvpVROmZxy",
+        "ScmstIuUpdateDate": "-Fallback-scrubbed-PjxzqkJesnLTCwjqnOuzvVLJm", "ScmstJobCode":
+        "-Fallback-scrubbed-JLYvgomOyJ", "ScmstJobCtrlCode": "-Fallback-scrubbed-SAL",
+        "ScmstMainChgCode": null, "ScmstMainContCode": null, "ScmstMainVenCode": null,
+        "ScmstName": "-Fallback-scrubbed-VxelQkgPSjUkQMStuGOpS", "ScmstNonCreditInclTaxAmt":
+        null, "ScmstNonCreditTaxAmt": null, "ScmstOrigBidpAmt": null, "ScmstOrigBidpOraseq":
+        null, "ScmstOvrrideNotExceedFlag": "-Fallback-scrubbed-S", "ScmstOverrideFlag":
+        null, "ScmstPbContCode": null, "ScmstPbCustCode": null, "ScmstPostBatch":
+        null, "ScmstPostDate": null, "ScmstPreferedQuoteFlag": "-Fallback-scrubbed-h",
+        "ScmstPrintedCoFlag": "-Fallback-scrubbed-S", "ScmstProjOraseq": 9369, "ScmstRating":
+        null, "ScmstRctReferenceNum": null, "ScmstReceivedDate": null, "ScmstRecipientEmail":
+        null, "ScmstRevBatch": null, "ScmstRevDate": null, "ScmstScControlAmt": null,
+        "ScmstSchedExistsFlag": "-Fallback-scrubbed-S", "ScmstScheduleFlag": "-Fallback-scrubbed-S",
+        "ScmstScopeDesc": null, "ScmstScschLastSeqNumUsed": 2678, "ScmstSelfBilledFlag":
+        "-Fallback-scrubbed-S", "ScmstSenderEmail": null, "ScmstSepVouPerJobFlag":
+        "-Fallback-scrubbed-S", "ScmstSrcCode": null, "ScmstStartDate": null, "ScmstStatCode":
+        "-Fallback-scrubbed-l", "ScmstStatusCode": "-Fallback-scrubbed-dkzJaTk", "ScmstSubcontrCode":
+        "-Fallback-scrubbed-ZgYi", "ScmstSubcontractorChgCode": null, "ScmstTax1Code":
+        null, "ScmstTax2Code": null, "ScmstTax3Code": null, "ScmstTermCode": "-Fallback-scrubbed-aUNCc",
+        "ScmstTermName": "-Fallback-scrubbed-tOdIyy", "ScmstTexturaFlag": null, "ScmstUser":
+        "-Fallback-scrubbed-DGGexO", "ScmstUserPrvlgFlag": "-Fallback-scrubbed-h",
+        "ScmstVenCode": "-Fallback-scrubbed-tjOdSo", "ScmstVenName": "-Fallback-scrubbed-NULAMgAasxrzcDNls",
+        "ScmstVUuid": "-Fallback-scrubbed-ZGbzADjVYNSaDTsaEsqKUZymcjRMHkJm", "ScmstDepositAmt":
+        2678, "ScmstDepositApprovalDate": null, "ScmstDepositPct": 2678, "ScmstWorkflowStatus":
+        null, "ScmstDateTimePost": null, "ScmstPost": null, "links": [{"rel": "-Fallback-scrubbed-dFbn",
+        "href": "-Fallback-scrubbed-lXYkkGqWfSsCMDUAMBFMxxLhBYlQrWswygFviCMSOpqyEEAaSdugwJvuyuuMzdjMmZiyQlabAfTGgWVIORAfkNvvsfivFndeAZdFCOirDiagUzKgHTEpd",
+        "name": "Brian Montoya", "kind": "-Fallback-scrubbed-OepF"}, {"rel": "-Fallback-scrubbed-ICiXPIhnH",
+        "href": "-Fallback-scrubbed-lXYkkGqWfSsCMDUAMBFMxxLhBYlQrWswygFviCMSOpqyEEAaSdugwJvuyuuMzdjMmZiyQlabAfTGgWVIORAfkNvvsfivFndeAZdFCOirDiagUzKgHTEpd",
+        "name": "Brian Montoya", "kind": "-Fallback-scrubbed-OepF"}, {"rel": "-Fallback-scrubbed-XNIPn",
+        "href": "-Fallback-scrubbed-qmEQXbSxtDGBlxAOHDCERkqmHeGootlKvvhtsmTZAWePaagKtYOloIQYWAqmIrbrhQFRRaYLbhcPrIHfQUaVoGAoXzMPrBEjBwqLAfjsNPcGyVOXTjNklnbYrCAnomAxQGZuKYJAMGNYKYqeMOIi",
+        "name": "Tammy Stone", "kind": "-Fallback-scrubbed-HypKEUVcQi"}, {"rel": "-Fallback-scrubbed-KoswBusJH",
+        "href": "-Fallback-scrubbed-kmrEfFatADlAsgLPmXYtZNsvCHwCUucHwEzdDZkTeShIBKAGXqIksHhGwZbEQSwzEfkUnijhrNriaDkxhhQqguLMaiQpgKXsvxttlSOsHldkFNUfjmUkyoriLcAHXMETguJvcgNPmBrXmeWL",
+        "name": "Dawn Brewer", "kind": "-Fallback-scrubbed-XIxqx"}]}, {"CChangeDesc":
+        "-Fallback-scrubbed-MqiXfOlPxPewrDz", "CNewRevisedDesc": "-Fallback-scrubbed-qiHtjUprIxo",
+        "COriginalDesc": "-Fallback-scrubbed-tzmjZkHd", "CRecievedDesc": "-Fallback-scrubbed-FjNETgu",
+        "CTitle1": "-Fallback-scrubbed-tzmjZkHd", "CTitle2": "-Fallback-scrubbed-dAGiVNuPjDgIZ",
+        "CTitle3": "-Fallback-scrubbed-NFdUvTLFIzJemE", "CTitle4": "-Fallback-scrubbed-FjNETgu",
+        "CUnpostedDesc": "-Fallback-scrubbed-rmmEaJhRuWpnDniX", "PartnTypeCode": "-Fallback-scrubbed-l",
+        "PostOverrideFlag": "-Fallback-scrubbed-N", "ScmstAbbrevPartnCode": "-Fallback-scrubbed-jLYiXGn",
+        "ScmstAcctDescription": null, "ScmstActionCode": null, "ScmstAltVenAddCode":
+        null, "ScmstAppCode": null, "ScmstArAmt": null, "ScmstBankAccount": "-Fallback-scrubbed-qNZW",
+        "ScmstBankDept": "-Fallback-scrubbed-nK", "ScmstBillCode": null, "ScmstCashAmt":
+        null, "ScmstCdiFlag": "-Fallback-scrubbed-S", "ScmstChgCode": "-Fallback-scrubbed-lUc",
+        "ScmstChqHandleCode": null, "ScmstCloseDate": null, "ScmstClvValueCode1":
+        null, "ScmstClvValueCode2": null, "ScmstClvValueCode3": null, "ScmstClvValueCode4":
+        null, "ScmstClvValueCode5": null, "ScmstClvValueCode6": null, "ScmstCmBudrCode":
+        null, "ScmstCmChgCode": null, "ScmstCmCompCode": null, "ScmstCmJobCode": null,
+        "ScmstCompCode": "-Fallback-scrubbed-cxu", "ScmstComplFlag": "-Fallback-scrubbed-S",
+        "ScmstContAmt": 8697, "ScmstContCode": "-Fallback-scrubbed-DbiUkoLm", "ScmstContType":
+        "-Fallback-scrubbed-ngVIDJLziua", "ScmstContactCode": null, "ScmstContactName":
+        null, "ScmstCorrespAddCode": null, "ScmstCreateContOnFlyFlag": "-Fallback-scrubbed-h",
+        "ScmstCurcFactorNum": 6070, "ScmstCurrCode": "-Fallback-scrubbed-mHK", "ScmstCurrName":
+        "-Fallback-scrubbed-mSRXsfwiD", "ScmstDate": "-Fallback-scrubbed-uTinXFNttn",
+        "ScmstDefaultTaxesFlag": "-Fallback-scrubbed-h", "ScmstDesc": null, "ScmstDfltAmt":
+        8697, "ScmstDfltCatCode": "-Fallback-scrubbed-g", "ScmstDfltPhsCode": "-Fallback-scrubbed-MTPsL",
+        "ScmstDoNotExceedAmt": null, "ScmstEndDate": null, "ScmstExecutedDate": null,
+        "ScmstGcsPayRequestFlag": null, "ScmstGstAmt": 2678, "ScmstGstPc": 2678, "ScmstHldbkPc":
+        3800, "ScmstHldbkPcRule": null, "ScmstHldbkRlsFromSc": "-Fallback-scrubbed-h",
+        "ScmstHoldPaymentDays": 2678, "ScmstHoldPaymentFlag": "-Fallback-scrubbed-h",
+        "ScmstImpactDays": null, "ScmstInvEntryState": "-Fallback-scrubbed-Kr", "ScmstInvHldbkTaxFlag":
+        "-Fallback-scrubbed-S", "ScmstIssuedDate": null, "ScmstIuCreateDate": "-Fallback-scrubbed-nspYFLDIyilUreOwFkBYIFuai",
+        "ScmstIuUpdateDate": "-Fallback-scrubbed-zdknaLAuvxqsNaqDdiJhZfktg", "ScmstJobCode":
+        "-Fallback-scrubbed-fwpGg", "ScmstJobCtrlCode": "-Fallback-scrubbed-SAL",
+        "ScmstMainChgCode": null, "ScmstMainContCode": null, "ScmstMainVenCode": null,
+        "ScmstName": "-Fallback-scrubbed-aUYFQVfVJjNaXvawfGtkLkkHQwORsIJaOftl", "ScmstNonCreditInclTaxAmt":
+        2678, "ScmstNonCreditTaxAmt": 2678, "ScmstOrigBidpAmt": null, "ScmstOrigBidpOraseq":
+        null, "ScmstOvrrideNotExceedFlag": "-Fallback-scrubbed-S", "ScmstOverrideFlag":
+        null, "ScmstPbContCode": null, "ScmstPbCustCode": null, "ScmstPostBatch":
+        2640, "ScmstPostDate": "-Fallback-scrubbed-VWzEFyZuDV", "ScmstPreferedQuoteFlag":
+        "-Fallback-scrubbed-h", "ScmstPrintedCoFlag": null, "ScmstProjOraseq": 7099,
+        "ScmstRating": null, "ScmstRctReferenceNum": null, "ScmstReceivedDate": null,
+        "ScmstRecipientEmail": null, "ScmstRevBatch": null, "ScmstRevDate": null,
+        "ScmstScControlAmt": null, "ScmstSchedExistsFlag": "-Fallback-scrubbed-h",
+        "ScmstScheduleFlag": "-Fallback-scrubbed-h", "ScmstScopeDesc": "-Fallback-scrubbed-huHoxhlpmMrydYUOrNzokiVPPWPxGyVqOAqpdpFymRcxsjlc",
+        "ScmstScschLastSeqNumUsed": 6070, "ScmstSelfBilledFlag": "-Fallback-scrubbed-S",
+        "ScmstSenderEmail": null, "ScmstSepVouPerJobFlag": "-Fallback-scrubbed-S",
+        "ScmstSrcCode": null, "ScmstStartDate": null, "ScmstStatCode": "-Fallback-scrubbed-D",
+        "ScmstStatusCode": "-Fallback-scrubbed-GwoiZX", "ScmstSubcontrCode": "-Fallback-scrubbed-ZgYi",
+        "ScmstSubcontractorChgCode": null, "ScmstTax1Code": null, "ScmstTax2Code":
+        null, "ScmstTax3Code": null, "ScmstTermCode": "-Fallback-scrubbed-aUNCc",
+        "ScmstTermName": "-Fallback-scrubbed-tOdIyy", "ScmstTexturaFlag": null, "ScmstUser":
+        "-Fallback-scrubbed-DGGexO", "ScmstUserPrvlgFlag": "-Fallback-scrubbed-h",
+        "ScmstVenCode": "-Fallback-scrubbed-jLYiXGn", "ScmstVenName": "-Fallback-scrubbed-DyXSNJciSjBRJgFr",
+        "ScmstVUuid": "-Fallback-scrubbed-PUQteBTVDGsvUgzIeOwhNSNumAWUFiGx", "ScmstDepositAmt":
+        2678, "ScmstDepositApprovalDate": null, "ScmstDepositPct": 2678, "ScmstWorkflowStatus":
+        null, "ScmstDateTimePost": "-Fallback-scrubbed-nspYFLDIyilUreOwFkBYIFuai",
+        "ScmstPost": null, "links": [{"rel": "-Fallback-scrubbed-dFbn", "href": "-Fallback-scrubbed-mjWLpBaAKCyvvbobdEUzaXTSDJhwlZNnKEmxQWLjxUsaSAuHTUOIOhLhlCTtjepYdRNXSLsgoaFFXckskeFGDZbYDWjIWnyIapzzuXPvCALGpBobOVYrC",
+        "name": "Brian Montoya", "kind": "-Fallback-scrubbed-OepF"}, {"rel": "-Fallback-scrubbed-ICiXPIhnH",
+        "href": "-Fallback-scrubbed-mjWLpBaAKCyvvbobdEUzaXTSDJhwlZNnKEmxQWLjxUsaSAuHTUOIOhLhlCTtjepYdRNXSLsgoaFFXckskeFGDZbYDWjIWnyIapzzuXPvCALGpBobOVYrC",
+        "name": "Brian Montoya", "kind": "-Fallback-scrubbed-OepF"}, {"rel": "-Fallback-scrubbed-XNIPn",
+        "href": "-Fallback-scrubbed-QSmDUMslsclIzJcLRZFEImFACqEpfjABCgXrAyoUUIejdhPpwgEgMHAXKgGKPvirQCZCoFrWplzkeQguclgpmgmGZmBmNgZxJhdYivrBVVTXNKqtTThlIaZhqTqHvSDBRYFzJbnVkyoBUtIzdTJu",
+        "name": "Tammy Stone", "kind": "-Fallback-scrubbed-HypKEUVcQi"}, {"rel": "-Fallback-scrubbed-KoswBusJH",
+        "href": "-Fallback-scrubbed-oxgAsawMyZDdfmUqxBwXWukxbEDxajqRNcNHGZUquzJwOdddadiEreDxvMoRibEEDhRpvCrcLSErHgqpKrosFxUCcZaBBnkouquzeapZguoosSRBfKNEvnJGmLZmqvwrnPiUxvCzQIfirVyr",
+        "name": "Dawn Brewer", "kind": "-Fallback-scrubbed-XIxqx"}]}, {"CChangeDesc":
+        "-Fallback-scrubbed-MqiXfOlPxPewrDz", "CNewRevisedDesc": "-Fallback-scrubbed-qiHtjUprIxo",
+        "COriginalDesc": "-Fallback-scrubbed-tzmjZkHd", "CRecievedDesc": "-Fallback-scrubbed-FjNETgu",
+        "CTitle1": "-Fallback-scrubbed-tzmjZkHd", "CTitle2": "-Fallback-scrubbed-dAGiVNuPjDgIZ",
+        "CTitle3": "-Fallback-scrubbed-NFdUvTLFIzJemE", "CTitle4": "-Fallback-scrubbed-FjNETgu",
+        "CUnpostedDesc": "-Fallback-scrubbed-rmmEaJhRuWpnDniX", "PartnTypeCode": "-Fallback-scrubbed-l",
+        "PostOverrideFlag": "-Fallback-scrubbed-N", "ScmstAbbrevPartnCode": "-Fallback-scrubbed-jLYiXGn",
+        "ScmstAcctDescription": null, "ScmstActionCode": null, "ScmstAltVenAddCode":
+        null, "ScmstAppCode": null, "ScmstArAmt": null, "ScmstBankAccount": "-Fallback-scrubbed-qNZW",
+        "ScmstBankDept": "-Fallback-scrubbed-nK", "ScmstBillCode": null, "ScmstCashAmt":
+        null, "ScmstCdiFlag": "-Fallback-scrubbed-S", "ScmstChgCode": "-Fallback-scrubbed-lUc",
+        "ScmstChqHandleCode": null, "ScmstCloseDate": null, "ScmstClvValueCode1":
+        null, "ScmstClvValueCode2": null, "ScmstClvValueCode3": null, "ScmstClvValueCode4":
+        null, "ScmstClvValueCode5": null, "ScmstClvValueCode6": null, "ScmstCmBudrCode":
+        null, "ScmstCmChgCode": null, "ScmstCmCompCode": null, "ScmstCmJobCode": null,
+        "ScmstCompCode": "-Fallback-scrubbed-cxu", "ScmstComplFlag": "-Fallback-scrubbed-S",
+        "ScmstContAmt": 566, "ScmstContCode": "-Fallback-scrubbed-qhdKmsbD", "ScmstContType":
+        "-Fallback-scrubbed-ngVIDJLziua", "ScmstContactCode": null, "ScmstContactName":
+        null, "ScmstCorrespAddCode": null, "ScmstCreateContOnFlyFlag": "-Fallback-scrubbed-h",
+        "ScmstCurcFactorNum": 6070, "ScmstCurrCode": "-Fallback-scrubbed-mHK", "ScmstCurrName":
+        "-Fallback-scrubbed-mSRXsfwiD", "ScmstDate": "-Fallback-scrubbed-uTinXFNttn",
+        "ScmstDefaultTaxesFlag": "-Fallback-scrubbed-h", "ScmstDesc": null, "ScmstDfltAmt":
+        566, "ScmstDfltCatCode": "-Fallback-scrubbed-g", "ScmstDfltPhsCode": "-Fallback-scrubbed-MTPsL",
+        "ScmstDoNotExceedAmt": null, "ScmstEndDate": null, "ScmstExecutedDate": null,
+        "ScmstGcsPayRequestFlag": null, "ScmstGstAmt": 2678, "ScmstGstPc": 2678, "ScmstHldbkPc":
+        3800, "ScmstHldbkPcRule": null, "ScmstHldbkRlsFromSc": "-Fallback-scrubbed-h",
+        "ScmstHoldPaymentDays": 2678, "ScmstHoldPaymentFlag": "-Fallback-scrubbed-h",
+        "ScmstImpactDays": null, "ScmstInvEntryState": "-Fallback-scrubbed-Kr", "ScmstInvHldbkTaxFlag":
+        "-Fallback-scrubbed-S", "ScmstIssuedDate": null, "ScmstIuCreateDate": "-Fallback-scrubbed-OVVctvdbzxDRYEvbdbPTegoCO",
+        "ScmstIuUpdateDate": "-Fallback-scrubbed-OVVctvdbzxDRYEvbdbPTegoCO", "ScmstJobCode":
+        "-Fallback-scrubbed-fwpGg", "ScmstJobCtrlCode": "-Fallback-scrubbed-SAL",
+        "ScmstMainChgCode": null, "ScmstMainContCode": null, "ScmstMainVenCode": null,
+        "ScmstName": "-Fallback-scrubbed-GVPkJiTwNkVAuBqgoctccNkl", "ScmstNonCreditInclTaxAmt":
+        2678, "ScmstNonCreditTaxAmt": 2678, "ScmstOrigBidpAmt": null, "ScmstOrigBidpOraseq":
+        null, "ScmstOvrrideNotExceedFlag": null, "ScmstOverrideFlag": null, "ScmstPbContCode":
+        null, "ScmstPbCustCode": null, "ScmstPostBatch": 4931, "ScmstPostDate": "-Fallback-scrubbed-BnQBMxyfwF",
+        "ScmstPreferedQuoteFlag": "-Fallback-scrubbed-h", "ScmstPrintedCoFlag": null,
+        "ScmstProjOraseq": 7099, "ScmstRating": null, "ScmstRctReferenceNum": null,
+        "ScmstReceivedDate": null, "ScmstRecipientEmail": null, "ScmstRevBatch": null,
+        "ScmstRevDate": null, "ScmstScControlAmt": null, "ScmstSchedExistsFlag": "-Fallback-scrubbed-h",
+        "ScmstScheduleFlag": "-Fallback-scrubbed-h", "ScmstScopeDesc": "-Fallback-scrubbed-epObojkuiAgznrjGoqbbzTZXkPfk",
+        "ScmstScschLastSeqNumUsed": 6070, "ScmstSelfBilledFlag": "-Fallback-scrubbed-S",
+        "ScmstSenderEmail": null, "ScmstSepVouPerJobFlag": "-Fallback-scrubbed-S",
+        "ScmstSrcCode": null, "ScmstStartDate": null, "ScmstStatCode": "-Fallback-scrubbed-D",
+        "ScmstStatusCode": "-Fallback-scrubbed-GwoiZX", "ScmstSubcontrCode": "-Fallback-scrubbed-ZgYi",
+        "ScmstSubcontractorChgCode": null, "ScmstTax1Code": null, "ScmstTax2Code":
+        null, "ScmstTax3Code": null, "ScmstTermCode": "-Fallback-scrubbed-aUNCc",
+        "ScmstTermName": "-Fallback-scrubbed-tOdIyy", "ScmstTexturaFlag": null, "ScmstUser":
+        "-Fallback-scrubbed-DGGexO", "ScmstUserPrvlgFlag": "-Fallback-scrubbed-h",
+        "ScmstVenCode": "-Fallback-scrubbed-jLYiXGn", "ScmstVenName": "-Fallback-scrubbed-DyXSNJciSjBRJgFr",
+        "ScmstVUuid": "-Fallback-scrubbed-gxhitjjZIaEzESyMFLvGLbGPLzCNmywI", "ScmstDepositAmt":
+        2678, "ScmstDepositApprovalDate": null, "ScmstDepositPct": 2678, "ScmstWorkflowStatus":
+        null, "ScmstDateTimePost": "-Fallback-scrubbed-OVVctvdbzxDRYEvbdbPTegoCO",
+        "ScmstPost": null, "links": [{"rel": "-Fallback-scrubbed-dFbn", "href": "-Fallback-scrubbed-BqjBAxwsTMNchyfAHTDHQdFarcjYooKvbIBYeqRBJWOcvGzIbvtdyXUeHnCkxCGYjXclwQVYCRaYYpAWKoGzSECmnzlWFvMwdVqwePTAlvxBpbVechmEz",
+        "name": "Brian Montoya", "kind": "-Fallback-scrubbed-OepF"}, {"rel": "-Fallback-scrubbed-ICiXPIhnH",
+        "href": "-Fallback-scrubbed-BqjBAxwsTMNchyfAHTDHQdFarcjYooKvbIBYeqRBJWOcvGzIbvtdyXUeHnCkxCGYjXclwQVYCRaYYpAWKoGzSECmnzlWFvMwdVqwePTAlvxBpbVechmEz",
+        "name": "Brian Montoya", "kind": "-Fallback-scrubbed-OepF"}, {"rel": "-Fallback-scrubbed-XNIPn",
+        "href": "-Fallback-scrubbed-zvxtYNUoqRVNvjvABDktGyPyvILPRvPfJWWfoBMzIcfwkzQALaHHUteqoqTOvJtXtAovrThIVHUbvRXnATfEzjobyTinlnxzHcYjgrVSLxbZnkSwgwpHbXnJLFTqWBfwGBXtukayndLDZbSpyboH",
+        "name": "Tammy Stone", "kind": "-Fallback-scrubbed-HypKEUVcQi"}, {"rel": "-Fallback-scrubbed-KoswBusJH",
+        "href": "-Fallback-scrubbed-dxZtsSBcZDyTTMuxwQbzoFMroOTZRkbfyhvdpcugJvXELAHfWXLwTSjjYZUwNqbHvhfCplAqkCcMAfpmNuapdhuguzCHPdewwXzqyxPlTGildBnPiZHDXMmrZzrkCdFMiZtTKSIFPTJACAWr",
+        "name": "Dawn Brewer", "kind": "-Fallback-scrubbed-XIxqx"}]}, {"CChangeDesc":
+        "-Fallback-scrubbed-MqiXfOlPxPewrDz", "CNewRevisedDesc": "-Fallback-scrubbed-qiHtjUprIxo",
+        "COriginalDesc": "-Fallback-scrubbed-tzmjZkHd", "CRecievedDesc": "-Fallback-scrubbed-FjNETgu",
+        "CTitle1": "-Fallback-scrubbed-tzmjZkHd", "CTitle2": "-Fallback-scrubbed-dAGiVNuPjDgIZ",
+        "CTitle3": "-Fallback-scrubbed-NFdUvTLFIzJemE", "CTitle4": "-Fallback-scrubbed-FjNETgu",
+        "CUnpostedDesc": "-Fallback-scrubbed-rmmEaJhRuWpnDniX", "PartnTypeCode": "-Fallback-scrubbed-l",
+        "PostOverrideFlag": "-Fallback-scrubbed-N", "ScmstAbbrevPartnCode": "-Fallback-scrubbed-nntpUw",
+        "ScmstAcctDescription": null, "ScmstActionCode": null, "ScmstAltVenAddCode":
+        null, "ScmstAppCode": null, "ScmstArAmt": null, "ScmstBankAccount": "-Fallback-scrubbed-qNZW",
+        "ScmstBankDept": "-Fallback-scrubbed-nK", "ScmstBillCode": null, "ScmstCashAmt":
+        null, "ScmstCdiFlag": "-Fallback-scrubbed-S", "ScmstChgCode": "-Fallback-scrubbed-lUc",
+        "ScmstChqHandleCode": null, "ScmstCloseDate": null, "ScmstClvValueCode1":
+        null, "ScmstClvValueCode2": null, "ScmstClvValueCode3": null, "ScmstClvValueCode4":
+        null, "ScmstClvValueCode5": null, "ScmstClvValueCode6": null, "ScmstCmBudrCode":
+        null, "ScmstCmChgCode": null, "ScmstCmCompCode": null, "ScmstCmJobCode": null,
+        "ScmstCompCode": "-Fallback-scrubbed-cxu", "ScmstComplFlag": "-Fallback-scrubbed-S",
+        "ScmstContAmt": null, "ScmstContCode": "-Fallback-scrubbed-HaxAwciNaab", "ScmstContType":
+        "-Fallback-scrubbed-ngVIDJLziua", "ScmstContactCode": null, "ScmstContactName":
+        null, "ScmstCorrespAddCode": null, "ScmstCreateContOnFlyFlag": "-Fallback-scrubbed-h",
+        "ScmstCurcFactorNum": 6070, "ScmstCurrCode": "-Fallback-scrubbed-mHK", "ScmstCurrName":
+        "-Fallback-scrubbed-mSRXsfwiD", "ScmstDate": "-Fallback-scrubbed-zSoUXrPCLi",
+        "ScmstDefaultTaxesFlag": "-Fallback-scrubbed-h", "ScmstDesc": null, "ScmstDfltAmt":
+        null, "ScmstDfltCatCode": null, "ScmstDfltPhsCode": null, "ScmstDoNotExceedAmt":
+        3214, "ScmstEndDate": null, "ScmstExecutedDate": null, "ScmstGcsPayRequestFlag":
+        null, "ScmstGstAmt": null, "ScmstGstPc": 2678, "ScmstHldbkPc": 2678, "ScmstHldbkPcRule":
+        null, "ScmstHldbkRlsFromSc": "-Fallback-scrubbed-h", "ScmstHoldPaymentDays":
+        2678, "ScmstHoldPaymentFlag": "-Fallback-scrubbed-h", "ScmstImpactDays": null,
+        "ScmstInvEntryState": "-Fallback-scrubbed-Kr", "ScmstInvHldbkTaxFlag": "-Fallback-scrubbed-S",
+        "ScmstIssuedDate": null, "ScmstIuCreateDate": "-Fallback-scrubbed-YDkmpugkmYewXqWEgrVSsBoSd",
+        "ScmstIuUpdateDate": "-Fallback-scrubbed-ISGnwepJrwvUduwoWlIrpLirI", "ScmstJobCode":
+        "-Fallback-scrubbed-JLYvgomOyJ", "ScmstJobCtrlCode": "-Fallback-scrubbed-SAL",
+        "ScmstMainChgCode": null, "ScmstMainContCode": null, "ScmstMainVenCode": null,
+        "ScmstName": "-Fallback-scrubbed-SFfTme", "ScmstNonCreditInclTaxAmt": null,
+        "ScmstNonCreditTaxAmt": null, "ScmstOrigBidpAmt": null, "ScmstOrigBidpOraseq":
+        null, "ScmstOvrrideNotExceedFlag": "-Fallback-scrubbed-S", "ScmstOverrideFlag":
+        null, "ScmstPbContCode": null, "ScmstPbCustCode": null, "ScmstPostBatch":
+        null, "ScmstPostDate": null, "ScmstPreferedQuoteFlag": "-Fallback-scrubbed-h",
+        "ScmstPrintedCoFlag": "-Fallback-scrubbed-S", "ScmstProjOraseq": 9369, "ScmstRating":
+        null, "ScmstRctReferenceNum": null, "ScmstReceivedDate": null, "ScmstRecipientEmail":
+        null, "ScmstRevBatch": null, "ScmstRevDate": null, "ScmstScControlAmt": null,
+        "ScmstSchedExistsFlag": "-Fallback-scrubbed-S", "ScmstScheduleFlag": "-Fallback-scrubbed-S",
+        "ScmstScopeDesc": null, "ScmstScschLastSeqNumUsed": 2678, "ScmstSelfBilledFlag":
+        "-Fallback-scrubbed-S", "ScmstSenderEmail": null, "ScmstSepVouPerJobFlag":
+        "-Fallback-scrubbed-S", "ScmstSrcCode": null, "ScmstStartDate": null, "ScmstStatCode":
+        "-Fallback-scrubbed-l", "ScmstStatusCode": "-Fallback-scrubbed-dkzJaTk", "ScmstSubcontrCode":
+        "-Fallback-scrubbed-ZgYi", "ScmstSubcontractorChgCode": null, "ScmstTax1Code":
+        null, "ScmstTax2Code": null, "ScmstTax3Code": null, "ScmstTermCode": "-Fallback-scrubbed-aUNCc",
+        "ScmstTermName": "-Fallback-scrubbed-tOdIyy", "ScmstTexturaFlag": null, "ScmstUser":
+        "-Fallback-scrubbed-DGGexO", "ScmstUserPrvlgFlag": "-Fallback-scrubbed-h",
+        "ScmstVenCode": "-Fallback-scrubbed-nntpUw", "ScmstVenName": "-Fallback-scrubbed-PFUHxpGejDDiYsZdJKFnzBWeqGTIRARXJe",
+        "ScmstVUuid": "-Fallback-scrubbed-WjBDhPwmyvvNulERfXPLthWNRfIYQubP", "ScmstDepositAmt":
+        2678, "ScmstDepositApprovalDate": null, "ScmstDepositPct": 2678, "ScmstWorkflowStatus":
+        null, "ScmstDateTimePost": null, "ScmstPost": null, "links": [{"rel": "-Fallback-scrubbed-dFbn",
+        "href": "-Fallback-scrubbed-VpHDiJJXBlvpsCnETtTkRMwFbcIevhqlFgYpatzLjOiRufXFZzZcjqZOXdjEDKkNVrruOykSmjfyjnRCPsMMmacDNheyvfgsQzbZitkVvWbTPEfdmHKdy",
+        "name": "Brian Montoya", "kind": "-Fallback-scrubbed-OepF"}, {"rel": "-Fallback-scrubbed-ICiXPIhnH",
+        "href": "-Fallback-scrubbed-VpHDiJJXBlvpsCnETtTkRMwFbcIevhqlFgYpatzLjOiRufXFZzZcjqZOXdjEDKkNVrruOykSmjfyjnRCPsMMmacDNheyvfgsQzbZitkVvWbTPEfdmHKdy",
+        "name": "Brian Montoya", "kind": "-Fallback-scrubbed-OepF"}, {"rel": "-Fallback-scrubbed-XNIPn",
+        "href": "-Fallback-scrubbed-OczGqfZsohlpFzbbwcBEUUakmiQTnorBkscUWPWCQQkWnyYHyOJmVrJBNoEyxaUQJTxGcgFgLLRrRkQapiOIRXziYpBCPbkdKSUWVWKXAFnmZbtqKUNBqlkJicfflYUdENLdmhJBYEIuoGIpSJKK",
+        "name": "Tammy Stone", "kind": "-Fallback-scrubbed-HypKEUVcQi"}, {"rel": "-Fallback-scrubbed-KoswBusJH",
+        "href": "-Fallback-scrubbed-xykZjNwqhkhIVhKjgLuknrZKMbeDQxIBhESCsKTLgtIUFJoVpzUUpRVxAEqPgCzhHOGYCfuuyEYQFRDIiURmGNCCdHcebPczLYKEaAxKpgWScsdypMNZPeuvihNmArSdfXYBPQLwhqJFUqXI",
+        "name": "Dawn Brewer", "kind": "-Fallback-scrubbed-XIxqx"}]}, {"CChangeDesc":
+        "-Fallback-scrubbed-MqiXfOlPxPewrDz", "CNewRevisedDesc": "-Fallback-scrubbed-qiHtjUprIxo",
+        "COriginalDesc": "-Fallback-scrubbed-tzmjZkHd", "CRecievedDesc": "-Fallback-scrubbed-FjNETgu",
+        "CTitle1": "-Fallback-scrubbed-tzmjZkHd", "CTitle2": "-Fallback-scrubbed-dAGiVNuPjDgIZ",
+        "CTitle3": "-Fallback-scrubbed-NFdUvTLFIzJemE", "CTitle4": "-Fallback-scrubbed-FjNETgu",
+        "CUnpostedDesc": "-Fallback-scrubbed-rmmEaJhRuWpnDniX", "PartnTypeCode": "-Fallback-scrubbed-l",
+        "PostOverrideFlag": "-Fallback-scrubbed-N", "ScmstAbbrevPartnCode": "-Fallback-scrubbed-yoMBa",
+        "ScmstAcctDescription": null, "ScmstActionCode": null, "ScmstAltVenAddCode":
+        null, "ScmstAppCode": null, "ScmstArAmt": null, "ScmstBankAccount": "-Fallback-scrubbed-qNZW",
+        "ScmstBankDept": "-Fallback-scrubbed-nK", "ScmstBillCode": null, "ScmstCashAmt":
+        null, "ScmstCdiFlag": "-Fallback-scrubbed-S", "ScmstChgCode": "-Fallback-scrubbed-lUc",
+        "ScmstChqHandleCode": null, "ScmstCloseDate": null, "ScmstClvValueCode1":
+        null, "ScmstClvValueCode2": null, "ScmstClvValueCode3": null, "ScmstClvValueCode4":
+        null, "ScmstClvValueCode5": null, "ScmstClvValueCode6": null, "ScmstCmBudrCode":
+        null, "ScmstCmChgCode": null, "ScmstCmCompCode": null, "ScmstCmJobCode": null,
+        "ScmstCompCode": "-Fallback-scrubbed-cxu", "ScmstComplFlag": "-Fallback-scrubbed-S",
+        "ScmstContAmt": null, "ScmstContCode": "-Fallback-scrubbed-jBhFQrXYvmB", "ScmstContType":
+        "-Fallback-scrubbed-ngVIDJLziua", "ScmstContactCode": null, "ScmstContactName":
+        null, "ScmstCorrespAddCode": null, "ScmstCreateContOnFlyFlag": "-Fallback-scrubbed-h",
+        "ScmstCurcFactorNum": 6070, "ScmstCurrCode": "-Fallback-scrubbed-mHK", "ScmstCurrName":
+        "-Fallback-scrubbed-mSRXsfwiD", "ScmstDate": "-Fallback-scrubbed-zSoUXrPCLi",
+        "ScmstDefaultTaxesFlag": "-Fallback-scrubbed-h", "ScmstDesc": null, "ScmstDfltAmt":
+        1821, "ScmstDfltCatCode": null, "ScmstDfltPhsCode": null, "ScmstDoNotExceedAmt":
+        1821, "ScmstEndDate": null, "ScmstExecutedDate": null, "ScmstGcsPayRequestFlag":
+        null, "ScmstGstAmt": null, "ScmstGstPc": 6742, "ScmstHldbkPc": 6527, "ScmstHldbkPcRule":
+        null, "ScmstHldbkRlsFromSc": "-Fallback-scrubbed-h", "ScmstHoldPaymentDays":
+        2678, "ScmstHoldPaymentFlag": "-Fallback-scrubbed-h", "ScmstImpactDays": null,
+        "ScmstInvEntryState": "-Fallback-scrubbed-Kr", "ScmstInvHldbkTaxFlag": "-Fallback-scrubbed-S",
+        "ScmstIssuedDate": null, "ScmstIuCreateDate": "-Fallback-scrubbed-togiPzsXRkcwMQMSnZYIodKAT",
+        "ScmstIuUpdateDate": "-Fallback-scrubbed-togiPzsXRkcwMQMSnZYIodKAT", "ScmstJobCode":
+        "-Fallback-scrubbed-JLYvgomOyJ", "ScmstJobCtrlCode": "-Fallback-scrubbed-SAL",
+        "ScmstMainChgCode": null, "ScmstMainContCode": null, "ScmstMainVenCode": null,
+        "ScmstName": "-Fallback-scrubbed-QXPSDhraGIDzsu", "ScmstNonCreditInclTaxAmt":
+        null, "ScmstNonCreditTaxAmt": null, "ScmstOrigBidpAmt": null, "ScmstOrigBidpOraseq":
+        null, "ScmstOvrrideNotExceedFlag": "-Fallback-scrubbed-S", "ScmstOverrideFlag":
+        null, "ScmstPbContCode": null, "ScmstPbCustCode": null, "ScmstPostBatch":
+        null, "ScmstPostDate": null, "ScmstPreferedQuoteFlag": "-Fallback-scrubbed-h",
+        "ScmstPrintedCoFlag": "-Fallback-scrubbed-S", "ScmstProjOraseq": 9369, "ScmstRating":
+        null, "ScmstRctReferenceNum": null, "ScmstReceivedDate": null, "ScmstRecipientEmail":
+        null, "ScmstRevBatch": null, "ScmstRevDate": null, "ScmstScControlAmt": null,
+        "ScmstSchedExistsFlag": "-Fallback-scrubbed-S", "ScmstScheduleFlag": "-Fallback-scrubbed-S",
+        "ScmstScopeDesc": null, "ScmstScschLastSeqNumUsed": 2678, "ScmstSelfBilledFlag":
+        "-Fallback-scrubbed-S", "ScmstSenderEmail": null, "ScmstSepVouPerJobFlag":
+        "-Fallback-scrubbed-S", "ScmstSrcCode": null, "ScmstStartDate": null, "ScmstStatCode":
+        "-Fallback-scrubbed-l", "ScmstStatusCode": "-Fallback-scrubbed-dkzJaTk", "ScmstSubcontrCode":
+        "-Fallback-scrubbed-ZgYi", "ScmstSubcontractorChgCode": null, "ScmstTax1Code":
+        null, "ScmstTax2Code": null, "ScmstTax3Code": null, "ScmstTermCode": "-Fallback-scrubbed-aUNCc",
+        "ScmstTermName": "-Fallback-scrubbed-tOdIyy", "ScmstTexturaFlag": null, "ScmstUser":
+        "-Fallback-scrubbed-DGGexO", "ScmstUserPrvlgFlag": "-Fallback-scrubbed-h",
+        "ScmstVenCode": "-Fallback-scrubbed-yoMBa", "ScmstVenName": "-Fallback-scrubbed-XIkRlBOkEm",
+        "ScmstVUuid": "-Fallback-scrubbed-FBoPKHrlsUucSnPnpMWzCSzAbYdJpGzU", "ScmstDepositAmt":
+        2678, "ScmstDepositApprovalDate": null, "ScmstDepositPct": 2678, "ScmstWorkflowStatus":
+        null, "ScmstDateTimePost": null, "ScmstPost": null, "links": [{"rel": "-Fallback-scrubbed-dFbn",
+        "href": "-Fallback-scrubbed-FTQVnJPacfRcceeozOMnirnSXBHvRRzlcZoDLaRfXjpjaMMKSSgNmCpKJjvAWWsYfvyZWPNfMYzROWjwVZDKXfwpmrNZhMdSBzujRLAAYdpFKnrvNDVgL",
+        "name": "Brian Montoya", "kind": "-Fallback-scrubbed-OepF"}, {"rel": "-Fallback-scrubbed-ICiXPIhnH",
+        "href": "-Fallback-scrubbed-FTQVnJPacfRcceeozOMnirnSXBHvRRzlcZoDLaRfXjpjaMMKSSgNmCpKJjvAWWsYfvyZWPNfMYzROWjwVZDKXfwpmrNZhMdSBzujRLAAYdpFKnrvNDVgL",
+        "name": "Brian Montoya", "kind": "-Fallback-scrubbed-OepF"}, {"rel": "-Fallback-scrubbed-XNIPn",
+        "href": "-Fallback-scrubbed-qkYvQjwONTbILiGUjkAVZZXQmIbPfMFwcTrfaxehgrUnRCprIuGDpKCApYzaKLOKCREoOywYEJvhoyvYozrSuTWoluwJXKAtIJmARUtgZqPxzWGbJPMswkUSwqtZzXhDBYkFMLBSNUUfKliYfgNf",
+        "name": "Tammy Stone", "kind": "-Fallback-scrubbed-HypKEUVcQi"}, {"rel": "-Fallback-scrubbed-KoswBusJH",
+        "href": "-Fallback-scrubbed-boQHDUWyHorgnKKdHHHUeOpvAlghVMtqrUGsMwJEKulOPrGDyhlbpkcgnvAFTRLxfzAtDIuINQyFeCpDTcrzNwuoOCNnYVcVDKulHzFfNzZjMTfYZiNrCFoyUsnODiVugjEmvqjnkviymzsj",
+        "name": "Dawn Brewer", "kind": "-Fallback-scrubbed-XIxqx"}]}, {"CChangeDesc":
+        "-Fallback-scrubbed-MqiXfOlPxPewrDz", "CNewRevisedDesc": "-Fallback-scrubbed-qiHtjUprIxo",
+        "COriginalDesc": "-Fallback-scrubbed-tzmjZkHd", "CRecievedDesc": "-Fallback-scrubbed-FjNETgu",
+        "CTitle1": "-Fallback-scrubbed-tzmjZkHd", "CTitle2": "-Fallback-scrubbed-dAGiVNuPjDgIZ",
+        "CTitle3": "-Fallback-scrubbed-NFdUvTLFIzJemE", "CTitle4": "-Fallback-scrubbed-FjNETgu",
+        "CUnpostedDesc": "-Fallback-scrubbed-rmmEaJhRuWpnDniX", "PartnTypeCode": "-Fallback-scrubbed-l",
+        "PostOverrideFlag": "-Fallback-scrubbed-N", "ScmstAbbrevPartnCode": "-Fallback-scrubbed-jLYiXGn",
+        "ScmstAcctDescription": null, "ScmstActionCode": null, "ScmstAltVenAddCode":
+        null, "ScmstAppCode": null, "ScmstArAmt": null, "ScmstBankAccount": "-Fallback-scrubbed-qNZW",
+        "ScmstBankDept": "-Fallback-scrubbed-nK", "ScmstBillCode": null, "ScmstCashAmt":
+        null, "ScmstCdiFlag": "-Fallback-scrubbed-S", "ScmstChgCode": "-Fallback-scrubbed-lUc",
+        "ScmstChqHandleCode": null, "ScmstCloseDate": null, "ScmstClvValueCode1":
+        null, "ScmstClvValueCode2": null, "ScmstClvValueCode3": null, "ScmstClvValueCode4":
+        null, "ScmstClvValueCode5": null, "ScmstClvValueCode6": null, "ScmstCmBudrCode":
+        null, "ScmstCmChgCode": null, "ScmstCmCompCode": null, "ScmstCmJobCode": null,
+        "ScmstCompCode": "-Fallback-scrubbed-cxu", "ScmstComplFlag": "-Fallback-scrubbed-S",
+        "ScmstContAmt": null, "ScmstContCode": "-Fallback-scrubbed-YKRVWCERqTj", "ScmstContType":
+        "-Fallback-scrubbed-ngVIDJLziua", "ScmstContactCode": null, "ScmstContactName":
+        null, "ScmstCorrespAddCode": null, "ScmstCreateContOnFlyFlag": "-Fallback-scrubbed-h",
+        "ScmstCurcFactorNum": 6070, "ScmstCurrCode": "-Fallback-scrubbed-mHK", "ScmstCurrName":
+        "-Fallback-scrubbed-mSRXsfwiD", "ScmstDate": "-Fallback-scrubbed-uTinXFNttn",
+        "ScmstDefaultTaxesFlag": "-Fallback-scrubbed-h", "ScmstDesc": null, "ScmstDfltAmt":
+        648, "ScmstDfltCatCode": null, "ScmstDfltPhsCode": null, "ScmstDoNotExceedAmt":
+        null, "ScmstEndDate": null, "ScmstExecutedDate": null, "ScmstGcsPayRequestFlag":
+        null, "ScmstGstAmt": null, "ScmstGstPc": 2678, "ScmstHldbkPc": 3800, "ScmstHldbkPcRule":
+        null, "ScmstHldbkRlsFromSc": "-Fallback-scrubbed-h", "ScmstHoldPaymentDays":
+        2678, "ScmstHoldPaymentFlag": "-Fallback-scrubbed-h", "ScmstImpactDays": null,
+        "ScmstInvEntryState": "-Fallback-scrubbed-Kr", "ScmstInvHldbkTaxFlag": "-Fallback-scrubbed-S",
+        "ScmstIssuedDate": null, "ScmstIuCreateDate": "-Fallback-scrubbed-YOxPnsOHrGrqYVFWLsogkBGhb",
+        "ScmstIuUpdateDate": "-Fallback-scrubbed-sQNHZGooOBzXcBclAJIdkZwFr", "ScmstJobCode":
+        "-Fallback-scrubbed-oVhKHbDmR", "ScmstJobCtrlCode": "-Fallback-scrubbed-SAL",
+        "ScmstMainChgCode": null, "ScmstMainContCode": null, "ScmstMainVenCode": null,
+        "ScmstName": "-Fallback-scrubbed-HThfJCHGkzRsyIxPoYCYa", "ScmstNonCreditInclTaxAmt":
+        null, "ScmstNonCreditTaxAmt": null, "ScmstOrigBidpAmt": null, "ScmstOrigBidpOraseq":
+        null, "ScmstOvrrideNotExceedFlag": null, "ScmstOverrideFlag": null, "ScmstPbContCode":
+        null, "ScmstPbCustCode": null, "ScmstPostBatch": null, "ScmstPostDate": null,
+        "ScmstPreferedQuoteFlag": "-Fallback-scrubbed-h", "ScmstPrintedCoFlag": null,
+        "ScmstProjOraseq": 4730, "ScmstRating": null, "ScmstRctReferenceNum": null,
+        "ScmstReceivedDate": null, "ScmstRecipientEmail": null, "ScmstRevBatch": null,
+        "ScmstRevDate": null, "ScmstScControlAmt": null, "ScmstSchedExistsFlag": "-Fallback-scrubbed-h",
+        "ScmstScheduleFlag": "-Fallback-scrubbed-h", "ScmstScopeDesc": "-Fallback-scrubbed-MWtYeaKsGKFhoGp",
+        "ScmstScschLastSeqNumUsed": 2678, "ScmstSelfBilledFlag": "-Fallback-scrubbed-S",
+        "ScmstSenderEmail": null, "ScmstSepVouPerJobFlag": "-Fallback-scrubbed-S",
+        "ScmstSrcCode": null, "ScmstStartDate": null, "ScmstStatCode": "-Fallback-scrubbed-l",
+        "ScmstStatusCode": "-Fallback-scrubbed-dkzJaTk", "ScmstSubcontrCode": "-Fallback-scrubbed-ZgYi",
+        "ScmstSubcontractorChgCode": null, "ScmstTax1Code": null, "ScmstTax2Code":
+        null, "ScmstTax3Code": null, "ScmstTermCode": "-Fallback-scrubbed-aUNCc",
+        "ScmstTermName": "-Fallback-scrubbed-tOdIyy", "ScmstTexturaFlag": null, "ScmstUser":
+        "-Fallback-scrubbed-DGGexO", "ScmstUserPrvlgFlag": "-Fallback-scrubbed-h",
+        "ScmstVenCode": "-Fallback-scrubbed-jLYiXGn", "ScmstVenName": "-Fallback-scrubbed-DyXSNJciSjBRJgFr",
+        "ScmstVUuid": "-Fallback-scrubbed-YGnTxQZMuXrzFPDJWYnOeXWfaOJeiyQK", "ScmstDepositAmt":
+        2678, "ScmstDepositApprovalDate": null, "ScmstDepositPct": 2678, "ScmstWorkflowStatus":
+        null, "ScmstDateTimePost": null, "ScmstPost": null, "links": [{"rel": "-Fallback-scrubbed-dFbn",
+        "href": "-Fallback-scrubbed-QAzGtsrrmfyJQtpGPGAfOzmdSSHQvLTOucOteuUPLsJdgtgMqLFExSGppFBAJmBwXatGePcARBPWjWEdVhrpJDqbUEPlRcAIPRsQvTQLLOuqKrGowarSy",
+        "name": "Brian Montoya", "kind": "-Fallback-scrubbed-OepF"}, {"rel": "-Fallback-scrubbed-ICiXPIhnH",
+        "href": "-Fallback-scrubbed-QAzGtsrrmfyJQtpGPGAfOzmdSSHQvLTOucOteuUPLsJdgtgMqLFExSGppFBAJmBwXatGePcARBPWjWEdVhrpJDqbUEPlRcAIPRsQvTQLLOuqKrGowarSy",
+        "name": "Brian Montoya", "kind": "-Fallback-scrubbed-OepF"}, {"rel": "-Fallback-scrubbed-XNIPn",
+        "href": "-Fallback-scrubbed-GMNlctOIhLhGqtNnoDlGNUxcKwSIHGTsEmnYKkrQfyiZOdPkHxuGmTGNeGcoNpGAlhDwDcBnyRYYFsAvgabUkhpbQntHJWpqDxOcUXEzaJRxHODejHZQIZaSBhrevPdIhWbgTUdCHzFvBveXlMis",
+        "name": "Tammy Stone", "kind": "-Fallback-scrubbed-HypKEUVcQi"}, {"rel": "-Fallback-scrubbed-KoswBusJH",
+        "href": "-Fallback-scrubbed-iyaRTIuMHqnhLGTmHRpTfyTCTkrHWFGXmwYyaliWNXLXfblYzWfHNqfDuXvJqnMaUbRvIeDGoIwXZdZIOUBZcUTPildzuEtMmAoUskUgPJjvFUwXCpezRLkmEmogmeEfXoCoBZrjQYhCbMFg",
+        "name": "Dawn Brewer", "kind": "-Fallback-scrubbed-XIxqx"}]}], "count": 1243,
+        "hasMore": false, "limit": 5681, "offset": 2678, "links": [{"rel": "-Fallback-scrubbed-dFbn",
+        "href": "-Fallback-scrubbed-qsEbWIPTldXVotrMzwJcFuJKDIwhFOwBxCAmyFgXbFxrCjXmJdXupSghjMPdqwXxpkUVEVZkxZrRyKRWNBPt",
+        "name": "Brian Montoya", "kind": "-Fallback-scrubbed-HypKEUVcQi"}]}'
+    headers:
+      CF-RAY:
+      - a26821c5ac4fe99c-SCL
+      Cache-Control:
+      - no-cache, no-store, must-revalidate
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/vnd.oracle.adf.resourcecollection+json
+      Date:
+      - Wed, 05 Aug 2026 19:15:41 GMT
+      Link:
+      - <http://partner-sandbox-api-basic.cmiccloud.com:80/cmicprtn/pm-rest-api/rest/1/scmast>;rel="self";kind="collection";name="scmast"
+      Location:
+      - ''
+      REST-Framework-Version:
+      - '2'
+      Server:
+      - cloudflare
+      Vary:
+      - Content-Encoding
+      - accept-encoding
+      X-ORACLE-DMS-ECID:
+      - a2473c6c-fbbf-4cdd-b365-5a1751a89ff1-0000379b
+      X-ORACLE-DMS-RID:
+      - '0'
+      cf-cache-status:
+      - DYNAMIC
+      content-length:
+      - '81556'
+    status:
+      code: 200
+      message: OK
+version: 1
