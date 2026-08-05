@@ -71,6 +71,7 @@ addopts = [
 ]
 filterwarnings = [
     "error",
+    "ignore::pytest.PytestAssertRewriteWarning",
     "once:No records were available to test:UserWarning",
     "once:Fields in transformed catalog but not in records:UserWarning",
 ]
