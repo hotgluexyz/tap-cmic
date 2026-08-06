@@ -164,6 +164,7 @@ def test_vouchers_stream_uses_query_filter_params():
         "q": (f"VouIuUpdateDate >= '{start_time}' or VouIuCreateDate >= '{start_time}'"),
     }
 
+
 def test_vouchers_post_process_prefers_update_date():
     """hg_modified_at prefers VouIuUpdateDate when present (e.g. after payment)."""
     tap = TapCMiC(config=SAMPLE_CONFIG)
