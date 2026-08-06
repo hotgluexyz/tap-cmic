@@ -1,5 +1,5 @@
 # Secrets and internal config files
-config.json
+**/.secrets/*
 
 # Ignore meltano internal cache and sqlite systemdb
 
@@ -135,3 +135,7 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# Smoke tests 
+__smoke-tests__/**/test_runtime/
+__smoke-tests__/unsanitized_*_test/

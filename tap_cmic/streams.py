@@ -18,7 +18,7 @@ class CompaniesStream(CMiCStream):
 
     name = "companies"
     path = "/glrestapi/rest/v1/glcompany"
-    primary_keys = "CompVUuid"  # type: ignore[assignment]
+    primary_keys = ["CompVUuid"]
     replication_key = "hg_modified_at"
     replication_key_sources = ("CompIuUpdateDate", "CompIuCreateDate")
     finder_template = "selectByDate;auditDate={replication_key_value}"
@@ -31,7 +31,7 @@ class ProjectsStream(CMiCStream):
 
     name = "projects"
     path = "/pm-rest-api/rest/1/pmproject"
-    primary_keys = "GrpmpVUuid"  # type: ignore[assignment]
+    primary_keys = ["GrpmpVUuid"]
     replication_key = "hg_modified_at"
     replication_key_sources = ("GrpmpIuUpdateDate", "GrpmpIuCreateDate")
     finder_template = "selectByPmProjInfo;pmprojectDate={replication_key_value}"
@@ -43,7 +43,7 @@ class ContractsStream(CMiCStream):
 
     name = "contracts"
     path = "/pm-rest-api/rest/1/scmast"
-    primary_keys = "ScmstVUuid"  # type: ignore[assignment]
+    primary_keys = ["ScmstVUuid"]
     replication_key = "hg_modified_at"
     replication_key_sources = ("ScmstIuUpdateDate", "ScmstIuCreateDate")
     finder_template = "selectByPostDate;AuditDate={replication_key_value}"
@@ -56,7 +56,7 @@ class VouchersStream(CMiCStream):
 
     name = "vouchers"
     path = "/ap-rest-api/rest/1/apallvouchers"
-    primary_keys = "VouNum"  # type: ignore[assignment]
+    primary_keys = ["VouNum"]
     schema = VOUCHERS_SCHEMA
 
 
@@ -65,7 +65,7 @@ class VendorsStream(CMiCStream):
 
     name = "vendors"
     path = "/ap-rest-api/rest/1/apvendor"
-    primary_keys = "BpvenVUuid"  # type: ignore[assignment]
+    primary_keys = ["BpvenVUuid"]
     replication_key = "hg_modified_at"
     replication_key_sources = ("BpvenIuUpdateDate", "BpvenIuCreateDate")
     finder_template = "selectByDate;auditDate={replication_key_value}"
@@ -78,7 +78,7 @@ class InsurancesStream(CMiCStream):
 
     name = "insurances"
     path = "/ap-rest-api/rest/1/apinsurance"
-    primary_keys = "InsVUuid"  # type: ignore[assignment]
+    primary_keys = ["InsVUuid"]
     replication_key = "hg_modified_at"
     replication_key_sources = ("InsIuUpdateDate", "InsIuCreateDate")
     query_template = (

@@ -1,0 +1,134 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.33.1
+    method: GET
+    uri: https://partner-sandbox-api-basic.cmiccloud.com/cmicprtn/glrestapi/rest/v1/glcompany?limit=500&finder=selectByDate%3BauditDate%3D2000-01-01T00%3A00%3A01%2B0000
+  response:
+    body:
+      string: '{"items": [{"CompAccByCompFlag": null, "CompAccByDeptFlag": null, "CompAdd1":
+        "-Fallback-scrubbed-LrYQmkQowQKxswqPTu", "CompAdd2": null, "CompAdd3": "-Fallback-scrubbed-yrGBk",
+        "CompArDepartmentName": null, "CompArchDate": "-Fallback-scrubbed-OvOZUGjyoKhHWWuprAnKofRtm",
+        "CompArctrlLogoFile": null, "CompCableNum": null, "CompCalcEndDate": null,
+        "CompCalcStartDate": null, "CompCkDigitCode": null, "CompCode": "-Fallback-scrubbed-yeP",
+        "CompCompoundGstCode": null, "CompConsCode": "-Fallback-scrubbed-TVQiPNZ",
+        "CompConschartCode": "-Fallback-scrubbed-PqSTl", "CompConschartName": "-Fallback-scrubbed-PSZtFJREFBeoGhZkbYuZViJRrGxRP",
+        "CompConschartTypeCode": null, "CompContactName": null, "CompCountry": null,
+        "CompCtrlCode": null, "CompCtrlFileExists": "-Fallback-scrubbed-Z", "CompCurrCode":
+        "-Fallback-scrubbed-lIt", "CompCurrName": "-Fallback-scrubbed-YwgcSkqPT",
+        "CompCurrPer": 1068, "CompDefaultPyCountryCode": "-Fallback-scrubbed-Yy",
+        "CompDeptCode": "-Fallback-scrubbed-Z", "CompDistGlCompCode": null, "CompDistGlDeptCode":
+        null, "CompDistGlFlag": null, "CompDistGlLogDaysNum": null, "CompEmailAdd":
+        null, "CompEmpNum": null, "CompEstablishDate": null, "CompF5trContPerson":
+        null, "CompF5trContTelNo": null, "CompF5trDeclrId": null, "CompF5trDeclrName":
+        null, "CompF5trDesignation": null, "CompF5trGstRegNo": null, "CompF5trRefNo":
+        null, "CompFaxAreaCode": null, "CompFaxCountryCode": null, "CompFaxNum": null,
+        "CompFedTax1Code": null, "CompFedTax2Code": null, "CompFiscalYr": 4302, "CompIcAccCode":
+        null, "CompIcDeptCode": null, "CompIncomeCloseAccCode": "-Fallback-scrubbed-UXBY",
+        "CompIncomeCloseDeptCode": "-Fallback-scrubbed-bf", "CompIntClrDeptCode":
+        null, "CompIntintCode": null, "CompLegalName": null, "CompLogoFile": null,
+        "CompLogoFileOnWeb": null, "CompMaintainBalcurrFlag": null, "CompMocrrCode":
+        null, "CompName": "-Fallback-scrubbed-hxBkvcXpkNBdgzMFhblpEPajALUYL", "CompOfGlFlag":
+        null, "CompOfGlIdFlexCode": null, "CompOfGlIdFlexNum": null, "CompOfGlSegments":
+        null, "CompOfGlSetOfBooksId": null, "CompOfGlValues": null, "CompOwnershipPc":
+        null, "CompPerNum": 942, "CompPhoneAreaCode": "-Fallback-scrubbed-qKm", "CompPhoneCountryCode":
+        null, "CompPhoneNum": "-Fallback-scrubbed-JLcqdJzj", "CompPostalCode": "-Fallback-scrubbed-paEaf",
+        "CompRecognizeFxFlag": null, "CompRegionCode": "-Fallback-scrubbed-cJ", "CompRegionName":
+        "-Fallback-scrubbed-aNSdUgS", "CompRemeasureAdjAccCode": null, "CompRepCurr1Code":
+        null, "CompRepCurr1Name": null, "CompRepCurr2Code": null, "CompRepCurr2Name":
+        null, "CompRepCurr3Code": null, "CompRepCurr3Name": null, "CompRowid": "-Fallback-scrubbed-bYZuPqkObhbuuMsnyO",
+        "CompT619RegistrationCode": null, "CompTaxCode": null, "CompTaxDist": null,
+        "CompTelexNum": null, "CompTerrCode": null, "CompTypeCode": null, "CompUseTacFlag":
+        null, "CompVatRegNum": null, "CompWebAdd": "-Fallback-scrubbed-MFhruXefe",
+        "CompVUuid": "-Fallback-scrubbed-tKDWNTxETPzjDnVnDPwskbboVrAmXVau", "CompIuCreateDate":
+        "-Fallback-scrubbed-drHGOROfkDrWgqGmYimdAPFCx", "CompIuCreateUser": "-Fallback-scrubbed-ZifwpUiN",
+        "CompIuUpdateDate": null, "CompIuUpdateUser": null, "links": [{"rel": "-Fallback-scrubbed-sFwt",
+        "href": "-Fallback-scrubbed-ojqtAdKzNQJrWZVGAVJMtmvuZKkmLlFZDgoHWqCPXVTAenAsocOvdBYcQWVIcxgsLMiJgfJnfAKlEpNaSyYMykUQsqoRhwniylNPrrsYIlsFjkNphJvdJdY",
+        "name": "Hayden Montgomery", "kind": "-Fallback-scrubbed-SXVc"}, {"rel": "-Fallback-scrubbed-xKoaWKDFc",
+        "href": "-Fallback-scrubbed-ojqtAdKzNQJrWZVGAVJMtmvuZKkmLlFZDgoHWqCPXVTAenAsocOvdBYcQWVIcxgsLMiJgfJnfAKlEpNaSyYMykUQsqoRhwniylNPrrsYIlsFjkNphJvdJdY",
+        "name": "Hayden Montgomery", "kind": "-Fallback-scrubbed-SXVc"}]}, {"CompAccByCompFlag":
+        null, "CompAccByDeptFlag": null, "CompAdd1": "-Fallback-scrubbed-soIzXNOtTGjymCeX",
+        "CompAdd2": "-Fallback-scrubbed-zwhrL", "CompAdd3": "-Fallback-scrubbed-lMVlXDiO",
+        "CompArDepartmentName": null, "CompArchDate": "-Fallback-scrubbed-TdXtdBtwYfyTsXksJzDwQOTVo",
+        "CompArctrlLogoFile": null, "CompCableNum": null, "CompCalcEndDate": null,
+        "CompCalcStartDate": null, "CompCkDigitCode": null, "CompCode": "-Fallback-scrubbed-Bwc",
+        "CompCompoundGstCode": null, "CompConsCode": "-Fallback-scrubbed-wmU", "CompConschartCode":
+        "-Fallback-scrubbed-PqSTl", "CompConschartName": "-Fallback-scrubbed-PSZtFJREFBeoGhZkbYuZViJRrGxRP",
+        "CompConschartTypeCode": null, "CompContactName": null, "CompCountry": "-Fallback-scrubbed-wrmUqRWpdZUEf",
+        "CompCtrlCode": null, "CompCtrlFileExists": "-Fallback-scrubbed-f", "CompCurrCode":
+        "-Fallback-scrubbed-lIt", "CompCurrName": "-Fallback-scrubbed-YwgcSkqPT",
+        "CompCurrPer": 1068, "CompDefaultPyCountryCode": null, "CompDeptCode": "-Fallback-scrubbed-Z",
+        "CompDistGlCompCode": null, "CompDistGlDeptCode": null, "CompDistGlFlag":
+        null, "CompDistGlLogDaysNum": null, "CompEmailAdd": null, "CompEmpNum": null,
+        "CompEstablishDate": null, "CompF5trContPerson": null, "CompF5trContTelNo":
+        null, "CompF5trDeclrId": null, "CompF5trDeclrName": null, "CompF5trDesignation":
+        null, "CompF5trGstRegNo": null, "CompF5trRefNo": null, "CompFaxAreaCode":
+        null, "CompFaxCountryCode": null, "CompFaxNum": null, "CompFedTax1Code": null,
+        "CompFedTax2Code": null, "CompFiscalYr": 405, "CompIcAccCode": null, "CompIcDeptCode":
+        null, "CompIncomeCloseAccCode": "-Fallback-scrubbed-UXBY", "CompIncomeCloseDeptCode":
+        "-Fallback-scrubbed-bf", "CompIntClrDeptCode": null, "CompIntintCode": null,
+        "CompLegalName": null, "CompLogoFile": null, "CompLogoFileOnWeb": null, "CompMaintainBalcurrFlag":
+        null, "CompMocrrCode": null, "CompName": "-Fallback-scrubbed-xcJgVSnmuzAwJuXTvUnktAj",
+        "CompOfGlFlag": null, "CompOfGlIdFlexCode": null, "CompOfGlIdFlexNum": null,
+        "CompOfGlSegments": null, "CompOfGlSetOfBooksId": null, "CompOfGlValues":
+        null, "CompOwnershipPc": null, "CompPerNum": null, "CompPhoneAreaCode": null,
+        "CompPhoneCountryCode": null, "CompPhoneNum": null, "CompPostalCode": "-Fallback-scrubbed-fqoLh",
+        "CompRecognizeFxFlag": null, "CompRegionCode": "-Fallback-scrubbed-WO", "CompRegionName":
+        "-Fallback-scrubbed-lMVlXDiO", "CompRemeasureAdjAccCode": null, "CompRepCurr1Code":
+        null, "CompRepCurr1Name": null, "CompRepCurr2Code": null, "CompRepCurr2Name":
+        null, "CompRepCurr3Code": null, "CompRepCurr3Name": null, "CompRowid": "-Fallback-scrubbed-YVAWvUTIvvlayxPeUT",
+        "CompT619RegistrationCode": null, "CompTaxCode": null, "CompTaxDist": null,
+        "CompTelexNum": null, "CompTerrCode": null, "CompTypeCode": null, "CompUseTacFlag":
+        "-Fallback-scrubbed-f", "CompVatRegNum": null, "CompWebAdd": null, "CompVUuid":
+        "-Fallback-scrubbed-FiKJZSqRbyJrFFuTygCdpapCmYSuCdna", "CompIuCreateDate":
+        "-Fallback-scrubbed-gSHQUwFnEzaJTuBJOBlvRpARY", "CompIuCreateUser": "-Fallback-scrubbed-laqIYZ",
+        "CompIuUpdateDate": null, "CompIuUpdateUser": null, "links": [{"rel": "-Fallback-scrubbed-sFwt",
+        "href": "-Fallback-scrubbed-PQpXyHfCKnrlLnKjkwkVvKWTYVBjFnGGaGSFAaRRblVetAoOSeprYqnJaMlkPfMVDfvbZbCzoVDEJmnKlyPJwIMlWqefPoEOZqXCzSGuzCZhAQTInYMsWjW",
+        "name": "Hayden Montgomery", "kind": "-Fallback-scrubbed-SXVc"}, {"rel": "-Fallback-scrubbed-xKoaWKDFc",
+        "href": "-Fallback-scrubbed-PQpXyHfCKnrlLnKjkwkVvKWTYVBjFnGGaGSFAaRRblVetAoOSeprYqnJaMlkPfMVDfvbZbCzoVDEJmnKlyPJwIMlWqefPoEOZqXCzSGuzCZhAQTInYMsWjW",
+        "name": "Hayden Montgomery", "kind": "-Fallback-scrubbed-SXVc"}]}], "count":
+        2456, "hasMore": false, "limit": 3585, "offset": 1233, "links": [{"rel": "-Fallback-scrubbed-sFwt",
+        "href": "-Fallback-scrubbed-wjZBzQlzBwphUkSPwKYwqjaPlYYUiJQkHCQEFJzVCrseFqcOPfQaYuPNjwONsuIqOMkmPHzfibBOmXtSmgnphj",
+        "name": "Hayden Montgomery", "kind": "-Fallback-scrubbed-ktWGtzTNMt"}]}'
+    headers:
+      CF-RAY:
+      - a2682329aaa76d61-LIM
+      Cache-Control:
+      - no-cache, no-store, must-revalidate
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/vnd.oracle.adf.resourcecollection+json
+      Date:
+      - Wed, 05 Aug 2026 19:16:38 GMT
+      Link:
+      - <http://partner-sandbox-api-basic.cmiccloud.com:80/cmicprtn/glrestapi/rest/v1/glcompany>;rel="self";kind="collection";name="glcompany"
+      Location:
+      - ''
+      REST-Framework-Version:
+      - '2'
+      Server:
+      - cloudflare
+      Vary:
+      - Content-Encoding
+      - accept-encoding
+      X-ORACLE-DMS-ECID:
+      - a2473c6c-fbbf-4cdd-b365-5a1751a89ff1-000037a1
+      X-ORACLE-DMS-RID:
+      - '0'
+      cf-cache-status:
+      - DYNAMIC
+      content-length:
+      - '7378'
+    status:
+      code: 200
+      message: OK
+version: 1
