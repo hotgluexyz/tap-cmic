@@ -57,6 +57,13 @@ class VouchersStream(CMiCStream):
     name = "vouchers"
     path = "/ap-rest-api/rest/1/apallvouchers"
     primary_keys = ["VouNum"]
+    replication_key = "hg_modified_at"
+    replication_key_sources = ("VouIuUpdateDate", "VouIuCreateDate")
+    query_template = (
+        "VouIuUpdateDate >= '{replication_key_value}' "
+        "or VouIuCreateDate >= '{replication_key_value}'"
+    )
+    is_inclusive = True
     schema = VOUCHERS_SCHEMA
 
 
