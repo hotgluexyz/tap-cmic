@@ -4,7 +4,6 @@ from tap_cmic.tap import TapCMiC
 
 
 class Runner(VCRTapTestRunner):
-    FILTER_HEADERS = [*VCRTapTestRunner.FILTER_HEADERS]
     PRESERVE_KEYS = {"hasMore"}
     TOKEN_KEYS = {*VCRTapTestRunner.TOKEN_KEYS, "username"}
 
