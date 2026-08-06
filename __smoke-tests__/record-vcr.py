@@ -14,6 +14,7 @@ def _drop_set_cookie(response):
 class Runner(VCRTapTestRunner):
     FILTER_HEADERS = [*VCRTapTestRunner.FILTER_HEADERS]
     PRESERVE_KEYS = {"hasMore"}
+    TOKEN_KEYS = {*VCRTapTestRunner.TOKEN_KEYS, "username"}
 
     def module(self) -> str:
         return "tap_cmic.tap"
