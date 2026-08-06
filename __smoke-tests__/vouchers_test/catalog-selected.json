@@ -1530,9 +1530,7 @@
             ],
             "valid-replication-keys": [
               "hg_modified_at"
-            ],
-            "replication-method": "INCREMENTAL",
-            "replication-key": "hg_modified_at"
+            ]
           }
         }
       ]
@@ -3524,9 +3522,7 @@
             ],
             "valid-replication-keys": [
               "hg_modified_at"
-            ],
-            "replication-method": "INCREMENTAL",
-            "replication-key": "hg_modified_at"
+            ]
           }
         }
       ]
@@ -4190,9 +4186,7 @@
             ],
             "valid-replication-keys": [
               "hg_modified_at"
-            ],
-            "replication-method": "INCREMENTAL",
-            "replication-key": "hg_modified_at"
+            ]
           }
         }
       ]
@@ -7260,9 +7254,7 @@
             ],
             "valid-replication-keys": [
               "hg_modified_at"
-            ],
-            "replication-method": "INCREMENTAL",
-            "replication-key": "hg_modified_at"
+            ]
           }
         }
       ]
@@ -8750,16 +8742,15 @@
             ],
             "valid-replication-keys": [
               "hg_modified_at"
-            ],
-            "replication-method": "INCREMENTAL",
-            "replication-key": "hg_modified_at"
+            ]
           }
         }
       ]
     },
     {
       "tap_stream_id": "vouchers",
-      "replication_method": "FULL_TABLE",
+      "replication_key": "hg_modified_at",
+      "replication_method": "INCREMENTAL",
       "key_properties": [
         "VouNum"
       ],
@@ -8768,6 +8759,13 @@
           "VouNum": {
             "type": [
               "integer",
+              "null"
+            ]
+          },
+          "hg_modified_at": {
+            "format": "date-time",
+            "type": [
+              "string",
               "null"
             ]
           },
@@ -8809,6 +8807,20 @@
             ]
           },
           "VouPostDate": {
+            "format": "date-time",
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "VouIuCreateDate": {
+            "format": "date-time",
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "VouIuUpdateDate": {
             "format": "date-time",
             "type": [
               "string",
@@ -8915,8 +8927,16 @@
             "VouNum"
           ],
           "metadata": {
-            "inclusion": "automatic",
-            "selected": true
+            "inclusion": "automatic"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "hg_modified_at"
+          ],
+          "metadata": {
+            "inclusion": "available"
           }
         },
         {
@@ -8925,8 +8945,7 @@
             "VouCompCode"
           ],
           "metadata": {
-            "inclusion": "available",
-            "selected": true
+            "inclusion": "available"
           }
         },
         {
@@ -8935,8 +8954,7 @@
             "VouVenCode"
           ],
           "metadata": {
-            "inclusion": "available",
-            "selected": true
+            "inclusion": "available"
           }
         },
         {
@@ -8945,8 +8963,7 @@
             "VouContCode"
           ],
           "metadata": {
-            "inclusion": "available",
-            "selected": true
+            "inclusion": "available"
           }
         },
         {
@@ -8955,8 +8972,7 @@
             "VouJobCode"
           ],
           "metadata": {
-            "inclusion": "available",
-            "selected": true
+            "inclusion": "available"
           }
         },
         {
@@ -8965,8 +8981,7 @@
             "VouInvCode"
           ],
           "metadata": {
-            "inclusion": "available",
-            "selected": true
+            "inclusion": "available"
           }
         },
         {
@@ -8975,8 +8990,7 @@
             "VouInvDate"
           ],
           "metadata": {
-            "inclusion": "available",
-            "selected": true
+            "inclusion": "available"
           }
         },
         {
@@ -8985,8 +8999,25 @@
             "VouPostDate"
           ],
           "metadata": {
-            "inclusion": "available",
-            "selected": true
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "VouIuCreateDate"
+          ],
+          "metadata": {
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "VouIuUpdateDate"
+          ],
+          "metadata": {
+            "inclusion": "available"
           }
         },
         {
@@ -8995,8 +9026,7 @@
             "VouStatusCode"
           ],
           "metadata": {
-            "inclusion": "available",
-            "selected": true
+            "inclusion": "available"
           }
         },
         {
@@ -9005,8 +9035,7 @@
             "VouInvAmt"
           ],
           "metadata": {
-            "inclusion": "available",
-            "selected": true
+            "inclusion": "available"
           }
         },
         {
@@ -9015,8 +9044,7 @@
             "VouInvOutstandAmt"
           ],
           "metadata": {
-            "inclusion": "available",
-            "selected": true
+            "inclusion": "available"
           }
         },
         {
@@ -9025,8 +9053,7 @@
             "VouInvOutStandGrandAmt"
           ],
           "metadata": {
-            "inclusion": "available",
-            "selected": true
+            "inclusion": "available"
           }
         },
         {
@@ -9035,8 +9062,7 @@
             "VouPaidAmt"
           ],
           "metadata": {
-            "inclusion": "available",
-            "selected": true
+            "inclusion": "available"
           }
         },
         {
@@ -9045,8 +9071,7 @@
             "VouPartialApprovedAmt"
           ],
           "metadata": {
-            "inclusion": "available",
-            "selected": true
+            "inclusion": "available"
           }
         },
         {
@@ -9055,8 +9080,7 @@
             "VouHldbkAmt"
           ],
           "metadata": {
-            "inclusion": "available",
-            "selected": true
+            "inclusion": "available"
           }
         },
         {
@@ -9065,8 +9089,7 @@
             "VouHldbkPaid"
           ],
           "metadata": {
-            "inclusion": "available",
-            "selected": true
+            "inclusion": "available"
           }
         },
         {
@@ -9075,8 +9098,7 @@
             "VouLastPayAmt"
           ],
           "metadata": {
-            "inclusion": "available",
-            "selected": true
+            "inclusion": "available"
           }
         },
         {
@@ -9085,8 +9107,7 @@
             "links"
           ],
           "metadata": {
-            "inclusion": "available",
-            "selected": true
+            "inclusion": "available"
           }
         },
         {
@@ -9097,7 +9118,9 @@
             "table-key-properties": [
               "VouNum"
             ],
-            "replication-method": "FULL_TABLE"
+            "valid-replication-keys": [
+              "hg_modified_at"
+            ]
           }
         }
       ]
