@@ -59,7 +59,7 @@ class TapCMiC(Tap):
             "comp_code",
             th.StringType,
             required=False,
-            description="Selected CMiC company code (CompCode)"
+            description="Selected CMiC company code (CompCode)",
         ),
     ).to_dict()
 

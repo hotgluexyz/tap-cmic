@@ -48,10 +48,10 @@ class CMiCStream(RESTStream):
 
     def _company_scoped_query(self, filter_expr: str) -> str:
         company_q = f"{self.comp_code_field} = '{self.comp_code}'"
-        
+
         if not filter_expr:
             return company_q
-        
+
         return f"{company_q} and ({filter_expr})"
 
     def get_next_page_token(
