@@ -1,0 +1,74 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.33.1
+    method: GET
+    uri: https://partner-sandbox-api-basic.cmiccloud.com/cmicprtn/ap-rest-api/rest/1/apinsurance?limit=500&q=InsCompCode+%3D+%27001%27+and+%28InsCoverTypeCode+%3D+%27COI%27+and+%28InsIuUpdateDate+%3E%3D+%272026-08-03T14%3A57%3A25-0400%27+or+InsIuCreateDate+%3E%3D+%272026-08-03T14%3A57%3A25-0400%27%29%29
+  response:
+    body:
+      string: '{"items": [{"InsAmt": null, "InsCPoAutoAssignFlag": "-Fallback-scrubbed-h",
+        "InsCScAutoAssignFlag": "-Fallback-scrubbed-O", "InsCertLoc": null, "InsCertNum":
+        "-Fallback-scrubbed-F", "InsCompCode": "001", "InsComplType": "-Fallback-scrubbed-IOW",
+        "InsComplianceFlag": "-Fallback-scrubbed-O", "InsCoverTypeCode": "-Fallback-scrubbed-fLv",
+        "InsCoverTypeDesc": "-Fallback-scrubbed-AEnJpPGgmqokCVHKuvrAHoJb", "InsDateComplianceFlag":
+        "-Fallback-scrubbed-O", "InsDateSensitiveFlag": "-Fallback-scrubbed-O", "InsDeleteFlag":
+        "-Fallback-scrubbed-O", "InsEndDate": "-Fallback-scrubbed-ZcvspQhReN", "InsInscompCode":
+        "-Fallback-scrubbed-F", "InsInscompName": "-Fallback-scrubbed-VvzdyvYYlEFteT",
+        "InsNotesFlag": null, "InsPoAutoAssignFlag": "-Fallback-scrubbed-h", "InsPoNum":
+        null, "InsPoReleaseNum": null, "InsScAutoAssignFlag": "-Fallback-scrubbed-h",
+        "InsScContCode": null, "InsScJobCode": null, "InsStartDate": "-Fallback-scrubbed-mPYQyrrHZc",
+        "InsUpdateDate": null, "InsUpdateFlag": "-Fallback-scrubbed-O", "InsUpdateUser":
+        null, "InsVUuid": "583C35F2C021AC24E06331121DAC9F3F", "InsVenCode": "-Fallback-scrubbed-bRrmFax",
+        "InsVouNum": 5884, "InsVouRemitDesc": null, "OrigCertNum": "-Fallback-scrubbed-F",
+        "OrigInscompCode": "-Fallback-scrubbed-F", "InsApriVUuid": null, "InsApriInvCode":
+        null, "InsIuCreateDate": "2026-08-04T12:33:11-04:00", "InsIuUpdateDate": null,
+        "InsUpdateVoucher": "-Fallback-scrubbed-h", "links": [{"rel": "-Fallback-scrubbed-bqzC",
+        "href": "-Fallback-scrubbed-tMchpzxhDHvdsuvqRvbhyinouwtWYoXSBWmmzygaKaiTUUKvAmQcMnENuxrjAfKsCcakUmQsJViaYWwmgfuzjqZSgRbgzQJWZuyNmuWlYjbaUFgYWnPcCGIWjX",
+        "name": "Caroline Wilson", "kind": "-Fallback-scrubbed-eqmg"}, {"rel": "-Fallback-scrubbed-rHBWjQXSo",
+        "href": "-Fallback-scrubbed-tMchpzxhDHvdsuvqRvbhyinouwtWYoXSBWmmzygaKaiTUUKvAmQcMnENuxrjAfKsCcakUmQsJViaYWwmgfuzjqZSgRbgzQJWZuyNmuWlYjbaUFgYWnPcCGIWjX",
+        "name": "Caroline Wilson", "kind": "-Fallback-scrubbed-eqmg"}]}], "count":
+        2735, "hasMore": false, "limit": 8449, "offset": 3927, "links": [{"rel": "-Fallback-scrubbed-bqzC",
+        "href": "-Fallback-scrubbed-pBKspbKxpQbRHPYUgPoRSuEEKSRGCqzIVRITlvZYTJLKGMmizVFGsbCOUnSmosJodKVBukpbmgxbfhvarAotSpgyF",
+        "name": "Caroline Wilson", "kind": "-Fallback-scrubbed-YBTdbvsWoY"}]}'
+    headers:
+      CF-RAY:
+      - a29a15905d3dc250-GRU
+      Cache-Control:
+      - no-cache, no-store, must-revalidate
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/vnd.oracle.adf.resourcecollection+json
+      Date:
+      - Tue, 11 Aug 2026 20:45:29 GMT
+      Link:
+      - <http://partner-sandbox-api-basic.cmiccloud.com:80/cmicprtn/ap-rest-api/rest/1/apinsurance>;rel="self";kind="collection";name="apinsurance"
+      Location:
+      - ''
+      REST-Framework-Version:
+      - '2'
+      Server:
+      - cloudflare
+      Vary:
+      - Content-Encoding
+      - accept-encoding
+      X-ORACLE-DMS-ECID:
+      - 64ded8df-1c62-41c1-b6b9-05e93d6845d5-0000519d
+      X-ORACLE-DMS-RID:
+      - '0'
+      cf-cache-status:
+      - DYNAMIC
+      content-length:
+      - '1958'
+    status:
+      code: 200
+      message: OK
+version: 1

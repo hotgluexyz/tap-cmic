@@ -1,0 +1,1006 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.33.1
+    method: GET
+    uri: https://partner-sandbox-api-basic.cmiccloud.com/cmicprtn/pm-rest-api/rest/1/scmast?limit=500&finder=selectByPostDate%3BAuditDate%3D2000-01-01T00%3A00%3A01%2B0000&q=ScmstCompCode+%3D+%27001%27
+  response:
+    body:
+      string: '{"items": [{"CChangeDesc": "-Fallback-scrubbed-ImwvXBgbOpqRjMv", "CNewRevisedDesc":
+        "-Fallback-scrubbed-CQavdvTulCf", "COriginalDesc": "-Fallback-scrubbed-mwZkfABy",
+        "CRecievedDesc": "-Fallback-scrubbed-gbzeglL", "CTitle1": "-Fallback-scrubbed-mwZkfABy",
+        "CTitle2": "-Fallback-scrubbed-MFFpwLwPvgQme", "CTitle3": "-Fallback-scrubbed-FTxqBaROgCPzVr",
+        "CTitle4": "-Fallback-scrubbed-gbzeglL", "CUnpostedDesc": "-Fallback-scrubbed-mJQjHPgkvGtFLXUG",
+        "PartnTypeCode": "-Fallback-scrubbed-W", "PostOverrideFlag": "-Fallback-scrubbed-S",
+        "ScmstAbbrevPartnCode": "-Fallback-scrubbed-LHPEsQ", "ScmstAcctDescription":
+        null, "ScmstActionCode": null, "ScmstAltVenAddCode": null, "ScmstAppCode":
+        null, "ScmstArAmt": null, "ScmstBankAccount": "-Fallback-scrubbed-GDRC", "ScmstBankDept":
+        "-Fallback-scrubbed-kQ", "ScmstBillCode": null, "ScmstCashAmt": null, "ScmstCdiFlag":
+        "-Fallback-scrubbed-h", "ScmstChgCode": "-Fallback-scrubbed-UZA", "ScmstChqHandleCode":
+        null, "ScmstCloseDate": null, "ScmstClvValueCode1": null, "ScmstClvValueCode2":
+        null, "ScmstClvValueCode3": null, "ScmstClvValueCode4": null, "ScmstClvValueCode5":
+        null, "ScmstClvValueCode6": null, "ScmstCmBudrCode": null, "ScmstCmChgCode":
+        null, "ScmstCmCompCode": null, "ScmstCmJobCode": null, "ScmstCompCode": "001",
+        "ScmstComplFlag": "-Fallback-scrubbed-h", "ScmstContAmt": null, "ScmstContCode":
+        "-Fallback-scrubbed-qvYzjgYYsWv", "ScmstContType": "-Fallback-scrubbed-KBjdHOUszxb",
+        "ScmstContactCode": null, "ScmstContactName": null, "ScmstCorrespAddCode":
+        null, "ScmstCreateContOnFlyFlag": "-Fallback-scrubbed-C", "ScmstCurcFactorNum":
+        3923, "ScmstCurrCode": "-Fallback-scrubbed-mKI", "ScmstCurrName": "-Fallback-scrubbed-swSGMTIGS",
+        "ScmstDate": "-Fallback-scrubbed-ODRpMlvFxx", "ScmstDefaultTaxesFlag": "-Fallback-scrubbed-C",
+        "ScmstDesc": null, "ScmstDfltAmt": null, "ScmstDfltCatCode": null, "ScmstDfltPhsCode":
+        null, "ScmstDoNotExceedAmt": null, "ScmstEndDate": "-Fallback-scrubbed-DNNAOBEVCp",
+        "ScmstExecutedDate": null, "ScmstGcsPayRequestFlag": "-Fallback-scrubbed-h",
+        "ScmstGstAmt": null, "ScmstGstPc": 2878, "ScmstHldbkPc": 2878, "ScmstHldbkPcRule":
+        null, "ScmstHldbkRlsFromSc": "-Fallback-scrubbed-C", "ScmstHoldPaymentDays":
+        2878, "ScmstHoldPaymentFlag": "-Fallback-scrubbed-C", "ScmstImpactDays": null,
+        "ScmstInvEntryState": "-Fallback-scrubbed-gz", "ScmstInvHldbkTaxFlag": "-Fallback-scrubbed-h",
+        "ScmstIssuedDate": null, "ScmstIuCreateDate": "2026-07-21T17:08:34-04:00",
+        "ScmstIuUpdateDate": "2026-07-21T17:08:34-04:00", "ScmstJobCode": "-Fallback-scrubbed-JxfSyrgOK",
+        "ScmstJobCtrlCode": "-Fallback-scrubbed-OiG", "ScmstMainChgCode": null, "ScmstMainContCode":
+        null, "ScmstMainVenCode": null, "ScmstName": "-Fallback-scrubbed-VzrOsuLzuqVHfuLSdPPr",
+        "ScmstNonCreditInclTaxAmt": null, "ScmstNonCreditTaxAmt": null, "ScmstOrigBidpAmt":
+        null, "ScmstOrigBidpOraseq": null, "ScmstOvrrideNotExceedFlag": "-Fallback-scrubbed-h",
+        "ScmstOverrideFlag": null, "ScmstPbContCode": null, "ScmstPbCustCode": null,
+        "ScmstPostBatch": null, "ScmstPostDate": null, "ScmstPreferedQuoteFlag": "-Fallback-scrubbed-C",
+        "ScmstPrintedCoFlag": null, "ScmstProjOraseq": 3433, "ScmstRating": null,
+        "ScmstRctReferenceNum": null, "ScmstReceivedDate": null, "ScmstRecipientEmail":
+        null, "ScmstRevBatch": null, "ScmstRevDate": null, "ScmstScControlAmt": 3657,
+        "ScmstSchedExistsFlag": "-Fallback-scrubbed-h", "ScmstScheduleFlag": "-Fallback-scrubbed-C",
+        "ScmstScopeDesc": null, "ScmstScschLastSeqNumUsed": 2878, "ScmstSelfBilledFlag":
+        "-Fallback-scrubbed-h", "ScmstSenderEmail": null, "ScmstSepVouPerJobFlag":
+        "-Fallback-scrubbed-h", "ScmstSrcCode": "-Fallback-scrubbed-uUn", "ScmstStartDate":
+        "-Fallback-scrubbed-tdNYRHWIcq", "ScmstStatCode": "-Fallback-scrubbed-W",
+        "ScmstStatusCode": "-Fallback-scrubbed-mqEUNub", "ScmstSubcontrCode": "-Fallback-scrubbed-bdPp",
+        "ScmstSubcontractorChgCode": null, "ScmstTax1Code": "-Fallback-scrubbed-HQ",
+        "ScmstTax2Code": null, "ScmstTax3Code": null, "ScmstTermCode": "-Fallback-scrubbed-fMHyw",
+        "ScmstTermName": "-Fallback-scrubbed-SrSnow", "ScmstTexturaFlag": "-Fallback-scrubbed-h",
+        "ScmstUser": "-Fallback-scrubbed-ZbpkhD", "ScmstUserPrvlgFlag": "-Fallback-scrubbed-C",
+        "ScmstVenCode": "-Fallback-scrubbed-LHPEsQ", "ScmstVenName": "-Fallback-scrubbed-ACpLlOfMxfkpdpCgLENkBwqzdXLKGeoNkl",
+        "ScmstVUuid": "57266267D698A637E06331121DACEFEF", "ScmstDepositAmt": 2878,
+        "ScmstDepositApprovalDate": null, "ScmstDepositPct": 2878, "ScmstWorkflowStatus":
+        null, "ScmstDateTimePost": null, "ScmstPost": null, "links": [{"rel": "-Fallback-scrubbed-oXWd",
+        "href": "-Fallback-scrubbed-lJnuDdJQCqxPCcBPKCnXIKplXCBoEToaglSWNciQbndVuBYxTdCfABGjhgfkQHohcDsbHOSNwNiofqvKTNemBjCsIvJeKImCElIRiRBqmgJkLqmMSzExK",
+        "name": "Emily Brown", "kind": "-Fallback-scrubbed-oLNn"}, {"rel": "-Fallback-scrubbed-faqYPMrEk",
+        "href": "-Fallback-scrubbed-lJnuDdJQCqxPCcBPKCnXIKplXCBoEToaglSWNciQbndVuBYxTdCfABGjhgfkQHohcDsbHOSNwNiofqvKTNemBjCsIvJeKImCElIRiRBqmgJkLqmMSzExK",
+        "name": "Emily Brown", "kind": "-Fallback-scrubbed-oLNn"}, {"rel": "-Fallback-scrubbed-IcJld",
+        "href": "-Fallback-scrubbed-YhrfBEzjgHhqVTFoyApxyfAaCcDdiHmoNxEtGtHJUDCUPmOoWcklHtXsNTELURZKipFTtqwvBLrcFapHYYDLhZOXGITukfxSPCLsXQVUuVnCBOoBBubtoxoXLxJoGzOeGHQcwzkVPjjzarGJXXfW",
+        "name": "Luis Campbell", "kind": "-Fallback-scrubbed-lEdcPxwsxN"}, {"rel":
+        "-Fallback-scrubbed-jwxDNUnMX", "href": "-Fallback-scrubbed-nGlBzrGzzcWbnVeNyBkqLUTjcJclXNsFlTHGSfVcqZoSbUCTFOxCaxVBAaQQRqsYOHkFGXaaPtyuCPyxGPILyKxtDpzYwHOelHbYloJxDpDnHgbGqFnekhCTAozYgfMxaPtHonTuUqfhcGDw",
+        "name": "Amanda Tucker", "kind": "-Fallback-scrubbed-tuxWX"}]}, {"CChangeDesc":
+        "-Fallback-scrubbed-ImwvXBgbOpqRjMv", "CNewRevisedDesc": "-Fallback-scrubbed-CQavdvTulCf",
+        "COriginalDesc": "-Fallback-scrubbed-mwZkfABy", "CRecievedDesc": "-Fallback-scrubbed-gbzeglL",
+        "CTitle1": "-Fallback-scrubbed-mwZkfABy", "CTitle2": "-Fallback-scrubbed-MFFpwLwPvgQme",
+        "CTitle3": "-Fallback-scrubbed-FTxqBaROgCPzVr", "CTitle4": "-Fallback-scrubbed-gbzeglL",
+        "CUnpostedDesc": "-Fallback-scrubbed-mJQjHPgkvGtFLXUG", "PartnTypeCode": "-Fallback-scrubbed-W",
+        "PostOverrideFlag": "-Fallback-scrubbed-S", "ScmstAbbrevPartnCode": "-Fallback-scrubbed-qfquCJB",
+        "ScmstAcctDescription": null, "ScmstActionCode": null, "ScmstAltVenAddCode":
+        null, "ScmstAppCode": null, "ScmstArAmt": null, "ScmstBankAccount": "-Fallback-scrubbed-GDRC",
+        "ScmstBankDept": "-Fallback-scrubbed-kQ", "ScmstBillCode": null, "ScmstCashAmt":
+        null, "ScmstCdiFlag": "-Fallback-scrubbed-h", "ScmstChgCode": "-Fallback-scrubbed-UZA",
+        "ScmstChqHandleCode": null, "ScmstCloseDate": null, "ScmstClvValueCode1":
+        null, "ScmstClvValueCode2": null, "ScmstClvValueCode3": null, "ScmstClvValueCode4":
+        null, "ScmstClvValueCode5": null, "ScmstClvValueCode6": null, "ScmstCmBudrCode":
+        null, "ScmstCmChgCode": null, "ScmstCmCompCode": null, "ScmstCmJobCode": null,
+        "ScmstCompCode": "001", "ScmstComplFlag": "-Fallback-scrubbed-h", "ScmstContAmt":
+        5857, "ScmstContCode": "-Fallback-scrubbed-IOLjogxp", "ScmstContType": "-Fallback-scrubbed-KBjdHOUszxb",
+        "ScmstContactCode": null, "ScmstContactName": null, "ScmstCorrespAddCode":
+        null, "ScmstCreateContOnFlyFlag": "-Fallback-scrubbed-C", "ScmstCurcFactorNum":
+        3923, "ScmstCurrCode": "-Fallback-scrubbed-mKI", "ScmstCurrName": "-Fallback-scrubbed-swSGMTIGS",
+        "ScmstDate": "-Fallback-scrubbed-DHFdJfsIox", "ScmstDefaultTaxesFlag": "-Fallback-scrubbed-C",
+        "ScmstDesc": null, "ScmstDfltAmt": 5722, "ScmstDfltCatCode": "-Fallback-scrubbed-e",
+        "ScmstDfltPhsCode": "-Fallback-scrubbed-YjJJV", "ScmstDoNotExceedAmt": null,
+        "ScmstEndDate": null, "ScmstExecutedDate": null, "ScmstGcsPayRequestFlag":
+        null, "ScmstGstAmt": 2878, "ScmstGstPc": 2878, "ScmstHldbkPc": 4881, "ScmstHldbkPcRule":
+        null, "ScmstHldbkRlsFromSc": "-Fallback-scrubbed-C", "ScmstHoldPaymentDays":
+        2878, "ScmstHoldPaymentFlag": "-Fallback-scrubbed-C", "ScmstImpactDays": null,
+        "ScmstInvEntryState": "-Fallback-scrubbed-gz", "ScmstInvHldbkTaxFlag": "-Fallback-scrubbed-h",
+        "ScmstIssuedDate": null, "ScmstIuCreateDate": "2026-06-30T14:52:24-04:00",
+        "ScmstIuUpdateDate": "2026-08-04T13:39:42-04:00", "ScmstJobCode": "-Fallback-scrubbed-MvBGg",
+        "ScmstJobCtrlCode": "-Fallback-scrubbed-OiG", "ScmstMainChgCode": null, "ScmstMainContCode":
+        null, "ScmstMainVenCode": null, "ScmstName": "-Fallback-scrubbed-RllTRYbMycbeSJxrGOHPcUswBjwilu",
+        "ScmstNonCreditInclTaxAmt": 2878, "ScmstNonCreditTaxAmt": 2878, "ScmstOrigBidpAmt":
+        null, "ScmstOrigBidpOraseq": null, "ScmstOvrrideNotExceedFlag": "-Fallback-scrubbed-h",
+        "ScmstOverrideFlag": null, "ScmstPbContCode": null, "ScmstPbCustCode": null,
+        "ScmstPostBatch": 6349, "ScmstPostDate": "-Fallback-scrubbed-RFaFlYRUKz",
+        "ScmstPreferedQuoteFlag": "-Fallback-scrubbed-C", "ScmstPrintedCoFlag": null,
+        "ScmstProjOraseq": 9686, "ScmstRating": null, "ScmstRctReferenceNum": null,
+        "ScmstReceivedDate": null, "ScmstRecipientEmail": null, "ScmstRevBatch": null,
+        "ScmstRevDate": null, "ScmstScControlAmt": null, "ScmstSchedExistsFlag": "-Fallback-scrubbed-C",
+        "ScmstScheduleFlag": "-Fallback-scrubbed-C", "ScmstScopeDesc": "-Fallback-scrubbed-jfdGFXJczIYffykGIyTepB",
+        "ScmstScschLastSeqNumUsed": 8750, "ScmstSelfBilledFlag": "-Fallback-scrubbed-h",
+        "ScmstSenderEmail": null, "ScmstSepVouPerJobFlag": "-Fallback-scrubbed-h",
+        "ScmstSrcCode": null, "ScmstStartDate": null, "ScmstStatCode": "-Fallback-scrubbed-y",
+        "ScmstStatusCode": "-Fallback-scrubbed-cPUmJf", "ScmstSubcontrCode": "-Fallback-scrubbed-bdPp",
+        "ScmstSubcontractorChgCode": null, "ScmstTax1Code": "-Fallback-scrubbed-HQ",
+        "ScmstTax2Code": null, "ScmstTax3Code": null, "ScmstTermCode": "-Fallback-scrubbed-fMHyw",
+        "ScmstTermName": "-Fallback-scrubbed-SrSnow", "ScmstTexturaFlag": "-Fallback-scrubbed-h",
+        "ScmstUser": "-Fallback-scrubbed-ZbpkhD", "ScmstUserPrvlgFlag": "-Fallback-scrubbed-C",
+        "ScmstVenCode": "-Fallback-scrubbed-qfquCJB", "ScmstVenName": "-Fallback-scrubbed-DELNwBpXmlaDAUnU",
+        "ScmstVUuid": "557DA0D416DE56E8E06331121DAC9786", "ScmstDepositAmt": 2878,
+        "ScmstDepositApprovalDate": null, "ScmstDepositPct": 2878, "ScmstWorkflowStatus":
+        null, "ScmstDateTimePost": "-Fallback-scrubbed-QJseQIRjziOCEhYSnBUELyezj",
+        "ScmstPost": null, "links": [{"rel": "-Fallback-scrubbed-oXWd", "href": "-Fallback-scrubbed-YGmlsRYjjcyLzNyVRvptIFExUexpRSSXFenUqPvBaKuZdstWjZwsakslEfBDnCKIUajyCOqEPhHODSwjgvyIFHTgeDPIwNpMeqiBERcYqjIRurFoSyDHh",
+        "name": "Emily Brown", "kind": "-Fallback-scrubbed-oLNn"}, {"rel": "-Fallback-scrubbed-faqYPMrEk",
+        "href": "-Fallback-scrubbed-YGmlsRYjjcyLzNyVRvptIFExUexpRSSXFenUqPvBaKuZdstWjZwsakslEfBDnCKIUajyCOqEPhHODSwjgvyIFHTgeDPIwNpMeqiBERcYqjIRurFoSyDHh",
+        "name": "Emily Brown", "kind": "-Fallback-scrubbed-oLNn"}, {"rel": "-Fallback-scrubbed-IcJld",
+        "href": "-Fallback-scrubbed-qnRtsFNLgqbMLVqiPQOyMSKovaJQEwfVIYJigjVdFJTGZmBaBILnxzWopUIscBbEeVUHDLKnDpkeTCTduvMEDOUrdhYdtBxACsponWTxmEONiiSjimRnDXEzHHRUiXOTqRurJFPLUfJLvfUQCBLy",
+        "name": "Luis Campbell", "kind": "-Fallback-scrubbed-lEdcPxwsxN"}, {"rel":
+        "-Fallback-scrubbed-jwxDNUnMX", "href": "-Fallback-scrubbed-pNsmELFEEvThKFMdJAjgYmsoRkuOxQuatiLBMtrkadMrMBAwRLliFPHfQTXHNrNiLMPpauNgUSrXotGrrTGMKunVNJcMHuXllXfmMEiQKORPZkXBjLhWPHIoqKhCHoaJcaVWkQEaFQSixqhj",
+        "name": "Amanda Tucker", "kind": "-Fallback-scrubbed-tuxWX"}]}, {"CChangeDesc":
+        "-Fallback-scrubbed-ImwvXBgbOpqRjMv", "CNewRevisedDesc": "-Fallback-scrubbed-CQavdvTulCf",
+        "COriginalDesc": "-Fallback-scrubbed-mwZkfABy", "CRecievedDesc": "-Fallback-scrubbed-gbzeglL",
+        "CTitle1": "-Fallback-scrubbed-mwZkfABy", "CTitle2": "-Fallback-scrubbed-MFFpwLwPvgQme",
+        "CTitle3": "-Fallback-scrubbed-FTxqBaROgCPzVr", "CTitle4": "-Fallback-scrubbed-gbzeglL",
+        "CUnpostedDesc": "-Fallback-scrubbed-mJQjHPgkvGtFLXUG", "PartnTypeCode": "-Fallback-scrubbed-W",
+        "PostOverrideFlag": "-Fallback-scrubbed-S", "ScmstAbbrevPartnCode": "-Fallback-scrubbed-kJVbJM",
+        "ScmstAcctDescription": null, "ScmstActionCode": null, "ScmstAltVenAddCode":
+        null, "ScmstAppCode": null, "ScmstArAmt": null, "ScmstBankAccount": "-Fallback-scrubbed-GDRC",
+        "ScmstBankDept": "-Fallback-scrubbed-kQ", "ScmstBillCode": null, "ScmstCashAmt":
+        null, "ScmstCdiFlag": "-Fallback-scrubbed-h", "ScmstChgCode": "-Fallback-scrubbed-UZA",
+        "ScmstChqHandleCode": null, "ScmstCloseDate": null, "ScmstClvValueCode1":
+        null, "ScmstClvValueCode2": null, "ScmstClvValueCode3": null, "ScmstClvValueCode4":
+        null, "ScmstClvValueCode5": null, "ScmstClvValueCode6": null, "ScmstCmBudrCode":
+        null, "ScmstCmChgCode": null, "ScmstCmCompCode": null, "ScmstCmJobCode": null,
+        "ScmstCompCode": "001", "ScmstComplFlag": "-Fallback-scrubbed-h", "ScmstContAmt":
+        null, "ScmstContCode": "-Fallback-scrubbed-ZLzLlWFI", "ScmstContType": null,
+        "ScmstContactCode": null, "ScmstContactName": null, "ScmstCorrespAddCode":
+        null, "ScmstCreateContOnFlyFlag": "-Fallback-scrubbed-C", "ScmstCurcFactorNum":
+        3923, "ScmstCurrCode": "-Fallback-scrubbed-mKI", "ScmstCurrName": "-Fallback-scrubbed-swSGMTIGS",
+        "ScmstDate": "-Fallback-scrubbed-DQRMpYCBze", "ScmstDefaultTaxesFlag": "-Fallback-scrubbed-C",
+        "ScmstDesc": null, "ScmstDfltAmt": null, "ScmstDfltCatCode": null, "ScmstDfltPhsCode":
+        null, "ScmstDoNotExceedAmt": null, "ScmstEndDate": null, "ScmstExecutedDate":
+        null, "ScmstGcsPayRequestFlag": null, "ScmstGstAmt": null, "ScmstGstPc": 2878,
+        "ScmstHldbkPc": 2878, "ScmstHldbkPcRule": null, "ScmstHldbkRlsFromSc": "-Fallback-scrubbed-C",
+        "ScmstHoldPaymentDays": 2878, "ScmstHoldPaymentFlag": "-Fallback-scrubbed-C",
+        "ScmstImpactDays": null, "ScmstInvEntryState": "-Fallback-scrubbed-gz", "ScmstInvHldbkTaxFlag":
+        "-Fallback-scrubbed-h", "ScmstIssuedDate": null, "ScmstIuCreateDate": "2026-03-04T14:41:51-05:00",
+        "ScmstIuUpdateDate": "2026-03-04T14:41:51-05:00", "ScmstJobCode": "-Fallback-scrubbed-MvBGg",
+        "ScmstJobCtrlCode": "-Fallback-scrubbed-OiG", "ScmstMainChgCode": null, "ScmstMainContCode":
+        null, "ScmstMainVenCode": null, "ScmstName": "-Fallback-scrubbed-lXGPEGsJyrSDwIlgINtcfQmPTpz",
+        "ScmstNonCreditInclTaxAmt": null, "ScmstNonCreditTaxAmt": null, "ScmstOrigBidpAmt":
+        null, "ScmstOrigBidpOraseq": null, "ScmstOvrrideNotExceedFlag": "-Fallback-scrubbed-h",
+        "ScmstOverrideFlag": null, "ScmstPbContCode": null, "ScmstPbCustCode": null,
+        "ScmstPostBatch": null, "ScmstPostDate": null, "ScmstPreferedQuoteFlag": "-Fallback-scrubbed-C",
+        "ScmstPrintedCoFlag": "-Fallback-scrubbed-h", "ScmstProjOraseq": 9686, "ScmstRating":
+        null, "ScmstRctReferenceNum": null, "ScmstReceivedDate": null, "ScmstRecipientEmail":
+        null, "ScmstRevBatch": null, "ScmstRevDate": null, "ScmstScControlAmt": null,
+        "ScmstSchedExistsFlag": "-Fallback-scrubbed-h", "ScmstScheduleFlag": "-Fallback-scrubbed-h",
+        "ScmstScopeDesc": null, "ScmstScschLastSeqNumUsed": 2878, "ScmstSelfBilledFlag":
+        "-Fallback-scrubbed-h", "ScmstSenderEmail": null, "ScmstSepVouPerJobFlag":
+        "-Fallback-scrubbed-h", "ScmstSrcCode": null, "ScmstStartDate": null, "ScmstStatCode":
+        "-Fallback-scrubbed-W", "ScmstStatusCode": "-Fallback-scrubbed-mqEUNub", "ScmstSubcontrCode":
+        "-Fallback-scrubbed-bdPp", "ScmstSubcontractorChgCode": null, "ScmstTax1Code":
+        null, "ScmstTax2Code": null, "ScmstTax3Code": null, "ScmstTermCode": "-Fallback-scrubbed-fMHyw",
+        "ScmstTermName": "-Fallback-scrubbed-SrSnow", "ScmstTexturaFlag": null, "ScmstUser":
+        "-Fallback-scrubbed-ZbpkhD", "ScmstUserPrvlgFlag": "-Fallback-scrubbed-C",
+        "ScmstVenCode": "-Fallback-scrubbed-kJVbJM", "ScmstVenName": "-Fallback-scrubbed-wmLWllr",
+        "ScmstVUuid": "4C3902ED734B3EEEE06331121DAC07D2", "ScmstDepositAmt": 2878,
+        "ScmstDepositApprovalDate": null, "ScmstDepositPct": 2878, "ScmstWorkflowStatus":
+        null, "ScmstDateTimePost": null, "ScmstPost": null, "links": [{"rel": "-Fallback-scrubbed-oXWd",
+        "href": "-Fallback-scrubbed-AtNQuIhRHASIKJaHgIPrZfgayYbLSjPLVcrThaLTlGfEfTEBglDGhUJHOOqSOuhleeIzofOujrvOSKMydfhdEGwzvzmdUeniKOPBpfOVnBuSvqvHdbhTJ",
+        "name": "Emily Brown", "kind": "-Fallback-scrubbed-oLNn"}, {"rel": "-Fallback-scrubbed-faqYPMrEk",
+        "href": "-Fallback-scrubbed-AtNQuIhRHASIKJaHgIPrZfgayYbLSjPLVcrThaLTlGfEfTEBglDGhUJHOOqSOuhleeIzofOujrvOSKMydfhdEGwzvzmdUeniKOPBpfOVnBuSvqvHdbhTJ",
+        "name": "Emily Brown", "kind": "-Fallback-scrubbed-oLNn"}, {"rel": "-Fallback-scrubbed-IcJld",
+        "href": "-Fallback-scrubbed-oxfVfiGkzulSKkCttfuDavnHsUkuRpsXSHcGZZTcDdhIMxWdibAIHUeBUfPloRgJBKvEagFEdcgARqKswZuUcxGOMwdixFAgzrBTCIcKIsMXqNrQprVZElshOAwnvbmjHLEMlwIPmYgIDcFFYMkd",
+        "name": "Luis Campbell", "kind": "-Fallback-scrubbed-lEdcPxwsxN"}, {"rel":
+        "-Fallback-scrubbed-jwxDNUnMX", "href": "-Fallback-scrubbed-NVYoTJiHkCHdmnLWjnfloxpGtTQZGrrBCeLNwaEbXZOwvCwotzeIJtunsgtyYgAwTRWljCuQOnvfjXpBxzMoypaHCHeLzULVovjXXzoTBNfsUTjpCAkFSVxIiIYsioGNdOSXktpSeqnjbTlr",
+        "name": "Amanda Tucker", "kind": "-Fallback-scrubbed-tuxWX"}]}, {"CChangeDesc":
+        "-Fallback-scrubbed-ImwvXBgbOpqRjMv", "CNewRevisedDesc": "-Fallback-scrubbed-CQavdvTulCf",
+        "COriginalDesc": "-Fallback-scrubbed-mwZkfABy", "CRecievedDesc": "-Fallback-scrubbed-gbzeglL",
+        "CTitle1": "-Fallback-scrubbed-mwZkfABy", "CTitle2": "-Fallback-scrubbed-MFFpwLwPvgQme",
+        "CTitle3": "-Fallback-scrubbed-FTxqBaROgCPzVr", "CTitle4": "-Fallback-scrubbed-gbzeglL",
+        "CUnpostedDesc": "-Fallback-scrubbed-mJQjHPgkvGtFLXUG", "PartnTypeCode": "-Fallback-scrubbed-W",
+        "PostOverrideFlag": "-Fallback-scrubbed-S", "ScmstAbbrevPartnCode": "-Fallback-scrubbed-LHPEsQ",
+        "ScmstAcctDescription": null, "ScmstActionCode": null, "ScmstAltVenAddCode":
+        null, "ScmstAppCode": null, "ScmstArAmt": null, "ScmstBankAccount": "-Fallback-scrubbed-GDRC",
+        "ScmstBankDept": "-Fallback-scrubbed-kQ", "ScmstBillCode": null, "ScmstCashAmt":
+        null, "ScmstCdiFlag": "-Fallback-scrubbed-h", "ScmstChgCode": "-Fallback-scrubbed-UZA",
+        "ScmstChqHandleCode": null, "ScmstCloseDate": null, "ScmstClvValueCode1":
+        null, "ScmstClvValueCode2": null, "ScmstClvValueCode3": null, "ScmstClvValueCode4":
+        null, "ScmstClvValueCode5": null, "ScmstClvValueCode6": null, "ScmstCmBudrCode":
+        null, "ScmstCmChgCode": null, "ScmstCmCompCode": null, "ScmstCmJobCode": null,
+        "ScmstCompCode": "001", "ScmstComplFlag": "-Fallback-scrubbed-h", "ScmstContAmt":
+        null, "ScmstContCode": "-Fallback-scrubbed-BjvehUoJhRS", "ScmstContType":
+        "-Fallback-scrubbed-KBjdHOUszxb", "ScmstContactCode": null, "ScmstContactName":
+        null, "ScmstCorrespAddCode": null, "ScmstCreateContOnFlyFlag": "-Fallback-scrubbed-C",
+        "ScmstCurcFactorNum": 3923, "ScmstCurrCode": "-Fallback-scrubbed-mKI", "ScmstCurrName":
+        "-Fallback-scrubbed-swSGMTIGS", "ScmstDate": "-Fallback-scrubbed-DQRMpYCBze",
+        "ScmstDefaultTaxesFlag": "-Fallback-scrubbed-C", "ScmstDesc": null, "ScmstDfltAmt":
+        4977, "ScmstDfltCatCode": null, "ScmstDfltPhsCode": null, "ScmstDoNotExceedAmt":
+        null, "ScmstEndDate": null, "ScmstExecutedDate": null, "ScmstGcsPayRequestFlag":
+        null, "ScmstGstAmt": null, "ScmstGstPc": 2878, "ScmstHldbkPc": 9577, "ScmstHldbkPcRule":
+        null, "ScmstHldbkRlsFromSc": "-Fallback-scrubbed-C", "ScmstHoldPaymentDays":
+        2878, "ScmstHoldPaymentFlag": "-Fallback-scrubbed-C", "ScmstImpactDays": null,
+        "ScmstInvEntryState": "-Fallback-scrubbed-gz", "ScmstInvHldbkTaxFlag": "-Fallback-scrubbed-h",
+        "ScmstIssuedDate": null, "ScmstIuCreateDate": "2026-03-04T17:27:24-05:00",
+        "ScmstIuUpdateDate": "2026-03-04T17:27:24-05:00", "ScmstJobCode": "-Fallback-scrubbed-nFerVvfRAq",
+        "ScmstJobCtrlCode": "-Fallback-scrubbed-OiG", "ScmstMainChgCode": null, "ScmstMainContCode":
+        null, "ScmstMainVenCode": null, "ScmstName": "-Fallback-scrubbed-ARrztzIZKeuQQVcaNRybReUbXnCtwIRAMDbTzSVfaBmggxDRhfc",
+        "ScmstNonCreditInclTaxAmt": null, "ScmstNonCreditTaxAmt": null, "ScmstOrigBidpAmt":
+        null, "ScmstOrigBidpOraseq": null, "ScmstOvrrideNotExceedFlag": "-Fallback-scrubbed-h",
+        "ScmstOverrideFlag": null, "ScmstPbContCode": null, "ScmstPbCustCode": null,
+        "ScmstPostBatch": null, "ScmstPostDate": null, "ScmstPreferedQuoteFlag": "-Fallback-scrubbed-C",
+        "ScmstPrintedCoFlag": "-Fallback-scrubbed-h", "ScmstProjOraseq": 7079, "ScmstRating":
+        null, "ScmstRctReferenceNum": null, "ScmstReceivedDate": null, "ScmstRecipientEmail":
+        null, "ScmstRevBatch": null, "ScmstRevDate": null, "ScmstScControlAmt": null,
+        "ScmstSchedExistsFlag": "-Fallback-scrubbed-h", "ScmstScheduleFlag": "-Fallback-scrubbed-h",
+        "ScmstScopeDesc": "-Fallback-scrubbed-ARrztzIZKeuQQVcaNRybReUbXnCtwIRAMDbTzSVfaBmggxDRhfc",
+        "ScmstScschLastSeqNumUsed": 2878, "ScmstSelfBilledFlag": "-Fallback-scrubbed-h",
+        "ScmstSenderEmail": null, "ScmstSepVouPerJobFlag": "-Fallback-scrubbed-h",
+        "ScmstSrcCode": null, "ScmstStartDate": null, "ScmstStatCode": "-Fallback-scrubbed-W",
+        "ScmstStatusCode": "-Fallback-scrubbed-mqEUNub", "ScmstSubcontrCode": "-Fallback-scrubbed-bdPp",
+        "ScmstSubcontractorChgCode": null, "ScmstTax1Code": null, "ScmstTax2Code":
+        null, "ScmstTax3Code": null, "ScmstTermCode": "-Fallback-scrubbed-fMHyw",
+        "ScmstTermName": "-Fallback-scrubbed-SrSnow", "ScmstTexturaFlag": null, "ScmstUser":
+        "-Fallback-scrubbed-ZbpkhD", "ScmstUserPrvlgFlag": "-Fallback-scrubbed-C",
+        "ScmstVenCode": "-Fallback-scrubbed-LHPEsQ", "ScmstVenName": "-Fallback-scrubbed-ACpLlOfMxfkpdpCgLENkBwqzdXLKGeoNkl",
+        "ScmstVUuid": "4C3B506970586376E06331121DAC10E3", "ScmstDepositAmt": 2878,
+        "ScmstDepositApprovalDate": null, "ScmstDepositPct": 2878, "ScmstWorkflowStatus":
+        null, "ScmstDateTimePost": null, "ScmstPost": null, "links": [{"rel": "-Fallback-scrubbed-oXWd",
+        "href": "-Fallback-scrubbed-LvSoZtGBJwwGhYZebBGlwzrGUMaOUbUGoTQvkfVRbMVNIidhqiChTfIAWVwObayVMKkFZZocZgqOKbQaaoXTtoOkqMMHjgQbfTWKYXbzXubHWSTscgKMo",
+        "name": "Emily Brown", "kind": "-Fallback-scrubbed-oLNn"}, {"rel": "-Fallback-scrubbed-faqYPMrEk",
+        "href": "-Fallback-scrubbed-LvSoZtGBJwwGhYZebBGlwzrGUMaOUbUGoTQvkfVRbMVNIidhqiChTfIAWVwObayVMKkFZZocZgqOKbQaaoXTtoOkqMMHjgQbfTWKYXbzXubHWSTscgKMo",
+        "name": "Emily Brown", "kind": "-Fallback-scrubbed-oLNn"}, {"rel": "-Fallback-scrubbed-IcJld",
+        "href": "-Fallback-scrubbed-EhKmhGwqEGUlTkcWPSGHUCHJgacpgSPJjjkCTDdoXODSiTYsltzuMArxoRpwUAyTrNZRLXzmclKNvwYQHNodJFFemORNyvkcYshIPPVvPDEKPWJKzVrySmKqbiYKgalLypGzRlnpDUTOtuOzelAz",
+        "name": "Luis Campbell", "kind": "-Fallback-scrubbed-lEdcPxwsxN"}, {"rel":
+        "-Fallback-scrubbed-jwxDNUnMX", "href": "-Fallback-scrubbed-sWvkqrsdpTtPCzPppVysiXeSzhFOvbJbOcSEaOHdUDgBZYiBXdsfKeKlnKTWipSmCzSoXoCkxWuewgftEiRgwrIGgitljDFpqDKcvnybCNYjfPOeinkwtgKpebvhXRFNdOuCivfaAAyrsSAm",
+        "name": "Amanda Tucker", "kind": "-Fallback-scrubbed-tuxWX"}]}, {"CChangeDesc":
+        "-Fallback-scrubbed-ImwvXBgbOpqRjMv", "CNewRevisedDesc": "-Fallback-scrubbed-CQavdvTulCf",
+        "COriginalDesc": "-Fallback-scrubbed-mwZkfABy", "CRecievedDesc": "-Fallback-scrubbed-gbzeglL",
+        "CTitle1": "-Fallback-scrubbed-mwZkfABy", "CTitle2": "-Fallback-scrubbed-MFFpwLwPvgQme",
+        "CTitle3": "-Fallback-scrubbed-FTxqBaROgCPzVr", "CTitle4": "-Fallback-scrubbed-gbzeglL",
+        "CUnpostedDesc": "-Fallback-scrubbed-mJQjHPgkvGtFLXUG", "PartnTypeCode": "-Fallback-scrubbed-W",
+        "PostOverrideFlag": "-Fallback-scrubbed-S", "ScmstAbbrevPartnCode": "-Fallback-scrubbed-kJVbJM",
+        "ScmstAcctDescription": null, "ScmstActionCode": null, "ScmstAltVenAddCode":
+        null, "ScmstAppCode": null, "ScmstArAmt": null, "ScmstBankAccount": "-Fallback-scrubbed-GDRC",
+        "ScmstBankDept": "-Fallback-scrubbed-kQ", "ScmstBillCode": null, "ScmstCashAmt":
+        null, "ScmstCdiFlag": "-Fallback-scrubbed-h", "ScmstChgCode": "-Fallback-scrubbed-UZA",
+        "ScmstChqHandleCode": null, "ScmstCloseDate": null, "ScmstClvValueCode1":
+        null, "ScmstClvValueCode2": null, "ScmstClvValueCode3": null, "ScmstClvValueCode4":
+        null, "ScmstClvValueCode5": null, "ScmstClvValueCode6": null, "ScmstCmBudrCode":
+        null, "ScmstCmChgCode": null, "ScmstCmCompCode": null, "ScmstCmJobCode": null,
+        "ScmstCompCode": "001", "ScmstComplFlag": "-Fallback-scrubbed-h", "ScmstContAmt":
+        8290, "ScmstContCode": "-Fallback-scrubbed-VoIBuqrk", "ScmstContType": "-Fallback-scrubbed-KBjdHOUszxb",
+        "ScmstContactCode": null, "ScmstContactName": null, "ScmstCorrespAddCode":
+        null, "ScmstCreateContOnFlyFlag": "-Fallback-scrubbed-C", "ScmstCurcFactorNum":
+        3923, "ScmstCurrCode": "-Fallback-scrubbed-mKI", "ScmstCurrName": "-Fallback-scrubbed-swSGMTIGS",
+        "ScmstDate": "-Fallback-scrubbed-rdcTTgXCmN", "ScmstDefaultTaxesFlag": "-Fallback-scrubbed-C",
+        "ScmstDesc": null, "ScmstDfltAmt": 8290, "ScmstDfltCatCode": "-Fallback-scrubbed-e",
+        "ScmstDfltPhsCode": "-Fallback-scrubbed-YjJJV", "ScmstDoNotExceedAmt": null,
+        "ScmstEndDate": null, "ScmstExecutedDate": null, "ScmstGcsPayRequestFlag":
+        null, "ScmstGstAmt": 2878, "ScmstGstPc": 2878, "ScmstHldbkPc": 4881, "ScmstHldbkPcRule":
+        null, "ScmstHldbkRlsFromSc": "-Fallback-scrubbed-C", "ScmstHoldPaymentDays":
+        2878, "ScmstHoldPaymentFlag": "-Fallback-scrubbed-C", "ScmstImpactDays": null,
+        "ScmstInvEntryState": "-Fallback-scrubbed-gz", "ScmstInvHldbkTaxFlag": "-Fallback-scrubbed-h",
+        "ScmstIssuedDate": null, "ScmstIuCreateDate": "2026-02-25T11:13:12-05:00",
+        "ScmstIuUpdateDate": "2026-03-03T15:49:56-05:00", "ScmstJobCode": "-Fallback-scrubbed-MvBGg",
+        "ScmstJobCtrlCode": "-Fallback-scrubbed-OiG", "ScmstMainChgCode": null, "ScmstMainContCode":
+        null, "ScmstMainVenCode": null, "ScmstName": "-Fallback-scrubbed-DwxSZQVeYurnUJXrCgRjakeCnwrQxgoDXpVBDuZ",
+        "ScmstNonCreditInclTaxAmt": 2878, "ScmstNonCreditTaxAmt": 2878, "ScmstOrigBidpAmt":
+        null, "ScmstOrigBidpOraseq": null, "ScmstOvrrideNotExceedFlag": "-Fallback-scrubbed-h",
+        "ScmstOverrideFlag": null, "ScmstPbContCode": null, "ScmstPbCustCode": null,
+        "ScmstPostBatch": 2048, "ScmstPostDate": "-Fallback-scrubbed-erRekDXdcW",
+        "ScmstPreferedQuoteFlag": "-Fallback-scrubbed-C", "ScmstPrintedCoFlag": "-Fallback-scrubbed-h",
+        "ScmstProjOraseq": 9686, "ScmstRating": null, "ScmstRctReferenceNum": null,
+        "ScmstReceivedDate": null, "ScmstRecipientEmail": null, "ScmstRevBatch": null,
+        "ScmstRevDate": null, "ScmstScControlAmt": null, "ScmstSchedExistsFlag": "-Fallback-scrubbed-C",
+        "ScmstScheduleFlag": "-Fallback-scrubbed-h", "ScmstScopeDesc": "-Fallback-scrubbed-EGwtZqcPMAJcauTizeRYXklHIbf",
+        "ScmstScschLastSeqNumUsed": 3923, "ScmstSelfBilledFlag": "-Fallback-scrubbed-h",
+        "ScmstSenderEmail": null, "ScmstSepVouPerJobFlag": "-Fallback-scrubbed-h",
+        "ScmstSrcCode": null, "ScmstStartDate": null, "ScmstStatCode": "-Fallback-scrubbed-y",
+        "ScmstStatusCode": "-Fallback-scrubbed-cPUmJf", "ScmstSubcontrCode": "-Fallback-scrubbed-bdPp",
+        "ScmstSubcontractorChgCode": null, "ScmstTax1Code": null, "ScmstTax2Code":
+        null, "ScmstTax3Code": null, "ScmstTermCode": "-Fallback-scrubbed-fMHyw",
+        "ScmstTermName": "-Fallback-scrubbed-SrSnow", "ScmstTexturaFlag": null, "ScmstUser":
+        "-Fallback-scrubbed-ZbpkhD", "ScmstUserPrvlgFlag": "-Fallback-scrubbed-C",
+        "ScmstVenCode": "-Fallback-scrubbed-kJVbJM", "ScmstVenName": "-Fallback-scrubbed-wmLWllr",
+        "ScmstVUuid": "4BA92BD671763ADDE06331121DAC9C37", "ScmstDepositAmt": 2878,
+        "ScmstDepositApprovalDate": null, "ScmstDepositPct": 2878, "ScmstWorkflowStatus":
+        null, "ScmstDateTimePost": "-Fallback-scrubbed-VBWcSefDkVHQpazPadmpkzLbR",
+        "ScmstPost": null, "links": [{"rel": "-Fallback-scrubbed-oXWd", "href": "-Fallback-scrubbed-MjXTREWjiGoyaEUcLwbGqNguxjrtudgLcGYbBolWGYhQwnfadRlKazpWAiDxiMixmsiFFnsrrJbcXGmlqWrqDXkNpDanSEdAMGKrSQiqnWsNxwmNOwYEd",
+        "name": "Emily Brown", "kind": "-Fallback-scrubbed-oLNn"}, {"rel": "-Fallback-scrubbed-faqYPMrEk",
+        "href": "-Fallback-scrubbed-MjXTREWjiGoyaEUcLwbGqNguxjrtudgLcGYbBolWGYhQwnfadRlKazpWAiDxiMixmsiFFnsrrJbcXGmlqWrqDXkNpDanSEdAMGKrSQiqnWsNxwmNOwYEd",
+        "name": "Emily Brown", "kind": "-Fallback-scrubbed-oLNn"}, {"rel": "-Fallback-scrubbed-IcJld",
+        "href": "-Fallback-scrubbed-THsGiUgKQsnEfiUgGnRBRWgqIDIDNAsrNEFkaspzyuhlJKoMxYqzJvFdgSlgVSwQjgBchHpIgYESLekEoZgxamelTPSobKgxkaletEcOyGAnpBWWHOZViksLHeFoXNMmryPmHJkHHbSJfhFUOHwI",
+        "name": "Luis Campbell", "kind": "-Fallback-scrubbed-lEdcPxwsxN"}, {"rel":
+        "-Fallback-scrubbed-jwxDNUnMX", "href": "-Fallback-scrubbed-bqQYAZxvpzPZdAWwmGMKEdbAJsDKAupPCpjTiJCrQlIXFxihQhwRymuuFHisBLxbblolCoXeEbjBvsyKRRrZaTikEjDqoHrYxnfDKMmhpfLRvuJrPKZBimnadNZfwnjyHqtKYqneDzKEFvMD",
+        "name": "Amanda Tucker", "kind": "-Fallback-scrubbed-tuxWX"}]}, {"CChangeDesc":
+        "-Fallback-scrubbed-ImwvXBgbOpqRjMv", "CNewRevisedDesc": "-Fallback-scrubbed-CQavdvTulCf",
+        "COriginalDesc": "-Fallback-scrubbed-mwZkfABy", "CRecievedDesc": "-Fallback-scrubbed-gbzeglL",
+        "CTitle1": "-Fallback-scrubbed-mwZkfABy", "CTitle2": "-Fallback-scrubbed-MFFpwLwPvgQme",
+        "CTitle3": "-Fallback-scrubbed-FTxqBaROgCPzVr", "CTitle4": "-Fallback-scrubbed-gbzeglL",
+        "CUnpostedDesc": "-Fallback-scrubbed-mJQjHPgkvGtFLXUG", "PartnTypeCode": "-Fallback-scrubbed-W",
+        "PostOverrideFlag": "-Fallback-scrubbed-S", "ScmstAbbrevPartnCode": "-Fallback-scrubbed-LHPEsQ",
+        "ScmstAcctDescription": null, "ScmstActionCode": null, "ScmstAltVenAddCode":
+        null, "ScmstAppCode": null, "ScmstArAmt": null, "ScmstBankAccount": "-Fallback-scrubbed-GDRC",
+        "ScmstBankDept": "-Fallback-scrubbed-kQ", "ScmstBillCode": null, "ScmstCashAmt":
+        null, "ScmstCdiFlag": "-Fallback-scrubbed-h", "ScmstChgCode": "-Fallback-scrubbed-UZA",
+        "ScmstChqHandleCode": null, "ScmstCloseDate": null, "ScmstClvValueCode1":
+        null, "ScmstClvValueCode2": null, "ScmstClvValueCode3": null, "ScmstClvValueCode4":
+        null, "ScmstClvValueCode5": null, "ScmstClvValueCode6": null, "ScmstCmBudrCode":
+        null, "ScmstCmChgCode": null, "ScmstCmCompCode": null, "ScmstCmJobCode": null,
+        "ScmstCompCode": "001", "ScmstComplFlag": "-Fallback-scrubbed-h", "ScmstContAmt":
+        7510, "ScmstContCode": "-Fallback-scrubbed-foMQHETj", "ScmstContType": "-Fallback-scrubbed-KBjdHOUszxb",
+        "ScmstContactCode": null, "ScmstContactName": null, "ScmstCorrespAddCode":
+        null, "ScmstCreateContOnFlyFlag": "-Fallback-scrubbed-C", "ScmstCurcFactorNum":
+        3923, "ScmstCurrCode": "-Fallback-scrubbed-mKI", "ScmstCurrName": "-Fallback-scrubbed-swSGMTIGS",
+        "ScmstDate": "-Fallback-scrubbed-DQRMpYCBze", "ScmstDefaultTaxesFlag": "-Fallback-scrubbed-h",
+        "ScmstDesc": null, "ScmstDfltAmt": 4977, "ScmstDfltCatCode": null, "ScmstDfltPhsCode":
+        null, "ScmstDoNotExceedAmt": null, "ScmstEndDate": null, "ScmstExecutedDate":
+        null, "ScmstGcsPayRequestFlag": "-Fallback-scrubbed-h", "ScmstGstAmt": null,
+        "ScmstGstPc": 2878, "ScmstHldbkPc": 4881, "ScmstHldbkPcRule": null, "ScmstHldbkRlsFromSc":
+        "-Fallback-scrubbed-C", "ScmstHoldPaymentDays": 2878, "ScmstHoldPaymentFlag":
+        "-Fallback-scrubbed-C", "ScmstImpactDays": null, "ScmstInvEntryState": "-Fallback-scrubbed-gz",
+        "ScmstInvHldbkTaxFlag": "-Fallback-scrubbed-h", "ScmstIssuedDate": null, "ScmstIuCreateDate":
+        "2026-03-04T17:26:41-05:00", "ScmstIuUpdateDate": "2026-08-04T13:57:52-04:00",
+        "ScmstJobCode": "-Fallback-scrubbed-MvBGg", "ScmstJobCtrlCode": "-Fallback-scrubbed-OiG",
+        "ScmstMainChgCode": null, "ScmstMainContCode": null, "ScmstMainVenCode": null,
+        "ScmstName": "-Fallback-scrubbed-ARrztzIZKeuQQVcaNRybReUbXnCtwIRAMDbTzSVfaBmggxDRhfc",
+        "ScmstNonCreditInclTaxAmt": null, "ScmstNonCreditTaxAmt": null, "ScmstOrigBidpAmt":
+        null, "ScmstOrigBidpOraseq": null, "ScmstOvrrideNotExceedFlag": "-Fallback-scrubbed-h",
+        "ScmstOverrideFlag": null, "ScmstPbContCode": null, "ScmstPbCustCode": null,
+        "ScmstPostBatch": null, "ScmstPostDate": null, "ScmstPreferedQuoteFlag": "-Fallback-scrubbed-C",
+        "ScmstPrintedCoFlag": "-Fallback-scrubbed-h", "ScmstProjOraseq": 9686, "ScmstRating":
+        null, "ScmstRctReferenceNum": null, "ScmstReceivedDate": null, "ScmstRecipientEmail":
+        null, "ScmstRevBatch": null, "ScmstRevDate": null, "ScmstScControlAmt": null,
+        "ScmstSchedExistsFlag": "-Fallback-scrubbed-C", "ScmstScheduleFlag": "-Fallback-scrubbed-h",
+        "ScmstScopeDesc": "-Fallback-scrubbed-ARrztzIZKeuQQVcaNRybReUbXnCtwIRAMDbTzSVfaBmggxDRhfc",
+        "ScmstScschLastSeqNumUsed": 1493, "ScmstSelfBilledFlag": "-Fallback-scrubbed-h",
+        "ScmstSenderEmail": null, "ScmstSepVouPerJobFlag": "-Fallback-scrubbed-h",
+        "ScmstSrcCode": null, "ScmstStartDate": null, "ScmstStatCode": "-Fallback-scrubbed-W",
+        "ScmstStatusCode": "-Fallback-scrubbed-mqEUNub", "ScmstSubcontrCode": "-Fallback-scrubbed-bdPp",
+        "ScmstSubcontractorChgCode": null, "ScmstTax1Code": null, "ScmstTax2Code":
+        null, "ScmstTax3Code": null, "ScmstTermCode": "-Fallback-scrubbed-fMHyw",
+        "ScmstTermName": "-Fallback-scrubbed-SrSnow", "ScmstTexturaFlag": "-Fallback-scrubbed-h",
+        "ScmstUser": "-Fallback-scrubbed-ZbpkhD", "ScmstUserPrvlgFlag": "-Fallback-scrubbed-C",
+        "ScmstVenCode": "-Fallback-scrubbed-LHPEsQ", "ScmstVenName": "-Fallback-scrubbed-ACpLlOfMxfkpdpCgLENkBwqzdXLKGeoNkl",
+        "ScmstVUuid": "4C3B506970516376E06331121DAC10E3", "ScmstDepositAmt": 2878,
+        "ScmstDepositApprovalDate": "-Fallback-scrubbed-xdgPDfDOABNUutRlQJiDcuUsc",
+        "ScmstDepositPct": 2878, "ScmstWorkflowStatus": null, "ScmstDateTimePost":
+        null, "ScmstPost": null, "links": [{"rel": "-Fallback-scrubbed-oXWd", "href":
+        "-Fallback-scrubbed-jmPFFeVYidghLxoHdKvZjSvBhjgJJKynCGOifESNmkTYVRdXnZpPACvUpcpJJgOEfPdmVHTiEiiYZEKVLKpuVGQIITTEDafcymZFQVELlFtaKAjuhlDmK",
+        "name": "Emily Brown", "kind": "-Fallback-scrubbed-oLNn"}, {"rel": "-Fallback-scrubbed-faqYPMrEk",
+        "href": "-Fallback-scrubbed-jmPFFeVYidghLxoHdKvZjSvBhjgJJKynCGOifESNmkTYVRdXnZpPACvUpcpJJgOEfPdmVHTiEiiYZEKVLKpuVGQIITTEDafcymZFQVELlFtaKAjuhlDmK",
+        "name": "Emily Brown", "kind": "-Fallback-scrubbed-oLNn"}, {"rel": "-Fallback-scrubbed-IcJld",
+        "href": "-Fallback-scrubbed-jkRytPSCgQmXSFlheVEtqvFUcQxmKRgJXpcNWyRAnGZDyVRDZmqYoyUZYoRLecODjeSmRbTmMnrEDKVuBHQIxPxyEKMPegvpMdoxCbQQnjzleLGhBjEoqEAQiEugkBquTKpCuuzrJdOjAuMqPrgb",
+        "name": "Luis Campbell", "kind": "-Fallback-scrubbed-lEdcPxwsxN"}, {"rel":
+        "-Fallback-scrubbed-jwxDNUnMX", "href": "-Fallback-scrubbed-dGhPcMoBOcsyuHQEUbHbODLbsrkMsTEbcKhjdkdNmjhGnYOopByyDBEzagKgECybynFLGDfwFdfoivfbJfoNQJKKxXtNvGUsaAOqKSLekpqmdHdhFoWQoSJlpjLWyBIVhAmCsYmiKuYzWAdp",
+        "name": "Amanda Tucker", "kind": "-Fallback-scrubbed-tuxWX"}]}, {"CChangeDesc":
+        "-Fallback-scrubbed-ImwvXBgbOpqRjMv", "CNewRevisedDesc": "-Fallback-scrubbed-CQavdvTulCf",
+        "COriginalDesc": "-Fallback-scrubbed-mwZkfABy", "CRecievedDesc": "-Fallback-scrubbed-gbzeglL",
+        "CTitle1": "-Fallback-scrubbed-mwZkfABy", "CTitle2": "-Fallback-scrubbed-MFFpwLwPvgQme",
+        "CTitle3": "-Fallback-scrubbed-FTxqBaROgCPzVr", "CTitle4": "-Fallback-scrubbed-gbzeglL",
+        "CUnpostedDesc": "-Fallback-scrubbed-mJQjHPgkvGtFLXUG", "PartnTypeCode": "-Fallback-scrubbed-W",
+        "PostOverrideFlag": "-Fallback-scrubbed-S", "ScmstAbbrevPartnCode": "-Fallback-scrubbed-mzihJA",
+        "ScmstAcctDescription": null, "ScmstActionCode": null, "ScmstAltVenAddCode":
+        null, "ScmstAppCode": null, "ScmstArAmt": null, "ScmstBankAccount": "-Fallback-scrubbed-GDRC",
+        "ScmstBankDept": "-Fallback-scrubbed-kQ", "ScmstBillCode": null, "ScmstCashAmt":
+        null, "ScmstCdiFlag": "-Fallback-scrubbed-h", "ScmstChgCode": "-Fallback-scrubbed-UZA",
+        "ScmstChqHandleCode": null, "ScmstCloseDate": null, "ScmstClvValueCode1":
+        null, "ScmstClvValueCode2": null, "ScmstClvValueCode3": null, "ScmstClvValueCode4":
+        null, "ScmstClvValueCode5": null, "ScmstClvValueCode6": null, "ScmstCmBudrCode":
+        null, "ScmstCmChgCode": null, "ScmstCmCompCode": null, "ScmstCmJobCode": null,
+        "ScmstCompCode": "001", "ScmstComplFlag": "-Fallback-scrubbed-h", "ScmstContAmt":
+        4977, "ScmstContCode": "-Fallback-scrubbed-IBDarTrpHR", "ScmstContType": "-Fallback-scrubbed-KBjdHOUszxb",
+        "ScmstContactCode": null, "ScmstContactName": null, "ScmstCorrespAddCode":
+        null, "ScmstCreateContOnFlyFlag": "-Fallback-scrubbed-C", "ScmstCurcFactorNum":
+        3923, "ScmstCurrCode": "-Fallback-scrubbed-mKI", "ScmstCurrName": "-Fallback-scrubbed-swSGMTIGS",
+        "ScmstDate": "-Fallback-scrubbed-OPXmEoMjwh", "ScmstDefaultTaxesFlag": "-Fallback-scrubbed-C",
+        "ScmstDesc": null, "ScmstDfltAmt": null, "ScmstDfltCatCode": null, "ScmstDfltPhsCode":
+        null, "ScmstDoNotExceedAmt": null, "ScmstEndDate": null, "ScmstExecutedDate":
+        null, "ScmstGcsPayRequestFlag": null, "ScmstGstAmt": null, "ScmstGstPc": 2878,
+        "ScmstHldbkPc": 2878, "ScmstHldbkPcRule": null, "ScmstHldbkRlsFromSc": "-Fallback-scrubbed-C",
+        "ScmstHoldPaymentDays": 2878, "ScmstHoldPaymentFlag": "-Fallback-scrubbed-C",
+        "ScmstImpactDays": null, "ScmstInvEntryState": "-Fallback-scrubbed-gz", "ScmstInvHldbkTaxFlag":
+        "-Fallback-scrubbed-h", "ScmstIssuedDate": null, "ScmstIuCreateDate": "2026-08-03T14:55:26-04:00",
+        "ScmstIuUpdateDate": "2026-08-03T14:55:26-04:00", "ScmstJobCode": "-Fallback-scrubbed-rsjDeye",
+        "ScmstJobCtrlCode": "-Fallback-scrubbed-OiG", "ScmstMainChgCode": null, "ScmstMainContCode":
+        null, "ScmstMainVenCode": null, "ScmstName": "-Fallback-scrubbed-UQznmwrIRkMUJrM",
+        "ScmstNonCreditInclTaxAmt": null, "ScmstNonCreditTaxAmt": null, "ScmstOrigBidpAmt":
+        null, "ScmstOrigBidpOraseq": null, "ScmstOvrrideNotExceedFlag": "-Fallback-scrubbed-h",
+        "ScmstOverrideFlag": null, "ScmstPbContCode": null, "ScmstPbCustCode": null,
+        "ScmstPostBatch": null, "ScmstPostDate": null, "ScmstPreferedQuoteFlag": "-Fallback-scrubbed-C",
+        "ScmstPrintedCoFlag": "-Fallback-scrubbed-h", "ScmstProjOraseq": 5300, "ScmstRating":
+        null, "ScmstRctReferenceNum": null, "ScmstReceivedDate": null, "ScmstRecipientEmail":
+        null, "ScmstRevBatch": null, "ScmstRevDate": null, "ScmstScControlAmt": null,
+        "ScmstSchedExistsFlag": "-Fallback-scrubbed-C", "ScmstScheduleFlag": "-Fallback-scrubbed-h",
+        "ScmstScopeDesc": null, "ScmstScschLastSeqNumUsed": 3923, "ScmstSelfBilledFlag":
+        "-Fallback-scrubbed-h", "ScmstSenderEmail": null, "ScmstSepVouPerJobFlag":
+        "-Fallback-scrubbed-h", "ScmstSrcCode": null, "ScmstStartDate": null, "ScmstStatCode":
+        "-Fallback-scrubbed-W", "ScmstStatusCode": "-Fallback-scrubbed-mqEUNub", "ScmstSubcontrCode":
+        "-Fallback-scrubbed-bdPp", "ScmstSubcontractorChgCode": null, "ScmstTax1Code":
+        null, "ScmstTax2Code": null, "ScmstTax3Code": null, "ScmstTermCode": "-Fallback-scrubbed-fMHyw",
+        "ScmstTermName": "-Fallback-scrubbed-SrSnow", "ScmstTexturaFlag": null, "ScmstUser":
+        "-Fallback-scrubbed-vFxLuDMSqSIubGXr", "ScmstUserPrvlgFlag": "-Fallback-scrubbed-C",
+        "ScmstVenCode": "-Fallback-scrubbed-mzihJA", "ScmstVenName": "-Fallback-scrubbed-daNRrepEQRYUtmaOaBUSqUvPE",
+        "ScmstVUuid": "5829F6A6024D41B9E06331121DACD731", "ScmstDepositAmt": 2878,
+        "ScmstDepositApprovalDate": "-Fallback-scrubbed-RoykTpCPcVYvcHhrUpBjuSGZy",
+        "ScmstDepositPct": 2878, "ScmstWorkflowStatus": null, "ScmstDateTimePost":
+        null, "ScmstPost": null, "links": [{"rel": "-Fallback-scrubbed-oXWd", "href":
+        "-Fallback-scrubbed-lihCWPECfDsMhSRooLdULeZpYUrnoguSiteKFaVPJzBSMOqBqlYkwsBCoAWluPoNwZGsYhacDnajntFVBITtcMYvbZbBiursyipUqlzahPIkCiQyvGqVr",
+        "name": "Emily Brown", "kind": "-Fallback-scrubbed-oLNn"}, {"rel": "-Fallback-scrubbed-faqYPMrEk",
+        "href": "-Fallback-scrubbed-lihCWPECfDsMhSRooLdULeZpYUrnoguSiteKFaVPJzBSMOqBqlYkwsBCoAWluPoNwZGsYhacDnajntFVBITtcMYvbZbBiursyipUqlzahPIkCiQyvGqVr",
+        "name": "Emily Brown", "kind": "-Fallback-scrubbed-oLNn"}, {"rel": "-Fallback-scrubbed-IcJld",
+        "href": "-Fallback-scrubbed-DmyCqTdRRDYyPKDDYoOuavtclzvhjxzolruFGbVRkqCYWybRjLsHzFBCJgKdAXjdJQAXmkeBfLnLCQFwEQNxjQSpxdbAkABNCPVVuWyEYfgbuQGyPtyVVKdMsfSpcNvstFJsBEXsQINMINVTNhBQ",
+        "name": "Luis Campbell", "kind": "-Fallback-scrubbed-lEdcPxwsxN"}, {"rel":
+        "-Fallback-scrubbed-jwxDNUnMX", "href": "-Fallback-scrubbed-MAcEWODBOnJjMNmhlTTVLIySjEubSwfuUgSsbYDwcptuIXSLbhVNVpIsgynXOfYOlanwtlFDttNaBJAZLHSmpWDzuPEpnXkbOcVqINtkmSJOYHTWERpwpMDMvqnTVfHmFefZWXYKoFsGDmBd",
+        "name": "Amanda Tucker", "kind": "-Fallback-scrubbed-tuxWX"}]}, {"CChangeDesc":
+        "-Fallback-scrubbed-ImwvXBgbOpqRjMv", "CNewRevisedDesc": "-Fallback-scrubbed-CQavdvTulCf",
+        "COriginalDesc": "-Fallback-scrubbed-mwZkfABy", "CRecievedDesc": "-Fallback-scrubbed-gbzeglL",
+        "CTitle1": "-Fallback-scrubbed-mwZkfABy", "CTitle2": "-Fallback-scrubbed-MFFpwLwPvgQme",
+        "CTitle3": "-Fallback-scrubbed-FTxqBaROgCPzVr", "CTitle4": "-Fallback-scrubbed-gbzeglL",
+        "CUnpostedDesc": "-Fallback-scrubbed-mJQjHPgkvGtFLXUG", "PartnTypeCode": "-Fallback-scrubbed-W",
+        "PostOverrideFlag": "-Fallback-scrubbed-S", "ScmstAbbrevPartnCode": "-Fallback-scrubbed-ofZJPT",
+        "ScmstAcctDescription": null, "ScmstActionCode": null, "ScmstAltVenAddCode":
+        null, "ScmstAppCode": null, "ScmstArAmt": null, "ScmstBankAccount": "-Fallback-scrubbed-GDRC",
+        "ScmstBankDept": "-Fallback-scrubbed-kQ", "ScmstBillCode": null, "ScmstCashAmt":
+        null, "ScmstCdiFlag": "-Fallback-scrubbed-h", "ScmstChgCode": "-Fallback-scrubbed-UZA",
+        "ScmstChqHandleCode": null, "ScmstCloseDate": null, "ScmstClvValueCode1":
+        null, "ScmstClvValueCode2": null, "ScmstClvValueCode3": null, "ScmstClvValueCode4":
+        null, "ScmstClvValueCode5": null, "ScmstClvValueCode6": null, "ScmstCmBudrCode":
+        null, "ScmstCmChgCode": null, "ScmstCmCompCode": null, "ScmstCmJobCode": null,
+        "ScmstCompCode": "001", "ScmstComplFlag": "-Fallback-scrubbed-h", "ScmstContAmt":
+        2134, "ScmstContCode": "-Fallback-scrubbed-xKvPAfhwyj", "ScmstContType": null,
+        "ScmstContactCode": null, "ScmstContactName": null, "ScmstCorrespAddCode":
+        null, "ScmstCreateContOnFlyFlag": "-Fallback-scrubbed-C", "ScmstCurcFactorNum":
+        3923, "ScmstCurrCode": "-Fallback-scrubbed-mKI", "ScmstCurrName": "-Fallback-scrubbed-swSGMTIGS",
+        "ScmstDate": "-Fallback-scrubbed-OPXmEoMjwh", "ScmstDefaultTaxesFlag": "-Fallback-scrubbed-C",
+        "ScmstDesc": null, "ScmstDfltAmt": null, "ScmstDfltCatCode": null, "ScmstDfltPhsCode":
+        null, "ScmstDoNotExceedAmt": null, "ScmstEndDate": null, "ScmstExecutedDate":
+        null, "ScmstGcsPayRequestFlag": null, "ScmstGstAmt": null, "ScmstGstPc": 2878,
+        "ScmstHldbkPc": 2878, "ScmstHldbkPcRule": null, "ScmstHldbkRlsFromSc": "-Fallback-scrubbed-C",
+        "ScmstHoldPaymentDays": 2878, "ScmstHoldPaymentFlag": "-Fallback-scrubbed-C",
+        "ScmstImpactDays": null, "ScmstInvEntryState": "-Fallback-scrubbed-gz", "ScmstInvHldbkTaxFlag":
+        "-Fallback-scrubbed-h", "ScmstIssuedDate": null, "ScmstIuCreateDate": "2026-08-03T14:48:48-04:00",
+        "ScmstIuUpdateDate": "2026-08-03T14:50:05-04:00", "ScmstJobCode": "-Fallback-scrubbed-rsjDeye",
+        "ScmstJobCtrlCode": "-Fallback-scrubbed-OiG", "ScmstMainChgCode": null, "ScmstMainContCode":
+        null, "ScmstMainVenCode": null, "ScmstName": "-Fallback-scrubbed-ighrwAZridbhrNTtvLEAVjNGuvJ",
+        "ScmstNonCreditInclTaxAmt": null, "ScmstNonCreditTaxAmt": null, "ScmstOrigBidpAmt":
+        null, "ScmstOrigBidpOraseq": null, "ScmstOvrrideNotExceedFlag": "-Fallback-scrubbed-h",
+        "ScmstOverrideFlag": null, "ScmstPbContCode": null, "ScmstPbCustCode": null,
+        "ScmstPostBatch": null, "ScmstPostDate": null, "ScmstPreferedQuoteFlag": "-Fallback-scrubbed-C",
+        "ScmstPrintedCoFlag": "-Fallback-scrubbed-h", "ScmstProjOraseq": 5300, "ScmstRating":
+        null, "ScmstRctReferenceNum": null, "ScmstReceivedDate": null, "ScmstRecipientEmail":
+        null, "ScmstRevBatch": null, "ScmstRevDate": null, "ScmstScControlAmt": null,
+        "ScmstSchedExistsFlag": "-Fallback-scrubbed-C", "ScmstScheduleFlag": "-Fallback-scrubbed-h",
+        "ScmstScopeDesc": null, "ScmstScschLastSeqNumUsed": 3923, "ScmstSelfBilledFlag":
+        "-Fallback-scrubbed-h", "ScmstSenderEmail": null, "ScmstSepVouPerJobFlag":
+        "-Fallback-scrubbed-h", "ScmstSrcCode": null, "ScmstStartDate": null, "ScmstStatCode":
+        "-Fallback-scrubbed-W", "ScmstStatusCode": "-Fallback-scrubbed-mqEUNub", "ScmstSubcontrCode":
+        "-Fallback-scrubbed-bdPp", "ScmstSubcontractorChgCode": null, "ScmstTax1Code":
+        null, "ScmstTax2Code": null, "ScmstTax3Code": null, "ScmstTermCode": "-Fallback-scrubbed-fMHyw",
+        "ScmstTermName": "-Fallback-scrubbed-SrSnow", "ScmstTexturaFlag": null, "ScmstUser":
+        "-Fallback-scrubbed-vFxLuDMSqSIubGXr", "ScmstUserPrvlgFlag": "-Fallback-scrubbed-C",
+        "ScmstVenCode": "-Fallback-scrubbed-ofZJPT", "ScmstVenName": "-Fallback-scrubbed-JiqxLTAfBccqO",
+        "ScmstVUuid": "5829F6A6023F41B9E06331121DACD731", "ScmstDepositAmt": 2878,
+        "ScmstDepositApprovalDate": "-Fallback-scrubbed-RoykTpCPcVYvcHhrUpBjuSGZy",
+        "ScmstDepositPct": 2878, "ScmstWorkflowStatus": null, "ScmstDateTimePost":
+        null, "ScmstPost": null, "links": [{"rel": "-Fallback-scrubbed-oXWd", "href":
+        "-Fallback-scrubbed-ubpWswSLqNeSyLMNDurdrVOEqtcZAPralqTrfhTtBJIrzMiJUTKoogJpIULqUhyGXEhOlsWWEGjaRtPFsldyZiSqdaMJOcdReQojUDAhPjduWunEvNRHg",
+        "name": "Emily Brown", "kind": "-Fallback-scrubbed-oLNn"}, {"rel": "-Fallback-scrubbed-faqYPMrEk",
+        "href": "-Fallback-scrubbed-ubpWswSLqNeSyLMNDurdrVOEqtcZAPralqTrfhTtBJIrzMiJUTKoogJpIULqUhyGXEhOlsWWEGjaRtPFsldyZiSqdaMJOcdReQojUDAhPjduWunEvNRHg",
+        "name": "Emily Brown", "kind": "-Fallback-scrubbed-oLNn"}, {"rel": "-Fallback-scrubbed-IcJld",
+        "href": "-Fallback-scrubbed-pYxJKDIBxnYzGxpVzBBuKIDhKRNYmyDBPsLhLAqZlakebKSDZEOxwZelLDclcsNlSMDNwQyYwJLlQcsjIUlBJJmKFmcgewrnEzzLzxQtWQvieDgdHVfRVEQQagQLZjCeuotHVzuIFseDSaclHZok",
+        "name": "Luis Campbell", "kind": "-Fallback-scrubbed-lEdcPxwsxN"}, {"rel":
+        "-Fallback-scrubbed-jwxDNUnMX", "href": "-Fallback-scrubbed-FlCkXGboglczIrfAvCTkhTLhggFHzigXrZEEYNMMJKRXvZHflAxMuxmofKyQjDpkODknuVhGVZjaIcTKAschvgWRBFeZHRbntFKJBCiPvYnoJoiWXOQzqZVpyyWXAnQKEIgFupWPWPmejBwO",
+        "name": "Amanda Tucker", "kind": "-Fallback-scrubbed-tuxWX"}]}, {"CChangeDesc":
+        "-Fallback-scrubbed-ImwvXBgbOpqRjMv", "CNewRevisedDesc": "-Fallback-scrubbed-CQavdvTulCf",
+        "COriginalDesc": "-Fallback-scrubbed-mwZkfABy", "CRecievedDesc": "-Fallback-scrubbed-gbzeglL",
+        "CTitle1": "-Fallback-scrubbed-mwZkfABy", "CTitle2": "-Fallback-scrubbed-MFFpwLwPvgQme",
+        "CTitle3": "-Fallback-scrubbed-FTxqBaROgCPzVr", "CTitle4": "-Fallback-scrubbed-gbzeglL",
+        "CUnpostedDesc": "-Fallback-scrubbed-mJQjHPgkvGtFLXUG", "PartnTypeCode": "-Fallback-scrubbed-W",
+        "PostOverrideFlag": "-Fallback-scrubbed-S", "ScmstAbbrevPartnCode": "-Fallback-scrubbed-RtzeXR",
+        "ScmstAcctDescription": null, "ScmstActionCode": null, "ScmstAltVenAddCode":
+        null, "ScmstAppCode": null, "ScmstArAmt": null, "ScmstBankAccount": "-Fallback-scrubbed-GDRC",
+        "ScmstBankDept": "-Fallback-scrubbed-kQ", "ScmstBillCode": null, "ScmstCashAmt":
+        null, "ScmstCdiFlag": "-Fallback-scrubbed-h", "ScmstChgCode": "-Fallback-scrubbed-UZA",
+        "ScmstChqHandleCode": null, "ScmstCloseDate": null, "ScmstClvValueCode1":
+        null, "ScmstClvValueCode2": null, "ScmstClvValueCode3": null, "ScmstClvValueCode4":
+        null, "ScmstClvValueCode5": null, "ScmstClvValueCode6": null, "ScmstCmBudrCode":
+        null, "ScmstCmChgCode": null, "ScmstCmCompCode": null, "ScmstCmJobCode": null,
+        "ScmstCompCode": "001", "ScmstComplFlag": "-Fallback-scrubbed-h", "ScmstContAmt":
+        6607, "ScmstContCode": "-Fallback-scrubbed-NMZtkPVtTm", "ScmstContType": "-Fallback-scrubbed-KBjdHOUszxb",
+        "ScmstContactCode": null, "ScmstContactName": null, "ScmstCorrespAddCode":
+        null, "ScmstCreateContOnFlyFlag": "-Fallback-scrubbed-C", "ScmstCurcFactorNum":
+        3923, "ScmstCurrCode": "-Fallback-scrubbed-mKI", "ScmstCurrName": "-Fallback-scrubbed-swSGMTIGS",
+        "ScmstDate": "-Fallback-scrubbed-OPXmEoMjwh", "ScmstDefaultTaxesFlag": "-Fallback-scrubbed-C",
+        "ScmstDesc": null, "ScmstDfltAmt": null, "ScmstDfltCatCode": null, "ScmstDfltPhsCode":
+        null, "ScmstDoNotExceedAmt": null, "ScmstEndDate": null, "ScmstExecutedDate":
+        null, "ScmstGcsPayRequestFlag": null, "ScmstGstAmt": null, "ScmstGstPc": 2878,
+        "ScmstHldbkPc": 2878, "ScmstHldbkPcRule": null, "ScmstHldbkRlsFromSc": "-Fallback-scrubbed-C",
+        "ScmstHoldPaymentDays": 2878, "ScmstHoldPaymentFlag": "-Fallback-scrubbed-C",
+        "ScmstImpactDays": null, "ScmstInvEntryState": "-Fallback-scrubbed-gz", "ScmstInvHldbkTaxFlag":
+        "-Fallback-scrubbed-h", "ScmstIssuedDate": null, "ScmstIuCreateDate": "2026-08-03T14:57:24-04:00",
+        "ScmstIuUpdateDate": "2026-08-03T14:57:24-04:00", "ScmstJobCode": "-Fallback-scrubbed-rsjDeye",
+        "ScmstJobCtrlCode": "-Fallback-scrubbed-OiG", "ScmstMainChgCode": null, "ScmstMainContCode":
+        null, "ScmstMainVenCode": null, "ScmstName": "-Fallback-scrubbed-dxZOLkVqtv",
+        "ScmstNonCreditInclTaxAmt": null, "ScmstNonCreditTaxAmt": null, "ScmstOrigBidpAmt":
+        null, "ScmstOrigBidpOraseq": null, "ScmstOvrrideNotExceedFlag": "-Fallback-scrubbed-h",
+        "ScmstOverrideFlag": null, "ScmstPbContCode": null, "ScmstPbCustCode": null,
+        "ScmstPostBatch": null, "ScmstPostDate": null, "ScmstPreferedQuoteFlag": "-Fallback-scrubbed-C",
+        "ScmstPrintedCoFlag": "-Fallback-scrubbed-h", "ScmstProjOraseq": 5300, "ScmstRating":
+        null, "ScmstRctReferenceNum": null, "ScmstReceivedDate": null, "ScmstRecipientEmail":
+        null, "ScmstRevBatch": null, "ScmstRevDate": null, "ScmstScControlAmt": null,
+        "ScmstSchedExistsFlag": "-Fallback-scrubbed-C", "ScmstScheduleFlag": "-Fallback-scrubbed-h",
+        "ScmstScopeDesc": "-Fallback-scrubbed-jQNMDLyfbeHQCTLdILOcyfVeTbTeWnRntJzeSSpF",
+        "ScmstScschLastSeqNumUsed": 3923, "ScmstSelfBilledFlag": "-Fallback-scrubbed-h",
+        "ScmstSenderEmail": null, "ScmstSepVouPerJobFlag": "-Fallback-scrubbed-h",
+        "ScmstSrcCode": null, "ScmstStartDate": null, "ScmstStatCode": "-Fallback-scrubbed-W",
+        "ScmstStatusCode": "-Fallback-scrubbed-mqEUNub", "ScmstSubcontrCode": "-Fallback-scrubbed-bdPp",
+        "ScmstSubcontractorChgCode": null, "ScmstTax1Code": null, "ScmstTax2Code":
+        null, "ScmstTax3Code": null, "ScmstTermCode": "-Fallback-scrubbed-fMHyw",
+        "ScmstTermName": "-Fallback-scrubbed-SrSnow", "ScmstTexturaFlag": null, "ScmstUser":
+        "-Fallback-scrubbed-vFxLuDMSqSIubGXr", "ScmstUserPrvlgFlag": "-Fallback-scrubbed-C",
+        "ScmstVenCode": "-Fallback-scrubbed-RtzeXR", "ScmstVenName": "-Fallback-scrubbed-adPjrJsWktFCpBQkPvmRjYnfdQgRrPv",
+        "ScmstVUuid": "5829F6A6025541B9E06331121DACD731", "ScmstDepositAmt": 2878,
+        "ScmstDepositApprovalDate": "-Fallback-scrubbed-RoykTpCPcVYvcHhrUpBjuSGZy",
+        "ScmstDepositPct": 2878, "ScmstWorkflowStatus": null, "ScmstDateTimePost":
+        null, "ScmstPost": null, "links": [{"rel": "-Fallback-scrubbed-oXWd", "href":
+        "-Fallback-scrubbed-VoWHLWDkIOLZZrPveKYDSipxxYsBWTwTrakNhnFTJvJCJcnIEQrkDjubOfpTGTaxBPawFBaRuuLERHLVTwLKspvFHjJhNWwaLXofdVxExUTvPRQAQADrF",
+        "name": "Emily Brown", "kind": "-Fallback-scrubbed-oLNn"}, {"rel": "-Fallback-scrubbed-faqYPMrEk",
+        "href": "-Fallback-scrubbed-VoWHLWDkIOLZZrPveKYDSipxxYsBWTwTrakNhnFTJvJCJcnIEQrkDjubOfpTGTaxBPawFBaRuuLERHLVTwLKspvFHjJhNWwaLXofdVxExUTvPRQAQADrF",
+        "name": "Emily Brown", "kind": "-Fallback-scrubbed-oLNn"}, {"rel": "-Fallback-scrubbed-IcJld",
+        "href": "-Fallback-scrubbed-thrnidzmRzvkcMnTpRzPraBfevfdsjNwelxAInwPRUznoitBLMauitimvCtorUQQinLqZZRgUOEXPIpxaqncYsMZqLoEvPiiDpCdNbDOEHkEPDkVJlbpkFaicPSHvtAXVpxKEEHTekJIAyuAvyyR",
+        "name": "Luis Campbell", "kind": "-Fallback-scrubbed-lEdcPxwsxN"}, {"rel":
+        "-Fallback-scrubbed-jwxDNUnMX", "href": "-Fallback-scrubbed-DKMoEDlRvfhfeaKmgEdOChArQwzOsZwwzlbdZFMVkJIBXohODKubmhSqtGXZdUJCtGZzRXYEnfRayGzHpqHhggiMBzDbUnbBSmoqEXECcRFgHswWgqqeglnGtzGaOGWTGENLgwKoNcXLeLLl",
+        "name": "Amanda Tucker", "kind": "-Fallback-scrubbed-tuxWX"}]}, {"CChangeDesc":
+        "-Fallback-scrubbed-ImwvXBgbOpqRjMv", "CNewRevisedDesc": "-Fallback-scrubbed-CQavdvTulCf",
+        "COriginalDesc": "-Fallback-scrubbed-mwZkfABy", "CRecievedDesc": "-Fallback-scrubbed-gbzeglL",
+        "CTitle1": "-Fallback-scrubbed-mwZkfABy", "CTitle2": "-Fallback-scrubbed-MFFpwLwPvgQme",
+        "CTitle3": "-Fallback-scrubbed-FTxqBaROgCPzVr", "CTitle4": "-Fallback-scrubbed-gbzeglL",
+        "CUnpostedDesc": "-Fallback-scrubbed-mJQjHPgkvGtFLXUG", "PartnTypeCode": "-Fallback-scrubbed-W",
+        "PostOverrideFlag": "-Fallback-scrubbed-S", "ScmstAbbrevPartnCode": "-Fallback-scrubbed-oTnIHW",
+        "ScmstAcctDescription": null, "ScmstActionCode": null, "ScmstAltVenAddCode":
+        null, "ScmstAppCode": null, "ScmstArAmt": null, "ScmstBankAccount": "-Fallback-scrubbed-GDRC",
+        "ScmstBankDept": "-Fallback-scrubbed-kQ", "ScmstBillCode": null, "ScmstCashAmt":
+        null, "ScmstCdiFlag": "-Fallback-scrubbed-h", "ScmstChgCode": "-Fallback-scrubbed-UZA",
+        "ScmstChqHandleCode": null, "ScmstCloseDate": null, "ScmstClvValueCode1":
+        null, "ScmstClvValueCode2": null, "ScmstClvValueCode3": null, "ScmstClvValueCode4":
+        null, "ScmstClvValueCode5": null, "ScmstClvValueCode6": null, "ScmstCmBudrCode":
+        null, "ScmstCmChgCode": null, "ScmstCmCompCode": null, "ScmstCmJobCode": null,
+        "ScmstCompCode": "001", "ScmstComplFlag": "-Fallback-scrubbed-h", "ScmstContAmt":
+        null, "ScmstContCode": "-Fallback-scrubbed-QZpLvPBmjSm", "ScmstContType":
+        "-Fallback-scrubbed-KBjdHOUszxb", "ScmstContactCode": null, "ScmstContactName":
+        null, "ScmstCorrespAddCode": null, "ScmstCreateContOnFlyFlag": "-Fallback-scrubbed-C",
+        "ScmstCurcFactorNum": 3923, "ScmstCurrCode": "-Fallback-scrubbed-mKI", "ScmstCurrName":
+        "-Fallback-scrubbed-swSGMTIGS", "ScmstDate": "-Fallback-scrubbed-CmGXguEqVK",
+        "ScmstDefaultTaxesFlag": "-Fallback-scrubbed-C", "ScmstDesc": null, "ScmstDfltAmt":
+        null, "ScmstDfltCatCode": null, "ScmstDfltPhsCode": null, "ScmstDoNotExceedAmt":
+        2134, "ScmstEndDate": null, "ScmstExecutedDate": null, "ScmstGcsPayRequestFlag":
+        null, "ScmstGstAmt": null, "ScmstGstPc": 2878, "ScmstHldbkPc": 4881, "ScmstHldbkPcRule":
+        null, "ScmstHldbkRlsFromSc": "-Fallback-scrubbed-C", "ScmstHoldPaymentDays":
+        2878, "ScmstHoldPaymentFlag": "-Fallback-scrubbed-C", "ScmstImpactDays": null,
+        "ScmstInvEntryState": "-Fallback-scrubbed-gz", "ScmstInvHldbkTaxFlag": "-Fallback-scrubbed-h",
+        "ScmstIssuedDate": null, "ScmstIuCreateDate": "2026-07-31T17:16:01-04:00",
+        "ScmstIuUpdateDate": "2026-07-31T17:16:01-04:00", "ScmstJobCode": "-Fallback-scrubbed-EuZOgttFPT",
+        "ScmstJobCtrlCode": "-Fallback-scrubbed-OiG", "ScmstMainChgCode": null, "ScmstMainContCode":
+        null, "ScmstMainVenCode": null, "ScmstName": "-Fallback-scrubbed-cZbTMcWvlPEnZonpLKuXkPexYFGco",
+        "ScmstNonCreditInclTaxAmt": null, "ScmstNonCreditTaxAmt": null, "ScmstOrigBidpAmt":
+        null, "ScmstOrigBidpOraseq": null, "ScmstOvrrideNotExceedFlag": "-Fallback-scrubbed-h",
+        "ScmstOverrideFlag": null, "ScmstPbContCode": null, "ScmstPbCustCode": null,
+        "ScmstPostBatch": null, "ScmstPostDate": null, "ScmstPreferedQuoteFlag": "-Fallback-scrubbed-C",
+        "ScmstPrintedCoFlag": "-Fallback-scrubbed-h", "ScmstProjOraseq": 856, "ScmstRating":
+        null, "ScmstRctReferenceNum": null, "ScmstReceivedDate": null, "ScmstRecipientEmail":
+        null, "ScmstRevBatch": null, "ScmstRevDate": null, "ScmstScControlAmt": null,
+        "ScmstSchedExistsFlag": "-Fallback-scrubbed-h", "ScmstScheduleFlag": "-Fallback-scrubbed-h",
+        "ScmstScopeDesc": null, "ScmstScschLastSeqNumUsed": 2878, "ScmstSelfBilledFlag":
+        "-Fallback-scrubbed-h", "ScmstSenderEmail": null, "ScmstSepVouPerJobFlag":
+        "-Fallback-scrubbed-h", "ScmstSrcCode": null, "ScmstStartDate": null, "ScmstStatCode":
+        "-Fallback-scrubbed-W", "ScmstStatusCode": "-Fallback-scrubbed-mqEUNub", "ScmstSubcontrCode":
+        "-Fallback-scrubbed-bdPp", "ScmstSubcontractorChgCode": null, "ScmstTax1Code":
+        null, "ScmstTax2Code": null, "ScmstTax3Code": null, "ScmstTermCode": "-Fallback-scrubbed-fMHyw",
+        "ScmstTermName": "-Fallback-scrubbed-SrSnow", "ScmstTexturaFlag": null, "ScmstUser":
+        "-Fallback-scrubbed-ZbpkhD", "ScmstUserPrvlgFlag": "-Fallback-scrubbed-C",
+        "ScmstVenCode": "-Fallback-scrubbed-oTnIHW", "ScmstVenName": "-Fallback-scrubbed-tyMpyVYONOmpNsbHN",
+        "ScmstVUuid": "57EEB22D87D710E9E06331121DAC5759", "ScmstDepositAmt": 2878,
+        "ScmstDepositApprovalDate": null, "ScmstDepositPct": 2878, "ScmstWorkflowStatus":
+        null, "ScmstDateTimePost": null, "ScmstPost": null, "links": [{"rel": "-Fallback-scrubbed-oXWd",
+        "href": "-Fallback-scrubbed-RaIygoBvRukURpNWZXFhPtDqpOlrEIXOACEEBMURKJqLkJRZkintfgPqKpGKiPNQJXxJUpXaoUMgTQkAGDMeIsqHMIQuTraOZGRENoGodBSkbNvUOPCPC",
+        "name": "Emily Brown", "kind": "-Fallback-scrubbed-oLNn"}, {"rel": "-Fallback-scrubbed-faqYPMrEk",
+        "href": "-Fallback-scrubbed-RaIygoBvRukURpNWZXFhPtDqpOlrEIXOACEEBMURKJqLkJRZkintfgPqKpGKiPNQJXxJUpXaoUMgTQkAGDMeIsqHMIQuTraOZGRENoGodBSkbNvUOPCPC",
+        "name": "Emily Brown", "kind": "-Fallback-scrubbed-oLNn"}, {"rel": "-Fallback-scrubbed-IcJld",
+        "href": "-Fallback-scrubbed-MysqAUdAEeyCMWtwoWqnWLBgoMzrWkthGJMCqTpzkBEPXkpmwkdfYtBdJGDszwubtuDFlpzeydkBgdvbIwAFpjxlGRdtzEZXZWyXnbPPrDhepkTegdIsJcmnPRNxRtpzcggPdALDXHJlPTTbwsjU",
+        "name": "Luis Campbell", "kind": "-Fallback-scrubbed-lEdcPxwsxN"}, {"rel":
+        "-Fallback-scrubbed-jwxDNUnMX", "href": "-Fallback-scrubbed-jHoFrbkiAjzuGwWKwKGQoPnVuzIsmnigXuWUJgtDGDMyeelfdidRgqGULmbxQOKUrNKHPRnnKDVGwEqeBSepxHEUPdPjALnnzubGpgKtquJhJgxQnAUxKDRFWiLkdiyLpBOzMWIWWfpmilHy",
+        "name": "Amanda Tucker", "kind": "-Fallback-scrubbed-tuxWX"}]}, {"CChangeDesc":
+        "-Fallback-scrubbed-ImwvXBgbOpqRjMv", "CNewRevisedDesc": "-Fallback-scrubbed-CQavdvTulCf",
+        "COriginalDesc": "-Fallback-scrubbed-mwZkfABy", "CRecievedDesc": "-Fallback-scrubbed-gbzeglL",
+        "CTitle1": "-Fallback-scrubbed-mwZkfABy", "CTitle2": "-Fallback-scrubbed-MFFpwLwPvgQme",
+        "CTitle3": "-Fallback-scrubbed-FTxqBaROgCPzVr", "CTitle4": "-Fallback-scrubbed-gbzeglL",
+        "CUnpostedDesc": "-Fallback-scrubbed-mJQjHPgkvGtFLXUG", "PartnTypeCode": "-Fallback-scrubbed-W",
+        "PostOverrideFlag": "-Fallback-scrubbed-S", "ScmstAbbrevPartnCode": "-Fallback-scrubbed-oTnIHW",
+        "ScmstAcctDescription": null, "ScmstActionCode": null, "ScmstAltVenAddCode":
+        null, "ScmstAppCode": null, "ScmstArAmt": null, "ScmstBankAccount": "-Fallback-scrubbed-GDRC",
+        "ScmstBankDept": "-Fallback-scrubbed-kQ", "ScmstBillCode": null, "ScmstCashAmt":
+        null, "ScmstCdiFlag": "-Fallback-scrubbed-h", "ScmstChgCode": "-Fallback-scrubbed-UZA",
+        "ScmstChqHandleCode": null, "ScmstCloseDate": null, "ScmstClvValueCode1":
+        null, "ScmstClvValueCode2": null, "ScmstClvValueCode3": null, "ScmstClvValueCode4":
+        null, "ScmstClvValueCode5": null, "ScmstClvValueCode6": null, "ScmstCmBudrCode":
+        null, "ScmstCmChgCode": null, "ScmstCmCompCode": null, "ScmstCmJobCode": null,
+        "ScmstCompCode": "001", "ScmstComplFlag": "-Fallback-scrubbed-h", "ScmstContAmt":
+        null, "ScmstContCode": "-Fallback-scrubbed-WZLZoKvpIWO", "ScmstContType":
+        "-Fallback-scrubbed-KBjdHOUszxb", "ScmstContactCode": null, "ScmstContactName":
+        null, "ScmstCorrespAddCode": null, "ScmstCreateContOnFlyFlag": "-Fallback-scrubbed-C",
+        "ScmstCurcFactorNum": 3923, "ScmstCurrCode": "-Fallback-scrubbed-mKI", "ScmstCurrName":
+        "-Fallback-scrubbed-swSGMTIGS", "ScmstDate": "-Fallback-scrubbed-CmGXguEqVK",
+        "ScmstDefaultTaxesFlag": "-Fallback-scrubbed-C", "ScmstDesc": null, "ScmstDfltAmt":
+        null, "ScmstDfltCatCode": null, "ScmstDfltPhsCode": null, "ScmstDoNotExceedAmt":
+        1021, "ScmstEndDate": null, "ScmstExecutedDate": null, "ScmstGcsPayRequestFlag":
+        null, "ScmstGstAmt": null, "ScmstGstPc": 2878, "ScmstHldbkPc": 4881, "ScmstHldbkPcRule":
+        null, "ScmstHldbkRlsFromSc": "-Fallback-scrubbed-C", "ScmstHoldPaymentDays":
+        2878, "ScmstHoldPaymentFlag": "-Fallback-scrubbed-C", "ScmstImpactDays": null,
+        "ScmstInvEntryState": "-Fallback-scrubbed-gz", "ScmstInvHldbkTaxFlag": "-Fallback-scrubbed-h",
+        "ScmstIssuedDate": null, "ScmstIuCreateDate": "2026-07-31T16:07:14-04:00",
+        "ScmstIuUpdateDate": "2026-07-31T16:17:47-04:00", "ScmstJobCode": "-Fallback-scrubbed-KosLByAlTv",
+        "ScmstJobCtrlCode": "-Fallback-scrubbed-OiG", "ScmstMainChgCode": null, "ScmstMainContCode":
+        null, "ScmstMainVenCode": null, "ScmstName": "-Fallback-scrubbed-NndDLWfEWTzEOdfAFERjs",
+        "ScmstNonCreditInclTaxAmt": null, "ScmstNonCreditTaxAmt": null, "ScmstOrigBidpAmt":
+        null, "ScmstOrigBidpOraseq": null, "ScmstOvrrideNotExceedFlag": "-Fallback-scrubbed-h",
+        "ScmstOverrideFlag": null, "ScmstPbContCode": null, "ScmstPbCustCode": null,
+        "ScmstPostBatch": null, "ScmstPostDate": null, "ScmstPreferedQuoteFlag": "-Fallback-scrubbed-C",
+        "ScmstPrintedCoFlag": "-Fallback-scrubbed-h", "ScmstProjOraseq": 6688, "ScmstRating":
+        null, "ScmstRctReferenceNum": null, "ScmstReceivedDate": null, "ScmstRecipientEmail":
+        null, "ScmstRevBatch": null, "ScmstRevDate": null, "ScmstScControlAmt": null,
+        "ScmstSchedExistsFlag": "-Fallback-scrubbed-h", "ScmstScheduleFlag": "-Fallback-scrubbed-h",
+        "ScmstScopeDesc": null, "ScmstScschLastSeqNumUsed": 2878, "ScmstSelfBilledFlag":
+        "-Fallback-scrubbed-h", "ScmstSenderEmail": null, "ScmstSepVouPerJobFlag":
+        "-Fallback-scrubbed-h", "ScmstSrcCode": null, "ScmstStartDate": null, "ScmstStatCode":
+        "-Fallback-scrubbed-W", "ScmstStatusCode": "-Fallback-scrubbed-mqEUNub", "ScmstSubcontrCode":
+        "-Fallback-scrubbed-bdPp", "ScmstSubcontractorChgCode": null, "ScmstTax1Code":
+        null, "ScmstTax2Code": null, "ScmstTax3Code": null, "ScmstTermCode": "-Fallback-scrubbed-fMHyw",
+        "ScmstTermName": "-Fallback-scrubbed-SrSnow", "ScmstTexturaFlag": null, "ScmstUser":
+        "-Fallback-scrubbed-ZbpkhD", "ScmstUserPrvlgFlag": "-Fallback-scrubbed-C",
+        "ScmstVenCode": "-Fallback-scrubbed-oTnIHW", "ScmstVenName": "-Fallback-scrubbed-tyMpyVYONOmpNsbHN",
+        "ScmstVUuid": "57EEB22D87CB10E9E06331121DAC5759", "ScmstDepositAmt": 2878,
+        "ScmstDepositApprovalDate": null, "ScmstDepositPct": 2878, "ScmstWorkflowStatus":
+        null, "ScmstDateTimePost": null, "ScmstPost": null, "links": [{"rel": "-Fallback-scrubbed-oXWd",
+        "href": "-Fallback-scrubbed-NMSlByhAtLbmAnzsMZCVnRGqrwtOdbNSAwJEzaNdiqHbdcoOeyOZVNKdWubEfmGPTJECoSOIUqysQRsOEzTnBWMXjIKVhZPhtpMpLMMZsWdRPTJzcpZVh",
+        "name": "Emily Brown", "kind": "-Fallback-scrubbed-oLNn"}, {"rel": "-Fallback-scrubbed-faqYPMrEk",
+        "href": "-Fallback-scrubbed-NMSlByhAtLbmAnzsMZCVnRGqrwtOdbNSAwJEzaNdiqHbdcoOeyOZVNKdWubEfmGPTJECoSOIUqysQRsOEzTnBWMXjIKVhZPhtpMpLMMZsWdRPTJzcpZVh",
+        "name": "Emily Brown", "kind": "-Fallback-scrubbed-oLNn"}, {"rel": "-Fallback-scrubbed-IcJld",
+        "href": "-Fallback-scrubbed-OtEnxZXbaCINcDOVsmIqZYHuFPOOzCIRUOYmEELBLFLzufgqakBJeamnuOSZynAtEnznRxlFdLUWyQbLKsmxyCTGwwjQeXEiJvNGmXyauEWzsUmwJgYtKbQzgmgzRULkeSGpFRwrpXQrEyGtJkYm",
+        "name": "Luis Campbell", "kind": "-Fallback-scrubbed-lEdcPxwsxN"}, {"rel":
+        "-Fallback-scrubbed-jwxDNUnMX", "href": "-Fallback-scrubbed-YOFJgYnrBjauLdIEHbcUjjJsHHWEaiFPMYzUeIzMcvOsEPOYKYySUpNKJOmJRfeClZDZmdlCXASHeRUcmpAedygGJkKKXVZlFbxmMxzBDjlkzUWtMJqFmgePNprwsscQyRsCIzpcWwoJTEGr",
+        "name": "Amanda Tucker", "kind": "-Fallback-scrubbed-tuxWX"}]}, {"CChangeDesc":
+        "-Fallback-scrubbed-ImwvXBgbOpqRjMv", "CNewRevisedDesc": "-Fallback-scrubbed-CQavdvTulCf",
+        "COriginalDesc": "-Fallback-scrubbed-mwZkfABy", "CRecievedDesc": "-Fallback-scrubbed-gbzeglL",
+        "CTitle1": "-Fallback-scrubbed-mwZkfABy", "CTitle2": "-Fallback-scrubbed-MFFpwLwPvgQme",
+        "CTitle3": "-Fallback-scrubbed-FTxqBaROgCPzVr", "CTitle4": "-Fallback-scrubbed-gbzeglL",
+        "CUnpostedDesc": "-Fallback-scrubbed-mJQjHPgkvGtFLXUG", "PartnTypeCode": "-Fallback-scrubbed-W",
+        "PostOverrideFlag": "-Fallback-scrubbed-S", "ScmstAbbrevPartnCode": "-Fallback-scrubbed-qfquCJB",
+        "ScmstAcctDescription": null, "ScmstActionCode": null, "ScmstAltVenAddCode":
+        null, "ScmstAppCode": null, "ScmstArAmt": null, "ScmstBankAccount": "-Fallback-scrubbed-GDRC",
+        "ScmstBankDept": "-Fallback-scrubbed-kQ", "ScmstBillCode": null, "ScmstCashAmt":
+        null, "ScmstCdiFlag": "-Fallback-scrubbed-h", "ScmstChgCode": "-Fallback-scrubbed-UZA",
+        "ScmstChqHandleCode": null, "ScmstCloseDate": null, "ScmstClvValueCode1":
+        null, "ScmstClvValueCode2": null, "ScmstClvValueCode3": null, "ScmstClvValueCode4":
+        null, "ScmstClvValueCode5": null, "ScmstClvValueCode6": null, "ScmstCmBudrCode":
+        null, "ScmstCmChgCode": null, "ScmstCmCompCode": null, "ScmstCmJobCode": null,
+        "ScmstCompCode": "001", "ScmstComplFlag": "-Fallback-scrubbed-h", "ScmstContAmt":
+        6959, "ScmstContCode": "-Fallback-scrubbed-eSmuTKCU", "ScmstContType": "-Fallback-scrubbed-KBjdHOUszxb",
+        "ScmstContactCode": null, "ScmstContactName": null, "ScmstCorrespAddCode":
+        null, "ScmstCreateContOnFlyFlag": "-Fallback-scrubbed-C", "ScmstCurcFactorNum":
+        3923, "ScmstCurrCode": "-Fallback-scrubbed-mKI", "ScmstCurrName": "-Fallback-scrubbed-swSGMTIGS",
+        "ScmstDate": "-Fallback-scrubbed-DHFdJfsIox", "ScmstDefaultTaxesFlag": "-Fallback-scrubbed-C",
+        "ScmstDesc": null, "ScmstDfltAmt": 6959, "ScmstDfltCatCode": "-Fallback-scrubbed-e",
+        "ScmstDfltPhsCode": "-Fallback-scrubbed-YjJJV", "ScmstDoNotExceedAmt": null,
+        "ScmstEndDate": null, "ScmstExecutedDate": null, "ScmstGcsPayRequestFlag":
+        null, "ScmstGstAmt": 2878, "ScmstGstPc": 2878, "ScmstHldbkPc": 4881, "ScmstHldbkPcRule":
+        null, "ScmstHldbkRlsFromSc": "-Fallback-scrubbed-C", "ScmstHoldPaymentDays":
+        2878, "ScmstHoldPaymentFlag": "-Fallback-scrubbed-C", "ScmstImpactDays": null,
+        "ScmstInvEntryState": "-Fallback-scrubbed-gz", "ScmstInvHldbkTaxFlag": "-Fallback-scrubbed-h",
+        "ScmstIssuedDate": null, "ScmstIuCreateDate": "2026-06-30T16:28:28-04:00",
+        "ScmstIuUpdateDate": "2026-08-03T13:23:15-04:00", "ScmstJobCode": "-Fallback-scrubbed-MvBGg",
+        "ScmstJobCtrlCode": "-Fallback-scrubbed-OiG", "ScmstMainChgCode": null, "ScmstMainContCode":
+        null, "ScmstMainVenCode": null, "ScmstName": "-Fallback-scrubbed-MZhvXoGFRcTumkoGKfKMRNHhNOaFPbhwueEj",
+        "ScmstNonCreditInclTaxAmt": 2878, "ScmstNonCreditTaxAmt": 2878, "ScmstOrigBidpAmt":
+        null, "ScmstOrigBidpOraseq": null, "ScmstOvrrideNotExceedFlag": "-Fallback-scrubbed-h",
+        "ScmstOverrideFlag": null, "ScmstPbContCode": null, "ScmstPbCustCode": null,
+        "ScmstPostBatch": 3455, "ScmstPostDate": "-Fallback-scrubbed-TefxPLnDtT",
+        "ScmstPreferedQuoteFlag": "-Fallback-scrubbed-C", "ScmstPrintedCoFlag": null,
+        "ScmstProjOraseq": 9686, "ScmstRating": null, "ScmstRctReferenceNum": null,
+        "ScmstReceivedDate": null, "ScmstRecipientEmail": null, "ScmstRevBatch": null,
+        "ScmstRevDate": null, "ScmstScControlAmt": null, "ScmstSchedExistsFlag": "-Fallback-scrubbed-C",
+        "ScmstScheduleFlag": "-Fallback-scrubbed-C", "ScmstScopeDesc": "-Fallback-scrubbed-kQDNGxiaCnTtkgYnUVnEgYIioPtHmvhAnLvxqXPPfmhSkIOa",
+        "ScmstScschLastSeqNumUsed": 3923, "ScmstSelfBilledFlag": "-Fallback-scrubbed-h",
+        "ScmstSenderEmail": null, "ScmstSepVouPerJobFlag": "-Fallback-scrubbed-h",
+        "ScmstSrcCode": null, "ScmstStartDate": null, "ScmstStatCode": "-Fallback-scrubbed-y",
+        "ScmstStatusCode": "-Fallback-scrubbed-cPUmJf", "ScmstSubcontrCode": "-Fallback-scrubbed-bdPp",
+        "ScmstSubcontractorChgCode": null, "ScmstTax1Code": null, "ScmstTax2Code":
+        null, "ScmstTax3Code": null, "ScmstTermCode": "-Fallback-scrubbed-fMHyw",
+        "ScmstTermName": "-Fallback-scrubbed-SrSnow", "ScmstTexturaFlag": null, "ScmstUser":
+        "-Fallback-scrubbed-ZbpkhD", "ScmstUserPrvlgFlag": "-Fallback-scrubbed-C",
+        "ScmstVenCode": "-Fallback-scrubbed-qfquCJB", "ScmstVenName": "-Fallback-scrubbed-DELNwBpXmlaDAUnU",
+        "ScmstVUuid": "557F3E80476FE3DBE06331121DAC01B5", "ScmstDepositAmt": 2878,
+        "ScmstDepositApprovalDate": null, "ScmstDepositPct": 2878, "ScmstWorkflowStatus":
+        null, "ScmstDateTimePost": "-Fallback-scrubbed-FydSgrCGquukuadlQiyzDqVpz",
+        "ScmstPost": null, "links": [{"rel": "-Fallback-scrubbed-oXWd", "href": "-Fallback-scrubbed-EhzyAkAIozChhMkMGelEzMOtYQirMdkPCoJbxtKzouucuSYqyjqPjUdNDHCNyHGxKHNTAyvxXfdovtqPmwuFWtisulxIBdJbUYLQPiKZGQArfHtiwRyOo",
+        "name": "Emily Brown", "kind": "-Fallback-scrubbed-oLNn"}, {"rel": "-Fallback-scrubbed-faqYPMrEk",
+        "href": "-Fallback-scrubbed-EhzyAkAIozChhMkMGelEzMOtYQirMdkPCoJbxtKzouucuSYqyjqPjUdNDHCNyHGxKHNTAyvxXfdovtqPmwuFWtisulxIBdJbUYLQPiKZGQArfHtiwRyOo",
+        "name": "Emily Brown", "kind": "-Fallback-scrubbed-oLNn"}, {"rel": "-Fallback-scrubbed-IcJld",
+        "href": "-Fallback-scrubbed-wSyeQDpwtGXndtneRVhryqfkYeKyKEStujdTNNgMzZjfzxGSZFSspXLFuErNwlPDariikInraVfjOnDAPiZIqzNkBHcZROHIRRbLGpxFUBtFVRftrfOijOJloxRfdYcfvvLVspduNChdlsGTgAUV",
+        "name": "Luis Campbell", "kind": "-Fallback-scrubbed-lEdcPxwsxN"}, {"rel":
+        "-Fallback-scrubbed-jwxDNUnMX", "href": "-Fallback-scrubbed-cgspkRibnXVUVRGlIhlISdgGhkSftCmBkSrNHhoQuYfzBTwVieicJcmKzmBeGkoMLxrgYtehgPaFgUOVfgtYhtMDgYPAwWoyKhpSitwxBCwjHzwEUrJcANheNLkrLyEiHWTnQyApQPFhbbke",
+        "name": "Amanda Tucker", "kind": "-Fallback-scrubbed-tuxWX"}]}, {"CChangeDesc":
+        "-Fallback-scrubbed-ImwvXBgbOpqRjMv", "CNewRevisedDesc": "-Fallback-scrubbed-CQavdvTulCf",
+        "COriginalDesc": "-Fallback-scrubbed-mwZkfABy", "CRecievedDesc": "-Fallback-scrubbed-gbzeglL",
+        "CTitle1": "-Fallback-scrubbed-mwZkfABy", "CTitle2": "-Fallback-scrubbed-MFFpwLwPvgQme",
+        "CTitle3": "-Fallback-scrubbed-FTxqBaROgCPzVr", "CTitle4": "-Fallback-scrubbed-gbzeglL",
+        "CUnpostedDesc": "-Fallback-scrubbed-mJQjHPgkvGtFLXUG", "PartnTypeCode": "-Fallback-scrubbed-W",
+        "PostOverrideFlag": "-Fallback-scrubbed-S", "ScmstAbbrevPartnCode": "-Fallback-scrubbed-qfquCJB",
+        "ScmstAcctDescription": null, "ScmstActionCode": null, "ScmstAltVenAddCode":
+        null, "ScmstAppCode": null, "ScmstArAmt": null, "ScmstBankAccount": "-Fallback-scrubbed-GDRC",
+        "ScmstBankDept": "-Fallback-scrubbed-kQ", "ScmstBillCode": null, "ScmstCashAmt":
+        null, "ScmstCdiFlag": "-Fallback-scrubbed-h", "ScmstChgCode": "-Fallback-scrubbed-UZA",
+        "ScmstChqHandleCode": null, "ScmstCloseDate": null, "ScmstClvValueCode1":
+        null, "ScmstClvValueCode2": null, "ScmstClvValueCode3": null, "ScmstClvValueCode4":
+        null, "ScmstClvValueCode5": null, "ScmstClvValueCode6": null, "ScmstCmBudrCode":
+        null, "ScmstCmChgCode": null, "ScmstCmCompCode": null, "ScmstCmJobCode": null,
+        "ScmstCompCode": "001", "ScmstComplFlag": "-Fallback-scrubbed-h", "ScmstContAmt":
+        5722, "ScmstContCode": "-Fallback-scrubbed-vlMZhLTJ", "ScmstContType": "-Fallback-scrubbed-KBjdHOUszxb",
+        "ScmstContactCode": null, "ScmstContactName": null, "ScmstCorrespAddCode":
+        null, "ScmstCreateContOnFlyFlag": "-Fallback-scrubbed-C", "ScmstCurcFactorNum":
+        3923, "ScmstCurrCode": "-Fallback-scrubbed-mKI", "ScmstCurrName": "-Fallback-scrubbed-swSGMTIGS",
+        "ScmstDate": "-Fallback-scrubbed-DHFdJfsIox", "ScmstDefaultTaxesFlag": "-Fallback-scrubbed-C",
+        "ScmstDesc": null, "ScmstDfltAmt": 5722, "ScmstDfltCatCode": "-Fallback-scrubbed-e",
+        "ScmstDfltPhsCode": "-Fallback-scrubbed-YjJJV", "ScmstDoNotExceedAmt": null,
+        "ScmstEndDate": null, "ScmstExecutedDate": null, "ScmstGcsPayRequestFlag":
+        null, "ScmstGstAmt": 2878, "ScmstGstPc": 2878, "ScmstHldbkPc": 4881, "ScmstHldbkPcRule":
+        null, "ScmstHldbkRlsFromSc": "-Fallback-scrubbed-C", "ScmstHoldPaymentDays":
+        2878, "ScmstHoldPaymentFlag": "-Fallback-scrubbed-C", "ScmstImpactDays": null,
+        "ScmstInvEntryState": "-Fallback-scrubbed-gz", "ScmstInvHldbkTaxFlag": "-Fallback-scrubbed-h",
+        "ScmstIssuedDate": null, "ScmstIuCreateDate": "2026-06-30T17:06:05-04:00",
+        "ScmstIuUpdateDate": "2026-06-30T17:06:05-04:00", "ScmstJobCode": "-Fallback-scrubbed-MvBGg",
+        "ScmstJobCtrlCode": "-Fallback-scrubbed-OiG", "ScmstMainChgCode": null, "ScmstMainContCode":
+        null, "ScmstMainVenCode": null, "ScmstName": "-Fallback-scrubbed-czqMaxkEVlVWGbNTteNJxCVM",
+        "ScmstNonCreditInclTaxAmt": 2878, "ScmstNonCreditTaxAmt": 2878, "ScmstOrigBidpAmt":
+        null, "ScmstOrigBidpOraseq": null, "ScmstOvrrideNotExceedFlag": null, "ScmstOverrideFlag":
+        null, "ScmstPbContCode": null, "ScmstPbCustCode": null, "ScmstPostBatch":
+        7299, "ScmstPostDate": "-Fallback-scrubbed-wSgednBOcu", "ScmstPreferedQuoteFlag":
+        "-Fallback-scrubbed-C", "ScmstPrintedCoFlag": null, "ScmstProjOraseq": 9686,
+        "ScmstRating": null, "ScmstRctReferenceNum": null, "ScmstReceivedDate": null,
+        "ScmstRecipientEmail": null, "ScmstRevBatch": null, "ScmstRevDate": null,
+        "ScmstScControlAmt": null, "ScmstSchedExistsFlag": "-Fallback-scrubbed-C",
+        "ScmstScheduleFlag": "-Fallback-scrubbed-C", "ScmstScopeDesc": "-Fallback-scrubbed-TOuiEjMprEAGyasLflXbHIffBQNn",
+        "ScmstScschLastSeqNumUsed": 3923, "ScmstSelfBilledFlag": "-Fallback-scrubbed-h",
+        "ScmstSenderEmail": null, "ScmstSepVouPerJobFlag": "-Fallback-scrubbed-h",
+        "ScmstSrcCode": null, "ScmstStartDate": null, "ScmstStatCode": "-Fallback-scrubbed-y",
+        "ScmstStatusCode": "-Fallback-scrubbed-cPUmJf", "ScmstSubcontrCode": "-Fallback-scrubbed-bdPp",
+        "ScmstSubcontractorChgCode": null, "ScmstTax1Code": null, "ScmstTax2Code":
+        null, "ScmstTax3Code": null, "ScmstTermCode": "-Fallback-scrubbed-fMHyw",
+        "ScmstTermName": "-Fallback-scrubbed-SrSnow", "ScmstTexturaFlag": null, "ScmstUser":
+        "-Fallback-scrubbed-ZbpkhD", "ScmstUserPrvlgFlag": "-Fallback-scrubbed-C",
+        "ScmstVenCode": "-Fallback-scrubbed-qfquCJB", "ScmstVenName": "-Fallback-scrubbed-DELNwBpXmlaDAUnU",
+        "ScmstVUuid": "557F8A9CFCA6FD5FE06331121DAC296A", "ScmstDepositAmt": 2878,
+        "ScmstDepositApprovalDate": null, "ScmstDepositPct": 2878, "ScmstWorkflowStatus":
+        null, "ScmstDateTimePost": "-Fallback-scrubbed-zWRLlFBEkucPyaHzLMaeKOKSj",
+        "ScmstPost": null, "links": [{"rel": "-Fallback-scrubbed-oXWd", "href": "-Fallback-scrubbed-PRcMsJtumhpkRBAceSWmHbjDvjBFMNfHlnflrePEbPQZwbBXepRsGMsMRDrgqnxvlKWixLGVkEUvbeZTSIQCEVFQrcKXIGtfCnKcLXRAcYKamzScWWUSS",
+        "name": "Emily Brown", "kind": "-Fallback-scrubbed-oLNn"}, {"rel": "-Fallback-scrubbed-faqYPMrEk",
+        "href": "-Fallback-scrubbed-PRcMsJtumhpkRBAceSWmHbjDvjBFMNfHlnflrePEbPQZwbBXepRsGMsMRDrgqnxvlKWixLGVkEUvbeZTSIQCEVFQrcKXIGtfCnKcLXRAcYKamzScWWUSS",
+        "name": "Emily Brown", "kind": "-Fallback-scrubbed-oLNn"}, {"rel": "-Fallback-scrubbed-IcJld",
+        "href": "-Fallback-scrubbed-QrMAQjiUiUnDKnDPAOygbYFGpcnXjzlJEVZMCulMKaDvUyuLmEzfpzWihTnnQIMJMJQIBsSsomjcnhmVwFINGDEldqjmIKrlGBkOSiiOInykFbmWdxMNQoIFeRSviKOklfUAXSaNGULwYntExPHB",
+        "name": "Luis Campbell", "kind": "-Fallback-scrubbed-lEdcPxwsxN"}, {"rel":
+        "-Fallback-scrubbed-jwxDNUnMX", "href": "-Fallback-scrubbed-xfTZCXslEWtCmoHXWSEuUjxElqWGHxnqlKrAhUgvbOVoqKOwouchDApwFgLxHwrVMvdDCNFzVYYnDWsdDUmoSAeqKBzYryxfwBRfTkRCWHCZLlrHjCmArCjYxmTqakjxoUdvXaWQxEqRwOaZ",
+        "name": "Amanda Tucker", "kind": "-Fallback-scrubbed-tuxWX"}]}, {"CChangeDesc":
+        "-Fallback-scrubbed-ImwvXBgbOpqRjMv", "CNewRevisedDesc": "-Fallback-scrubbed-CQavdvTulCf",
+        "COriginalDesc": "-Fallback-scrubbed-mwZkfABy", "CRecievedDesc": "-Fallback-scrubbed-gbzeglL",
+        "CTitle1": "-Fallback-scrubbed-mwZkfABy", "CTitle2": "-Fallback-scrubbed-MFFpwLwPvgQme",
+        "CTitle3": "-Fallback-scrubbed-FTxqBaROgCPzVr", "CTitle4": "-Fallback-scrubbed-gbzeglL",
+        "CUnpostedDesc": "-Fallback-scrubbed-mJQjHPgkvGtFLXUG", "PartnTypeCode": "-Fallback-scrubbed-W",
+        "PostOverrideFlag": "-Fallback-scrubbed-S", "ScmstAbbrevPartnCode": "-Fallback-scrubbed-LHPEsQ",
+        "ScmstAcctDescription": null, "ScmstActionCode": null, "ScmstAltVenAddCode":
+        null, "ScmstAppCode": null, "ScmstArAmt": null, "ScmstBankAccount": "-Fallback-scrubbed-GDRC",
+        "ScmstBankDept": "-Fallback-scrubbed-kQ", "ScmstBillCode": null, "ScmstCashAmt":
+        null, "ScmstCdiFlag": "-Fallback-scrubbed-h", "ScmstChgCode": "-Fallback-scrubbed-UZA",
+        "ScmstChqHandleCode": null, "ScmstCloseDate": null, "ScmstClvValueCode1":
+        null, "ScmstClvValueCode2": null, "ScmstClvValueCode3": null, "ScmstClvValueCode4":
+        null, "ScmstClvValueCode5": null, "ScmstClvValueCode6": null, "ScmstCmBudrCode":
+        null, "ScmstCmChgCode": null, "ScmstCmCompCode": null, "ScmstCmJobCode": null,
+        "ScmstCompCode": "001", "ScmstComplFlag": "-Fallback-scrubbed-h", "ScmstContAmt":
+        null, "ScmstContCode": "-Fallback-scrubbed-VCuFmdsqaBM", "ScmstContType":
+        "-Fallback-scrubbed-KBjdHOUszxb", "ScmstContactCode": null, "ScmstContactName":
+        null, "ScmstCorrespAddCode": null, "ScmstCreateContOnFlyFlag": "-Fallback-scrubbed-C",
+        "ScmstCurcFactorNum": 3923, "ScmstCurrCode": "-Fallback-scrubbed-mKI", "ScmstCurrName":
+        "-Fallback-scrubbed-swSGMTIGS", "ScmstDate": "-Fallback-scrubbed-ODRpMlvFxx",
+        "ScmstDefaultTaxesFlag": "-Fallback-scrubbed-C", "ScmstDesc": null, "ScmstDfltAmt":
+        null, "ScmstDfltCatCode": null, "ScmstDfltPhsCode": null, "ScmstDoNotExceedAmt":
+        4977, "ScmstEndDate": null, "ScmstExecutedDate": null, "ScmstGcsPayRequestFlag":
+        null, "ScmstGstAmt": null, "ScmstGstPc": 2878, "ScmstHldbkPc": 2878, "ScmstHldbkPcRule":
+        null, "ScmstHldbkRlsFromSc": "-Fallback-scrubbed-C", "ScmstHoldPaymentDays":
+        2878, "ScmstHoldPaymentFlag": "-Fallback-scrubbed-C", "ScmstImpactDays": null,
+        "ScmstInvEntryState": "-Fallback-scrubbed-gz", "ScmstInvHldbkTaxFlag": "-Fallback-scrubbed-h",
+        "ScmstIssuedDate": null, "ScmstIuCreateDate": "2026-07-21T16:07:38-04:00",
+        "ScmstIuUpdateDate": "2026-07-21T16:09:12-04:00", "ScmstJobCode": "-Fallback-scrubbed-KosLByAlTv",
+        "ScmstJobCtrlCode": "-Fallback-scrubbed-OiG", "ScmstMainChgCode": null, "ScmstMainContCode":
+        null, "ScmstMainVenCode": null, "ScmstName": "-Fallback-scrubbed-XlVTbs",
+        "ScmstNonCreditInclTaxAmt": null, "ScmstNonCreditTaxAmt": null, "ScmstOrigBidpAmt":
+        null, "ScmstOrigBidpOraseq": null, "ScmstOvrrideNotExceedFlag": "-Fallback-scrubbed-h",
+        "ScmstOverrideFlag": null, "ScmstPbContCode": null, "ScmstPbCustCode": null,
+        "ScmstPostBatch": null, "ScmstPostDate": null, "ScmstPreferedQuoteFlag": "-Fallback-scrubbed-C",
+        "ScmstPrintedCoFlag": "-Fallback-scrubbed-h", "ScmstProjOraseq": 6688, "ScmstRating":
+        null, "ScmstRctReferenceNum": null, "ScmstReceivedDate": null, "ScmstRecipientEmail":
+        null, "ScmstRevBatch": null, "ScmstRevDate": null, "ScmstScControlAmt": null,
+        "ScmstSchedExistsFlag": "-Fallback-scrubbed-h", "ScmstScheduleFlag": "-Fallback-scrubbed-h",
+        "ScmstScopeDesc": null, "ScmstScschLastSeqNumUsed": 2878, "ScmstSelfBilledFlag":
+        "-Fallback-scrubbed-h", "ScmstSenderEmail": null, "ScmstSepVouPerJobFlag":
+        "-Fallback-scrubbed-h", "ScmstSrcCode": null, "ScmstStartDate": null, "ScmstStatCode":
+        "-Fallback-scrubbed-W", "ScmstStatusCode": "-Fallback-scrubbed-mqEUNub", "ScmstSubcontrCode":
+        "-Fallback-scrubbed-bdPp", "ScmstSubcontractorChgCode": null, "ScmstTax1Code":
+        null, "ScmstTax2Code": null, "ScmstTax3Code": null, "ScmstTermCode": "-Fallback-scrubbed-fMHyw",
+        "ScmstTermName": "-Fallback-scrubbed-SrSnow", "ScmstTexturaFlag": null, "ScmstUser":
+        "-Fallback-scrubbed-ZbpkhD", "ScmstUserPrvlgFlag": "-Fallback-scrubbed-C",
+        "ScmstVenCode": "-Fallback-scrubbed-LHPEsQ", "ScmstVenName": "-Fallback-scrubbed-ACpLlOfMxfkpdpCgLENkBwqzdXLKGeoNkl",
+        "ScmstVUuid": "57251C4E616F5C1DE06331121DACE328", "ScmstDepositAmt": 2878,
+        "ScmstDepositApprovalDate": null, "ScmstDepositPct": 2878, "ScmstWorkflowStatus":
+        null, "ScmstDateTimePost": null, "ScmstPost": null, "links": [{"rel": "-Fallback-scrubbed-oXWd",
+        "href": "-Fallback-scrubbed-EPIwojdQpNSZldPnFQgbGkkCZsrOvPNjVJydmdKQLGKsBIQPZCpJbhVgWMirECOISCgUJraWwmpxBFveuXqwWuCwxNcoWsUGQBgurBGWReWYOqzyNCfwm",
+        "name": "Emily Brown", "kind": "-Fallback-scrubbed-oLNn"}, {"rel": "-Fallback-scrubbed-faqYPMrEk",
+        "href": "-Fallback-scrubbed-EPIwojdQpNSZldPnFQgbGkkCZsrOvPNjVJydmdKQLGKsBIQPZCpJbhVgWMirECOISCgUJraWwmpxBFveuXqwWuCwxNcoWsUGQBgurBGWReWYOqzyNCfwm",
+        "name": "Emily Brown", "kind": "-Fallback-scrubbed-oLNn"}, {"rel": "-Fallback-scrubbed-IcJld",
+        "href": "-Fallback-scrubbed-dpsdbfrrHArpzBrVLSvesusKubfSccmCgviLKcQJRTnisswzPXLzhxuRhMYlnxEYSDKPiSujbPsTigEOlmgGRLrkoArjbfqzQgPBfKyOOlfxCGEQCiNPvZkufUMrBSiqcmNdQBxZQBvONRSKXaxs",
+        "name": "Luis Campbell", "kind": "-Fallback-scrubbed-lEdcPxwsxN"}, {"rel":
+        "-Fallback-scrubbed-jwxDNUnMX", "href": "-Fallback-scrubbed-HPSVcdmsXfvSUzvyzawgrWkAkAVYOsIzklQfwLQmroOhUfbqraoiQjWTJTcoxLszNHnnGcizNGqqBDJEFYLrPvOpbsWnEqPKkBeayztAxFoFazAJhtxSxaouszPjTrVaYtoqHWkpdCcfVpjq",
+        "name": "Amanda Tucker", "kind": "-Fallback-scrubbed-tuxWX"}]}, {"CChangeDesc":
+        "-Fallback-scrubbed-ImwvXBgbOpqRjMv", "CNewRevisedDesc": "-Fallback-scrubbed-CQavdvTulCf",
+        "COriginalDesc": "-Fallback-scrubbed-mwZkfABy", "CRecievedDesc": "-Fallback-scrubbed-gbzeglL",
+        "CTitle1": "-Fallback-scrubbed-mwZkfABy", "CTitle2": "-Fallback-scrubbed-MFFpwLwPvgQme",
+        "CTitle3": "-Fallback-scrubbed-FTxqBaROgCPzVr", "CTitle4": "-Fallback-scrubbed-gbzeglL",
+        "CUnpostedDesc": "-Fallback-scrubbed-mJQjHPgkvGtFLXUG", "PartnTypeCode": "-Fallback-scrubbed-W",
+        "PostOverrideFlag": "-Fallback-scrubbed-S", "ScmstAbbrevPartnCode": "-Fallback-scrubbed-TQREh",
+        "ScmstAcctDescription": null, "ScmstActionCode": null, "ScmstAltVenAddCode":
+        null, "ScmstAppCode": null, "ScmstArAmt": null, "ScmstBankAccount": "-Fallback-scrubbed-GDRC",
+        "ScmstBankDept": "-Fallback-scrubbed-kQ", "ScmstBillCode": null, "ScmstCashAmt":
+        null, "ScmstCdiFlag": "-Fallback-scrubbed-h", "ScmstChgCode": "-Fallback-scrubbed-UZA",
+        "ScmstChqHandleCode": null, "ScmstCloseDate": null, "ScmstClvValueCode1":
+        null, "ScmstClvValueCode2": null, "ScmstClvValueCode3": null, "ScmstClvValueCode4":
+        null, "ScmstClvValueCode5": null, "ScmstClvValueCode6": null, "ScmstCmBudrCode":
+        null, "ScmstCmChgCode": null, "ScmstCmCompCode": null, "ScmstCmJobCode": null,
+        "ScmstCompCode": "001", "ScmstComplFlag": "-Fallback-scrubbed-h", "ScmstContAmt":
+        null, "ScmstContCode": "-Fallback-scrubbed-LfBsOUcrFva", "ScmstContType":
+        "-Fallback-scrubbed-KBjdHOUszxb", "ScmstContactCode": null, "ScmstContactName":
+        null, "ScmstCorrespAddCode": null, "ScmstCreateContOnFlyFlag": "-Fallback-scrubbed-C",
+        "ScmstCurcFactorNum": 3923, "ScmstCurrCode": "-Fallback-scrubbed-mKI", "ScmstCurrName":
+        "-Fallback-scrubbed-swSGMTIGS", "ScmstDate": "-Fallback-scrubbed-ODRpMlvFxx",
+        "ScmstDefaultTaxesFlag": "-Fallback-scrubbed-C", "ScmstDesc": null, "ScmstDfltAmt":
+        4730, "ScmstDfltCatCode": null, "ScmstDfltPhsCode": null, "ScmstDoNotExceedAmt":
+        4730, "ScmstEndDate": null, "ScmstExecutedDate": null, "ScmstGcsPayRequestFlag":
+        null, "ScmstGstAmt": null, "ScmstGstPc": 9131, "ScmstHldbkPc": 9577, "ScmstHldbkPcRule":
+        null, "ScmstHldbkRlsFromSc": "-Fallback-scrubbed-C", "ScmstHoldPaymentDays":
+        2878, "ScmstHoldPaymentFlag": "-Fallback-scrubbed-C", "ScmstImpactDays": null,
+        "ScmstInvEntryState": "-Fallback-scrubbed-gz", "ScmstInvHldbkTaxFlag": "-Fallback-scrubbed-h",
+        "ScmstIssuedDate": null, "ScmstIuCreateDate": "2026-07-21T08:59:46-04:00",
+        "ScmstIuUpdateDate": "2026-07-21T08:59:46-04:00", "ScmstJobCode": "-Fallback-scrubbed-KosLByAlTv",
+        "ScmstJobCtrlCode": "-Fallback-scrubbed-OiG", "ScmstMainChgCode": null, "ScmstMainContCode":
+        null, "ScmstMainVenCode": null, "ScmstName": "-Fallback-scrubbed-biilYriMvIVZYK",
+        "ScmstNonCreditInclTaxAmt": null, "ScmstNonCreditTaxAmt": null, "ScmstOrigBidpAmt":
+        null, "ScmstOrigBidpOraseq": null, "ScmstOvrrideNotExceedFlag": "-Fallback-scrubbed-h",
+        "ScmstOverrideFlag": null, "ScmstPbContCode": null, "ScmstPbCustCode": null,
+        "ScmstPostBatch": null, "ScmstPostDate": null, "ScmstPreferedQuoteFlag": "-Fallback-scrubbed-C",
+        "ScmstPrintedCoFlag": "-Fallback-scrubbed-h", "ScmstProjOraseq": 6688, "ScmstRating":
+        null, "ScmstRctReferenceNum": null, "ScmstReceivedDate": null, "ScmstRecipientEmail":
+        null, "ScmstRevBatch": null, "ScmstRevDate": null, "ScmstScControlAmt": null,
+        "ScmstSchedExistsFlag": "-Fallback-scrubbed-h", "ScmstScheduleFlag": "-Fallback-scrubbed-h",
+        "ScmstScopeDesc": null, "ScmstScschLastSeqNumUsed": 2878, "ScmstSelfBilledFlag":
+        "-Fallback-scrubbed-h", "ScmstSenderEmail": null, "ScmstSepVouPerJobFlag":
+        "-Fallback-scrubbed-h", "ScmstSrcCode": null, "ScmstStartDate": null, "ScmstStatCode":
+        "-Fallback-scrubbed-W", "ScmstStatusCode": "-Fallback-scrubbed-mqEUNub", "ScmstSubcontrCode":
+        "-Fallback-scrubbed-bdPp", "ScmstSubcontractorChgCode": null, "ScmstTax1Code":
+        null, "ScmstTax2Code": null, "ScmstTax3Code": null, "ScmstTermCode": "-Fallback-scrubbed-fMHyw",
+        "ScmstTermName": "-Fallback-scrubbed-SrSnow", "ScmstTexturaFlag": null, "ScmstUser":
+        "-Fallback-scrubbed-ZbpkhD", "ScmstUserPrvlgFlag": "-Fallback-scrubbed-C",
+        "ScmstVenCode": "-Fallback-scrubbed-TQREh", "ScmstVenName": "-Fallback-scrubbed-DJhyLGVNZM",
+        "ScmstVUuid": "571F98EDAEA5969BE06331121DACE62C", "ScmstDepositAmt": 2878,
+        "ScmstDepositApprovalDate": null, "ScmstDepositPct": 2878, "ScmstWorkflowStatus":
+        null, "ScmstDateTimePost": null, "ScmstPost": null, "links": [{"rel": "-Fallback-scrubbed-oXWd",
+        "href": "-Fallback-scrubbed-xLRiWeoKDlyQqRXcMtZPIYITGZOSMCKiFlevMRgFJrurQKTeNlsjeDIxzIqIyUOkMIwsxBlRWAbOxYxpGMwYxKkowMnChjAdkmlzWOxIawopvrNTBYSyF",
+        "name": "Emily Brown", "kind": "-Fallback-scrubbed-oLNn"}, {"rel": "-Fallback-scrubbed-faqYPMrEk",
+        "href": "-Fallback-scrubbed-xLRiWeoKDlyQqRXcMtZPIYITGZOSMCKiFlevMRgFJrurQKTeNlsjeDIxzIqIyUOkMIwsxBlRWAbOxYxpGMwYxKkowMnChjAdkmlzWOxIawopvrNTBYSyF",
+        "name": "Emily Brown", "kind": "-Fallback-scrubbed-oLNn"}, {"rel": "-Fallback-scrubbed-IcJld",
+        "href": "-Fallback-scrubbed-VGDAHPZKIpucXSacHXfJkdogICmhiXBoctkCEyFleYZtzxAZuARJiUdXSEyoHzBATqscXvCNnQLOUUBNbRFlEsqHqLgWScSSZQqyoKRoFqSOrgdDDiPcyfLtZEzuCOhCcfaosfaoqSPIFFPbLEKd",
+        "name": "Luis Campbell", "kind": "-Fallback-scrubbed-lEdcPxwsxN"}, {"rel":
+        "-Fallback-scrubbed-jwxDNUnMX", "href": "-Fallback-scrubbed-DvfLXSIrSBOWzLYKNKIHygiFBilrMAoxbAzLOhtbcPNNwtyEAlhgAthMzugRZdIMPZydrIEYwqEgoxtcNJrcWglsHijrjDzpOGJWCmtRrohumOgVuBBiLdpRbRTpjdQWYAyExeoIZMwzoHAz",
+        "name": "Amanda Tucker", "kind": "-Fallback-scrubbed-tuxWX"}]}, {"CChangeDesc":
+        "-Fallback-scrubbed-ImwvXBgbOpqRjMv", "CNewRevisedDesc": "-Fallback-scrubbed-CQavdvTulCf",
+        "COriginalDesc": "-Fallback-scrubbed-mwZkfABy", "CRecievedDesc": "-Fallback-scrubbed-gbzeglL",
+        "CTitle1": "-Fallback-scrubbed-mwZkfABy", "CTitle2": "-Fallback-scrubbed-MFFpwLwPvgQme",
+        "CTitle3": "-Fallback-scrubbed-FTxqBaROgCPzVr", "CTitle4": "-Fallback-scrubbed-gbzeglL",
+        "CUnpostedDesc": "-Fallback-scrubbed-mJQjHPgkvGtFLXUG", "PartnTypeCode": "-Fallback-scrubbed-W",
+        "PostOverrideFlag": "-Fallback-scrubbed-S", "ScmstAbbrevPartnCode": "-Fallback-scrubbed-qfquCJB",
+        "ScmstAcctDescription": null, "ScmstActionCode": null, "ScmstAltVenAddCode":
+        null, "ScmstAppCode": null, "ScmstArAmt": null, "ScmstBankAccount": "-Fallback-scrubbed-GDRC",
+        "ScmstBankDept": "-Fallback-scrubbed-kQ", "ScmstBillCode": null, "ScmstCashAmt":
+        null, "ScmstCdiFlag": "-Fallback-scrubbed-h", "ScmstChgCode": "-Fallback-scrubbed-UZA",
+        "ScmstChqHandleCode": null, "ScmstCloseDate": null, "ScmstClvValueCode1":
+        null, "ScmstClvValueCode2": null, "ScmstClvValueCode3": null, "ScmstClvValueCode4":
+        null, "ScmstClvValueCode5": null, "ScmstClvValueCode6": null, "ScmstCmBudrCode":
+        null, "ScmstCmChgCode": null, "ScmstCmCompCode": null, "ScmstCmJobCode": null,
+        "ScmstCompCode": "001", "ScmstComplFlag": "-Fallback-scrubbed-h", "ScmstContAmt":
+        null, "ScmstContCode": "-Fallback-scrubbed-TFCzKSNbvFf", "ScmstContType":
+        "-Fallback-scrubbed-KBjdHOUszxb", "ScmstContactCode": null, "ScmstContactName":
+        null, "ScmstCorrespAddCode": null, "ScmstCreateContOnFlyFlag": "-Fallback-scrubbed-C",
+        "ScmstCurcFactorNum": 3923, "ScmstCurrCode": "-Fallback-scrubbed-mKI", "ScmstCurrName":
+        "-Fallback-scrubbed-swSGMTIGS", "ScmstDate": "-Fallback-scrubbed-DHFdJfsIox",
+        "ScmstDefaultTaxesFlag": "-Fallback-scrubbed-C", "ScmstDesc": null, "ScmstDfltAmt":
+        9078, "ScmstDfltCatCode": null, "ScmstDfltPhsCode": null, "ScmstDoNotExceedAmt":
+        null, "ScmstEndDate": null, "ScmstExecutedDate": null, "ScmstGcsPayRequestFlag":
+        null, "ScmstGstAmt": null, "ScmstGstPc": 2878, "ScmstHldbkPc": 4881, "ScmstHldbkPcRule":
+        null, "ScmstHldbkRlsFromSc": "-Fallback-scrubbed-C", "ScmstHoldPaymentDays":
+        2878, "ScmstHoldPaymentFlag": "-Fallback-scrubbed-C", "ScmstImpactDays": null,
+        "ScmstInvEntryState": "-Fallback-scrubbed-gz", "ScmstInvHldbkTaxFlag": "-Fallback-scrubbed-h",
+        "ScmstIssuedDate": null, "ScmstIuCreateDate": "2026-06-30T14:48:46-04:00",
+        "ScmstIuUpdateDate": "2026-06-30T14:49:13-04:00", "ScmstJobCode": "-Fallback-scrubbed-JxfSyrgOK",
+        "ScmstJobCtrlCode": "-Fallback-scrubbed-OiG", "ScmstMainChgCode": null, "ScmstMainContCode":
+        null, "ScmstMainVenCode": null, "ScmstName": "-Fallback-scrubbed-UsLbSwTAHpxJYQMOWVQBf",
+        "ScmstNonCreditInclTaxAmt": null, "ScmstNonCreditTaxAmt": null, "ScmstOrigBidpAmt":
+        null, "ScmstOrigBidpOraseq": null, "ScmstOvrrideNotExceedFlag": null, "ScmstOverrideFlag":
+        null, "ScmstPbContCode": null, "ScmstPbCustCode": null, "ScmstPostBatch":
+        null, "ScmstPostDate": null, "ScmstPreferedQuoteFlag": "-Fallback-scrubbed-C",
+        "ScmstPrintedCoFlag": null, "ScmstProjOraseq": 3433, "ScmstRating": null,
+        "ScmstRctReferenceNum": null, "ScmstReceivedDate": null, "ScmstRecipientEmail":
+        null, "ScmstRevBatch": null, "ScmstRevDate": null, "ScmstScControlAmt": null,
+        "ScmstSchedExistsFlag": "-Fallback-scrubbed-C", "ScmstScheduleFlag": "-Fallback-scrubbed-C",
+        "ScmstScopeDesc": "-Fallback-scrubbed-RDPRLBEMAxItbfg", "ScmstScschLastSeqNumUsed":
+        2878, "ScmstSelfBilledFlag": "-Fallback-scrubbed-h", "ScmstSenderEmail": null,
+        "ScmstSepVouPerJobFlag": "-Fallback-scrubbed-h", "ScmstSrcCode": null, "ScmstStartDate":
+        null, "ScmstStatCode": "-Fallback-scrubbed-W", "ScmstStatusCode": "-Fallback-scrubbed-mqEUNub",
+        "ScmstSubcontrCode": "-Fallback-scrubbed-bdPp", "ScmstSubcontractorChgCode":
+        null, "ScmstTax1Code": null, "ScmstTax2Code": null, "ScmstTax3Code": null,
+        "ScmstTermCode": "-Fallback-scrubbed-fMHyw", "ScmstTermName": "-Fallback-scrubbed-SrSnow",
+        "ScmstTexturaFlag": null, "ScmstUser": "-Fallback-scrubbed-ZbpkhD", "ScmstUserPrvlgFlag":
+        "-Fallback-scrubbed-C", "ScmstVenCode": "-Fallback-scrubbed-qfquCJB", "ScmstVenName":
+        "-Fallback-scrubbed-DELNwBpXmlaDAUnU", "ScmstVUuid": "557DA0D4166B56E8E06331121DAC9786",
+        "ScmstDepositAmt": 2878, "ScmstDepositApprovalDate": null, "ScmstDepositPct":
+        2878, "ScmstWorkflowStatus": null, "ScmstDateTimePost": null, "ScmstPost":
+        null, "links": [{"rel": "-Fallback-scrubbed-oXWd", "href": "-Fallback-scrubbed-ppBjntFIbmyobkowOzBIhpjcOhRzpJtlVGagEWvRSHOtZKIMqMHmcdzaDMohmquIEbNHKfEUobDxLIaPukFVAmrdhIBDTJwKxEZWbqZZgEBDAhgamnJSG",
+        "name": "Emily Brown", "kind": "-Fallback-scrubbed-oLNn"}, {"rel": "-Fallback-scrubbed-faqYPMrEk",
+        "href": "-Fallback-scrubbed-ppBjntFIbmyobkowOzBIhpjcOhRzpJtlVGagEWvRSHOtZKIMqMHmcdzaDMohmquIEbNHKfEUobDxLIaPukFVAmrdhIBDTJwKxEZWbqZZgEBDAhgamnJSG",
+        "name": "Emily Brown", "kind": "-Fallback-scrubbed-oLNn"}, {"rel": "-Fallback-scrubbed-IcJld",
+        "href": "-Fallback-scrubbed-IfYBZVDyCvYvBGjiOhHXOOmtXgJqcmjKFGWeNsfvsCtsghKTbANgSrGhoFyrapXtgDfJeRawirqUlCrjuudxPgBEsWwEgWlCGYWmYumRukYEkchPHlDBCSnBhMNRObWlsXRIydZTScGSRSMlgqFJ",
+        "name": "Luis Campbell", "kind": "-Fallback-scrubbed-lEdcPxwsxN"}, {"rel":
+        "-Fallback-scrubbed-jwxDNUnMX", "href": "-Fallback-scrubbed-TdqxnIxRfJbIABXhAFiHVtqnWMklwihuwhHNzBNtbTVbZGAGmOmvZXCrwlUwOIPxgRHlSAhFBiPomPmzeueaLCwpVSaKMareFGOLSNeiyawqRritTplBtcUjlInTALuTkXUillInaPrJpIrv",
+        "name": "Amanda Tucker", "kind": "-Fallback-scrubbed-tuxWX"}]}], "count":
+        4966, "hasMore": false, "limit": 3646, "offset": 2878, "links": [{"rel": "-Fallback-scrubbed-oXWd",
+        "href": "-Fallback-scrubbed-FCDadFLrCApweXbNydHkcCYJzIpKbbEvUESwAshanfHbEpBGoywbstRYklPYqvyHTqiJiazKRWgarnVUwxSH",
+        "name": "Emily Brown", "kind": "-Fallback-scrubbed-lEdcPxwsxN"}]}'
+    headers:
+      CF-RAY:
+      - a29a148bad91f1d1-GRU
+      Cache-Control:
+      - no-cache, no-store, must-revalidate
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/vnd.oracle.adf.resourcecollection+json
+      Date:
+      - Tue, 11 Aug 2026 20:44:47 GMT
+      Link:
+      - <http://partner-sandbox-api-basic.cmiccloud.com:80/cmicprtn/pm-rest-api/rest/1/scmast>;rel="self";kind="collection";name="scmast"
+      Location:
+      - ''
+      REST-Framework-Version:
+      - '2'
+      Server:
+      - cloudflare
+      Vary:
+      - Content-Encoding
+      - accept-encoding
+      X-ORACLE-DMS-ECID:
+      - 64ded8df-1c62-41c1-b6b9-05e93d6845d5-0000518a
+      X-ORACLE-DMS-RID:
+      - '0'
+      cf-cache-status:
+      - DYNAMIC
+      content-length:
+      - '81556'
+    status:
+      code: 200
+      message: OK
+version: 1

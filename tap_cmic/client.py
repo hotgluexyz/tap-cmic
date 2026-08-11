@@ -20,6 +20,7 @@ class CMiCStream(RESTStream):
     finder_template: str | None = None
     query_template: str | None = None
     is_inclusive = False
+    comp_code_field: str | None = None
 
     @override
     @property
@@ -40,6 +41,18 @@ class CMiCStream(RESTStream):
             username=self.config["username"],
             password=self.config["password"],
         )
+
+    @property
+    def comp_code(self) -> str | None:
+        return self.config.get("comp_code")
+
+    def _company_scoped_query(self, filter_expr: str) -> str:
+        company_q = f"{self.comp_code_field} = '{self.comp_code}'"
+        
+        if not filter_expr:
+            return company_q
+        
+        return f"{company_q} and ({filter_expr})"
 
     def get_next_page_token(
         self,
@@ -92,6 +105,10 @@ class CMiCStream(RESTStream):
                 "{replication_key_value}",
                 replication_key_value,
             )
+
+        if self.comp_code and self.comp_code_field:
+            params["q"] = self._company_scoped_query(params.get("q", ""))
+
         return params
 
     @override

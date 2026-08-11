@@ -1,0 +1,93 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.33.1
+    method: GET
+    uri: https://partner-sandbox-api-basic.cmiccloud.com/cmicprtn/ap-rest-api/rest/1/apvendor?limit=500&finder=selectByDate%3BauditDate%3D2026-08-03T14%3A55%3A27-0400&q=BpvenCompCode+%3D+%27001%27
+  response:
+    body:
+      string: '{"items": [{"BpvenCompCode": "001", "BpvenCompName": "-Fallback-scrubbed-geFuAJkIsNaLOeXlRrBhSGuuUuxAB",
+        "BpvenBpCode": "-Fallback-scrubbed-soAqJs", "BpvenBpName": "-Fallback-scrubbed-VTnwmTaHVZLyjpbkjUkluKsKyBPGWcR",
+        "BpvenPayAdd1": null, "BpvenPayAdd2": null, "BpvenPayAdd3": null, "BpvenPayRegionCode":
+        null, "BpvenPayRegionName": null, "BpvenPayCountry": null, "BpvenPayPostalCode":
+        null, "BpvenPayContactName": null, "BpvenPayPhone": null, "BpvenPayFax": null,
+        "BpvenPayEmail": null, "BpvenWebSite": null, "BpvenBuyCode": null, "BpvenClassCode":
+        null, "BpvenClassName": null, "BpvenStatusCode": "-Fallback-scrubbed-h", "BpvenPrefCode":
+        null, "BpvenPrefName": null, "BpvenTermCode": "-Fallback-scrubbed-KWvVk",
+        "BpvenTermName": "-Fallback-scrubbed-xWoJTE", "Bpven1099Code": null, "Bpven1099Name":
+        null, "BpvenAltAddCode": null, "BpvenAltAddName": null, "BpvenShpinstDesc":
+        null, "BpvenActiveFlag": "-Fallback-scrubbed-M", "Bpven5018RepFlag": "-Fallback-scrubbed-D",
+        "BpvenOneTimeFlag": "-Fallback-scrubbed-S", "BpvenUseApctrlComplFlag": null,
+        "BpvenSpecialTermsFlag": "-Fallback-scrubbed-S", "BpvenOrdAdd1": null, "BpvenOrdAdd2":
+        null, "BpvenOrdAdd3": null, "BpvenOrdRegionCode": null, "BpvenOrdCountry":
+        null, "BpvenOrdPostalCode": null, "BpvenOrdContactName": null, "BpvenOrdPhone":
+        null, "BpvenOrdFax": null, "BpvenOrdEmail": null, "BpvenCurrCode": "-Fallback-scrubbed-gyx",
+        "BpvenInvSerCode": null, "BpvenDistTypeCode": "-Fallback-scrubbed-K", "BpvenHldbkPc":
+        null, "BpvenAllowTranFlag": "-Fallback-scrubbed-M", "BpvenCheckMergeFlag":
+        "-Fallback-scrubbed-S", "BpvenDiscreteChqFlag": "-Fallback-scrubbed-S", "BpvenPrenoteFlag":
+        null, "BpvenTppayCode": null, "BpvenDefaultPayCode": "-Fallback-scrubbed-S",
+        "BpvenEftFlag": null, "BpvenEftEmail": null, "BpvenPrefContactMth": "-Fallback-scrubbed-p",
+        "BpvenEmpNo": null, "BpvenBankCode": null, "BpvenBankAccNum1": null, "BpvenBankAccNum2":
+        null, "BpvenBankAccNum3": null, "BpvenPaymodeId": null, "BpvenIbanNum": null,
+        "BpvenSwiftBicCode": null, "BpvenApDeptCode": "-Fallback-scrubbed-yM", "BpvenApAccCode":
+        "-Fallback-scrubbed-TKWI", "BpvenCashDeptCode": "-Fallback-scrubbed-yM", "BpvenCashAccCode":
+        "-Fallback-scrubbed-BETk", "BpvenExpDeptCode": "-Fallback-scrubbed-yM", "BpvenExpAccCode":
+        "-Fallback-scrubbed-ABoF", "BpvenPpeDeptCode": "-Fallback-scrubbed-yM", "BpvenPpeAccCode":
+        "-Fallback-scrubbed-TjOr", "BpvenDiscDeptCode": "-Fallback-scrubbed-yM", "BpvenDiscAccCode":
+        "-Fallback-scrubbed-YQTN", "BpvenHldbkDeptCode": "-Fallback-scrubbed-yM",
+        "BpvenHldbkAccCode": "-Fallback-scrubbed-ixrz", "BpvenTax1Code": null, "BpvenTaxlic1":
+        null, "BpvenTax2Code": null, "BpvenTaxlic2": null, "BpvenTax3Code": null,
+        "BpvenTaxlic3": null, "BpvenTax4Code": null, "BpvenTaxlic4": null, "BpvenTax5Code":
+        null, "BpvenTaxlic5": null, "BpvenVUuid": "5829F6A6024A41B9E06331121DACD731",
+        "BpvenIuCreateDate": "2026-08-03T14:52:10-04:00", "BpvenIuUpdateDate": "2026-08-03T14:57:24-04:00",
+        "BpIuCreateDate": "-Fallback-scrubbed-AFcNZfHneiWzaXcMeSPZlSYxE", "BpIuUpdateDate":
+        null, "BpvenEftPaymentType": null, "links": [{"rel": "-Fallback-scrubbed-wMrn",
+        "href": "-Fallback-scrubbed-zJPeVykDtfZHDGGnBVsKQTWQrcMWpJNNGDkXtTaPQEFXDifIZGpFaMYJxQqsZBwwqDoqkKmydsyjxNfhjVCXpgqSpAyKVEyEGLGTEacKUeidTkokDbRRZoT",
+        "name": "Heather Johnson", "kind": "-Fallback-scrubbed-Jqlv"}, {"rel": "-Fallback-scrubbed-yDFMWPaQu",
+        "href": "-Fallback-scrubbed-zJPeVykDtfZHDGGnBVsKQTWQrcMWpJNNGDkXtTaPQEFXDifIZGpFaMYJxQqsZBwwqDoqkKmydsyjxNfhjVCXpgqSpAyKVEyEGLGTEacKUeidTkokDbRRZoT",
+        "name": "Heather Johnson", "kind": "-Fallback-scrubbed-Jqlv"}]}], "count":
+        416, "hasMore": false, "limit": 906, "offset": 5525, "links": [{"rel": "-Fallback-scrubbed-wMrn",
+        "href": "-Fallback-scrubbed-WgtjEhUgEaqMrFOczPCzWbiqVXjPEdmnKGtSZZsyqqutBEHZHZKdbeIdczQsYxOObCwbBkCEIJFkjQQhNaYNAE",
+        "name": "Heather Johnson", "kind": "-Fallback-scrubbed-TgyLJSGsvY"}]}'
+    headers:
+      CF-RAY:
+      - a29a155b8b44794f-GRU
+      Cache-Control:
+      - no-cache, no-store, must-revalidate
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/vnd.oracle.adf.resourcecollection+json
+      Date:
+      - Tue, 11 Aug 2026 20:45:20 GMT
+      Link:
+      - <http://partner-sandbox-api-basic.cmiccloud.com:80/cmicprtn/ap-rest-api/rest/1/apvendor>;rel="self";kind="collection";name="apvendor"
+      Location:
+      - ''
+      REST-Framework-Version:
+      - '2'
+      Server:
+      - cloudflare
+      Vary:
+      - Content-Encoding
+      - accept-encoding
+      X-ORACLE-DMS-ECID:
+      - 64ded8df-1c62-41c1-b6b9-05e93d6845d5-0000519a
+      X-ORACLE-DMS-RID:
+      - '0'
+      cf-cache-status:
+      - DYNAMIC
+      content-length:
+      - '3676'
+    status:
+      code: 200
+      message: OK
+version: 1

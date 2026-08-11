@@ -4,7 +4,40 @@ from tap_cmic.tap import TapCMiC
 
 
 class Runner(VCRTapTestRunner):
-    PRESERVE_KEYS = {"hasMore"}
+    PRESERVE_KEYS = {
+        "hasMore",
+        "hg_modified_at",
+        # companies
+        "CompVUuid",
+        "CompIuUpdateDate",
+        "CompIuCreateDate",
+        "CompCode",
+        # projects
+        "GrpmpVUuid",
+        "GrpmpIuUpdateDate",
+        "GrpmpIuCreateDate",
+        "GrpmpCompCode",
+        # contracts
+        "ScmstVUuid",
+        "ScmstIuUpdateDate",
+        "ScmstIuCreateDate",
+        "ScmstCompCode",
+        # vouchers
+        "VouNum",
+        "VouIuUpdateDate",
+        "VouIuCreateDate",
+        "VouCompCode",
+        # vendors
+        "BpvenVUuid",
+        "BpvenIuUpdateDate",
+        "BpvenIuCreateDate",
+        "BpvenCompCode",
+        # insurances
+        "InsVUuid",
+        "InsIuUpdateDate",
+        "InsIuCreateDate",
+        "InsCompCode",
+    }
     TOKEN_KEYS = {*VCRTapTestRunner.TOKEN_KEYS, "username"}
 
     def module(self) -> str:

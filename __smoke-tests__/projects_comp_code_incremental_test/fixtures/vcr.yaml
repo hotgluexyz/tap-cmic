@@ -1,0 +1,159 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.33.1
+    method: GET
+    uri: https://partner-sandbox-api-basic.cmiccloud.com/cmicprtn/pm-rest-api/rest/1/pmproject?limit=500&finder=selectByPmProjInfo%3BpmprojectDate%3D2026-08-03T13%3A49%3A40-0400&q=GrpmpCompCode+%3D+%27001%27
+  response:
+    body:
+      string: '{"items": [{"GrpmpAddContactName": "-Fallback-scrubbed-eAZUUouYF",
+        "GrpmpAddLine1": "-Fallback-scrubbed-xh", "GrpmpAddLine2": "-Fallback-scrubbed-IaUIMnxAjCg",
+        "GrpmpAddLine3": "-Fallback-scrubbed-xNqrtAZoXd", "GrpmpAgendaItemIdMask":
+        "-Fallback-scrubbed-fQpgeOBLr", "GrpmpArchitectName": null, "GrpmpAutoCalcMarkupFlag":
+        "-Fallback-scrubbed-A", "GrpmpBallInCourtReportFlg": "-Fallback-scrubbed-A",
+        "GrpmpBidDate": "-Fallback-scrubbed-MTdnpRzoAB", "GrpmpBidJobCode": null,
+        "GrpmpBidJobDeptCode": null, "GrpmpBidJobDeptName": null, "GrpmpBidJobName":
+        null, "GrpmpBidMask": "-Fallback-scrubbed-nN", "GrpmpBidMaskOverride": "-Fallback-scrubbed-A",
+        "GrpmpBidMaskSeqProj": "-Fallback-scrubbed-j", "GrpmpBidWonLostDate": "-Fallback-scrubbed-FKCKvzskgG",
+        "GrpmpCalcIssueDtOnWrkdys": "-Fallback-scrubbed-A", "GrpmpCalcOcoDtOnWrkdys":
+        "-Fallback-scrubbed-j", "GrpmpCalcPmntcDtOnWrkdys": "-Fallback-scrubbed-A",
+        "GrpmpCalcPmplDtOnWrkdys": "-Fallback-scrubbed-A", "GrpmpCalcRfiDtOnWrkdys":
+        "-Fallback-scrubbed-A", "GrpmpCalcSbmtDtOnWrkdys": "-Fallback-scrubbed-A",
+        "GrpmpClosedDate": null, "GrpmpClvValueCode1": null, "GrpmpClvValueCode2":
+        null, "GrpmpClvValueCode3": null, "GrpmpClvValueCode4": null, "GrpmpClvValueCode5":
+        null, "GrpmpClvValueCode6": null, "GrpmpCollabUrl": "-Fallback-scrubbed-cXdtNPomSqvOQOsSyUWRkHUUzOxHTAHYtOfkvSsRzgNXSZENFoTLqNckSFUfoyGtXxeJBZLIfmqxPOmTJJQNdNvBngQVonjTgjOiGdoTKZWithTLQUUoISJyhZNBUdpovRYWbrlriEYxkTRmpGlKxzgYEnivhPCHqZKbkhMumbSuDvlnFnfpxVxtjFeHFCkVWTUNGmqvrVyFUMwZHmOcHMhWYYhicchQPgTOuSXRzvWjyJpMyZsvPRkWuVbMSca",
+        "GrpmpCommlgMask": "-Fallback-scrubbed-TwEv", "GrpmpCommlgMaskOverride": "-Fallback-scrubbed-A",
+        "GrpmpCommlgMaskSeqProj": "-Fallback-scrubbed-j", "GrpmpCompCode": "001",
+        "GrpmpCompName": "-Fallback-scrubbed-ZAoNOOQsaGKRKNWtnFBwaYvocAYqi", "GrpmpCorrAdd1":
+        null, "GrpmpCorrAdd2": null, "GrpmpCorrAdd3": null, "GrpmpCorrAddContactName":
+        null, "GrpmpCorrCountry": null, "GrpmpCorrPostalCode": null, "GrpmpCorrRegionCode":
+        null, "GrpmpCorrespondenceAddrCode": null, "GrpmpCountry": "-Fallback-scrubbed-sl",
+        "GrpmpCreateJobFlag": "-Fallback-scrubbed-c", "GrpmpCurrContAmt": 6773, "GrpmpCustAdd1":
+        "-Fallback-scrubbed-AvfITjvJoX", "GrpmpCustAdd2": null, "GrpmpCustAdd3": "-Fallback-scrubbed-ohaqafm",
+        "GrpmpCustAddCode": null, "GrpmpCustAddContactName": null, "GrpmpCustCode":
+        "-Fallback-scrubbed-BftWVw", "GrpmpCustCountry": "-Fallback-scrubbed-yrq",
+        "GrpmpCustName": "-Fallback-scrubbed-KFgJlZfUj", "GrpmpCustPostalCode": "-Fallback-scrubbed-ecfdM",
+        "GrpmpCustRegionCode": "-Fallback-scrubbed-zr", "GrpmpDayjrMask": "-Fallback-scrubbed-iFgQZEKv",
+        "GrpmpDayjrMaskOverride": "-Fallback-scrubbed-A", "GrpmpDayjrMaskSeqProj":
+        "-Fallback-scrubbed-j", "GrpmpDefaultBillTypeCode": "-Fallback-scrubbed-bn",
+        "GrpmpDefaultBillTypeName": "-Fallback-scrubbed-KdWtrVMYWvqYEJnfcXyoIAYBQPQ",
+        "GrpmpDefaultBilltoAddCode": null, "GrpmpDefaultBilltoAddName": null, "GrpmpDefaultBuyCode":
+        null, "GrpmpDefaultDeliveryPeriod": null, "GrpmpDefaultInvoiceFormat": "-Fallback-scrubbed-RmRE",
+        "GrpmpDefaultJbMapCode": "-Fallback-scrubbed-YtCs", "GrpmpDefaultJbMapName":
+        "-Fallback-scrubbed-YgrlFJcYKGQpdCISzbJlV", "GrpmpDefaultJobBillMethod": "-Fallback-scrubbed-Ko",
+        "GrpmpDefaultReqCode": null, "GrpmpDefaultRfiPeriod": 374, "GrpmpDefaultShiptoAddCode":
+        null, "GrpmpDefaultShiptoAddName": null, "GrpmpDeptCode": "-Fallback-scrubbed-JMm",
+        "GrpmpDeptName": "-Fallback-scrubbed-kOVLXnhxwdPyb", "GrpmpDfltCmdetailMode":
+        "-Fallback-scrubbed-k", "GrpmpDfltDjAttachmentFlag": "-Fallback-scrubbed-A",
+        "GrpmpDfltDjGeneralFlag": "-Fallback-scrubbed-A", "GrpmpDfltDjLabForceFlag":
+        "-Fallback-scrubbed-A", "GrpmpDfltDjMaterialsFlag": "-Fallback-scrubbed-A",
+        "GrpmpDfltDjNotesFlag": "-Fallback-scrubbed-A", "GrpmpDfltDjOeOnJobFlag":
+        "-Fallback-scrubbed-A", "GrpmpDfltDjOwnEqpFlag": "-Fallback-scrubbed-A", "GrpmpDfltDjOwnLabFlag":
+        "-Fallback-scrubbed-A", "GrpmpDfltDjSafetyFlag": "-Fallback-scrubbed-A", "GrpmpDfltDjTasksFlag":
+        "-Fallback-scrubbed-j", "GrpmpDfltDjTlCompFlag": "-Fallback-scrubbed-j", "GrpmpDfltDjTradeEqpFlag":
+        "-Fallback-scrubbed-j", "GrpmpDfltDjTradeLabFlag": "-Fallback-scrubbed-j",
+        "GrpmpDfltDjUnitcFlag": "-Fallback-scrubbed-A", "GrpmpDfltDjVisitorsFlag":
+        "-Fallback-scrubbed-A", "GrpmpDfltInvoiceFormatNm": "-Fallback-scrubbed-KEsgNKwabVtWrIFiPllKEaUWLvw",
+        "GrpmpDfltIssueRevPeriod": 374, "GrpmpDfltLeadTimeStage1": 4228, "GrpmpDfltLeadTimeStage2":
+        1530, "GrpmpDfltLeadTimeStage3": 8988, "GrpmpDfltLeadTimeStage4": 4228, "GrpmpDfltLeadTimeStage5":
+        8988, "GrpmpDfltLeadTimeStage6": 374, "GrpmpDfltMeetingFootnote": "-Fallback-scrubbed-TiRXPRKhZgrYFXSaVIDaUdOcZoDAumAwPqxLxklNRnXXOlEzVTxFMfhXAQPRsrsrJHmFQFzkOqpgZHNeFYHWJFXvVQcPGmQrnalpSkrfTIEoEWkRXyNoNRIbvZhwjnqSG",
+        "GrpmpDfltPlistComplPeriod": 374, "GrpmpDfltPmntcRevPeriod": 374, "GrpmpDfltRfiContactCode":
+        null, "GrpmpDfltRfiContactName": null, "GrpmpDfltRfiPartnCode": null, "GrpmpDfltRfiPartnTypeCode":
+        null, "GrpmpDfltRfqReviewDays": 4228, "GrpmpDfltSbmtContactCode": null, "GrpmpDfltSbmtContactName":
+        null, "GrpmpDfltSbmtPartnCode": null, "GrpmpDfltSbmtPtnTypeCode": null, "GrpmpEndDate":
+        "-Fallback-scrubbed-yeXxaocSxv", "GrpmpEntryRfiAnsByFlag": "-Fallback-scrubbed-j",
+        "GrpmpEntryRfiAnsDateFlag": "-Fallback-scrubbed-j", "GrpmpFaxNum": null, "GrpmpFwdMask":
+        "-Fallback-scrubbed-qvC", "GrpmpFwdMaskOverride": "-Fallback-scrubbed-A",
+        "GrpmpFwdMaskSeqProj": "-Fallback-scrubbed-j", "GrpmpHardBidFlag": "-Fallback-scrubbed-A",
+        "GrpmpIssueIdMask": "-Fallback-scrubbed-qvC", "GrpmpIssueIdMaskOverride":
+        "-Fallback-scrubbed-A", "GrpmpIssueIdMaskSeqProj": "-Fallback-scrubbed-j",
+        "GrpmpItbSenderEmail": null, "GrpmpItbSenderName": null, "GrpmpIuCreateDate":
+        "2026-07-30T15:06:54-04:00", "GrpmpIuUpdateDate": "2026-08-03T14:10:05-04:00",
+        "GrpmpJobAllowTransFlag": "-Fallback-scrubbed-j", "GrpmpJobBidFlag": "-Fallback-scrubbed-A",
+        "GrpmpJobBillMethCode": "-Fallback-scrubbed-Ko", "GrpmpJobBillingTypeCode":
+        "-Fallback-scrubbed-bn", "GrpmpJobBillingTypeName": "-Fallback-scrubbed-KdWtrVMYWvqYEJnfcXyoIAYBQPQ",
+        "GrpmpJobCode": "-Fallback-scrubbed-PBibIiDOOD", "GrpmpJobCreationDate": null,
+        "GrpmpJobDeptCode": "-Fallback-scrubbed-JMm", "GrpmpJobDeptName": "-Fallback-scrubbed-kOVLXnhxwdPyb",
+        "GrpmpJobInvoiceFormatCode": "-Fallback-scrubbed-RmRE", "GrpmpJobInvoiceFormatNm":
+        "-Fallback-scrubbed-KEsgNKwabVtWrIFiPllKEaUWLvw", "GrpmpJobJbMapCode": "-Fallback-scrubbed-YtCs",
+        "GrpmpJobJbMapName": "-Fallback-scrubbed-YgrlFJcYKGQpdCISzbJlV", "GrpmpJobName":
+        "-Fallback-scrubbed-JAPPGMGmLSMDCRLNkEWqoslY", "GrpmpJobOrigBudgetEffDate":
+        "-Fallback-scrubbed-pZTlFrAwkO", "GrpmpJobSecGroup": "-Fallback-scrubbed-ktiuFTzvfw",
+        "GrpmpJobStatusCode": "-Fallback-scrubbed-m", "GrpmpKeyWordDesc": null, "GrpmpLienWaiverText":
+        null, "GrpmpManagerName": null, "GrpmpMeetingIdMask": null, "GrpmpMobileUrl":
+        "-Fallback-scrubbed-cXdtNPomSqvOQOsSyUWRkHUUzOxHTAHYtOfkvSsRzgNXSZENFoTLqNckSFUfoyGtXxeJBZLIfmqxPOmTJJQNdNvBngQVonjTgjOiGdoTKZWithTLQUUoISJyhZNBUdpovRYWbrlriEYxkTRmpGlKxzgYEnivhPCHqZKbkhMumbSuDvlnFnfpxVxtjFeHFCkVWTUNGmqvrVyFUMwZHmOcHMhWYYhicchQPgTOuSXRzvWjyJpMyZsvPRkWuVbMSca",
+        "GrpmpNoticeMask": "-Fallback-scrubbed-qvC", "GrpmpNoticeMaskOverride": "-Fallback-scrubbed-A",
+        "GrpmpNoticeMaskSeqProj": "-Fallback-scrubbed-j", "GrpmpOcoOrigContAmtOvrd":
+        "-Fallback-scrubbed-j", "GrpmpOrigContOverrideAmt": null, "GrpmpPartnAbbrevInRfiId":
+        "-Fallback-scrubbed-j", "GrpmpPartnAbbrevInTrnsmId": "-Fallback-scrubbed-j",
+        "GrpmpPciUseScopeAmtFlag": "-Fallback-scrubbed-A", "GrpmpPhoneNum": "-Fallback-scrubbed-fSRHKEXpYD",
+        "GrpmpPmplMask": "-Fallback-scrubbed-nN", "GrpmpPmplMaskOverride": "-Fallback-scrubbed-A",
+        "GrpmpPmplMaskSeqProj": "-Fallback-scrubbed-j", "GrpmpPmpliMask": "-Fallback-scrubbed-qvC",
+        "GrpmpPmpliMaskSeqProj": "-Fallback-scrubbed-A", "GrpmpPostalCode": "-Fallback-scrubbed-aHimp",
+        "GrpmpProjCode": "-Fallback-scrubbed-PBibIiDOOD", "GrpmpProjCtrlCode": "-Fallback-scrubbed-bfo",
+        "GrpmpProjDescription": "-Fallback-scrubbed-QrWDYCwHexhgItGXpZcaIdxjgYgsMuwMFmlbYwVYGSkWHXLPX",
+        "GrpmpProjEndDtUpdateable": "-Fallback-scrubbed-j", "GrpmpProjName": "-Fallback-scrubbed-JAPPGMGmLSMDCRLNkEWqoslY",
+        "GrpmpProjPhotoUrl": null, "GrpmpRegionCode": "-Fallback-scrubbed-FS", "GrpmpRegionName":
+        "-Fallback-scrubbed-pMHBUtTRWcHFmlyVIgVp", "GrpmpRfiMask": "-Fallback-scrubbed-TwEv",
+        "GrpmpRfiMaskOverride": "-Fallback-scrubbed-A", "GrpmpRfiMaskSeqProj": "-Fallback-scrubbed-j",
+        "GrpmpRsschedVerCode": null, "GrpmpRsschedVerName": null, "GrpmpSbmtApprvContactCode":
+        null, "GrpmpSbmtApprvPartnCode": null, "GrpmpSbmtApprvPtnTypeCode": null,
+        "GrpmpSbmtMask": "-Fallback-scrubbed-dmkPrwCDFy", "GrpmpSbmtMaskOverride":
+        "-Fallback-scrubbed-A", "GrpmpSbmtMaskSeqProj": "-Fallback-scrubbed-j", "GrpmpSbmtpMask":
+        "-Fallback-scrubbed-nN", "GrpmpSbmtpMaskOverride": "-Fallback-scrubbed-A",
+        "GrpmpSbmtpMaskSeqProj": "-Fallback-scrubbed-j", "GrpmpStartDate": "-Fallback-scrubbed-pZTlFrAwkO",
+        "GrpmpStartPageUrl": null, "GrpmpStatusCode": "-Fallback-scrubbed-FpKy", "GrpmpSubcontractedVolumeAmt":
+        6773, "GrpmpSuperintName": null, "GrpmpTrnsmMask": "-Fallback-scrubbed-LxytXwiNR",
+        "GrpmpTrnsmMaskOverride": "-Fallback-scrubbed-A", "GrpmpTrnsmMaskSeqProj":
+        "-Fallback-scrubbed-j", "GrpmpUseBidItemEaFlag": "-Fallback-scrubbed-IC",
+        "GrpmpVUuid": "57D9C6795837D78FE06331121DAC3856", "GrpmpWorkLocCode": null,
+        "GrpmpWorkLocName": null, "GrpmpOwnerCode": null, "GrpmpConttypeCode": null,
+        "links": [{"rel": "-Fallback-scrubbed-AYpt", "href": "-Fallback-scrubbed-NjYImpvLCcFfDAHNZeoTjfIQoGoPejwZxMIuSsTWWVxXiDzgfmwRqtjvYOGTbGZOzzITBYLegPkuDqvAGxyPMWjhLWHjFTAUSTsEXpWIQFHqPFHnrnEoKbND",
+        "name": "Angela Wright", "kind": "-Fallback-scrubbed-RFeO"}, {"rel": "-Fallback-scrubbed-sLOfNgrNj",
+        "href": "-Fallback-scrubbed-NjYImpvLCcFfDAHNZeoTjfIQoGoPejwZxMIuSsTWWVxXiDzgfmwRqtjvYOGTbGZOzzITBYLegPkuDqvAGxyPMWjhLWHjFTAUSTsEXpWIQFHqPFHnrnEoKbND",
+        "name": "Angela Wright", "kind": "-Fallback-scrubbed-RFeO"}]}], "count": 4274,
+        "hasMore": false, "limit": 2466, "offset": 4228, "links": [{"rel": "-Fallback-scrubbed-AYpt",
+        "href": "-Fallback-scrubbed-PRGPPEUJFWJHGwJNWSmJQFJaRyfiOsMIQwIqqWkxRwceRUiECNbjSIvPbjWZIbbwjxNWQBxXEImcAJoZGEDNtJr",
+        "name": "Angela Wright", "kind": "-Fallback-scrubbed-XIhLCUwNDN"}]}'
+    headers:
+      CF-RAY:
+      - a29a153fee23875f-GRU
+      Cache-Control:
+      - no-cache, no-store, must-revalidate
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/vnd.oracle.adf.resourcecollection+json
+      Date:
+      - Tue, 11 Aug 2026 20:45:16 GMT
+      Link:
+      - <http://partner-sandbox-api-basic.cmiccloud.com:80/cmicprtn/pm-rest-api/rest/1/pmproject>;rel="self";kind="collection";name="pmproject"
+      Location:
+      - ''
+      REST-Framework-Version:
+      - '2'
+      Server:
+      - cloudflare
+      Vary:
+      - Content-Encoding
+      - accept-encoding
+      X-ORACLE-DMS-ECID:
+      - 64ded8df-1c62-41c1-b6b9-05e93d6845d5-00005199
+      X-ORACLE-DMS-RID:
+      - '0'
+      cf-cache-status:
+      - DYNAMIC
+      content-length:
+      - '8695'
+    status:
+      code: 200
+      message: OK
+version: 1

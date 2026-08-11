@@ -1,0 +1,865 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.33.1
+    method: GET
+    uri: https://partner-sandbox-api-basic.cmiccloud.com/cmicprtn/ap-rest-api/rest/1/apallvouchers?limit=500&q=VouCompCode+%3D+%27001%27+and+%28VouIuUpdateDate+%3E%3D+%272000-01-01T00%3A00%3A01%2B0000%27+or+VouIuCreateDate+%3E%3D+%272000-01-01T00%3A00%3A01%2B0000%27%29
+  response:
+    body:
+      string: '{"items": [{"VouMemoTax2Amt": null, "VouMemoHldbkAmt": null, "VouMemoDiscAmt":
+        null, "VouMemoAmt": null, "VouMaterialInvFlag": "-Fallback-scrubbed-q", "VouLastPayAmt":
+        9589, "VouJobCompCode": "-Fallback-scrubbed-nlo", "VouJobCode": "-Fallback-scrubbed-NFNoa",
+        "VouInvSeriesCode": null, "VouInvOutstandAmt": 4807, "VouInvHldbkTaxFlag":
+        "-Fallback-scrubbed-q", "VouInvDate": "-Fallback-scrubbed-OnAPXWZoMedaXepfChzoYtNAl",
+        "VouInvCode": "-Fallback-scrubbed-ypouthyubNYtZ", "VouInvAmt": 2506, "VouImportInfo":
+        null, "VouImportingGoodsFlag": "-Fallback-scrubbed-q", "VouImageFilename":
+        null, "VouHoldPaymentFlag": "-Fallback-scrubbed-d", "VouHoldPaymentDays":
+        4807, "VouHoldFlag": "-Fallback-scrubbed-q", "VouHldbkPc": 804, "VouHldbkPaid":
+        4807, "VouHldbkAmt": 4344, "VouGsthldbkCode": "-Fallback-scrubbed-h", "VouFuncFactorNum":
+        null, "VouFrtDiscCode": "-Fallback-scrubbed-q", "VouFrtAmt": null, "VouFiscalCode":
+        null, "VouFinalRfpFlag": "-Fallback-scrubbed-q", "VouExpDeptCode": null, "VouEnteredAmt":
+        2506, "VouEftFlag": "-Fallback-scrubbed-q", "VouDuplicateId": null, "VouDueDate":
+        "-Fallback-scrubbed-uFwXZmbvNnkEiwiARDZDDvQvT", "VouDrawNum": null, "VouDistTypeCode":
+        "-Fallback-scrubbed-I", "VouDiscTaken": 4807, "VouDiscPc": null, "VouDiscDate":
+        "-Fallback-scrubbed-OnAPXWZoMedaXepfChzoYtNAl", "VouDiscAmt": 4807, "VouDiscAllocMethCode":
+        "-Fallback-scrubbed-f", "VouDiscreteChqFlag": "-Fallback-scrubbed-q", "VouDfttaxFromCode":
+        null, "VouDesc2": null, "VouDesc1": "-Fallback-scrubbed-YMdoKqayLMqQTIiTjEuHidtSAVgIUC",
+        "VouDeptCodeDist": null, "VouDeptCode": "-Fallback-scrubbed-zt", "VouDeptAcct":
+        null, "VouCurrCode": "-Fallback-scrubbed-rZt", "VouCurcFactorNum": 2789, "VouCreatedByJbFlag":
+        null, "VouCostCode": null, "VouContExceedHoldFlag": "-Fallback-scrubbed-q",
+        "VouContCode": "-Fallback-scrubbed-jHwtEwOV", "VouContractorPrelimFlag": "-Fallback-scrubbed-q",
+        "VouContactCode": "-Fallback-scrubbed-vw", "VouCompCode": "001", "VouCisPc":
+        null, "VouCisPayableAmt": null, "VouCisApplicableAmt": null, "VouChqPayeeName":
+        null, "VouChqHandleCode": null, "VouChgCode": "-Fallback-scrubbed-BrN", "VouCatCode":
+        null, "VouCashAccCode": "-Fallback-scrubbed-IqwZ", "VouBchNum": 2551, "VouBchrgInvFlag":
+        null, "VouAppr2": null, "VouAppr1": null, "Vou1099Code": "-Fallback-scrubbed-S",
+        "VouTax2TaxableAmt": null, "VouTax2IncFlag": null, "VouTax2HldbkCode": "-Fallback-scrubbed-h",
+        "VouTax2HldbkAmt": 4807, "VouTax2HldbkAdjAmt": null, "VouTax2DiscCode": "-Fallback-scrubbed-q",
+        "VouTax2DirectFlag": null, "VouTax2CreditFlag": null, "VouTax2Code": null,
+        "VouTax2Amt": 4807, "VouTax1TaxableFlag": "-Fallback-scrubbed-d", "VouTax1TaxableAmt":
+        null, "VouTax1IncFlag": null, "VouTax1HldbkAdjAmt": null, "VouTax1DirectFlag":
+        null, "VouTax1CreditFlag": null, "VouTax1Code": null, "VouSubcontrCode": "-Fallback-scrubbed-PlED",
+        "VouStatusCode": "-Fallback-scrubbed-J", "VouSplitGroupNum": null, "VouSplitByApplCode":
+        null, "VouSourceTypeCode": null, "VouSourceToDate": null, "VouSourceObjectOraseq":
+        null, "VouSourceFromDate": null, "VouSktAmt": null, "VouShplCode": null, "VouShipOraseq":
+        null, "VouSeparateBillingRefCode": null, "VouSelForVoidFlag": null, "VouScSelfBilledFlag":
+        "-Fallback-scrubbed-q", "VouScModifiedFlag": "-Fallback-scrubbed-q", "VouScApprovedFlag":
+        "-Fallback-scrubbed-q", "VouScApplyBchNum": null, "VouScmstJobCode": "-Fallback-scrubbed-NFNoa",
+        "VouRoutJob": null, "VouRlsWAmt": null, "VouRlsTax2Code": null, "VouRlsTax2Amt":
+        null, "VouRlsTax1Code": null, "VouRlsTax1Amt": null, "VouRlsNum": null, "VouRlsInvCode":
+        null, "VouRlsDate": null, "VouRlsBchNum": null, "VouRlsAmt": null, "VouRevDate":
+        null, "VouRevBchNum": null, "VouRevisionNum": null, "VouResaleInfo": null,
+        "VouRemitDesc": null, "VouRegInvNum": null, "VouRecordStatus": "-Fallback-scrubbed-NFfOfurhB",
+        "VouPyTaxVoucherFlag": null, "VouPyIrsTaxType": null, "VouPyIrsTaxPerEndDate":
+        null, "VouPyIrsTaxInfoId": null, "VouPrepaidExpAmt": null, "VouPrelienComplPayCode":
+        null, "VouPoReleaseNum": null, "VouPoPrtCode": null, "VouPoPickFlag": "-Fallback-scrubbed-q",
+        "VouPoNum": null, "VouPostDate": "-Fallback-scrubbed-OnAPXWZoMedaXepfChzoYtNAl",
+        "VouPayNotes": null, "VouPayCode": "-Fallback-scrubbed-q", "VouPayByManualChqFlag":
+        "-Fallback-scrubbed-q", "VouPartnTypeCode": "-Fallback-scrubbed-J", "VouPartnCode":
+        "-Fallback-scrubbed-nlo", "VouPartialApprovedAmt": null, "VouPaidAmt": 9589,
+        "VouOrigTaxHldbkAmt": 4807, "VouOrigHldbkAmt": 4344, "VouOrigBchNum": null,
+        "VouOrigAmt": null, "VouOriginatingVouNum": null, "VouOperationCode": null,
+        "VouNum": 251507376, "VouNonZeroOweCompVenCode": null, "VouNodiscAmt": null,
+        "VouNatureOfServices": null, "VouMultiControlJobFlag": "-Fallback-scrubbed-X",
+        "VouMiscDiscCode": "-Fallback-scrubbed-q", "VouMiscAmt": null, "VouMemoTaxHldbkAmt":
+        null, "VouMemoTaxAmt": null, "VouMemoTax5Amt": null, "VouMemoTax4Amt": null,
+        "VouMemoTax3Amt": null, "VouMemoTax2HldbkAmt": null, "VouIuUpdateUser": "-Fallback-scrubbed-PYJcGD",
+        "VouIuUpdateDate": "2026-07-01T10:21:40-04:00", "VouIuCreateUser": "-Fallback-scrubbed-PYJcGD",
+        "VouIuCreateDate": "2026-07-01T09:14:13-04:00", "VouVenCode": "-Fallback-scrubbed-zoDdkgn",
+        "VouVenAddCode": null, "VouVendorInvCode": null, "VouValuateToDate": null,
+        "VouValuateFromDate": null, "VouUnpostedRfpInfo": null, "VouUnpostedPayCodeOverride":
+        null, "VouTranCode": "-Fallback-scrubbed-l", "VouTpPaymodeTypeCode": null,
+        "VouTppayCode": null, "VouTermPc": 4807, "VouTaxTreatmentPercent": null, "VouTaxHldbkAmt":
+        4807, "VouTaxDiscCode": "-Fallback-scrubbed-q", "VouTaxAmt": 4807, "VouTax5TaxableFlag":
+        "-Fallback-scrubbed-d", "VouTax5TaxableAmt": null, "VouTax5IncFlag": null,
+        "VouTax5DiscCode": "-Fallback-scrubbed-q", "VouTax5DirectFlag": null, "VouTax5CreditFlag":
+        null, "VouTax5Code": null, "VouTax5Amt": 4807, "VouTax4TaxableFlag": "-Fallback-scrubbed-d",
+        "VouTax4TaxableAmt": null, "VouTax4IncFlag": null, "VouTax4DiscCode": "-Fallback-scrubbed-q",
+        "VouTax4DirectFlag": null, "VouTax4CreditFlag": null, "VouTax4Code": null,
+        "VouTax4Amt": 4807, "VouTax3TaxableFlag": "-Fallback-scrubbed-d", "VouTax3TaxableAmt":
+        null, "VouTax3IncFlag": null, "VouTax3DiscCode": "-Fallback-scrubbed-q", "VouTax3DirectFlag":
+        null, "VouTax3CreditFlag": null, "VouTax3Code": null, "VouTax3Amt": 4807,
+        "VouTax2TaxableFlag": "-Fallback-scrubbed-d", "VouCreatedByManchqFlag": "-Fallback-scrubbed-q",
+        "VouAcctDescription": null, "links": [{"rel": "-Fallback-scrubbed-kYsc", "href":
+        "-Fallback-scrubbed-PEBbEiziggGvfOtCidMsAubFDXLtOhqZLSlpTkLcdCOFsMrNbvAIKXguRuNBDwHbxRLgKRuYDrIkmTlDHMsDFfWcyXxEYeTPTPYJl",
+        "name": "Megan Hogan", "kind": "-Fallback-scrubbed-cgyl"}, {"rel": "-Fallback-scrubbed-jsaymHQKW",
+        "href": "-Fallback-scrubbed-PEBbEiziggGvfOtCidMsAubFDXLtOhqZLSlpTkLcdCOFsMrNbvAIKXguRuNBDwHbxRLgKRuYDrIkmTlDHMsDFfWcyXxEYeTPTPYJl",
+        "name": "Megan Hogan", "kind": "-Fallback-scrubbed-cgyl"}, {"rel": "-Fallback-scrubbed-dDmdx",
+        "href": "-Fallback-scrubbed-GdDWgqMLZShnHKgADTZRrMDOIijFiZKqSuPrsjzpVzBmTLbMtWsTRXzicKcSnaRBLUsrvhsLLWEDbpAurbNXbGToMvUjmfnixkXodcmzioQugsVNlkqNJbofouFnBCFNLBXxt",
+        "name": "Victor Smith", "kind": "-Fallback-scrubbed-WtOlAeETxt"}]}, {"VouMemoTax2Amt":
+        null, "VouMemoHldbkAmt": null, "VouMemoDiscAmt": null, "VouMemoAmt": null,
+        "VouMaterialInvFlag": "-Fallback-scrubbed-q", "VouLastPayAmt": null, "VouJobCompCode":
+        "-Fallback-scrubbed-nlo", "VouJobCode": "-Fallback-scrubbed-NFNoa", "VouInvSeriesCode":
+        null, "VouInvOutstandAmt": 4548, "VouInvHldbkTaxFlag": "-Fallback-scrubbed-q",
+        "VouInvDate": "-Fallback-scrubbed-eHfIUMIGPcutqVfmwSPqoMuKi", "VouInvCode":
+        "-Fallback-scrubbed-gzDCzJcQpdyS", "VouInvAmt": 6525, "VouImportInfo": null,
+        "VouImportingGoodsFlag": "-Fallback-scrubbed-q", "VouImageFilename": null,
+        "VouHoldPaymentFlag": "-Fallback-scrubbed-d", "VouHoldPaymentDays": 4807,
+        "VouHoldFlag": null, "VouHldbkPc": 546, "VouHldbkPaid": null, "VouHldbkAmt":
+        8118, "VouGsthldbkCode": "-Fallback-scrubbed-h", "VouFuncFactorNum": null,
+        "VouFrtDiscCode": "-Fallback-scrubbed-q", "VouFrtAmt": null, "VouFiscalCode":
+        null, "VouFinalRfpFlag": "-Fallback-scrubbed-q", "VouExpDeptCode": null, "VouEnteredAmt":
+        6525, "VouEftFlag": "-Fallback-scrubbed-q", "VouDuplicateId": null, "VouDueDate":
+        "-Fallback-scrubbed-XhIoDXzsYVskulfppDuawdBIo", "VouDrawNum": null, "VouDistTypeCode":
+        "-Fallback-scrubbed-I", "VouDiscTaken": null, "VouDiscPc": null, "VouDiscDate":
+        "-Fallback-scrubbed-eHfIUMIGPcutqVfmwSPqoMuKi", "VouDiscAmt": null, "VouDiscAllocMethCode":
+        "-Fallback-scrubbed-f", "VouDiscreteChqFlag": "-Fallback-scrubbed-q", "VouDfttaxFromCode":
+        null, "VouDesc2": null, "VouDesc1": null, "VouDeptCodeDist": null, "VouDeptCode":
+        "-Fallback-scrubbed-zt", "VouDeptAcct": null, "VouCurrCode": "-Fallback-scrubbed-rZt",
+        "VouCurcFactorNum": 2789, "VouCreatedByJbFlag": "-Fallback-scrubbed-q", "VouCostCode":
+        null, "VouContExceedHoldFlag": "-Fallback-scrubbed-q", "VouContCode": "-Fallback-scrubbed-GctwOYcq",
+        "VouContractorPrelimFlag": "-Fallback-scrubbed-q", "VouContactCode": "-Fallback-scrubbed-vw",
+        "VouCompCode": "001", "VouCisPc": null, "VouCisPayableAmt": null, "VouCisApplicableAmt":
+        null, "VouChqPayeeName": null, "VouChqHandleCode": null, "VouChgCode": "-Fallback-scrubbed-BrN",
+        "VouCatCode": null, "VouCashAccCode": "-Fallback-scrubbed-IqwZ", "VouBchNum":
+        2403, "VouBchrgInvFlag": null, "VouAppr2": null, "VouAppr1": null, "Vou1099Code":
+        "-Fallback-scrubbed-S", "VouTax2TaxableAmt": null, "VouTax2IncFlag": null,
+        "VouTax2HldbkCode": "-Fallback-scrubbed-h", "VouTax2HldbkAmt": 4807, "VouTax2HldbkAdjAmt":
+        null, "VouTax2DiscCode": "-Fallback-scrubbed-q", "VouTax2DirectFlag": null,
+        "VouTax2CreditFlag": null, "VouTax2Code": null, "VouTax2Amt": 4807, "VouTax1TaxableFlag":
+        "-Fallback-scrubbed-d", "VouTax1TaxableAmt": null, "VouTax1IncFlag": null,
+        "VouTax1HldbkAdjAmt": null, "VouTax1DirectFlag": null, "VouTax1CreditFlag":
+        null, "VouTax1Code": null, "VouSubcontrCode": null, "VouStatusCode": "-Fallback-scrubbed-N",
+        "VouSplitGroupNum": null, "VouSplitByApplCode": null, "VouSourceTypeCode":
+        null, "VouSourceToDate": null, "VouSourceObjectOraseq": null, "VouSourceFromDate":
+        null, "VouSktAmt": null, "VouShplCode": null, "VouShipOraseq": null, "VouSeparateBillingRefCode":
+        null, "VouSelForVoidFlag": null, "VouScSelfBilledFlag": null, "VouScModifiedFlag":
+        "-Fallback-scrubbed-q", "VouScApprovedFlag": "-Fallback-scrubbed-d", "VouScApplyBchNum":
+        null, "VouScmstJobCode": "-Fallback-scrubbed-NFNoa", "VouRoutJob": null, "VouRlsWAmt":
+        null, "VouRlsTax2Code": null, "VouRlsTax2Amt": null, "VouRlsTax1Code": null,
+        "VouRlsTax1Amt": null, "VouRlsNum": null, "VouRlsInvCode": null, "VouRlsDate":
+        null, "VouRlsBchNum": null, "VouRlsAmt": null, "VouRevDate": null, "VouRevBchNum":
+        null, "VouRevisionNum": null, "VouResaleInfo": null, "VouRemitDesc": null,
+        "VouRegInvNum": null, "VouRecordStatus": "-Fallback-scrubbed-NFfOfurhB", "VouPyTaxVoucherFlag":
+        null, "VouPyIrsTaxType": null, "VouPyIrsTaxPerEndDate": null, "VouPyIrsTaxInfoId":
+        null, "VouPrepaidExpAmt": null, "VouPrelienComplPayCode": null, "VouPoReleaseNum":
+        null, "VouPoPrtCode": null, "VouPoPickFlag": "-Fallback-scrubbed-q", "VouPoNum":
+        null, "VouPostDate": "-Fallback-scrubbed-XWtmFRdhUZvTafVtVgRPtGfts", "VouPayNotes":
+        null, "VouPayCode": "-Fallback-scrubbed-r", "VouPayByManualChqFlag": "-Fallback-scrubbed-q",
+        "VouPartnTypeCode": "-Fallback-scrubbed-J", "VouPartnCode": "-Fallback-scrubbed-nlo",
+        "VouPartialApprovedAmt": null, "VouPaidAmt": null, "VouOrigTaxHldbkAmt": 4807,
+        "VouOrigHldbkAmt": 8118, "VouOrigBchNum": null, "VouOrigAmt": null, "VouOriginatingVouNum":
+        null, "VouOperationCode": null, "VouNum": 251507308, "VouNonZeroOweCompVenCode":
+        "-Fallback-scrubbed-aqwjXMMqyiSdXdZ", "VouNodiscAmt": null, "VouNatureOfServices":
+        null, "VouMultiControlJobFlag": "-Fallback-scrubbed-X", "VouMiscDiscCode":
+        "-Fallback-scrubbed-q", "VouMiscAmt": null, "VouMemoTaxHldbkAmt": null, "VouMemoTaxAmt":
+        null, "VouMemoTax5Amt": null, "VouMemoTax4Amt": null, "VouMemoTax3Amt": null,
+        "VouMemoTax2HldbkAmt": null, "VouIuUpdateUser": "-Fallback-scrubbed-PYJcGD",
+        "VouIuUpdateDate": "2026-06-30T16:39:52-04:00", "VouIuCreateUser": "-Fallback-scrubbed-PYJcGD",
+        "VouIuCreateDate": "2026-06-30T16:28:30-04:00", "VouVenCode": "-Fallback-scrubbed-zoDdkgn",
+        "VouVenAddCode": null, "VouVendorInvCode": null, "VouValuateToDate": null,
+        "VouValuateFromDate": null, "VouUnpostedRfpInfo": null, "VouUnpostedPayCodeOverride":
+        null, "VouTranCode": "-Fallback-scrubbed-l", "VouTpPaymodeTypeCode": null,
+        "VouTppayCode": null, "VouTermPc": 4807, "VouTaxTreatmentPercent": null, "VouTaxHldbkAmt":
+        4807, "VouTaxDiscCode": "-Fallback-scrubbed-q", "VouTaxAmt": 4807, "VouTax5TaxableFlag":
+        "-Fallback-scrubbed-d", "VouTax5TaxableAmt": null, "VouTax5IncFlag": null,
+        "VouTax5DiscCode": "-Fallback-scrubbed-q", "VouTax5DirectFlag": null, "VouTax5CreditFlag":
+        null, "VouTax5Code": null, "VouTax5Amt": 4807, "VouTax4TaxableFlag": "-Fallback-scrubbed-d",
+        "VouTax4TaxableAmt": null, "VouTax4IncFlag": null, "VouTax4DiscCode": "-Fallback-scrubbed-q",
+        "VouTax4DirectFlag": null, "VouTax4CreditFlag": null, "VouTax4Code": null,
+        "VouTax4Amt": 4807, "VouTax3TaxableFlag": "-Fallback-scrubbed-d", "VouTax3TaxableAmt":
+        null, "VouTax3IncFlag": null, "VouTax3DiscCode": "-Fallback-scrubbed-q", "VouTax3DirectFlag":
+        null, "VouTax3CreditFlag": null, "VouTax3Code": null, "VouTax3Amt": 4807,
+        "VouTax2TaxableFlag": "-Fallback-scrubbed-d", "VouCreatedByManchqFlag": "-Fallback-scrubbed-q",
+        "VouAcctDescription": null, "links": [{"rel": "-Fallback-scrubbed-kYsc", "href":
+        "-Fallback-scrubbed-tpFFOwPzxOzfAFvMxelRwNVvyhgVXTAFrtpiOiLzHTidRIdlmoISuYsMuXmTpHGJbqtYiEGlGCXuEBzYJjuRsRfgVzzDGzfobtSgV",
+        "name": "Megan Hogan", "kind": "-Fallback-scrubbed-cgyl"}, {"rel": "-Fallback-scrubbed-jsaymHQKW",
+        "href": "-Fallback-scrubbed-tpFFOwPzxOzfAFvMxelRwNVvyhgVXTAFrtpiOiLzHTidRIdlmoISuYsMuXmTpHGJbqtYiEGlGCXuEBzYJjuRsRfgVzzDGzfobtSgV",
+        "name": "Megan Hogan", "kind": "-Fallback-scrubbed-cgyl"}, {"rel": "-Fallback-scrubbed-dDmdx",
+        "href": "-Fallback-scrubbed-uxwjSQdMUmJDALEJuUKohoIORHsDBsRvrWHZFcoZPQRdCcxuJGAdsLxzTEWINHSTAtoeqcLNeQaXpxVGELJWleMUARhQbiRZSKjHAQvpWFsAeEFcNvPQveYZwhZOqDhrBRMiA",
+        "name": "Victor Smith", "kind": "-Fallback-scrubbed-WtOlAeETxt"}]}, {"VouMemoTax2Amt":
+        null, "VouMemoHldbkAmt": null, "VouMemoDiscAmt": null, "VouMemoAmt": null,
+        "VouMaterialInvFlag": "-Fallback-scrubbed-q", "VouLastPayAmt": null, "VouJobCompCode":
+        "-Fallback-scrubbed-nlo", "VouJobCode": "-Fallback-scrubbed-NFNoa", "VouInvSeriesCode":
+        null, "VouInvOutstandAmt": 4807, "VouInvHldbkTaxFlag": "-Fallback-scrubbed-q",
+        "VouInvDate": "-Fallback-scrubbed-OnAPXWZoMedaXepfChzoYtNAl", "VouInvCode":
+        "-Fallback-scrubbed-zGaHqePNKuUEW", "VouInvAmt": 1832, "VouImportInfo": null,
+        "VouImportingGoodsFlag": "-Fallback-scrubbed-q", "VouImageFilename": null,
+        "VouHoldPaymentFlag": "-Fallback-scrubbed-d", "VouHoldPaymentDays": 4807,
+        "VouHoldFlag": "-Fallback-scrubbed-q", "VouHldbkPc": 546, "VouHldbkPaid":
+        null, "VouHldbkAmt": 8851, "VouGsthldbkCode": "-Fallback-scrubbed-h", "VouFuncFactorNum":
+        null, "VouFrtDiscCode": "-Fallback-scrubbed-q", "VouFrtAmt": null, "VouFiscalCode":
+        null, "VouFinalRfpFlag": "-Fallback-scrubbed-q", "VouExpDeptCode": null, "VouEnteredAmt":
+        1832, "VouEftFlag": "-Fallback-scrubbed-q", "VouDuplicateId": null, "VouDueDate":
+        "-Fallback-scrubbed-uFwXZmbvNnkEiwiARDZDDvQvT", "VouDrawNum": null, "VouDistTypeCode":
+        "-Fallback-scrubbed-I", "VouDiscTaken": null, "VouDiscPc": null, "VouDiscDate":
+        "-Fallback-scrubbed-OnAPXWZoMedaXepfChzoYtNAl", "VouDiscAmt": 4807, "VouDiscAllocMethCode":
+        "-Fallback-scrubbed-f", "VouDiscreteChqFlag": "-Fallback-scrubbed-q", "VouDfttaxFromCode":
+        null, "VouDesc2": null, "VouDesc1": "-Fallback-scrubbed-YMdoKqayLMqQTIiTjEuHidtSAVgIUC",
+        "VouDeptCodeDist": null, "VouDeptCode": "-Fallback-scrubbed-zt", "VouDeptAcct":
+        null, "VouCurrCode": "-Fallback-scrubbed-rZt", "VouCurcFactorNum": 2789, "VouCreatedByJbFlag":
+        null, "VouCostCode": null, "VouContExceedHoldFlag": "-Fallback-scrubbed-q",
+        "VouContCode": "-Fallback-scrubbed-jHwtEwOV", "VouContractorPrelimFlag": "-Fallback-scrubbed-q",
+        "VouContactCode": "-Fallback-scrubbed-vw", "VouCompCode": "001", "VouCisPc":
+        null, "VouCisPayableAmt": null, "VouCisApplicableAmt": null, "VouChqPayeeName":
+        null, "VouChqHandleCode": null, "VouChgCode": "-Fallback-scrubbed-BrN", "VouCatCode":
+        null, "VouCashAccCode": "-Fallback-scrubbed-IqwZ", "VouBchNum": 5566, "VouBchrgInvFlag":
+        null, "VouAppr2": null, "VouAppr1": null, "Vou1099Code": "-Fallback-scrubbed-S",
+        "VouTax2TaxableAmt": null, "VouTax2IncFlag": null, "VouTax2HldbkCode": "-Fallback-scrubbed-h",
+        "VouTax2HldbkAmt": 4807, "VouTax2HldbkAdjAmt": null, "VouTax2DiscCode": "-Fallback-scrubbed-q",
+        "VouTax2DirectFlag": null, "VouTax2CreditFlag": null, "VouTax2Code": null,
+        "VouTax2Amt": 4807, "VouTax1TaxableFlag": "-Fallback-scrubbed-d", "VouTax1TaxableAmt":
+        null, "VouTax1IncFlag": null, "VouTax1HldbkAdjAmt": null, "VouTax1DirectFlag":
+        null, "VouTax1CreditFlag": null, "VouTax1Code": null, "VouSubcontrCode": "-Fallback-scrubbed-PlED",
+        "VouStatusCode": "-Fallback-scrubbed-l", "VouSplitGroupNum": null, "VouSplitByApplCode":
+        null, "VouSourceTypeCode": null, "VouSourceToDate": null, "VouSourceObjectOraseq":
+        null, "VouSourceFromDate": null, "VouSktAmt": null, "VouShplCode": null, "VouShipOraseq":
+        null, "VouSeparateBillingRefCode": null, "VouSelForVoidFlag": null, "VouScSelfBilledFlag":
+        "-Fallback-scrubbed-q", "VouScModifiedFlag": "-Fallback-scrubbed-q", "VouScApprovedFlag":
+        "-Fallback-scrubbed-q", "VouScApplyBchNum": null, "VouScmstJobCode": "-Fallback-scrubbed-NFNoa",
+        "VouRoutJob": null, "VouRlsWAmt": null, "VouRlsTax2Code": null, "VouRlsTax2Amt":
+        null, "VouRlsTax1Code": null, "VouRlsTax1Amt": null, "VouRlsNum": null, "VouRlsInvCode":
+        null, "VouRlsDate": null, "VouRlsBchNum": null, "VouRlsAmt": null, "VouRevDate":
+        "-Fallback-scrubbed-OnAPXWZoMedaXepfChzoYtNAl", "VouRevBchNum": 4399, "VouRevisionNum":
+        null, "VouResaleInfo": null, "VouRemitDesc": null, "VouRegInvNum": null, "VouRecordStatus":
+        "-Fallback-scrubbed-NFfOfurhB", "VouPyTaxVoucherFlag": null, "VouPyIrsTaxType":
+        null, "VouPyIrsTaxPerEndDate": null, "VouPyIrsTaxInfoId": null, "VouPrepaidExpAmt":
+        null, "VouPrelienComplPayCode": null, "VouPoReleaseNum": null, "VouPoPrtCode":
+        null, "VouPoPickFlag": "-Fallback-scrubbed-q", "VouPoNum": null, "VouPostDate":
+        "-Fallback-scrubbed-OnAPXWZoMedaXepfChzoYtNAl", "VouPayNotes": null, "VouPayCode":
+        "-Fallback-scrubbed-r", "VouPayByManualChqFlag": "-Fallback-scrubbed-q", "VouPartnTypeCode":
+        "-Fallback-scrubbed-J", "VouPartnCode": "-Fallback-scrubbed-nlo", "VouPartialApprovedAmt":
+        null, "VouPaidAmt": null, "VouOrigTaxHldbkAmt": 4807, "VouOrigHldbkAmt": 4807,
+        "VouOrigBchNum": null, "VouOrigAmt": null, "VouOriginatingVouNum": null, "VouOperationCode":
+        null, "VouNum": 251507377, "VouNonZeroOweCompVenCode": null, "VouNodiscAmt":
+        null, "VouNatureOfServices": null, "VouMultiControlJobFlag": "-Fallback-scrubbed-X",
+        "VouMiscDiscCode": "-Fallback-scrubbed-q", "VouMiscAmt": null, "VouMemoTaxHldbkAmt":
+        null, "VouMemoTaxAmt": null, "VouMemoTax5Amt": null, "VouMemoTax4Amt": null,
+        "VouMemoTax3Amt": null, "VouMemoTax2HldbkAmt": null, "VouIuUpdateUser": "-Fallback-scrubbed-PYJcGD",
+        "VouIuUpdateDate": "2026-07-01T09:19:02-04:00", "VouIuCreateUser": "-Fallback-scrubbed-PYJcGD",
+        "VouIuCreateDate": "2026-07-01T09:18:32-04:00", "VouVenCode": "-Fallback-scrubbed-zoDdkgn",
+        "VouVenAddCode": null, "VouVendorInvCode": null, "VouValuateToDate": null,
+        "VouValuateFromDate": null, "VouUnpostedRfpInfo": null, "VouUnpostedPayCodeOverride":
+        null, "VouTranCode": "-Fallback-scrubbed-l", "VouTpPaymodeTypeCode": null,
+        "VouTppayCode": null, "VouTermPc": 4807, "VouTaxTreatmentPercent": null, "VouTaxHldbkAmt":
+        4807, "VouTaxDiscCode": "-Fallback-scrubbed-q", "VouTaxAmt": 4807, "VouTax5TaxableFlag":
+        "-Fallback-scrubbed-d", "VouTax5TaxableAmt": null, "VouTax5IncFlag": null,
+        "VouTax5DiscCode": "-Fallback-scrubbed-q", "VouTax5DirectFlag": null, "VouTax5CreditFlag":
+        null, "VouTax5Code": null, "VouTax5Amt": 4807, "VouTax4TaxableFlag": "-Fallback-scrubbed-d",
+        "VouTax4TaxableAmt": null, "VouTax4IncFlag": null, "VouTax4DiscCode": "-Fallback-scrubbed-q",
+        "VouTax4DirectFlag": null, "VouTax4CreditFlag": null, "VouTax4Code": null,
+        "VouTax4Amt": 4807, "VouTax3TaxableFlag": "-Fallback-scrubbed-d", "VouTax3TaxableAmt":
+        null, "VouTax3IncFlag": null, "VouTax3DiscCode": "-Fallback-scrubbed-q", "VouTax3DirectFlag":
+        null, "VouTax3CreditFlag": null, "VouTax3Code": null, "VouTax3Amt": 4807,
+        "VouTax2TaxableFlag": "-Fallback-scrubbed-d", "VouCreatedByManchqFlag": "-Fallback-scrubbed-q",
+        "VouAcctDescription": null, "links": [{"rel": "-Fallback-scrubbed-kYsc", "href":
+        "-Fallback-scrubbed-knVSWkvXfXpuJSmsisfWrtQZSZZihHfUhIVFNwbpwtcbQxHZxOxTmiteXPrEMLblTDcabUNGvlSubVfujTjtHfZrOQbJYRcVTxTZX",
+        "name": "Megan Hogan", "kind": "-Fallback-scrubbed-cgyl"}, {"rel": "-Fallback-scrubbed-jsaymHQKW",
+        "href": "-Fallback-scrubbed-knVSWkvXfXpuJSmsisfWrtQZSZZihHfUhIVFNwbpwtcbQxHZxOxTmiteXPrEMLblTDcabUNGvlSubVfujTjtHfZrOQbJYRcVTxTZX",
+        "name": "Megan Hogan", "kind": "-Fallback-scrubbed-cgyl"}, {"rel": "-Fallback-scrubbed-dDmdx",
+        "href": "-Fallback-scrubbed-lyZATGihZCjgysBHnAcatYZlnmggwRTUJbujEDIhEjhwvTuUtupVgdRIyZTDiNQdTpRVEGlFjiWvsaXPqlYSyryWbwUXmcjOVCnOeCMTZqaEAilWLNepjNFTZTQYDIxrtpeil",
+        "name": "Victor Smith", "kind": "-Fallback-scrubbed-WtOlAeETxt"}]}, {"VouMemoTax2Amt":
+        null, "VouMemoHldbkAmt": null, "VouMemoDiscAmt": null, "VouMemoAmt": null,
+        "VouMaterialInvFlag": "-Fallback-scrubbed-q", "VouLastPayAmt": 4716, "VouJobCompCode":
+        "-Fallback-scrubbed-nlo", "VouJobCode": "-Fallback-scrubbed-NFNoa", "VouInvSeriesCode":
+        null, "VouInvOutstandAmt": 7697, "VouInvHldbkTaxFlag": "-Fallback-scrubbed-q",
+        "VouInvDate": "-Fallback-scrubbed-OnAPXWZoMedaXepfChzoYtNAl", "VouInvCode":
+        "-Fallback-scrubbed-WtexxgAdAPxmZ", "VouInvAmt": 1936, "VouImportInfo": null,
+        "VouImportingGoodsFlag": "-Fallback-scrubbed-q", "VouImageFilename": null,
+        "VouHoldPaymentFlag": "-Fallback-scrubbed-d", "VouHoldPaymentDays": 4807,
+        "VouHoldFlag": "-Fallback-scrubbed-q", "VouHldbkPc": 546, "VouHldbkPaid":
+        4807, "VouHldbkAmt": 2136, "VouGsthldbkCode": "-Fallback-scrubbed-h", "VouFuncFactorNum":
+        null, "VouFrtDiscCode": "-Fallback-scrubbed-q", "VouFrtAmt": null, "VouFiscalCode":
+        null, "VouFinalRfpFlag": "-Fallback-scrubbed-q", "VouExpDeptCode": null, "VouEnteredAmt":
+        1936, "VouEftFlag": "-Fallback-scrubbed-q", "VouDuplicateId": null, "VouDueDate":
+        "-Fallback-scrubbed-uFwXZmbvNnkEiwiARDZDDvQvT", "VouDrawNum": null, "VouDistTypeCode":
+        "-Fallback-scrubbed-I", "VouDiscTaken": 4807, "VouDiscPc": null, "VouDiscDate":
+        "-Fallback-scrubbed-OnAPXWZoMedaXepfChzoYtNAl", "VouDiscAmt": 4807, "VouDiscAllocMethCode":
+        "-Fallback-scrubbed-f", "VouDiscreteChqFlag": "-Fallback-scrubbed-q", "VouDfttaxFromCode":
+        null, "VouDesc2": null, "VouDesc1": "-Fallback-scrubbed-YMdoKqayLMqQTIiTjEuHidtSAVgIUC",
+        "VouDeptCodeDist": null, "VouDeptCode": "-Fallback-scrubbed-zt", "VouDeptAcct":
+        null, "VouCurrCode": "-Fallback-scrubbed-rZt", "VouCurcFactorNum": 2789, "VouCreatedByJbFlag":
+        null, "VouCostCode": null, "VouContExceedHoldFlag": "-Fallback-scrubbed-q",
+        "VouContCode": "-Fallback-scrubbed-jHwtEwOV", "VouContractorPrelimFlag": "-Fallback-scrubbed-q",
+        "VouContactCode": "-Fallback-scrubbed-vw", "VouCompCode": "001", "VouCisPc":
+        null, "VouCisPayableAmt": null, "VouCisApplicableAmt": null, "VouChqPayeeName":
+        null, "VouChqHandleCode": null, "VouChgCode": "-Fallback-scrubbed-BrN", "VouCatCode":
+        null, "VouCashAccCode": "-Fallback-scrubbed-IqwZ", "VouBchNum": 3574, "VouBchrgInvFlag":
+        null, "VouAppr2": null, "VouAppr1": null, "Vou1099Code": "-Fallback-scrubbed-S",
+        "VouTax2TaxableAmt": null, "VouTax2IncFlag": null, "VouTax2HldbkCode": "-Fallback-scrubbed-h",
+        "VouTax2HldbkAmt": 4807, "VouTax2HldbkAdjAmt": null, "VouTax2DiscCode": "-Fallback-scrubbed-q",
+        "VouTax2DirectFlag": null, "VouTax2CreditFlag": null, "VouTax2Code": null,
+        "VouTax2Amt": 4807, "VouTax1TaxableFlag": "-Fallback-scrubbed-d", "VouTax1TaxableAmt":
+        null, "VouTax1IncFlag": null, "VouTax1HldbkAdjAmt": null, "VouTax1DirectFlag":
+        null, "VouTax1CreditFlag": null, "VouTax1Code": null, "VouSubcontrCode": "-Fallback-scrubbed-PlED",
+        "VouStatusCode": "-Fallback-scrubbed-e", "VouSplitGroupNum": null, "VouSplitByApplCode":
+        null, "VouSourceTypeCode": null, "VouSourceToDate": null, "VouSourceObjectOraseq":
+        null, "VouSourceFromDate": null, "VouSktAmt": null, "VouShplCode": null, "VouShipOraseq":
+        null, "VouSeparateBillingRefCode": null, "VouSelForVoidFlag": null, "VouScSelfBilledFlag":
+        "-Fallback-scrubbed-q", "VouScModifiedFlag": "-Fallback-scrubbed-q", "VouScApprovedFlag":
+        "-Fallback-scrubbed-q", "VouScApplyBchNum": null, "VouScmstJobCode": "-Fallback-scrubbed-NFNoa",
+        "VouRoutJob": null, "VouRlsWAmt": null, "VouRlsTax2Code": null, "VouRlsTax2Amt":
+        null, "VouRlsTax1Code": null, "VouRlsTax1Amt": null, "VouRlsNum": null, "VouRlsInvCode":
+        null, "VouRlsDate": null, "VouRlsBchNum": null, "VouRlsAmt": null, "VouRevDate":
+        null, "VouRevBchNum": null, "VouRevisionNum": null, "VouResaleInfo": null,
+        "VouRemitDesc": null, "VouRegInvNum": null, "VouRecordStatus": "-Fallback-scrubbed-NFfOfurhB",
+        "VouPyTaxVoucherFlag": null, "VouPyIrsTaxType": null, "VouPyIrsTaxPerEndDate":
+        null, "VouPyIrsTaxInfoId": null, "VouPrepaidExpAmt": null, "VouPrelienComplPayCode":
+        null, "VouPoReleaseNum": null, "VouPoPrtCode": null, "VouPoPickFlag": "-Fallback-scrubbed-q",
+        "VouPoNum": null, "VouPostDate": "-Fallback-scrubbed-OnAPXWZoMedaXepfChzoYtNAl",
+        "VouPayNotes": null, "VouPayCode": "-Fallback-scrubbed-q", "VouPayByManualChqFlag":
+        "-Fallback-scrubbed-q", "VouPartnTypeCode": "-Fallback-scrubbed-J", "VouPartnCode":
+        "-Fallback-scrubbed-nlo", "VouPartialApprovedAmt": null, "VouPaidAmt": 4716,
+        "VouOrigTaxHldbkAmt": 4807, "VouOrigHldbkAmt": 2136, "VouOrigBchNum": null,
+        "VouOrigAmt": null, "VouOriginatingVouNum": null, "VouOperationCode": null,
+        "VouNum": 251507378, "VouNonZeroOweCompVenCode": "-Fallback-scrubbed-aqwjXMMqyiSdXdZ",
+        "VouNodiscAmt": null, "VouNatureOfServices": null, "VouMultiControlJobFlag":
+        "-Fallback-scrubbed-X", "VouMiscDiscCode": "-Fallback-scrubbed-q", "VouMiscAmt":
+        null, "VouMemoTaxHldbkAmt": null, "VouMemoTaxAmt": null, "VouMemoTax5Amt":
+        null, "VouMemoTax4Amt": null, "VouMemoTax3Amt": null, "VouMemoTax2HldbkAmt":
+        null, "VouIuUpdateUser": "-Fallback-scrubbed-PYJcGD", "VouIuUpdateDate": "2026-07-01T10:21:40-04:00",
+        "VouIuCreateUser": "-Fallback-scrubbed-PYJcGD", "VouIuCreateDate": "2026-07-01T09:19:59-04:00",
+        "VouVenCode": "-Fallback-scrubbed-zoDdkgn", "VouVenAddCode": null, "VouVendorInvCode":
+        null, "VouValuateToDate": null, "VouValuateFromDate": null, "VouUnpostedRfpInfo":
+        null, "VouUnpostedPayCodeOverride": null, "VouTranCode": "-Fallback-scrubbed-l",
+        "VouTpPaymodeTypeCode": null, "VouTppayCode": "-Fallback-scrubbed-g", "VouTermPc":
+        4807, "VouTaxTreatmentPercent": null, "VouTaxHldbkAmt": 4807, "VouTaxDiscCode":
+        "-Fallback-scrubbed-q", "VouTaxAmt": 4807, "VouTax5TaxableFlag": "-Fallback-scrubbed-d",
+        "VouTax5TaxableAmt": null, "VouTax5IncFlag": null, "VouTax5DiscCode": "-Fallback-scrubbed-q",
+        "VouTax5DirectFlag": null, "VouTax5CreditFlag": null, "VouTax5Code": null,
+        "VouTax5Amt": 4807, "VouTax4TaxableFlag": "-Fallback-scrubbed-d", "VouTax4TaxableAmt":
+        null, "VouTax4IncFlag": null, "VouTax4DiscCode": "-Fallback-scrubbed-q", "VouTax4DirectFlag":
+        null, "VouTax4CreditFlag": null, "VouTax4Code": null, "VouTax4Amt": 4807,
+        "VouTax3TaxableFlag": "-Fallback-scrubbed-d", "VouTax3TaxableAmt": null, "VouTax3IncFlag":
+        null, "VouTax3DiscCode": "-Fallback-scrubbed-q", "VouTax3DirectFlag": null,
+        "VouTax3CreditFlag": null, "VouTax3Code": null, "VouTax3Amt": 4807, "VouTax2TaxableFlag":
+        "-Fallback-scrubbed-d", "VouCreatedByManchqFlag": "-Fallback-scrubbed-q",
+        "VouAcctDescription": null, "links": [{"rel": "-Fallback-scrubbed-kYsc", "href":
+        "-Fallback-scrubbed-pEQgxglJpEdjMQjilYuYsUwstsfbqelqNlhXlwnEUGmjLiKFtOmNsGGoYNRaymPjyKGOLwLOWrAMqRwOIWzVJnyOyzGeQsmsqvCpE",
+        "name": "Megan Hogan", "kind": "-Fallback-scrubbed-cgyl"}, {"rel": "-Fallback-scrubbed-jsaymHQKW",
+        "href": "-Fallback-scrubbed-pEQgxglJpEdjMQjilYuYsUwstsfbqelqNlhXlwnEUGmjLiKFtOmNsGGoYNRaymPjyKGOLwLOWrAMqRwOIWzVJnyOyzGeQsmsqvCpE",
+        "name": "Megan Hogan", "kind": "-Fallback-scrubbed-cgyl"}, {"rel": "-Fallback-scrubbed-dDmdx",
+        "href": "-Fallback-scrubbed-mzXuDmCakhNtQKydKqRBiygEkILBZCTagPUpXAiZAnedXldjLzKYrfXQCnwEEqqiYCuZmkuGgkkVPLuVCJjuYxnjNNNekJvzVnNvTQAocvOsPqYIwGDTGEwAwLVJrrLNWOeap",
+        "name": "Victor Smith", "kind": "-Fallback-scrubbed-WtOlAeETxt"}]}, {"VouMemoTax2Amt":
+        null, "VouMemoHldbkAmt": null, "VouMemoDiscAmt": null, "VouMemoAmt": null,
+        "VouMaterialInvFlag": "-Fallback-scrubbed-q", "VouLastPayAmt": null, "VouJobCompCode":
+        "-Fallback-scrubbed-nlo", "VouJobCode": "-Fallback-scrubbed-NFNoa", "VouInvSeriesCode":
+        null, "VouInvOutstandAmt": 14306064070187.3, "VouInvHldbkTaxFlag": "-Fallback-scrubbed-q",
+        "VouInvDate": "-Fallback-scrubbed-OnAPXWZoMedaXepfChzoYtNAl", "VouInvCode":
+        "-Fallback-scrubbed-yBDOlKRfidkXI", "VouInvAmt": 9469, "VouImportInfo": null,
+        "VouImportingGoodsFlag": "-Fallback-scrubbed-q", "VouImageFilename": null,
+        "VouHoldPaymentFlag": "-Fallback-scrubbed-d", "VouHoldPaymentDays": 4807,
+        "VouHoldFlag": "-Fallback-scrubbed-q", "VouHldbkPc": -884.926717028576, "VouHldbkPaid":
+        null, "VouHldbkAmt": -473641380217.681, "VouGsthldbkCode": "-Fallback-scrubbed-h",
+        "VouFuncFactorNum": null, "VouFrtDiscCode": "-Fallback-scrubbed-q", "VouFrtAmt":
+        null, "VouFiscalCode": null, "VouFinalRfpFlag": "-Fallback-scrubbed-q", "VouExpDeptCode":
+        null, "VouEnteredAmt": 9469, "VouEftFlag": "-Fallback-scrubbed-q", "VouDuplicateId":
+        null, "VouDueDate": "-Fallback-scrubbed-uFwXZmbvNnkEiwiARDZDDvQvT", "VouDrawNum":
+        null, "VouDistTypeCode": "-Fallback-scrubbed-I", "VouDiscTaken": null, "VouDiscPc":
+        null, "VouDiscDate": "-Fallback-scrubbed-OnAPXWZoMedaXepfChzoYtNAl", "VouDiscAmt":
+        4807, "VouDiscAllocMethCode": "-Fallback-scrubbed-f", "VouDiscreteChqFlag":
+        "-Fallback-scrubbed-q", "VouDfttaxFromCode": null, "VouDesc2": null, "VouDesc1":
+        "-Fallback-scrubbed-YMdoKqayLMqQTIiTjEuHidtSAVgIUC", "VouDeptCodeDist": null,
+        "VouDeptCode": "-Fallback-scrubbed-zt", "VouDeptAcct": null, "VouCurrCode":
+        "-Fallback-scrubbed-rZt", "VouCurcFactorNum": 2789, "VouCreatedByJbFlag":
+        null, "VouCostCode": null, "VouContExceedHoldFlag": "-Fallback-scrubbed-q",
+        "VouContCode": "-Fallback-scrubbed-jHwtEwOV", "VouContractorPrelimFlag": "-Fallback-scrubbed-q",
+        "VouContactCode": "-Fallback-scrubbed-vw", "VouCompCode": "001", "VouCisPc":
+        null, "VouCisPayableAmt": null, "VouCisApplicableAmt": null, "VouChqPayeeName":
+        null, "VouChqHandleCode": null, "VouChgCode": "-Fallback-scrubbed-BrN", "VouCatCode":
+        null, "VouCashAccCode": "-Fallback-scrubbed-IqwZ", "VouBchNum": 8645, "VouBchrgInvFlag":
+        null, "VouAppr2": null, "VouAppr1": null, "Vou1099Code": "-Fallback-scrubbed-S",
+        "VouTax2TaxableAmt": null, "VouTax2IncFlag": null, "VouTax2HldbkCode": "-Fallback-scrubbed-h",
+        "VouTax2HldbkAmt": 4807, "VouTax2HldbkAdjAmt": null, "VouTax2DiscCode": "-Fallback-scrubbed-q",
+        "VouTax2DirectFlag": null, "VouTax2CreditFlag": null, "VouTax2Code": null,
+        "VouTax2Amt": 4807, "VouTax1TaxableFlag": "-Fallback-scrubbed-d", "VouTax1TaxableAmt":
+        null, "VouTax1IncFlag": null, "VouTax1HldbkAdjAmt": null, "VouTax1DirectFlag":
+        null, "VouTax1CreditFlag": null, "VouTax1Code": null, "VouSubcontrCode": "-Fallback-scrubbed-PlED",
+        "VouStatusCode": "-Fallback-scrubbed-N", "VouSplitGroupNum": null, "VouSplitByApplCode":
+        null, "VouSourceTypeCode": null, "VouSourceToDate": null, "VouSourceObjectOraseq":
+        null, "VouSourceFromDate": null, "VouSktAmt": null, "VouShplCode": null, "VouShipOraseq":
+        null, "VouSeparateBillingRefCode": null, "VouSelForVoidFlag": null, "VouScSelfBilledFlag":
+        "-Fallback-scrubbed-q", "VouScModifiedFlag": "-Fallback-scrubbed-q", "VouScApprovedFlag":
+        "-Fallback-scrubbed-q", "VouScApplyBchNum": null, "VouScmstJobCode": "-Fallback-scrubbed-NFNoa",
+        "VouRoutJob": null, "VouRlsWAmt": null, "VouRlsTax2Code": null, "VouRlsTax2Amt":
+        null, "VouRlsTax1Code": null, "VouRlsTax1Amt": null, "VouRlsNum": null, "VouRlsInvCode":
+        null, "VouRlsDate": null, "VouRlsBchNum": null, "VouRlsAmt": null, "VouRevDate":
+        null, "VouRevBchNum": null, "VouRevisionNum": null, "VouResaleInfo": null,
+        "VouRemitDesc": null, "VouRegInvNum": null, "VouRecordStatus": "-Fallback-scrubbed-NFfOfurhB",
+        "VouPyTaxVoucherFlag": null, "VouPyIrsTaxType": null, "VouPyIrsTaxPerEndDate":
+        null, "VouPyIrsTaxInfoId": null, "VouPrepaidExpAmt": null, "VouPrelienComplPayCode":
+        null, "VouPoReleaseNum": null, "VouPoPrtCode": null, "VouPoPickFlag": "-Fallback-scrubbed-q",
+        "VouPoNum": null, "VouPostDate": "-Fallback-scrubbed-OnAPXWZoMedaXepfChzoYtNAl",
+        "VouPayNotes": null, "VouPayCode": "-Fallback-scrubbed-r", "VouPayByManualChqFlag":
+        "-Fallback-scrubbed-q", "VouPartnTypeCode": "-Fallback-scrubbed-J", "VouPartnCode":
+        "-Fallback-scrubbed-nlo", "VouPartialApprovedAmt": null, "VouPaidAmt": null,
+        "VouOrigTaxHldbkAmt": 4807, "VouOrigHldbkAmt": -473641380217.681, "VouOrigBchNum":
+        null, "VouOrigAmt": null, "VouOriginatingVouNum": null, "VouOperationCode":
+        null, "VouNum": 251507379, "VouNonZeroOweCompVenCode": "-Fallback-scrubbed-aqwjXMMqyiSdXdZ",
+        "VouNodiscAmt": null, "VouNatureOfServices": null, "VouMultiControlJobFlag":
+        "-Fallback-scrubbed-X", "VouMiscDiscCode": "-Fallback-scrubbed-q", "VouMiscAmt":
+        null, "VouMemoTaxHldbkAmt": null, "VouMemoTaxAmt": null, "VouMemoTax5Amt":
+        null, "VouMemoTax4Amt": null, "VouMemoTax3Amt": null, "VouMemoTax2HldbkAmt":
+        null, "VouIuUpdateUser": "-Fallback-scrubbed-PYJcGD", "VouIuUpdateDate": "2026-07-01T09:33:28-04:00",
+        "VouIuCreateUser": "-Fallback-scrubbed-PYJcGD", "VouIuCreateDate": "2026-07-01T09:33:18-04:00",
+        "VouVenCode": "-Fallback-scrubbed-zoDdkgn", "VouVenAddCode": null, "VouVendorInvCode":
+        null, "VouValuateToDate": null, "VouValuateFromDate": null, "VouUnpostedRfpInfo":
+        null, "VouUnpostedPayCodeOverride": null, "VouTranCode": "-Fallback-scrubbed-l",
+        "VouTpPaymodeTypeCode": null, "VouTppayCode": null, "VouTermPc": 4807, "VouTaxTreatmentPercent":
+        null, "VouTaxHldbkAmt": 4807, "VouTaxDiscCode": "-Fallback-scrubbed-q", "VouTaxAmt":
+        4807, "VouTax5TaxableFlag": "-Fallback-scrubbed-d", "VouTax5TaxableAmt": null,
+        "VouTax5IncFlag": null, "VouTax5DiscCode": "-Fallback-scrubbed-q", "VouTax5DirectFlag":
+        null, "VouTax5CreditFlag": null, "VouTax5Code": null, "VouTax5Amt": 4807,
+        "VouTax4TaxableFlag": "-Fallback-scrubbed-d", "VouTax4TaxableAmt": null, "VouTax4IncFlag":
+        null, "VouTax4DiscCode": "-Fallback-scrubbed-q", "VouTax4DirectFlag": null,
+        "VouTax4CreditFlag": null, "VouTax4Code": null, "VouTax4Amt": 4807, "VouTax3TaxableFlag":
+        "-Fallback-scrubbed-d", "VouTax3TaxableAmt": null, "VouTax3IncFlag": null,
+        "VouTax3DiscCode": "-Fallback-scrubbed-q", "VouTax3DirectFlag": null, "VouTax3CreditFlag":
+        null, "VouTax3Code": null, "VouTax3Amt": 4807, "VouTax2TaxableFlag": "-Fallback-scrubbed-d",
+        "VouCreatedByManchqFlag": "-Fallback-scrubbed-q", "VouAcctDescription": null,
+        "links": [{"rel": "-Fallback-scrubbed-kYsc", "href": "-Fallback-scrubbed-odnnCmXGLqxsExEmbsXaWQntdUkrTpeCYxpBjbbfsbmHkHlyUUaTnDHOshckmAlzKjCCXZRzIXFGtxLcqRznwRdFGNOgemAWpJHUg",
+        "name": "Megan Hogan", "kind": "-Fallback-scrubbed-cgyl"}, {"rel": "-Fallback-scrubbed-jsaymHQKW",
+        "href": "-Fallback-scrubbed-odnnCmXGLqxsExEmbsXaWQntdUkrTpeCYxpBjbbfsbmHkHlyUUaTnDHOshckmAlzKjCCXZRzIXFGtxLcqRznwRdFGNOgemAWpJHUg",
+        "name": "Megan Hogan", "kind": "-Fallback-scrubbed-cgyl"}, {"rel": "-Fallback-scrubbed-dDmdx",
+        "href": "-Fallback-scrubbed-tWFeBBKFvQhWXBCAhgXQDnDpkkNbyRCLaxpxdIgScLKapUMNegLZyuNAtIbSamngtcNOoqmAFHrMjbIbAPkINxJMTOnbppaOXBQCLANrdYcVdcXauJSsEfalZxlGkOhoENTDF",
+        "name": "Victor Smith", "kind": "-Fallback-scrubbed-WtOlAeETxt"}]}, {"VouMemoTax2Amt":
+        null, "VouMemoHldbkAmt": null, "VouMemoDiscAmt": null, "VouMemoAmt": null,
+        "VouMaterialInvFlag": "-Fallback-scrubbed-q", "VouLastPayAmt": null, "VouJobCompCode":
+        "-Fallback-scrubbed-nlo", "VouJobCode": "-Fallback-scrubbed-NFNoa", "VouInvSeriesCode":
+        null, "VouInvOutstandAmt": 73, "VouInvHldbkTaxFlag": "-Fallback-scrubbed-q",
+        "VouInvDate": "-Fallback-scrubbed-OnAPXWZoMedaXepfChzoYtNAl", "VouInvCode":
+        "-Fallback-scrubbed-ZhxgwsxlFIRlSp", "VouInvAmt": 7697, "VouImportInfo": null,
+        "VouImportingGoodsFlag": "-Fallback-scrubbed-q", "VouImageFilename": null,
+        "VouHoldPaymentFlag": "-Fallback-scrubbed-d", "VouHoldPaymentDays": 4807,
+        "VouHoldFlag": "-Fallback-scrubbed-q", "VouHldbkPc": 546, "VouHldbkPaid":
+        null, "VouHldbkAmt": 1841, "VouGsthldbkCode": "-Fallback-scrubbed-h", "VouFuncFactorNum":
+        null, "VouFrtDiscCode": "-Fallback-scrubbed-q", "VouFrtAmt": null, "VouFiscalCode":
+        null, "VouFinalRfpFlag": "-Fallback-scrubbed-q", "VouExpDeptCode": null, "VouEnteredAmt":
+        7697, "VouEftFlag": "-Fallback-scrubbed-q", "VouDuplicateId": null, "VouDueDate":
+        "-Fallback-scrubbed-uFwXZmbvNnkEiwiARDZDDvQvT", "VouDrawNum": null, "VouDistTypeCode":
+        "-Fallback-scrubbed-I", "VouDiscTaken": null, "VouDiscPc": null, "VouDiscDate":
+        "-Fallback-scrubbed-OnAPXWZoMedaXepfChzoYtNAl", "VouDiscAmt": 4807, "VouDiscAllocMethCode":
+        "-Fallback-scrubbed-f", "VouDiscreteChqFlag": "-Fallback-scrubbed-q", "VouDfttaxFromCode":
+        null, "VouDesc2": null, "VouDesc1": "-Fallback-scrubbed-YMdoKqayLMqQTIiTjEuHidtSAVgIUC",
+        "VouDeptCodeDist": null, "VouDeptCode": "-Fallback-scrubbed-zt", "VouDeptAcct":
+        null, "VouCurrCode": "-Fallback-scrubbed-rZt", "VouCurcFactorNum": 2789, "VouCreatedByJbFlag":
+        null, "VouCostCode": null, "VouContExceedHoldFlag": "-Fallback-scrubbed-q",
+        "VouContCode": "-Fallback-scrubbed-jHwtEwOV", "VouContractorPrelimFlag": "-Fallback-scrubbed-q",
+        "VouContactCode": "-Fallback-scrubbed-vw", "VouCompCode": "001", "VouCisPc":
+        null, "VouCisPayableAmt": null, "VouCisApplicableAmt": null, "VouChqPayeeName":
+        null, "VouChqHandleCode": null, "VouChgCode": "-Fallback-scrubbed-BrN", "VouCatCode":
+        null, "VouCashAccCode": "-Fallback-scrubbed-IqwZ", "VouBchNum": 9617, "VouBchrgInvFlag":
+        null, "VouAppr2": null, "VouAppr1": null, "Vou1099Code": "-Fallback-scrubbed-S",
+        "VouTax2TaxableAmt": null, "VouTax2IncFlag": null, "VouTax2HldbkCode": "-Fallback-scrubbed-h",
+        "VouTax2HldbkAmt": 4807, "VouTax2HldbkAdjAmt": null, "VouTax2DiscCode": "-Fallback-scrubbed-q",
+        "VouTax2DirectFlag": null, "VouTax2CreditFlag": null, "VouTax2Code": null,
+        "VouTax2Amt": 4807, "VouTax1TaxableFlag": "-Fallback-scrubbed-d", "VouTax1TaxableAmt":
+        null, "VouTax1IncFlag": null, "VouTax1HldbkAdjAmt": null, "VouTax1DirectFlag":
+        null, "VouTax1CreditFlag": null, "VouTax1Code": null, "VouSubcontrCode": "-Fallback-scrubbed-PlED",
+        "VouStatusCode": "-Fallback-scrubbed-N", "VouSplitGroupNum": null, "VouSplitByApplCode":
+        null, "VouSourceTypeCode": null, "VouSourceToDate": null, "VouSourceObjectOraseq":
+        null, "VouSourceFromDate": null, "VouSktAmt": null, "VouShplCode": null, "VouShipOraseq":
+        null, "VouSeparateBillingRefCode": null, "VouSelForVoidFlag": null, "VouScSelfBilledFlag":
+        "-Fallback-scrubbed-q", "VouScModifiedFlag": "-Fallback-scrubbed-q", "VouScApprovedFlag":
+        "-Fallback-scrubbed-q", "VouScApplyBchNum": null, "VouScmstJobCode": "-Fallback-scrubbed-NFNoa",
+        "VouRoutJob": null, "VouRlsWAmt": null, "VouRlsTax2Code": null, "VouRlsTax2Amt":
+        null, "VouRlsTax1Code": null, "VouRlsTax1Amt": null, "VouRlsNum": null, "VouRlsInvCode":
+        null, "VouRlsDate": null, "VouRlsBchNum": null, "VouRlsAmt": null, "VouRevDate":
+        null, "VouRevBchNum": null, "VouRevisionNum": null, "VouResaleInfo": null,
+        "VouRemitDesc": null, "VouRegInvNum": null, "VouRecordStatus": "-Fallback-scrubbed-NFfOfurhB",
+        "VouPyTaxVoucherFlag": null, "VouPyIrsTaxType": null, "VouPyIrsTaxPerEndDate":
+        null, "VouPyIrsTaxInfoId": null, "VouPrepaidExpAmt": null, "VouPrelienComplPayCode":
+        null, "VouPoReleaseNum": null, "VouPoPrtCode": null, "VouPoPickFlag": "-Fallback-scrubbed-q",
+        "VouPoNum": null, "VouPostDate": null, "VouPayNotes": null, "VouPayCode":
+        "-Fallback-scrubbed-J", "VouPayByManualChqFlag": "-Fallback-scrubbed-q", "VouPartnTypeCode":
+        "-Fallback-scrubbed-J", "VouPartnCode": "-Fallback-scrubbed-nlo", "VouPartialApprovedAmt":
+        null, "VouPaidAmt": null, "VouOrigTaxHldbkAmt": 4807, "VouOrigHldbkAmt": 1841,
+        "VouOrigBchNum": null, "VouOrigAmt": null, "VouOriginatingVouNum": null, "VouOperationCode":
+        null, "VouNum": 251507381, "VouNonZeroOweCompVenCode": "-Fallback-scrubbed-aqwjXMMqyiSdXdZ",
+        "VouNodiscAmt": null, "VouNatureOfServices": null, "VouMultiControlJobFlag":
+        "-Fallback-scrubbed-X", "VouMiscDiscCode": "-Fallback-scrubbed-q", "VouMiscAmt":
+        null, "VouMemoTaxHldbkAmt": null, "VouMemoTaxAmt": null, "VouMemoTax5Amt":
+        null, "VouMemoTax4Amt": null, "VouMemoTax3Amt": null, "VouMemoTax2HldbkAmt":
+        null, "VouIuUpdateUser": "-Fallback-scrubbed-PYJcGD", "VouIuUpdateDate": "2026-07-01T10:24:09-04:00",
+        "VouIuCreateUser": "-Fallback-scrubbed-PYJcGD", "VouIuCreateDate": "2026-07-01T10:24:05-04:00",
+        "VouVenCode": "-Fallback-scrubbed-zoDdkgn", "VouVenAddCode": null, "VouVendorInvCode":
+        null, "VouValuateToDate": null, "VouValuateFromDate": null, "VouUnpostedRfpInfo":
+        "-Fallback-scrubbed-lqvrzrVSIoZnHuGUbSHyJKDeBdUBoZmKGSDAJDLcrn", "VouUnpostedPayCodeOverride":
+        null, "VouTranCode": "-Fallback-scrubbed-l", "VouTpPaymodeTypeCode": null,
+        "VouTppayCode": null, "VouTermPc": 4807, "VouTaxTreatmentPercent": null, "VouTaxHldbkAmt":
+        4807, "VouTaxDiscCode": "-Fallback-scrubbed-q", "VouTaxAmt": 4807, "VouTax5TaxableFlag":
+        "-Fallback-scrubbed-d", "VouTax5TaxableAmt": null, "VouTax5IncFlag": null,
+        "VouTax5DiscCode": "-Fallback-scrubbed-q", "VouTax5DirectFlag": null, "VouTax5CreditFlag":
+        null, "VouTax5Code": null, "VouTax5Amt": 4807, "VouTax4TaxableFlag": "-Fallback-scrubbed-d",
+        "VouTax4TaxableAmt": null, "VouTax4IncFlag": null, "VouTax4DiscCode": "-Fallback-scrubbed-q",
+        "VouTax4DirectFlag": null, "VouTax4CreditFlag": null, "VouTax4Code": null,
+        "VouTax4Amt": 4807, "VouTax3TaxableFlag": "-Fallback-scrubbed-d", "VouTax3TaxableAmt":
+        null, "VouTax3IncFlag": null, "VouTax3DiscCode": "-Fallback-scrubbed-q", "VouTax3DirectFlag":
+        null, "VouTax3CreditFlag": null, "VouTax3Code": null, "VouTax3Amt": 4807,
+        "VouTax2TaxableFlag": "-Fallback-scrubbed-d", "VouCreatedByManchqFlag": "-Fallback-scrubbed-q",
+        "VouAcctDescription": null, "links": [{"rel": "-Fallback-scrubbed-kYsc", "href":
+        "-Fallback-scrubbed-FmcdpkuGuTGPcpLNqLxtDCHnhnGYMVFrxpKFczNWpjJnuFxJOkhrWRivndYxMcfOvCGUTOhdwGYrqWepjPvlMToDKMPpExaRLwKzB",
+        "name": "Megan Hogan", "kind": "-Fallback-scrubbed-cgyl"}, {"rel": "-Fallback-scrubbed-jsaymHQKW",
+        "href": "-Fallback-scrubbed-FmcdpkuGuTGPcpLNqLxtDCHnhnGYMVFrxpKFczNWpjJnuFxJOkhrWRivndYxMcfOvCGUTOhdwGYrqWepjPvlMToDKMPpExaRLwKzB",
+        "name": "Megan Hogan", "kind": "-Fallback-scrubbed-cgyl"}, {"rel": "-Fallback-scrubbed-dDmdx",
+        "href": "-Fallback-scrubbed-aRFfIjSAOQqiWeIyPPRivcMUKJGpfBsbQWCXgCCjgolDztUywSAGtusXWzsuNgSxrxsxkhfaBKtllqOJIoxQoWqGYneETPJgRICibuRJsLVizhmQxnjMSfugzTcKkUHfMAkfn",
+        "name": "Victor Smith", "kind": "-Fallback-scrubbed-WtOlAeETxt"}]}, {"VouMemoTax2Amt":
+        null, "VouMemoHldbkAmt": null, "VouMemoDiscAmt": null, "VouMemoAmt": null,
+        "VouMaterialInvFlag": "-Fallback-scrubbed-q", "VouLastPayAmt": null, "VouJobCompCode":
+        "-Fallback-scrubbed-nlo", "VouJobCode": "-Fallback-scrubbed-NFNoa", "VouInvSeriesCode":
+        null, "VouInvOutstandAmt": 4807, "VouInvHldbkTaxFlag": "-Fallback-scrubbed-q",
+        "VouInvDate": "-Fallback-scrubbed-XWtmFRdhUZvTafVtVgRPtGfts", "VouInvCode":
+        "-Fallback-scrubbed-SgpdBoVlqxFJ", "VouInvAmt": 1284, "VouImportInfo": null,
+        "VouImportingGoodsFlag": "-Fallback-scrubbed-q", "VouImageFilename": null,
+        "VouHoldPaymentFlag": "-Fallback-scrubbed-d", "VouHoldPaymentDays": 4807,
+        "VouHoldFlag": "-Fallback-scrubbed-q", "VouHldbkPc": -756.7993926223, "VouHldbkPaid":
+        null, "VouHldbkAmt": 2255, "VouGsthldbkCode": "-Fallback-scrubbed-h", "VouFuncFactorNum":
+        null, "VouFrtDiscCode": "-Fallback-scrubbed-q", "VouFrtAmt": null, "VouFiscalCode":
+        null, "VouFinalRfpFlag": "-Fallback-scrubbed-q", "VouExpDeptCode": null, "VouEnteredAmt":
+        1284, "VouEftFlag": "-Fallback-scrubbed-q", "VouDuplicateId": null, "VouDueDate":
+        "-Fallback-scrubbed-GFIyRBozFLQfEfhNhjabYGLak", "VouDrawNum": null, "VouDistTypeCode":
+        "-Fallback-scrubbed-I", "VouDiscTaken": null, "VouDiscPc": null, "VouDiscDate":
+        "-Fallback-scrubbed-XWtmFRdhUZvTafVtVgRPtGfts", "VouDiscAmt": 4807, "VouDiscAllocMethCode":
+        "-Fallback-scrubbed-f", "VouDiscreteChqFlag": "-Fallback-scrubbed-q", "VouDfttaxFromCode":
+        null, "VouDesc2": null, "VouDesc1": "-Fallback-scrubbed-YMdoKqayLMqQTIiTjEuHidtSAVgIUC",
+        "VouDeptCodeDist": null, "VouDeptCode": "-Fallback-scrubbed-zt", "VouDeptAcct":
+        null, "VouCurrCode": "-Fallback-scrubbed-rZt", "VouCurcFactorNum": 2789, "VouCreatedByJbFlag":
+        null, "VouCostCode": null, "VouContExceedHoldFlag": "-Fallback-scrubbed-q",
+        "VouContCode": "-Fallback-scrubbed-wlZXfFFy", "VouContractorPrelimFlag": "-Fallback-scrubbed-q",
+        "VouContactCode": "-Fallback-scrubbed-vw", "VouCompCode": "001", "VouCisPc":
+        null, "VouCisPayableAmt": null, "VouCisApplicableAmt": null, "VouChqPayeeName":
+        null, "VouChqHandleCode": null, "VouChgCode": "-Fallback-scrubbed-BrN", "VouCatCode":
+        null, "VouCashAccCode": "-Fallback-scrubbed-IqwZ", "VouBchNum": 3413, "VouBchrgInvFlag":
+        null, "VouAppr2": null, "VouAppr1": null, "Vou1099Code": "-Fallback-scrubbed-S",
+        "VouTax2TaxableAmt": null, "VouTax2IncFlag": null, "VouTax2HldbkCode": "-Fallback-scrubbed-h",
+        "VouTax2HldbkAmt": 4807, "VouTax2HldbkAdjAmt": null, "VouTax2DiscCode": "-Fallback-scrubbed-q",
+        "VouTax2DirectFlag": null, "VouTax2CreditFlag": null, "VouTax2Code": null,
+        "VouTax2Amt": 4807, "VouTax1TaxableFlag": "-Fallback-scrubbed-d", "VouTax1TaxableAmt":
+        null, "VouTax1IncFlag": null, "VouTax1HldbkAdjAmt": null, "VouTax1DirectFlag":
+        null, "VouTax1CreditFlag": null, "VouTax1Code": null, "VouSubcontrCode": "-Fallback-scrubbed-PlED",
+        "VouStatusCode": "-Fallback-scrubbed-l", "VouSplitGroupNum": null, "VouSplitByApplCode":
+        null, "VouSourceTypeCode": null, "VouSourceToDate": null, "VouSourceObjectOraseq":
+        null, "VouSourceFromDate": null, "VouSktAmt": null, "VouShplCode": null, "VouShipOraseq":
+        null, "VouSeparateBillingRefCode": null, "VouSelForVoidFlag": null, "VouScSelfBilledFlag":
+        "-Fallback-scrubbed-q", "VouScModifiedFlag": "-Fallback-scrubbed-q", "VouScApprovedFlag":
+        "-Fallback-scrubbed-q", "VouScApplyBchNum": null, "VouScmstJobCode": "-Fallback-scrubbed-NFNoa",
+        "VouRoutJob": null, "VouRlsWAmt": null, "VouRlsTax2Code": null, "VouRlsTax2Amt":
+        null, "VouRlsTax1Code": null, "VouRlsTax1Amt": null, "VouRlsNum": null, "VouRlsInvCode":
+        null, "VouRlsDate": null, "VouRlsBchNum": null, "VouRlsAmt": null, "VouRevDate":
+        "-Fallback-scrubbed-OnAPXWZoMedaXepfChzoYtNAl", "VouRevBchNum": 7429, "VouRevisionNum":
+        null, "VouResaleInfo": null, "VouRemitDesc": null, "VouRegInvNum": null, "VouRecordStatus":
+        "-Fallback-scrubbed-NFfOfurhB", "VouPyTaxVoucherFlag": null, "VouPyIrsTaxType":
+        null, "VouPyIrsTaxPerEndDate": null, "VouPyIrsTaxInfoId": null, "VouPrepaidExpAmt":
+        null, "VouPrelienComplPayCode": null, "VouPoReleaseNum": null, "VouPoPrtCode":
+        null, "VouPoPickFlag": "-Fallback-scrubbed-q", "VouPoNum": null, "VouPostDate":
+        "-Fallback-scrubbed-XWtmFRdhUZvTafVtVgRPtGfts", "VouPayNotes": null, "VouPayCode":
+        "-Fallback-scrubbed-r", "VouPayByManualChqFlag": "-Fallback-scrubbed-q", "VouPartnTypeCode":
+        "-Fallback-scrubbed-J", "VouPartnCode": "-Fallback-scrubbed-nlo", "VouPartialApprovedAmt":
+        null, "VouPaidAmt": null, "VouOrigTaxHldbkAmt": 4807, "VouOrigHldbkAmt": 4807,
+        "VouOrigBchNum": null, "VouOrigAmt": null, "VouOriginatingVouNum": null, "VouOperationCode":
+        null, "VouNum": 251507373, "VouNonZeroOweCompVenCode": null, "VouNodiscAmt":
+        null, "VouNatureOfServices": null, "VouMultiControlJobFlag": "-Fallback-scrubbed-X",
+        "VouMiscDiscCode": "-Fallback-scrubbed-q", "VouMiscAmt": null, "VouMemoTaxHldbkAmt":
+        null, "VouMemoTaxAmt": null, "VouMemoTax5Amt": null, "VouMemoTax4Amt": null,
+        "VouMemoTax3Amt": null, "VouMemoTax2HldbkAmt": null, "VouIuUpdateUser": "-Fallback-scrubbed-PYJcGD",
+        "VouIuUpdateDate": "2026-07-01T09:09:27-04:00", "VouIuCreateUser": "-Fallback-scrubbed-PYJcGD",
+        "VouIuCreateDate": "2026-06-30T17:28:09-04:00", "VouVenCode": "-Fallback-scrubbed-zoDdkgn",
+        "VouVenAddCode": null, "VouVendorInvCode": null, "VouValuateToDate": null,
+        "VouValuateFromDate": null, "VouUnpostedRfpInfo": null, "VouUnpostedPayCodeOverride":
+        null, "VouTranCode": "-Fallback-scrubbed-l", "VouTpPaymodeTypeCode": null,
+        "VouTppayCode": null, "VouTermPc": 4807, "VouTaxTreatmentPercent": null, "VouTaxHldbkAmt":
+        4807, "VouTaxDiscCode": "-Fallback-scrubbed-q", "VouTaxAmt": 4807, "VouTax5TaxableFlag":
+        "-Fallback-scrubbed-d", "VouTax5TaxableAmt": null, "VouTax5IncFlag": null,
+        "VouTax5DiscCode": "-Fallback-scrubbed-q", "VouTax5DirectFlag": null, "VouTax5CreditFlag":
+        null, "VouTax5Code": null, "VouTax5Amt": 4807, "VouTax4TaxableFlag": "-Fallback-scrubbed-d",
+        "VouTax4TaxableAmt": null, "VouTax4IncFlag": null, "VouTax4DiscCode": "-Fallback-scrubbed-q",
+        "VouTax4DirectFlag": null, "VouTax4CreditFlag": null, "VouTax4Code": null,
+        "VouTax4Amt": 4807, "VouTax3TaxableFlag": "-Fallback-scrubbed-d", "VouTax3TaxableAmt":
+        null, "VouTax3IncFlag": null, "VouTax3DiscCode": "-Fallback-scrubbed-q", "VouTax3DirectFlag":
+        null, "VouTax3CreditFlag": null, "VouTax3Code": null, "VouTax3Amt": 4807,
+        "VouTax2TaxableFlag": "-Fallback-scrubbed-d", "VouCreatedByManchqFlag": "-Fallback-scrubbed-q",
+        "VouAcctDescription": null, "links": [{"rel": "-Fallback-scrubbed-kYsc", "href":
+        "-Fallback-scrubbed-LFNKSJgSgeNbxZBwqIQEQlJjgHHEKsctLkleovKfPPOSDGSLddbAqTqZNSFPmOXguDDsphLAihQEMUbXxtPkfFrvpEpRHIdlnCjNp",
+        "name": "Megan Hogan", "kind": "-Fallback-scrubbed-cgyl"}, {"rel": "-Fallback-scrubbed-jsaymHQKW",
+        "href": "-Fallback-scrubbed-LFNKSJgSgeNbxZBwqIQEQlJjgHHEKsctLkleovKfPPOSDGSLddbAqTqZNSFPmOXguDDsphLAihQEMUbXxtPkfFrvpEpRHIdlnCjNp",
+        "name": "Megan Hogan", "kind": "-Fallback-scrubbed-cgyl"}, {"rel": "-Fallback-scrubbed-dDmdx",
+        "href": "-Fallback-scrubbed-oqVAOUxlrlzgfGRqVTQssklDrRYFGApDrmBinCPARFPGvqoTmdwxZUWYnTBwdZvJlfEbleTYsXMzzRWDcSKldQpWyVuQfuefPPJDfCThzHWLMzujFQoEWiIUhskbJDQNuTjSJ",
+        "name": "Victor Smith", "kind": "-Fallback-scrubbed-WtOlAeETxt"}]}, {"VouMemoTax2Amt":
+        null, "VouMemoHldbkAmt": null, "VouMemoDiscAmt": null, "VouMemoAmt": null,
+        "VouMaterialInvFlag": "-Fallback-scrubbed-q", "VouLastPayAmt": null, "VouJobCompCode":
+        "-Fallback-scrubbed-nlo", "VouJobCode": "-Fallback-scrubbed-NFNoa", "VouInvSeriesCode":
+        null, "VouInvOutstandAmt": 2391, "VouInvHldbkTaxFlag": "-Fallback-scrubbed-q",
+        "VouInvDate": "-Fallback-scrubbed-XWtmFRdhUZvTafVtVgRPtGfts", "VouInvCode":
+        "-Fallback-scrubbed-LXcqALZubMuU", "VouInvAmt": 4912, "VouImportInfo": null,
+        "VouImportingGoodsFlag": "-Fallback-scrubbed-q", "VouImageFilename": null,
+        "VouHoldPaymentFlag": "-Fallback-scrubbed-d", "VouHoldPaymentDays": 4807,
+        "VouHoldFlag": "-Fallback-scrubbed-q", "VouHldbkPc": 74601142072.6144, "VouHldbkPaid":
+        null, "VouHldbkAmt": 3692, "VouGsthldbkCode": "-Fallback-scrubbed-h", "VouFuncFactorNum":
+        null, "VouFrtDiscCode": "-Fallback-scrubbed-q", "VouFrtAmt": null, "VouFiscalCode":
+        null, "VouFinalRfpFlag": "-Fallback-scrubbed-q", "VouExpDeptCode": null, "VouEnteredAmt":
+        4912, "VouEftFlag": "-Fallback-scrubbed-q", "VouDuplicateId": null, "VouDueDate":
+        "-Fallback-scrubbed-GFIyRBozFLQfEfhNhjabYGLak", "VouDrawNum": null, "VouDistTypeCode":
+        "-Fallback-scrubbed-I", "VouDiscTaken": null, "VouDiscPc": null, "VouDiscDate":
+        "-Fallback-scrubbed-XWtmFRdhUZvTafVtVgRPtGfts", "VouDiscAmt": 4807, "VouDiscAllocMethCode":
+        "-Fallback-scrubbed-f", "VouDiscreteChqFlag": "-Fallback-scrubbed-q", "VouDfttaxFromCode":
+        null, "VouDesc2": null, "VouDesc1": "-Fallback-scrubbed-YMdoKqayLMqQTIiTjEuHidtSAVgIUC",
+        "VouDeptCodeDist": null, "VouDeptCode": "-Fallback-scrubbed-zt", "VouDeptAcct":
+        null, "VouCurrCode": "-Fallback-scrubbed-rZt", "VouCurcFactorNum": 2789, "VouCreatedByJbFlag":
+        null, "VouCostCode": null, "VouContExceedHoldFlag": "-Fallback-scrubbed-q",
+        "VouContCode": "-Fallback-scrubbed-wlZXfFFy", "VouContractorPrelimFlag": "-Fallback-scrubbed-q",
+        "VouContactCode": "-Fallback-scrubbed-vw", "VouCompCode": "001", "VouCisPc":
+        null, "VouCisPayableAmt": null, "VouCisApplicableAmt": null, "VouChqPayeeName":
+        null, "VouChqHandleCode": null, "VouChgCode": "-Fallback-scrubbed-BrN", "VouCatCode":
+        null, "VouCashAccCode": "-Fallback-scrubbed-IqwZ", "VouBchNum": 2943, "VouBchrgInvFlag":
+        null, "VouAppr2": null, "VouAppr1": null, "Vou1099Code": "-Fallback-scrubbed-S",
+        "VouTax2TaxableAmt": null, "VouTax2IncFlag": null, "VouTax2HldbkCode": "-Fallback-scrubbed-h",
+        "VouTax2HldbkAmt": 4807, "VouTax2HldbkAdjAmt": null, "VouTax2DiscCode": "-Fallback-scrubbed-q",
+        "VouTax2DirectFlag": null, "VouTax2CreditFlag": null, "VouTax2Code": null,
+        "VouTax2Amt": 4807, "VouTax1TaxableFlag": "-Fallback-scrubbed-d", "VouTax1TaxableAmt":
+        null, "VouTax1IncFlag": null, "VouTax1HldbkAdjAmt": null, "VouTax1DirectFlag":
+        null, "VouTax1CreditFlag": null, "VouTax1Code": null, "VouSubcontrCode": "-Fallback-scrubbed-PlED",
+        "VouStatusCode": "-Fallback-scrubbed-N", "VouSplitGroupNum": null, "VouSplitByApplCode":
+        null, "VouSourceTypeCode": null, "VouSourceToDate": null, "VouSourceObjectOraseq":
+        null, "VouSourceFromDate": null, "VouSktAmt": null, "VouShplCode": null, "VouShipOraseq":
+        null, "VouSeparateBillingRefCode": null, "VouSelForVoidFlag": null, "VouScSelfBilledFlag":
+        "-Fallback-scrubbed-q", "VouScModifiedFlag": "-Fallback-scrubbed-q", "VouScApprovedFlag":
+        "-Fallback-scrubbed-q", "VouScApplyBchNum": null, "VouScmstJobCode": "-Fallback-scrubbed-NFNoa",
+        "VouRoutJob": null, "VouRlsWAmt": null, "VouRlsTax2Code": null, "VouRlsTax2Amt":
+        null, "VouRlsTax1Code": null, "VouRlsTax1Amt": null, "VouRlsNum": null, "VouRlsInvCode":
+        null, "VouRlsDate": null, "VouRlsBchNum": null, "VouRlsAmt": null, "VouRevDate":
+        null, "VouRevBchNum": null, "VouRevisionNum": null, "VouResaleInfo": null,
+        "VouRemitDesc": null, "VouRegInvNum": null, "VouRecordStatus": "-Fallback-scrubbed-NFfOfurhB",
+        "VouPyTaxVoucherFlag": null, "VouPyIrsTaxType": null, "VouPyIrsTaxPerEndDate":
+        null, "VouPyIrsTaxInfoId": null, "VouPrepaidExpAmt": null, "VouPrelienComplPayCode":
+        null, "VouPoReleaseNum": null, "VouPoPrtCode": null, "VouPoPickFlag": "-Fallback-scrubbed-q",
+        "VouPoNum": null, "VouPostDate": "-Fallback-scrubbed-XWtmFRdhUZvTafVtVgRPtGfts",
+        "VouPayNotes": null, "VouPayCode": "-Fallback-scrubbed-r", "VouPayByManualChqFlag":
+        "-Fallback-scrubbed-q", "VouPartnTypeCode": "-Fallback-scrubbed-J", "VouPartnCode":
+        "-Fallback-scrubbed-nlo", "VouPartialApprovedAmt": null, "VouPaidAmt": null,
+        "VouOrigTaxHldbkAmt": 4807, "VouOrigHldbkAmt": 3692, "VouOrigBchNum": null,
+        "VouOrigAmt": null, "VouOriginatingVouNum": null, "VouOperationCode": null,
+        "VouNum": 251507374, "VouNonZeroOweCompVenCode": "-Fallback-scrubbed-aqwjXMMqyiSdXdZ",
+        "VouNodiscAmt": null, "VouNatureOfServices": null, "VouMultiControlJobFlag":
+        "-Fallback-scrubbed-X", "VouMiscDiscCode": "-Fallback-scrubbed-q", "VouMiscAmt":
+        null, "VouMemoTaxHldbkAmt": null, "VouMemoTaxAmt": null, "VouMemoTax5Amt":
+        null, "VouMemoTax4Amt": null, "VouMemoTax3Amt": null, "VouMemoTax2HldbkAmt":
+        null, "VouIuUpdateUser": "-Fallback-scrubbed-PYJcGD", "VouIuUpdateDate": "2026-06-30T17:34:09-04:00",
+        "VouIuCreateUser": "-Fallback-scrubbed-PYJcGD", "VouIuCreateDate": "2026-06-30T17:33:57-04:00",
+        "VouVenCode": "-Fallback-scrubbed-zoDdkgn", "VouVenAddCode": null, "VouVendorInvCode":
+        null, "VouValuateToDate": null, "VouValuateFromDate": null, "VouUnpostedRfpInfo":
+        null, "VouUnpostedPayCodeOverride": null, "VouTranCode": "-Fallback-scrubbed-l",
+        "VouTpPaymodeTypeCode": null, "VouTppayCode": null, "VouTermPc": 4807, "VouTaxTreatmentPercent":
+        null, "VouTaxHldbkAmt": 4807, "VouTaxDiscCode": "-Fallback-scrubbed-q", "VouTaxAmt":
+        4807, "VouTax5TaxableFlag": "-Fallback-scrubbed-d", "VouTax5TaxableAmt": null,
+        "VouTax5IncFlag": null, "VouTax5DiscCode": "-Fallback-scrubbed-q", "VouTax5DirectFlag":
+        null, "VouTax5CreditFlag": null, "VouTax5Code": null, "VouTax5Amt": 4807,
+        "VouTax4TaxableFlag": "-Fallback-scrubbed-d", "VouTax4TaxableAmt": null, "VouTax4IncFlag":
+        null, "VouTax4DiscCode": "-Fallback-scrubbed-q", "VouTax4DirectFlag": null,
+        "VouTax4CreditFlag": null, "VouTax4Code": null, "VouTax4Amt": 4807, "VouTax3TaxableFlag":
+        "-Fallback-scrubbed-d", "VouTax3TaxableAmt": null, "VouTax3IncFlag": null,
+        "VouTax3DiscCode": "-Fallback-scrubbed-q", "VouTax3DirectFlag": null, "VouTax3CreditFlag":
+        null, "VouTax3Code": null, "VouTax3Amt": 4807, "VouTax2TaxableFlag": "-Fallback-scrubbed-d",
+        "VouCreatedByManchqFlag": "-Fallback-scrubbed-q", "VouAcctDescription": null,
+        "links": [{"rel": "-Fallback-scrubbed-kYsc", "href": "-Fallback-scrubbed-WdioiXAwBmivlLETtoYqOQsKmjoLrfRoPCTEHlfHVSWVgHGqFxshhKjuziNGjVLNWmPetefAnwrFVqwdayCMImRHtDEqQVDtJOtql",
+        "name": "Megan Hogan", "kind": "-Fallback-scrubbed-cgyl"}, {"rel": "-Fallback-scrubbed-jsaymHQKW",
+        "href": "-Fallback-scrubbed-WdioiXAwBmivlLETtoYqOQsKmjoLrfRoPCTEHlfHVSWVgHGqFxshhKjuziNGjVLNWmPetefAnwrFVqwdayCMImRHtDEqQVDtJOtql",
+        "name": "Megan Hogan", "kind": "-Fallback-scrubbed-cgyl"}, {"rel": "-Fallback-scrubbed-dDmdx",
+        "href": "-Fallback-scrubbed-ampTjhuXXzLNcYRJriXxCZpXOGmVwCjfMSljlViKlfxlWoGWgvaLsvIYyjblBhwiNWmhDWSgJLcMLCaJIvJfpVoQXMVvnDkPZbUDCzLkyxjVjxkERcUurVQPhyAKYKXScwevC",
+        "name": "Victor Smith", "kind": "-Fallback-scrubbed-WtOlAeETxt"}]}, {"VouMemoTax2Amt":
+        null, "VouMemoHldbkAmt": null, "VouMemoDiscAmt": null, "VouMemoAmt": null,
+        "VouMaterialInvFlag": "-Fallback-scrubbed-q", "VouLastPayAmt": null, "VouJobCompCode":
+        "-Fallback-scrubbed-nlo", "VouJobCode": "-Fallback-scrubbed-NFNoa", "VouInvSeriesCode":
+        null, "VouInvOutstandAmt": 7205, "VouInvHldbkTaxFlag": "-Fallback-scrubbed-q",
+        "VouInvDate": "-Fallback-scrubbed-XWtmFRdhUZvTafVtVgRPtGfts", "VouInvCode":
+        "-Fallback-scrubbed-DcWXDcNwkRMb", "VouInvAmt": 485, "VouImportInfo": null,
+        "VouImportingGoodsFlag": "-Fallback-scrubbed-q", "VouImageFilename": null,
+        "VouHoldPaymentFlag": "-Fallback-scrubbed-d", "VouHoldPaymentDays": 4807,
+        "VouHoldFlag": "-Fallback-scrubbed-q", "VouHldbkPc": 4828166810951.7, "VouHldbkPaid":
+        null, "VouHldbkAmt": 500, "VouGsthldbkCode": "-Fallback-scrubbed-h", "VouFuncFactorNum":
+        null, "VouFrtDiscCode": "-Fallback-scrubbed-q", "VouFrtAmt": null, "VouFiscalCode":
+        null, "VouFinalRfpFlag": "-Fallback-scrubbed-q", "VouExpDeptCode": null, "VouEnteredAmt":
+        485, "VouEftFlag": "-Fallback-scrubbed-q", "VouDuplicateId": null, "VouDueDate":
+        "-Fallback-scrubbed-GFIyRBozFLQfEfhNhjabYGLak", "VouDrawNum": null, "VouDistTypeCode":
+        "-Fallback-scrubbed-I", "VouDiscTaken": null, "VouDiscPc": null, "VouDiscDate":
+        "-Fallback-scrubbed-XWtmFRdhUZvTafVtVgRPtGfts", "VouDiscAmt": 4807, "VouDiscAllocMethCode":
+        "-Fallback-scrubbed-f", "VouDiscreteChqFlag": "-Fallback-scrubbed-q", "VouDfttaxFromCode":
+        null, "VouDesc2": null, "VouDesc1": "-Fallback-scrubbed-YMdoKqayLMqQTIiTjEuHidtSAVgIUC",
+        "VouDeptCodeDist": null, "VouDeptCode": "-Fallback-scrubbed-zt", "VouDeptAcct":
+        null, "VouCurrCode": "-Fallback-scrubbed-rZt", "VouCurcFactorNum": 2789, "VouCreatedByJbFlag":
+        null, "VouCostCode": null, "VouContExceedHoldFlag": "-Fallback-scrubbed-q",
+        "VouContCode": "-Fallback-scrubbed-wlZXfFFy", "VouContractorPrelimFlag": "-Fallback-scrubbed-q",
+        "VouContactCode": "-Fallback-scrubbed-vw", "VouCompCode": "001", "VouCisPc":
+        null, "VouCisPayableAmt": null, "VouCisApplicableAmt": null, "VouChqPayeeName":
+        null, "VouChqHandleCode": null, "VouChgCode": "-Fallback-scrubbed-BrN", "VouCatCode":
+        null, "VouCashAccCode": "-Fallback-scrubbed-IqwZ", "VouBchNum": 8728, "VouBchrgInvFlag":
+        null, "VouAppr2": null, "VouAppr1": null, "Vou1099Code": "-Fallback-scrubbed-S",
+        "VouTax2TaxableAmt": null, "VouTax2IncFlag": null, "VouTax2HldbkCode": "-Fallback-scrubbed-h",
+        "VouTax2HldbkAmt": 4807, "VouTax2HldbkAdjAmt": null, "VouTax2DiscCode": "-Fallback-scrubbed-q",
+        "VouTax2DirectFlag": null, "VouTax2CreditFlag": null, "VouTax2Code": null,
+        "VouTax2Amt": 4807, "VouTax1TaxableFlag": "-Fallback-scrubbed-d", "VouTax1TaxableAmt":
+        null, "VouTax1IncFlag": null, "VouTax1HldbkAdjAmt": null, "VouTax1DirectFlag":
+        null, "VouTax1CreditFlag": null, "VouTax1Code": null, "VouSubcontrCode": "-Fallback-scrubbed-PlED",
+        "VouStatusCode": "-Fallback-scrubbed-N", "VouSplitGroupNum": null, "VouSplitByApplCode":
+        null, "VouSourceTypeCode": null, "VouSourceToDate": null, "VouSourceObjectOraseq":
+        null, "VouSourceFromDate": null, "VouSktAmt": null, "VouShplCode": null, "VouShipOraseq":
+        null, "VouSeparateBillingRefCode": null, "VouSelForVoidFlag": null, "VouScSelfBilledFlag":
+        "-Fallback-scrubbed-q", "VouScModifiedFlag": "-Fallback-scrubbed-q", "VouScApprovedFlag":
+        "-Fallback-scrubbed-q", "VouScApplyBchNum": null, "VouScmstJobCode": "-Fallback-scrubbed-NFNoa",
+        "VouRoutJob": null, "VouRlsWAmt": null, "VouRlsTax2Code": null, "VouRlsTax2Amt":
+        null, "VouRlsTax1Code": null, "VouRlsTax1Amt": null, "VouRlsNum": null, "VouRlsInvCode":
+        null, "VouRlsDate": null, "VouRlsBchNum": null, "VouRlsAmt": null, "VouRevDate":
+        null, "VouRevBchNum": null, "VouRevisionNum": null, "VouResaleInfo": null,
+        "VouRemitDesc": null, "VouRegInvNum": null, "VouRecordStatus": "-Fallback-scrubbed-NFfOfurhB",
+        "VouPyTaxVoucherFlag": null, "VouPyIrsTaxType": null, "VouPyIrsTaxPerEndDate":
+        null, "VouPyIrsTaxInfoId": null, "VouPrepaidExpAmt": null, "VouPrelienComplPayCode":
+        null, "VouPoReleaseNum": null, "VouPoPrtCode": null, "VouPoPickFlag": "-Fallback-scrubbed-q",
+        "VouPoNum": null, "VouPostDate": "-Fallback-scrubbed-XWtmFRdhUZvTafVtVgRPtGfts",
+        "VouPayNotes": null, "VouPayCode": "-Fallback-scrubbed-r", "VouPayByManualChqFlag":
+        "-Fallback-scrubbed-q", "VouPartnTypeCode": "-Fallback-scrubbed-J", "VouPartnCode":
+        "-Fallback-scrubbed-nlo", "VouPartialApprovedAmt": null, "VouPaidAmt": null,
+        "VouOrigTaxHldbkAmt": 4807, "VouOrigHldbkAmt": 500, "VouOrigBchNum": null,
+        "VouOrigAmt": null, "VouOriginatingVouNum": null, "VouOperationCode": null,
+        "VouNum": 251507375, "VouNonZeroOweCompVenCode": "-Fallback-scrubbed-aqwjXMMqyiSdXdZ",
+        "VouNodiscAmt": null, "VouNatureOfServices": null, "VouMultiControlJobFlag":
+        "-Fallback-scrubbed-X", "VouMiscDiscCode": "-Fallback-scrubbed-q", "VouMiscAmt":
+        null, "VouMemoTaxHldbkAmt": null, "VouMemoTaxAmt": null, "VouMemoTax5Amt":
+        null, "VouMemoTax4Amt": null, "VouMemoTax3Amt": null, "VouMemoTax2HldbkAmt":
+        null, "VouIuUpdateUser": "-Fallback-scrubbed-PYJcGD", "VouIuUpdateDate": "2026-06-30T17:36:01-04:00",
+        "VouIuCreateUser": "-Fallback-scrubbed-PYJcGD", "VouIuCreateDate": "2026-06-30T17:35:51-04:00",
+        "VouVenCode": "-Fallback-scrubbed-zoDdkgn", "VouVenAddCode": null, "VouVendorInvCode":
+        null, "VouValuateToDate": null, "VouValuateFromDate": null, "VouUnpostedRfpInfo":
+        null, "VouUnpostedPayCodeOverride": null, "VouTranCode": "-Fallback-scrubbed-l",
+        "VouTpPaymodeTypeCode": null, "VouTppayCode": null, "VouTermPc": 4807, "VouTaxTreatmentPercent":
+        null, "VouTaxHldbkAmt": 4807, "VouTaxDiscCode": "-Fallback-scrubbed-q", "VouTaxAmt":
+        4807, "VouTax5TaxableFlag": "-Fallback-scrubbed-d", "VouTax5TaxableAmt": null,
+        "VouTax5IncFlag": null, "VouTax5DiscCode": "-Fallback-scrubbed-q", "VouTax5DirectFlag":
+        null, "VouTax5CreditFlag": null, "VouTax5Code": null, "VouTax5Amt": 4807,
+        "VouTax4TaxableFlag": "-Fallback-scrubbed-d", "VouTax4TaxableAmt": null, "VouTax4IncFlag":
+        null, "VouTax4DiscCode": "-Fallback-scrubbed-q", "VouTax4DirectFlag": null,
+        "VouTax4CreditFlag": null, "VouTax4Code": null, "VouTax4Amt": 4807, "VouTax3TaxableFlag":
+        "-Fallback-scrubbed-d", "VouTax3TaxableAmt": null, "VouTax3IncFlag": null,
+        "VouTax3DiscCode": "-Fallback-scrubbed-q", "VouTax3DirectFlag": null, "VouTax3CreditFlag":
+        null, "VouTax3Code": null, "VouTax3Amt": 4807, "VouTax2TaxableFlag": "-Fallback-scrubbed-d",
+        "VouCreatedByManchqFlag": "-Fallback-scrubbed-q", "VouAcctDescription": null,
+        "links": [{"rel": "-Fallback-scrubbed-kYsc", "href": "-Fallback-scrubbed-clKKLtnXNZqORltEBoQvKFqPfTPhlvQdmKuvjvwrNwNyxzfougtXEYxcEiiGQJzfYPEPqaqMLtiWABrdEEJrZYNXqWsDpuliYJZTn",
+        "name": "Megan Hogan", "kind": "-Fallback-scrubbed-cgyl"}, {"rel": "-Fallback-scrubbed-jsaymHQKW",
+        "href": "-Fallback-scrubbed-clKKLtnXNZqORltEBoQvKFqPfTPhlvQdmKuvjvwrNwNyxzfougtXEYxcEiiGQJzfYPEPqaqMLtiWABrdEEJrZYNXqWsDpuliYJZTn",
+        "name": "Megan Hogan", "kind": "-Fallback-scrubbed-cgyl"}, {"rel": "-Fallback-scrubbed-dDmdx",
+        "href": "-Fallback-scrubbed-SmRrcWbvnHcAZlurdCSmPPzFtNxSivSNsyFJXzunagsSwlKlaswRumiPypxBHOojAnpZhJiDleBUYkzOheiTqpAGBJakRiHmQtFqrTqwlQKdkTNuyURZWIVMAExweKrJmgmvv",
+        "name": "Victor Smith", "kind": "-Fallback-scrubbed-WtOlAeETxt"}]}, {"VouMemoTax2Amt":
+        null, "VouMemoHldbkAmt": null, "VouMemoDiscAmt": null, "VouMemoAmt": null,
+        "VouMaterialInvFlag": "-Fallback-scrubbed-q", "VouLastPayAmt": null, "VouJobCompCode":
+        "-Fallback-scrubbed-nlo", "VouJobCode": "-Fallback-scrubbed-NFNoa", "VouInvSeriesCode":
+        null, "VouInvOutstandAmt": 9533, "VouInvHldbkTaxFlag": "-Fallback-scrubbed-q",
+        "VouInvDate": "-Fallback-scrubbed-bbWzjTaRONqBEspVZlEpfWrJk", "VouInvCode":
+        "-Fallback-scrubbed-uuAMIvfrtNdjJzj", "VouInvAmt": 2783, "VouImportInfo":
+        null, "VouImportingGoodsFlag": "-Fallback-scrubbed-q", "VouImageFilename":
+        null, "VouHoldPaymentFlag": "-Fallback-scrubbed-d", "VouHoldPaymentDays":
+        4807, "VouHoldFlag": "-Fallback-scrubbed-q", "VouHldbkPc": 546, "VouHldbkPaid":
+        null, "VouHldbkAmt": 4213, "VouGsthldbkCode": "-Fallback-scrubbed-h", "VouFuncFactorNum":
+        null, "VouFrtDiscCode": "-Fallback-scrubbed-q", "VouFrtAmt": null, "VouFiscalCode":
+        null, "VouFinalRfpFlag": "-Fallback-scrubbed-q", "VouExpDeptCode": null, "VouEnteredAmt":
+        2783, "VouEftFlag": "-Fallback-scrubbed-q", "VouDuplicateId": null, "VouDueDate":
+        "-Fallback-scrubbed-bbWzjTaRONqBEspVZlEpfWrJk", "VouDrawNum": null, "VouDistTypeCode":
+        "-Fallback-scrubbed-I", "VouDiscTaken": null, "VouDiscPc": null, "VouDiscDate":
+        "-Fallback-scrubbed-bbWzjTaRONqBEspVZlEpfWrJk", "VouDiscAmt": 4807, "VouDiscAllocMethCode":
+        "-Fallback-scrubbed-f", "VouDiscreteChqFlag": "-Fallback-scrubbed-q", "VouDfttaxFromCode":
+        null, "VouDesc2": null, "VouDesc1": "-Fallback-scrubbed-YMdoKqayLMqQTIiTjEuHidtSAVgIUC",
+        "VouDeptCodeDist": null, "VouDeptCode": "-Fallback-scrubbed-zt", "VouDeptAcct":
+        null, "VouCurrCode": "-Fallback-scrubbed-rZt", "VouCurcFactorNum": 2789, "VouCreatedByJbFlag":
+        null, "VouCostCode": null, "VouContExceedHoldFlag": "-Fallback-scrubbed-q",
+        "VouContCode": "-Fallback-scrubbed-wlZXfFFy", "VouContractorPrelimFlag": "-Fallback-scrubbed-q",
+        "VouContactCode": "-Fallback-scrubbed-vw", "VouCompCode": "001", "VouCisPc":
+        null, "VouCisPayableAmt": null, "VouCisApplicableAmt": null, "VouChqPayeeName":
+        null, "VouChqHandleCode": null, "VouChgCode": "-Fallback-scrubbed-BrN", "VouCatCode":
+        null, "VouCashAccCode": "-Fallback-scrubbed-IqwZ", "VouBchNum": 9611, "VouBchrgInvFlag":
+        null, "VouAppr2": null, "VouAppr1": null, "Vou1099Code": "-Fallback-scrubbed-S",
+        "VouTax2TaxableAmt": null, "VouTax2IncFlag": null, "VouTax2HldbkCode": "-Fallback-scrubbed-h",
+        "VouTax2HldbkAmt": 4807, "VouTax2HldbkAdjAmt": null, "VouTax2DiscCode": "-Fallback-scrubbed-q",
+        "VouTax2DirectFlag": null, "VouTax2CreditFlag": null, "VouTax2Code": null,
+        "VouTax2Amt": 4807, "VouTax1TaxableFlag": "-Fallback-scrubbed-d", "VouTax1TaxableAmt":
+        null, "VouTax1IncFlag": null, "VouTax1HldbkAdjAmt": null, "VouTax1DirectFlag":
+        null, "VouTax1CreditFlag": null, "VouTax1Code": null, "VouSubcontrCode": "-Fallback-scrubbed-PlED",
+        "VouStatusCode": "-Fallback-scrubbed-N", "VouSplitGroupNum": null, "VouSplitByApplCode":
+        null, "VouSourceTypeCode": null, "VouSourceToDate": null, "VouSourceObjectOraseq":
+        null, "VouSourceFromDate": null, "VouSktAmt": null, "VouShplCode": null, "VouShipOraseq":
+        null, "VouSeparateBillingRefCode": null, "VouSelForVoidFlag": null, "VouScSelfBilledFlag":
+        "-Fallback-scrubbed-q", "VouScModifiedFlag": "-Fallback-scrubbed-q", "VouScApprovedFlag":
+        "-Fallback-scrubbed-q", "VouScApplyBchNum": null, "VouScmstJobCode": "-Fallback-scrubbed-NFNoa",
+        "VouRoutJob": null, "VouRlsWAmt": null, "VouRlsTax2Code": null, "VouRlsTax2Amt":
+        null, "VouRlsTax1Code": null, "VouRlsTax1Amt": null, "VouRlsNum": null, "VouRlsInvCode":
+        null, "VouRlsDate": null, "VouRlsBchNum": null, "VouRlsAmt": null, "VouRevDate":
+        null, "VouRevBchNum": null, "VouRevisionNum": null, "VouResaleInfo": null,
+        "VouRemitDesc": null, "VouRegInvNum": null, "VouRecordStatus": "-Fallback-scrubbed-NFfOfurhB",
+        "VouPyTaxVoucherFlag": null, "VouPyIrsTaxType": null, "VouPyIrsTaxPerEndDate":
+        null, "VouPyIrsTaxInfoId": null, "VouPrepaidExpAmt": null, "VouPrelienComplPayCode":
+        null, "VouPoReleaseNum": null, "VouPoPrtCode": null, "VouPoPickFlag": "-Fallback-scrubbed-q",
+        "VouPoNum": null, "VouPostDate": "-Fallback-scrubbed-bbWzjTaRONqBEspVZlEpfWrJk",
+        "VouPayNotes": null, "VouPayCode": "-Fallback-scrubbed-r", "VouPayByManualChqFlag":
+        "-Fallback-scrubbed-q", "VouPartnTypeCode": "-Fallback-scrubbed-J", "VouPartnCode":
+        "-Fallback-scrubbed-nlo", "VouPartialApprovedAmt": null, "VouPaidAmt": null,
+        "VouOrigTaxHldbkAmt": 4807, "VouOrigHldbkAmt": 4213, "VouOrigBchNum": null,
+        "VouOrigAmt": null, "VouOriginatingVouNum": null, "VouOperationCode": null,
+        "VouNum": 251507915, "VouNonZeroOweCompVenCode": "-Fallback-scrubbed-aqwjXMMqyiSdXdZ",
+        "VouNodiscAmt": null, "VouNatureOfServices": null, "VouMultiControlJobFlag":
+        "-Fallback-scrubbed-X", "VouMiscDiscCode": "-Fallback-scrubbed-q", "VouMiscAmt":
+        null, "VouMemoTaxHldbkAmt": null, "VouMemoTaxAmt": null, "VouMemoTax5Amt":
+        null, "VouMemoTax4Amt": null, "VouMemoTax3Amt": null, "VouMemoTax2HldbkAmt":
+        null, "VouIuUpdateUser": "-Fallback-scrubbed-PYJcGD", "VouIuUpdateDate": "2026-08-04T12:37:30-04:00",
+        "VouIuCreateUser": "-Fallback-scrubbed-PYJcGD", "VouIuCreateDate": "2026-08-04T12:33:11-04:00",
+        "VouVenCode": "-Fallback-scrubbed-zoDdkgn", "VouVenAddCode": null, "VouVendorInvCode":
+        null, "VouValuateToDate": null, "VouValuateFromDate": null, "VouUnpostedRfpInfo":
+        null, "VouUnpostedPayCodeOverride": null, "VouTranCode": "-Fallback-scrubbed-l",
+        "VouTpPaymodeTypeCode": null, "VouTppayCode": null, "VouTermPc": 4807, "VouTaxTreatmentPercent":
+        null, "VouTaxHldbkAmt": 4807, "VouTaxDiscCode": "-Fallback-scrubbed-q", "VouTaxAmt":
+        4807, "VouTax5TaxableFlag": "-Fallback-scrubbed-d", "VouTax5TaxableAmt": null,
+        "VouTax5IncFlag": null, "VouTax5DiscCode": "-Fallback-scrubbed-q", "VouTax5DirectFlag":
+        null, "VouTax5CreditFlag": null, "VouTax5Code": null, "VouTax5Amt": 4807,
+        "VouTax4TaxableFlag": "-Fallback-scrubbed-d", "VouTax4TaxableAmt": null, "VouTax4IncFlag":
+        null, "VouTax4DiscCode": "-Fallback-scrubbed-q", "VouTax4DirectFlag": null,
+        "VouTax4CreditFlag": null, "VouTax4Code": null, "VouTax4Amt": 4807, "VouTax3TaxableFlag":
+        "-Fallback-scrubbed-d", "VouTax3TaxableAmt": null, "VouTax3IncFlag": null,
+        "VouTax3DiscCode": "-Fallback-scrubbed-q", "VouTax3DirectFlag": null, "VouTax3CreditFlag":
+        null, "VouTax3Code": null, "VouTax3Amt": 4807, "VouTax2TaxableFlag": "-Fallback-scrubbed-d",
+        "VouCreatedByManchqFlag": "-Fallback-scrubbed-q", "VouAcctDescription": null,
+        "links": [{"rel": "-Fallback-scrubbed-kYsc", "href": "-Fallback-scrubbed-wCednWACBNtXwCKjrYwRMgbQlAgnHUEyJcvUMVrxHkKyYUdBqSvKMUaxTVVgjqolnHaBJZdozChMIWijQqPaloYuhBWRFJLSOrShu",
+        "name": "Megan Hogan", "kind": "-Fallback-scrubbed-cgyl"}, {"rel": "-Fallback-scrubbed-jsaymHQKW",
+        "href": "-Fallback-scrubbed-wCednWACBNtXwCKjrYwRMgbQlAgnHUEyJcvUMVrxHkKyYUdBqSvKMUaxTVVgjqolnHaBJZdozChMIWijQqPaloYuhBWRFJLSOrShu",
+        "name": "Megan Hogan", "kind": "-Fallback-scrubbed-cgyl"}, {"rel": "-Fallback-scrubbed-dDmdx",
+        "href": "-Fallback-scrubbed-ObfWgOuduGqdxAMADlgBVqEgySTpTKMRADYyxjnpDWLEmeaLsjWzJTpfHujfVegUtYxDaILZuQqXBWOIWbReUBdFlXuJiDbMXQshoMURjVEOjbdxOnGtgmKZstweieAjonDTC",
+        "name": "Victor Smith", "kind": "-Fallback-scrubbed-WtOlAeETxt"}]}], "count":
+        546, "hasMore": false, "limit": 2092, "offset": 4807, "links": [{"rel": "-Fallback-scrubbed-kYsc",
+        "href": "-Fallback-scrubbed-ChlfniKAYXDRTwBMKTuZvksGrnGXiwqWlKjVPyeCQFMJqckzDxymFxiZzSWRBDfSXzKVXXkzYkZEcXPFjenRVuVtzuX",
+        "name": "Megan Hogan", "kind": "-Fallback-scrubbed-WtOlAeETxt"}]}'
+    headers:
+      CF-RAY:
+      - a29a14e70843f233-GRU
+      Cache-Control:
+      - no-cache, no-store, must-revalidate
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/vnd.oracle.adf.resourcecollection+json
+      Date:
+      - Tue, 11 Aug 2026 20:45:02 GMT
+      Link:
+      - <http://partner-sandbox-api-basic.cmiccloud.com:80/cmicprtn/ap-rest-api/rest/1/apallvouchers>;rel="self";kind="collection";name="apallvouchers"
+      Location:
+      - ''
+      REST-Framework-Version:
+      - '2'
+      Server:
+      - cloudflare
+      Vary:
+      - Content-Encoding
+      - accept-encoding
+      X-ORACLE-DMS-ECID:
+      - 64ded8df-1c62-41c1-b6b9-05e93d6845d5-0000518e
+      X-ORACLE-DMS-RID:
+      - '0'
+      cf-cache-status:
+      - DYNAMIC
+      content-length:
+      - '69377'
+    status:
+      code: 200
+      message: OK
+version: 1
