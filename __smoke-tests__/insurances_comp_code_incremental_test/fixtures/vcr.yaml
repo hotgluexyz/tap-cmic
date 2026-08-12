@@ -11,36 +11,96 @@ interactions:
       User-Agent:
       - python-requests/2.33.1
     method: GET
-    uri: https://partner-sandbox-api-basic.cmiccloud.com/cmicprtn/ap-rest-api/rest/1/apinsurance?limit=500&q=InsCompCode+%3D+%27001%27+and+%28InsCoverTypeCode+%3D+%27COI%27+and+%28InsIuUpdateDate+%3E%3D+%272026-08-03T14%3A57%3A25-0400%27+or+InsIuCreateDate+%3E%3D+%272026-08-03T14%3A57%3A25-0400%27%29%29
+    uri: https://partner-sandbox-api-basic.cmiccloud.com/cmicprtn/ap-rest-api/rest/1/apinsurance?limit=500&q=InsCompCode+%3D+%27001%27+and+%28%28InsIuUpdateDate+%3E%3D+%272026-08-03T14%3A57%3A25-0400%27+or+InsIuCreateDate+%3E%3D+%272026-08-03T14%3A57%3A25-0400%27%29%29
   response:
     body:
-      string: '{"items": [{"InsAmt": null, "InsCPoAutoAssignFlag": "-Fallback-scrubbed-h",
-        "InsCScAutoAssignFlag": "-Fallback-scrubbed-O", "InsCertLoc": null, "InsCertNum":
-        "-Fallback-scrubbed-F", "InsCompCode": "001", "InsComplType": "-Fallback-scrubbed-IOW",
-        "InsComplianceFlag": "-Fallback-scrubbed-O", "InsCoverTypeCode": "-Fallback-scrubbed-fLv",
-        "InsCoverTypeDesc": "-Fallback-scrubbed-AEnJpPGgmqokCVHKuvrAHoJb", "InsDateComplianceFlag":
-        "-Fallback-scrubbed-O", "InsDateSensitiveFlag": "-Fallback-scrubbed-O", "InsDeleteFlag":
-        "-Fallback-scrubbed-O", "InsEndDate": "-Fallback-scrubbed-ZcvspQhReN", "InsInscompCode":
-        "-Fallback-scrubbed-F", "InsInscompName": "-Fallback-scrubbed-VvzdyvYYlEFteT",
-        "InsNotesFlag": null, "InsPoAutoAssignFlag": "-Fallback-scrubbed-h", "InsPoNum":
-        null, "InsPoReleaseNum": null, "InsScAutoAssignFlag": "-Fallback-scrubbed-h",
-        "InsScContCode": null, "InsScJobCode": null, "InsStartDate": "-Fallback-scrubbed-mPYQyrrHZc",
-        "InsUpdateDate": null, "InsUpdateFlag": "-Fallback-scrubbed-O", "InsUpdateUser":
-        null, "InsVUuid": "583C35F2C021AC24E06331121DAC9F3F", "InsVenCode": "-Fallback-scrubbed-bRrmFax",
-        "InsVouNum": 5884, "InsVouRemitDesc": null, "OrigCertNum": "-Fallback-scrubbed-F",
-        "OrigInscompCode": "-Fallback-scrubbed-F", "InsApriVUuid": null, "InsApriInvCode":
+      string: '{"items": [{"InsAmt": null, "InsCPoAutoAssignFlag": "-Fallback-scrubbed-U",
+        "InsCScAutoAssignFlag": "-Fallback-scrubbed-c", "InsCertLoc": null, "InsCertNum":
+        "-Fallback-scrubbed-J", "InsCompCode": "001", "InsComplType": "-Fallback-scrubbed-zcF",
+        "InsComplianceFlag": "-Fallback-scrubbed-c", "InsCoverTypeCode": "COI", "InsCoverTypeDesc":
+        "-Fallback-scrubbed-oDooPBmcMDjKhJLIFTNUhpax", "InsDateComplianceFlag": "-Fallback-scrubbed-c",
+        "InsDateSensitiveFlag": "-Fallback-scrubbed-c", "InsDeleteFlag": "-Fallback-scrubbed-c",
+        "InsEndDate": "-Fallback-scrubbed-RBsodgVNxO", "InsInscompCode": "-Fallback-scrubbed-J",
+        "InsInscompName": "-Fallback-scrubbed-ruNXKukZjPwemW", "InsNotesFlag": null,
+        "InsPoAutoAssignFlag": "-Fallback-scrubbed-U", "InsPoNum": null, "InsPoReleaseNum":
+        null, "InsScAutoAssignFlag": "-Fallback-scrubbed-U", "InsScContCode": null,
+        "InsScJobCode": null, "InsStartDate": "-Fallback-scrubbed-bmmhunJbWJ", "InsUpdateDate":
+        null, "InsUpdateFlag": "-Fallback-scrubbed-c", "InsUpdateUser": null, "InsVUuid":
+        "583C35F2C021AC24E06331121DAC9F3F", "InsVenCode": "-Fallback-scrubbed-wtEpmvF",
+        "InsVouNum": 4455, "InsVouRemitDesc": null, "OrigCertNum": "-Fallback-scrubbed-J",
+        "OrigInscompCode": "-Fallback-scrubbed-J", "InsApriVUuid": null, "InsApriInvCode":
         null, "InsIuCreateDate": "2026-08-04T12:33:11-04:00", "InsIuUpdateDate": null,
-        "InsUpdateVoucher": "-Fallback-scrubbed-h", "links": [{"rel": "-Fallback-scrubbed-bqzC",
-        "href": "-Fallback-scrubbed-tMchpzxhDHvdsuvqRvbhyinouwtWYoXSBWmmzygaKaiTUUKvAmQcMnENuxrjAfKsCcakUmQsJViaYWwmgfuzjqZSgRbgzQJWZuyNmuWlYjbaUFgYWnPcCGIWjX",
-        "name": "Caroline Wilson", "kind": "-Fallback-scrubbed-eqmg"}, {"rel": "-Fallback-scrubbed-rHBWjQXSo",
-        "href": "-Fallback-scrubbed-tMchpzxhDHvdsuvqRvbhyinouwtWYoXSBWmmzygaKaiTUUKvAmQcMnENuxrjAfKsCcakUmQsJViaYWwmgfuzjqZSgRbgzQJWZuyNmuWlYjbaUFgYWnPcCGIWjX",
-        "name": "Caroline Wilson", "kind": "-Fallback-scrubbed-eqmg"}]}], "count":
-        2735, "hasMore": false, "limit": 8449, "offset": 3927, "links": [{"rel": "-Fallback-scrubbed-bqzC",
-        "href": "-Fallback-scrubbed-pBKspbKxpQbRHPYUgPoRSuEEKSRGCqzIVRITlvZYTJLKGMmizVFGsbCOUnSmosJodKVBukpbmgxbfhvarAotSpgyF",
-        "name": "Caroline Wilson", "kind": "-Fallback-scrubbed-YBTdbvsWoY"}]}'
+        "InsUpdateVoucher": "-Fallback-scrubbed-U", "links": [{"rel": "-Fallback-scrubbed-ppqf",
+        "href": "-Fallback-scrubbed-wPBmrQleFDIuLXPDjGUmrprUeoWvBjBkkTGMqsZCzJWxpEBCAvKMneHDqYrXsIqKbDfDdmGCjBmMtDXYNJuoDkkgsJBVgFCrpJuWhscUvdthtaagZEWNnkfnvL",
+        "name": "Sarah Preston", "kind": "-Fallback-scrubbed-Qasz"}, {"rel": "-Fallback-scrubbed-lxwGBUosm",
+        "href": "-Fallback-scrubbed-wPBmrQleFDIuLXPDjGUmrprUeoWvBjBkkTGMqsZCzJWxpEBCAvKMneHDqYrXsIqKbDfDdmGCjBmMtDXYNJuoDkkgsJBVgFCrpJuWhscUvdthtaagZEWNnkfnvL",
+        "name": "Sarah Preston", "kind": "-Fallback-scrubbed-Qasz"}]}, {"InsAmt":
+        null, "InsCPoAutoAssignFlag": "-Fallback-scrubbed-U", "InsCScAutoAssignFlag":
+        "-Fallback-scrubbed-c", "InsCertLoc": null, "InsCertNum": "-Fallback-scrubbed-J",
+        "InsCompCode": "001", "InsComplType": "-Fallback-scrubbed-zcF", "InsComplianceFlag":
+        "-Fallback-scrubbed-U", "InsCoverTypeCode": "EXECUTE", "InsCoverTypeDesc":
+        "-Fallback-scrubbed-rpZnqLPMyVwYTEAQSMfAk", "InsDateComplianceFlag": "-Fallback-scrubbed-U",
+        "InsDateSensitiveFlag": "-Fallback-scrubbed-U", "InsDeleteFlag": "-Fallback-scrubbed-c",
+        "InsEndDate": null, "InsInscompCode": "-Fallback-scrubbed-J", "InsInscompName":
+        "-Fallback-scrubbed-ruNXKukZjPwemW", "InsNotesFlag": null, "InsPoAutoAssignFlag":
+        "-Fallback-scrubbed-U", "InsPoNum": null, "InsPoReleaseNum": null, "InsScAutoAssignFlag":
+        "-Fallback-scrubbed-U", "InsScContCode": null, "InsScJobCode": null, "InsStartDate":
+        null, "InsUpdateDate": null, "InsUpdateFlag": "-Fallback-scrubbed-c", "InsUpdateUser":
+        null, "InsVUuid": "583C35F2C022AC24E06331121DAC9F3F", "InsVenCode": "-Fallback-scrubbed-wtEpmvF",
+        "InsVouNum": 4455, "InsVouRemitDesc": null, "OrigCertNum": "-Fallback-scrubbed-J",
+        "OrigInscompCode": "-Fallback-scrubbed-J", "InsApriVUuid": null, "InsApriInvCode":
+        null, "InsIuCreateDate": "2026-08-04T12:33:11-04:00", "InsIuUpdateDate": null,
+        "InsUpdateVoucher": "-Fallback-scrubbed-U", "links": [{"rel": "-Fallback-scrubbed-ppqf",
+        "href": "-Fallback-scrubbed-aIMKSSLngGFoVXIoogQuAQlabEgiQQyyeNKalNoPNfbVtRphUJAqnoqAlVIOiOSIfhZgGtLjgeQdwKNEmcyeUvmAccVFBzrmiRQqMQegdnbuYJskfSmwOEPvKp",
+        "name": "Sarah Preston", "kind": "-Fallback-scrubbed-Qasz"}, {"rel": "-Fallback-scrubbed-lxwGBUosm",
+        "href": "-Fallback-scrubbed-aIMKSSLngGFoVXIoogQuAQlabEgiQQyyeNKalNoPNfbVtRphUJAqnoqAlVIOiOSIfhZgGtLjgeQdwKNEmcyeUvmAccVFBzrmiRQqMQegdnbuYJskfSmwOEPvKp",
+        "name": "Sarah Preston", "kind": "-Fallback-scrubbed-Qasz"}]}, {"InsAmt":
+        null, "InsCPoAutoAssignFlag": "-Fallback-scrubbed-U", "InsCScAutoAssignFlag":
+        "-Fallback-scrubbed-c", "InsCertLoc": null, "InsCertNum": "-Fallback-scrubbed-J",
+        "InsCompCode": "001", "InsComplType": "-Fallback-scrubbed-zcF", "InsComplianceFlag":
+        "-Fallback-scrubbed-U", "InsCoverTypeCode": "LW", "InsCoverTypeDesc": "-Fallback-scrubbed-wIUfsghuXNE",
+        "InsDateComplianceFlag": "-Fallback-scrubbed-U", "InsDateSensitiveFlag": "-Fallback-scrubbed-U",
+        "InsDeleteFlag": "-Fallback-scrubbed-c", "InsEndDate": null, "InsInscompCode":
+        "-Fallback-scrubbed-J", "InsInscompName": "-Fallback-scrubbed-ruNXKukZjPwemW",
+        "InsNotesFlag": null, "InsPoAutoAssignFlag": "-Fallback-scrubbed-U", "InsPoNum":
+        null, "InsPoReleaseNum": null, "InsScAutoAssignFlag": "-Fallback-scrubbed-U",
+        "InsScContCode": null, "InsScJobCode": null, "InsStartDate": null, "InsUpdateDate":
+        null, "InsUpdateFlag": "-Fallback-scrubbed-c", "InsUpdateUser": null, "InsVUuid":
+        "583C35F2C023AC24E06331121DAC9F3F", "InsVenCode": "-Fallback-scrubbed-wtEpmvF",
+        "InsVouNum": 4455, "InsVouRemitDesc": null, "OrigCertNum": "-Fallback-scrubbed-J",
+        "OrigInscompCode": "-Fallback-scrubbed-J", "InsApriVUuid": null, "InsApriInvCode":
+        null, "InsIuCreateDate": "2026-08-04T12:33:11-04:00", "InsIuUpdateDate": null,
+        "InsUpdateVoucher": "-Fallback-scrubbed-U", "links": [{"rel": "-Fallback-scrubbed-ppqf",
+        "href": "-Fallback-scrubbed-mkhaObHByALrtsPkeVtmoKjTFXCnEpJhcUDcTgmHJeSEURNJuWBvoZALURYyIhKmlJLfgYJAuYDraPkhgCtaaLeJeAinobBCcEvIMzpLPmqHUXlkkogKSnzLBA",
+        "name": "Sarah Preston", "kind": "-Fallback-scrubbed-Qasz"}, {"rel": "-Fallback-scrubbed-lxwGBUosm",
+        "href": "-Fallback-scrubbed-mkhaObHByALrtsPkeVtmoKjTFXCnEpJhcUDcTgmHJeSEURNJuWBvoZALURYyIhKmlJLfgYJAuYDraPkhgCtaaLeJeAinobBCcEvIMzpLPmqHUXlkkogKSnzLBA",
+        "name": "Sarah Preston", "kind": "-Fallback-scrubbed-Qasz"}]}, {"InsAmt":
+        null, "InsCPoAutoAssignFlag": "-Fallback-scrubbed-U", "InsCScAutoAssignFlag":
+        "-Fallback-scrubbed-c", "InsCertLoc": null, "InsCertNum": "-Fallback-scrubbed-J",
+        "InsCompCode": "001", "InsComplType": "-Fallback-scrubbed-zcF", "InsComplianceFlag":
+        "-Fallback-scrubbed-U", "InsCoverTypeCode": "CLOSEDOC", "InsCoverTypeDesc":
+        "-Fallback-scrubbed-ldAJNkABVkJPdaLKVJ", "InsDateComplianceFlag": "-Fallback-scrubbed-U",
+        "InsDateSensitiveFlag": "-Fallback-scrubbed-U", "InsDeleteFlag": "-Fallback-scrubbed-c",
+        "InsEndDate": null, "InsInscompCode": "-Fallback-scrubbed-J", "InsInscompName":
+        "-Fallback-scrubbed-ruNXKukZjPwemW", "InsNotesFlag": null, "InsPoAutoAssignFlag":
+        "-Fallback-scrubbed-U", "InsPoNum": null, "InsPoReleaseNum": null, "InsScAutoAssignFlag":
+        "-Fallback-scrubbed-U", "InsScContCode": null, "InsScJobCode": null, "InsStartDate":
+        null, "InsUpdateDate": null, "InsUpdateFlag": "-Fallback-scrubbed-c", "InsUpdateUser":
+        null, "InsVUuid": "583C35F2C024AC24E06331121DAC9F3F", "InsVenCode": "-Fallback-scrubbed-wtEpmvF",
+        "InsVouNum": 4455, "InsVouRemitDesc": null, "OrigCertNum": "-Fallback-scrubbed-J",
+        "OrigInscompCode": "-Fallback-scrubbed-J", "InsApriVUuid": null, "InsApriInvCode":
+        null, "InsIuCreateDate": "2026-08-04T12:33:11-04:00", "InsIuUpdateDate": null,
+        "InsUpdateVoucher": "-Fallback-scrubbed-U", "links": [{"rel": "-Fallback-scrubbed-ppqf",
+        "href": "-Fallback-scrubbed-jzNwLmMkmvisVKRvvNFBySAYsKJChSWXVeBpQFBpaVoCGNwTVJlnqmdXIeseYXfWvpivdEisQgnQTOMHiJGLWXNytnWMJaMamtMWeJpWwwIjItfSNQrElCKDCz",
+        "name": "Sarah Preston", "kind": "-Fallback-scrubbed-Qasz"}, {"rel": "-Fallback-scrubbed-lxwGBUosm",
+        "href": "-Fallback-scrubbed-jzNwLmMkmvisVKRvvNFBySAYsKJChSWXVeBpQFBpaVoCGNwTVJlnqmdXIeseYXfWvpivdEisQgnQTOMHiJGLWXNytnWMJaMamtMWeJpWwwIjItfSNQrElCKDCz",
+        "name": "Sarah Preston", "kind": "-Fallback-scrubbed-Qasz"}]}], "count": 4810,
+        "hasMore": false, "limit": 6856, "offset": 2398, "links": [{"rel": "-Fallback-scrubbed-ppqf",
+        "href": "-Fallback-scrubbed-LqZGjhogFDAzZIpVkewellTwaoTpgxjBXtHMZdxOpUtXxHTLqfDrFwKYQBJEQJbpJXeTOlwTtOnZScErhiKSHAkMe",
+        "name": "Sarah Preston", "kind": "-Fallback-scrubbed-YcoJrcMVFZ"}]}'
     headers:
       CF-RAY:
-      - a29a15905d3dc250-GRU
+      - a2a12c671af097d0-GRU
       Cache-Control:
       - no-cache, no-store, must-revalidate
       Connection:
@@ -48,7 +108,7 @@ interactions:
       Content-Type:
       - application/vnd.oracle.adf.resourcecollection+json
       Date:
-      - Tue, 11 Aug 2026 20:45:29 GMT
+      - Wed, 12 Aug 2026 17:24:25 GMT
       Link:
       - <http://partner-sandbox-api-basic.cmiccloud.com:80/cmicprtn/ap-rest-api/rest/1/apinsurance>;rel="self";kind="collection";name="apinsurance"
       Location:
@@ -61,13 +121,13 @@ interactions:
       - Content-Encoding
       - accept-encoding
       X-ORACLE-DMS-ECID:
-      - 64ded8df-1c62-41c1-b6b9-05e93d6845d5-0000519d
+      - 93bfa666-0ec6-4f7c-a5b3-cbd0ad64c7a6-00003788
       X-ORACLE-DMS-RID:
       - '0'
       cf-cache-status:
       - DYNAMIC
       content-length:
-      - '1958'
+      - '6900'
     status:
       code: 200
       message: OK

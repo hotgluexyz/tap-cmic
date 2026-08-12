@@ -34,6 +34,7 @@ class Runner(VCRTapTestRunner):
         "BpvenCompCode",
         # insurances
         "InsVUuid",
+        "InsCoverTypeCode",
         "InsIuUpdateDate",
         "InsIuCreateDate",
         "InsCompCode",
