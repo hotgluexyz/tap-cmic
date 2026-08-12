@@ -75,8 +75,7 @@ def test_insurances_stream_uses_query_filter_params():
         "limit": 500,
         "offset": 500,
         "q": (
-            "InsCoverTypeCode = 'COI' "
-            f"and (InsIuUpdateDate >= '{start_time}' "
+            f"(InsIuUpdateDate >= '{start_time}' "
             f"or InsIuCreateDate >= '{start_time}')"
         ),
     }
@@ -258,7 +257,7 @@ def test_companies_params_include_company_q_with_comp_code():
 
 
 def test_insurances_params_wrap_query_with_comp_code():
-    """With comp_code, insurances wraps the COI query with InsCompCode."""
+    """With comp_code, insurances wraps the query with InsCompCode."""
     tap = TapCMiC(config=SAMPLE_CONFIG_WITH_COMP_CODE)
     insurances = cast(
         CMiCStream,
@@ -279,8 +278,7 @@ def test_insurances_params_wrap_query_with_comp_code():
         "offset": 500,
         "q": (
             f"InsCompCode = '{SAMPLE_CONFIG_WITH_COMP_CODE['comp_code']}' and "
-            "(InsCoverTypeCode = 'COI' "
-            f"and (InsIuUpdateDate >= '{start_time}' "
+            f"((InsIuUpdateDate >= '{start_time}' "
             f"or InsIuCreateDate >= '{start_time}'))"
         ),
     }
