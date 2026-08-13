@@ -1,0 +1,432 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.33.1
+    method: GET
+    uri: https://partner-sandbox-api-basic.cmiccloud.com/cmicprtn/ap-rest-api/rest/1/apvendor?limit=500&finder=selectByDate%3BauditDate%3D2000-01-01T00%3A00%3A01%2B0000&q=BpvenCompCode+%3D+%27001%27
+  response:
+    body:
+      string: '{"items": [{"BpvenCompCode": "001", "BpvenCompName": "-Fallback-scrubbed-MNdzSJUVzOrYWdUPWxthjfiVmFCXL",
+        "BpvenBpCode": "-Fallback-scrubbed-CvdTWeR", "BpvenBpName": "-Fallback-scrubbed-LcbqULJtFZHjrCLQ",
+        "BpvenPayAdd1": "-Fallback-scrubbed-cTiPwpFxAsS", "BpvenPayAdd2": null, "BpvenPayAdd3":
+        "-Fallback-scrubbed-YwVeitwMzu", "BpvenPayRegionCode": "-Fallback-scrubbed-PA",
+        "BpvenPayRegionName": null, "BpvenPayCountry": "-Fallback-scrubbed-SPY", "BpvenPayPostalCode":
+        "-Fallback-scrubbed-FJvsu", "BpvenPayContactName": null, "BpvenPayPhone":
+        "-Fallback-scrubbed-OuQynwoVhk", "BpvenPayFax": null, "BpvenPayEmail": null,
+        "BpvenWebSite": null, "BpvenBuyCode": null, "BpvenClassCode": null, "BpvenClassName":
+        null, "BpvenStatusCode": "-Fallback-scrubbed-G", "BpvenPrefCode": null, "BpvenPrefName":
+        null, "BpvenTermCode": "-Fallback-scrubbed-pVElM", "BpvenTermName": "-Fallback-scrubbed-hBhPni",
+        "Bpven1099Code": "-Fallback-scrubbed-Q", "Bpven1099Name": "-Fallback-scrubbed-vFpJLpBMRwwcuidSkKIpwQaozGo",
+        "BpvenAltAddCode": null, "BpvenAltAddName": null, "BpvenShpinstDesc": null,
+        "BpvenActiveFlag": "-Fallback-scrubbed-O", "Bpven5018RepFlag": "-Fallback-scrubbed-L",
+        "BpvenOneTimeFlag": "-Fallback-scrubbed-m", "BpvenUseApctrlComplFlag": null,
+        "BpvenSpecialTermsFlag": "-Fallback-scrubbed-m", "BpvenOrdAdd1": "-Fallback-scrubbed-cTiPwpFxAsS",
+        "BpvenOrdAdd2": null, "BpvenOrdAdd3": "-Fallback-scrubbed-YwVeitwMzu", "BpvenOrdRegionCode":
+        "-Fallback-scrubbed-PA", "BpvenOrdCountry": "-Fallback-scrubbed-SPY", "BpvenOrdPostalCode":
+        "-Fallback-scrubbed-FJvsu", "BpvenOrdContactName": null, "BpvenOrdPhone":
+        "-Fallback-scrubbed-OuQynwoVhk", "BpvenOrdFax": null, "BpvenOrdEmail": null,
+        "BpvenCurrCode": "-Fallback-scrubbed-caY", "BpvenInvSerCode": null, "BpvenDistTypeCode":
+        "-Fallback-scrubbed-W", "BpvenHldbkPc": null, "BpvenAllowTranFlag": "-Fallback-scrubbed-O",
+        "BpvenCheckMergeFlag": "-Fallback-scrubbed-m", "BpvenDiscreteChqFlag": "-Fallback-scrubbed-m",
+        "BpvenPrenoteFlag": null, "BpvenTppayCode": null, "BpvenDefaultPayCode": "-Fallback-scrubbed-m",
+        "BpvenEftFlag": null, "BpvenEftEmail": null, "BpvenPrefContactMth": "-Fallback-scrubbed-b",
+        "BpvenEmpNo": null, "BpvenBankCode": null, "BpvenBankAccNum1": null, "BpvenBankAccNum2":
+        null, "BpvenBankAccNum3": null, "BpvenPaymodeId": null, "BpvenIbanNum": null,
+        "BpvenSwiftBicCode": null, "BpvenApDeptCode": "-Fallback-scrubbed-RV", "BpvenApAccCode":
+        "-Fallback-scrubbed-voVs", "BpvenCashDeptCode": "-Fallback-scrubbed-RV", "BpvenCashAccCode":
+        "-Fallback-scrubbed-bLYq", "BpvenExpDeptCode": "-Fallback-scrubbed-RV", "BpvenExpAccCode":
+        "-Fallback-scrubbed-AmvD", "BpvenPpeDeptCode": "-Fallback-scrubbed-RV", "BpvenPpeAccCode":
+        "-Fallback-scrubbed-Vsnf", "BpvenDiscDeptCode": "-Fallback-scrubbed-RV", "BpvenDiscAccCode":
+        "-Fallback-scrubbed-sNWn", "BpvenHldbkDeptCode": "-Fallback-scrubbed-RV",
+        "BpvenHldbkAccCode": "-Fallback-scrubbed-qLSZ", "BpvenTax1Code": null, "BpvenTaxlic1":
+        null, "BpvenTax2Code": null, "BpvenTaxlic2": null, "BpvenTax3Code": null,
+        "BpvenTaxlic3": null, "BpvenTax4Code": null, "BpvenTaxlic4": null, "BpvenTax5Code":
+        null, "BpvenTaxlic5": null, "BpvenVUuid": "557DA0D415CB56E8E06331121DAC9786",
+        "BpvenIuCreateDate": "2026-06-30T14:47:18-04:00", "BpvenIuUpdateDate": "2026-06-30T17:30:06-04:00",
+        "BpIuCreateDate": "-Fallback-scrubbed-qhkpbLCDzjiRaGXPKciRzTaOU", "BpIuUpdateDate":
+        "-Fallback-scrubbed-qTFGCtbfScbEbkaBBQmGtzQfp", "BpvenEftPaymentType": null,
+        "links": [{"rel": "-Fallback-scrubbed-HEdc", "href": "-Fallback-scrubbed-FEQGljGirwHBxewETaCHNXhOLFMSgFZiuRxVkPizhKnqzDorQRYliLuIPaejeDzkKOubgLMkFJTaENqSakfavvHinEOOmCDjYZBoTkiClfdPBKbfOPPmohW",
+        "name": "Rebecca Morgan", "kind": "-Fallback-scrubbed-VBhf"}, {"rel": "-Fallback-scrubbed-MhjVbpcXX",
+        "href": "-Fallback-scrubbed-FEQGljGirwHBxewETaCHNXhOLFMSgFZiuRxVkPizhKnqzDorQRYliLuIPaejeDzkKOubgLMkFJTaENqSakfavvHinEOOmCDjYZBoTkiClfdPBKbfOPPmohW",
+        "name": "Rebecca Morgan", "kind": "-Fallback-scrubbed-VBhf"}]}, {"BpvenCompCode":
+        "001", "BpvenCompName": "-Fallback-scrubbed-MNdzSJUVzOrYWdUPWxthjfiVmFCXL",
+        "BpvenBpCode": "-Fallback-scrubbed-plBgbl", "BpvenBpName": "-Fallback-scrubbed-AwUXNWlbDTpGLFbCM",
+        "BpvenPayAdd1": "-Fallback-scrubbed-HaxrvJTRRVbSIvYTNqyh", "BpvenPayAdd2":
+        null, "BpvenPayAdd3": "-Fallback-scrubbed-nJkfbDQz", "BpvenPayRegionCode":
+        "-Fallback-scrubbed-ro", "BpvenPayRegionName": null, "BpvenPayCountry": "-Fallback-scrubbed-SPY",
+        "BpvenPayPostalCode": "-Fallback-scrubbed-zGaYG", "BpvenPayContactName": null,
+        "BpvenPayPhone": null, "BpvenPayFax": null, "BpvenPayEmail": null, "BpvenWebSite":
+        null, "BpvenBuyCode": null, "BpvenClassCode": null, "BpvenClassName": null,
+        "BpvenStatusCode": "-Fallback-scrubbed-G", "BpvenPrefCode": null, "BpvenPrefName":
+        null, "BpvenTermCode": "-Fallback-scrubbed-pVElM", "BpvenTermName": "-Fallback-scrubbed-hBhPni",
+        "Bpven1099Code": "-Fallback-scrubbed-n", "Bpven1099Name": "-Fallback-scrubbed-MSeeIRguGxhlQARyjhRoVjnx",
+        "BpvenAltAddCode": null, "BpvenAltAddName": null, "BpvenShpinstDesc": null,
+        "BpvenActiveFlag": "-Fallback-scrubbed-O", "Bpven5018RepFlag": "-Fallback-scrubbed-L",
+        "BpvenOneTimeFlag": "-Fallback-scrubbed-m", "BpvenUseApctrlComplFlag": null,
+        "BpvenSpecialTermsFlag": "-Fallback-scrubbed-m", "BpvenOrdAdd1": "-Fallback-scrubbed-HaxrvJTRRVbSIvYTNqyh",
+        "BpvenOrdAdd2": null, "BpvenOrdAdd3": "-Fallback-scrubbed-nJkfbDQz", "BpvenOrdRegionCode":
+        "-Fallback-scrubbed-ro", "BpvenOrdCountry": "-Fallback-scrubbed-SPY", "BpvenOrdPostalCode":
+        "-Fallback-scrubbed-zGaYG", "BpvenOrdContactName": null, "BpvenOrdPhone":
+        null, "BpvenOrdFax": null, "BpvenOrdEmail": null, "BpvenCurrCode": "-Fallback-scrubbed-caY",
+        "BpvenInvSerCode": null, "BpvenDistTypeCode": "-Fallback-scrubbed-W", "BpvenHldbkPc":
+        null, "BpvenAllowTranFlag": "-Fallback-scrubbed-O", "BpvenCheckMergeFlag":
+        "-Fallback-scrubbed-m", "BpvenDiscreteChqFlag": "-Fallback-scrubbed-m", "BpvenPrenoteFlag":
+        null, "BpvenTppayCode": null, "BpvenDefaultPayCode": "-Fallback-scrubbed-m",
+        "BpvenEftFlag": null, "BpvenEftEmail": null, "BpvenPrefContactMth": "-Fallback-scrubbed-b",
+        "BpvenEmpNo": null, "BpvenBankCode": null, "BpvenBankAccNum1": null, "BpvenBankAccNum2":
+        null, "BpvenBankAccNum3": null, "BpvenPaymodeId": null, "BpvenIbanNum": null,
+        "BpvenSwiftBicCode": null, "BpvenApDeptCode": "-Fallback-scrubbed-RV", "BpvenApAccCode":
+        "-Fallback-scrubbed-voVs", "BpvenCashDeptCode": "-Fallback-scrubbed-RV", "BpvenCashAccCode":
+        "-Fallback-scrubbed-bLYq", "BpvenExpDeptCode": "-Fallback-scrubbed-RV", "BpvenExpAccCode":
+        "-Fallback-scrubbed-AmvD", "BpvenPpeDeptCode": "-Fallback-scrubbed-RV", "BpvenPpeAccCode":
+        "-Fallback-scrubbed-Vsnf", "BpvenDiscDeptCode": "-Fallback-scrubbed-RV", "BpvenDiscAccCode":
+        "-Fallback-scrubbed-sNWn", "BpvenHldbkDeptCode": "-Fallback-scrubbed-RV",
+        "BpvenHldbkAccCode": "-Fallback-scrubbed-qLSZ", "BpvenTax1Code": null, "BpvenTaxlic1":
+        null, "BpvenTax2Code": null, "BpvenTaxlic2": null, "BpvenTax3Code": null,
+        "BpvenTaxlic3": null, "BpvenTax4Code": null, "BpvenTaxlic4": null, "BpvenTax5Code":
+        null, "BpvenTaxlic5": null, "BpvenVUuid": "57EEB22D87C810E9E06331121DAC5759",
+        "BpvenIuCreateDate": "2026-07-31T16:05:00-04:00", "BpvenIuUpdateDate": "2026-07-31T17:16:01-04:00",
+        "BpIuCreateDate": "-Fallback-scrubbed-yTRQdwINakvYZdbYfHphqRVOV", "BpIuUpdateDate":
+        null, "BpvenEftPaymentType": null, "links": [{"rel": "-Fallback-scrubbed-HEdc",
+        "href": "-Fallback-scrubbed-VGrRJgrVmCjcjyNFPpTVYEOVWAHDnMOhpWYZKpcYwMCkHgAuqHYVJifteaBODlcSWGHisicoYzdYPvaPpqYtSEhaCAJxEJhqWtUgPyCPauJGCIEXQGuaiAv",
+        "name": "Rebecca Morgan", "kind": "-Fallback-scrubbed-VBhf"}, {"rel": "-Fallback-scrubbed-MhjVbpcXX",
+        "href": "-Fallback-scrubbed-VGrRJgrVmCjcjyNFPpTVYEOVWAHDnMOhpWYZKpcYwMCkHgAuqHYVJifteaBODlcSWGHisicoYzdYPvaPpqYtSEhaCAJxEJhqWtUgPyCPauJGCIEXQGuaiAv",
+        "name": "Rebecca Morgan", "kind": "-Fallback-scrubbed-VBhf"}]}, {"BpvenCompCode":
+        "001", "BpvenCompName": "-Fallback-scrubbed-MNdzSJUVzOrYWdUPWxthjfiVmFCXL",
+        "BpvenBpCode": "-Fallback-scrubbed-ZHAucq", "BpvenBpName": "-Fallback-scrubbed-nijqYGzYWHoyqwwXMqSDzXNVNQltl",
+        "BpvenPayAdd1": "-Fallback-scrubbed-OVGMwtPelgcyaFySwEHIEdKkJN", "BpvenPayAdd2":
+        "-Fallback-scrubbed-eXxKqoMJVo", "BpvenPayAdd3": "-Fallback-scrubbed-cmWDpUHXcZe",
+        "BpvenPayRegionCode": "-Fallback-scrubbed-lU", "BpvenPayRegionName": null,
+        "BpvenPayCountry": "-Fallback-scrubbed-SPY", "BpvenPayPostalCode": "-Fallback-scrubbed-zgOPw",
+        "BpvenPayContactName": null, "BpvenPayPhone": "-Fallback-scrubbed-vgmlELPfxbf",
+        "BpvenPayFax": null, "BpvenPayEmail": "-Fallback-scrubbed-gdcFzeAiwimvcDifRHwPH",
+        "BpvenWebSite": null, "BpvenBuyCode": null, "BpvenClassCode": null, "BpvenClassName":
+        null, "BpvenStatusCode": "-Fallback-scrubbed-G", "BpvenPrefCode": null, "BpvenPrefName":
+        null, "BpvenTermCode": "-Fallback-scrubbed-pVElM", "BpvenTermName": "-Fallback-scrubbed-hBhPni",
+        "Bpven1099Code": null, "Bpven1099Name": null, "BpvenAltAddCode": null, "BpvenAltAddName":
+        null, "BpvenShpinstDesc": null, "BpvenActiveFlag": "-Fallback-scrubbed-O",
+        "Bpven5018RepFlag": "-Fallback-scrubbed-L", "BpvenOneTimeFlag": "-Fallback-scrubbed-m",
+        "BpvenUseApctrlComplFlag": null, "BpvenSpecialTermsFlag": "-Fallback-scrubbed-m",
+        "BpvenOrdAdd1": "-Fallback-scrubbed-OVGMwtPelgcyaFySwEHIEdKkJN", "BpvenOrdAdd2":
+        "-Fallback-scrubbed-eXxKqoMJVo", "BpvenOrdAdd3": "-Fallback-scrubbed-cmWDpUHXcZe",
+        "BpvenOrdRegionCode": "-Fallback-scrubbed-lU", "BpvenOrdCountry": "-Fallback-scrubbed-SPY",
+        "BpvenOrdPostalCode": "-Fallback-scrubbed-zgOPw", "BpvenOrdContactName": null,
+        "BpvenOrdPhone": "-Fallback-scrubbed-vgmlELPfxbf", "BpvenOrdFax": null, "BpvenOrdEmail":
+        "-Fallback-scrubbed-gdcFzeAiwimvcDifRHwPH", "BpvenCurrCode": "-Fallback-scrubbed-caY",
+        "BpvenInvSerCode": null, "BpvenDistTypeCode": "-Fallback-scrubbed-W", "BpvenHldbkPc":
+        null, "BpvenAllowTranFlag": "-Fallback-scrubbed-O", "BpvenCheckMergeFlag":
+        "-Fallback-scrubbed-m", "BpvenDiscreteChqFlag": "-Fallback-scrubbed-m", "BpvenPrenoteFlag":
+        null, "BpvenTppayCode": null, "BpvenDefaultPayCode": "-Fallback-scrubbed-m",
+        "BpvenEftFlag": null, "BpvenEftEmail": null, "BpvenPrefContactMth": "-Fallback-scrubbed-b",
+        "BpvenEmpNo": null, "BpvenBankCode": null, "BpvenBankAccNum1": null, "BpvenBankAccNum2":
+        null, "BpvenBankAccNum3": null, "BpvenPaymodeId": null, "BpvenIbanNum": null,
+        "BpvenSwiftBicCode": null, "BpvenApDeptCode": "-Fallback-scrubbed-RV", "BpvenApAccCode":
+        "-Fallback-scrubbed-voVs", "BpvenCashDeptCode": "-Fallback-scrubbed-RV", "BpvenCashAccCode":
+        "-Fallback-scrubbed-bLYq", "BpvenExpDeptCode": "-Fallback-scrubbed-RV", "BpvenExpAccCode":
+        "-Fallback-scrubbed-AmvD", "BpvenPpeDeptCode": "-Fallback-scrubbed-RV", "BpvenPpeAccCode":
+        "-Fallback-scrubbed-Vsnf", "BpvenDiscDeptCode": "-Fallback-scrubbed-RV", "BpvenDiscAccCode":
+        "-Fallback-scrubbed-sNWn", "BpvenHldbkDeptCode": "-Fallback-scrubbed-RV",
+        "BpvenHldbkAccCode": "-Fallback-scrubbed-qLSZ", "BpvenTax1Code": null, "BpvenTaxlic1":
+        null, "BpvenTax2Code": null, "BpvenTaxlic2": null, "BpvenTax3Code": null,
+        "BpvenTaxlic3": null, "BpvenTax4Code": null, "BpvenTaxlic4": null, "BpvenTax5Code":
+        null, "BpvenTaxlic5": null, "BpvenVUuid": "4C3A60E57D2E4A84E06331121DAC0887",
+        "BpvenIuCreateDate": "2026-03-04T16:32:54-05:00", "BpvenIuUpdateDate": null,
+        "BpIuCreateDate": "-Fallback-scrubbed-FzqhGEyeEqJbJHMISYKpvcspS", "BpIuUpdateDate":
+        "-Fallback-scrubbed-CQkYgyvxYnwDceYQgIEplMUAR", "BpvenEftPaymentType": null,
+        "links": [{"rel": "-Fallback-scrubbed-HEdc", "href": "-Fallback-scrubbed-thTSalOKaaSfxBHPBZwgJsBoLbcOrvXphxYmsQkoqqKihxUYnFmTVMBeZQYiPryrxmoJIYuzqqbKfrrhOHzsScqzJhwhmQGOxYPxTGWiGxOVXoPPMYOHstF",
+        "name": "Rebecca Morgan", "kind": "-Fallback-scrubbed-VBhf"}, {"rel": "-Fallback-scrubbed-MhjVbpcXX",
+        "href": "-Fallback-scrubbed-thTSalOKaaSfxBHPBZwgJsBoLbcOrvXphxYmsQkoqqKihxUYnFmTVMBeZQYiPryrxmoJIYuzqqbKfrrhOHzsScqzJhwhmQGOxYPxTGWiGxOVXoPPMYOHstF",
+        "name": "Rebecca Morgan", "kind": "-Fallback-scrubbed-VBhf"}]}, {"BpvenCompCode":
+        "001", "BpvenCompName": "-Fallback-scrubbed-MNdzSJUVzOrYWdUPWxthjfiVmFCXL",
+        "BpvenBpCode": "-Fallback-scrubbed-FTPyej", "BpvenBpName": "-Fallback-scrubbed-MgZsyUC",
+        "BpvenPayAdd1": "-Fallback-scrubbed-kfDqoPUHSlu", "BpvenPayAdd2": null, "BpvenPayAdd3":
+        "-Fallback-scrubbed-YwVeitwMzu", "BpvenPayRegionCode": "-Fallback-scrubbed-PA",
+        "BpvenPayRegionName": null, "BpvenPayCountry": "-Fallback-scrubbed-SPY", "BpvenPayPostalCode":
+        "-Fallback-scrubbed-FJvsu", "BpvenPayContactName": null, "BpvenPayPhone":
+        "-Fallback-scrubbed-ahkKiZtQP", "BpvenPayFax": null, "BpvenPayEmail": null,
+        "BpvenWebSite": null, "BpvenBuyCode": null, "BpvenClassCode": null, "BpvenClassName":
+        null, "BpvenStatusCode": "-Fallback-scrubbed-G", "BpvenPrefCode": null, "BpvenPrefName":
+        null, "BpvenTermCode": "-Fallback-scrubbed-pVElM", "BpvenTermName": "-Fallback-scrubbed-hBhPni",
+        "Bpven1099Code": null, "Bpven1099Name": null, "BpvenAltAddCode": null, "BpvenAltAddName":
+        null, "BpvenShpinstDesc": null, "BpvenActiveFlag": "-Fallback-scrubbed-O",
+        "Bpven5018RepFlag": "-Fallback-scrubbed-L", "BpvenOneTimeFlag": "-Fallback-scrubbed-m",
+        "BpvenUseApctrlComplFlag": null, "BpvenSpecialTermsFlag": "-Fallback-scrubbed-m",
+        "BpvenOrdAdd1": "-Fallback-scrubbed-kfDqoPUHSlu", "BpvenOrdAdd2": null, "BpvenOrdAdd3":
+        "-Fallback-scrubbed-YwVeitwMzu", "BpvenOrdRegionCode": "-Fallback-scrubbed-PA",
+        "BpvenOrdCountry": "-Fallback-scrubbed-SPY", "BpvenOrdPostalCode": "-Fallback-scrubbed-FJvsu",
+        "BpvenOrdContactName": null, "BpvenOrdPhone": "-Fallback-scrubbed-ahkKiZtQP",
+        "BpvenOrdFax": null, "BpvenOrdEmail": null, "BpvenCurrCode": "-Fallback-scrubbed-caY",
+        "BpvenInvSerCode": null, "BpvenDistTypeCode": "-Fallback-scrubbed-W", "BpvenHldbkPc":
+        null, "BpvenAllowTranFlag": "-Fallback-scrubbed-O", "BpvenCheckMergeFlag":
+        "-Fallback-scrubbed-m", "BpvenDiscreteChqFlag": "-Fallback-scrubbed-m", "BpvenPrenoteFlag":
+        null, "BpvenTppayCode": null, "BpvenDefaultPayCode": "-Fallback-scrubbed-m",
+        "BpvenEftFlag": null, "BpvenEftEmail": null, "BpvenPrefContactMth": "-Fallback-scrubbed-b",
+        "BpvenEmpNo": null, "BpvenBankCode": null, "BpvenBankAccNum1": null, "BpvenBankAccNum2":
+        null, "BpvenBankAccNum3": null, "BpvenPaymodeId": null, "BpvenIbanNum": null,
+        "BpvenSwiftBicCode": null, "BpvenApDeptCode": "-Fallback-scrubbed-RV", "BpvenApAccCode":
+        "-Fallback-scrubbed-voVs", "BpvenCashDeptCode": "-Fallback-scrubbed-RV", "BpvenCashAccCode":
+        "-Fallback-scrubbed-bLYq", "BpvenExpDeptCode": "-Fallback-scrubbed-RV", "BpvenExpAccCode":
+        "-Fallback-scrubbed-AmvD", "BpvenPpeDeptCode": "-Fallback-scrubbed-RV", "BpvenPpeAccCode":
+        "-Fallback-scrubbed-Vsnf", "BpvenDiscDeptCode": "-Fallback-scrubbed-RV", "BpvenDiscAccCode":
+        "-Fallback-scrubbed-sNWn", "BpvenHldbkDeptCode": "-Fallback-scrubbed-RV",
+        "BpvenHldbkAccCode": "-Fallback-scrubbed-qLSZ", "BpvenTax1Code": null, "BpvenTaxlic1":
+        null, "BpvenTax2Code": null, "BpvenTaxlic2": null, "BpvenTax3Code": null,
+        "BpvenTaxlic3": null, "BpvenTax4Code": null, "BpvenTaxlic4": null, "BpvenTax5Code":
+        null, "BpvenTaxlic5": null, "BpvenVUuid": "4BA92BD671413ADDE06331121DAC9C37",
+        "BpvenIuCreateDate": "2026-02-25T11:06:44-05:00", "BpvenIuUpdateDate": "2026-03-04T14:41:51-05:00",
+        "BpIuCreateDate": "-Fallback-scrubbed-iNpQOOdBWTAqiwxaPULeTIvLn", "BpIuUpdateDate":
+        null, "BpvenEftPaymentType": null, "links": [{"rel": "-Fallback-scrubbed-HEdc",
+        "href": "-Fallback-scrubbed-fHppgyyyPsiplSNBYJATlKrpQmMIhdgEgDthKQRRfwDedlDJamqysZezVjpEJXnFUgGXOidjIVseXgMUYBmFiTtNnZFcxVHsndTffZxHaEgxZjZQZJVSqPn",
+        "name": "Rebecca Morgan", "kind": "-Fallback-scrubbed-VBhf"}, {"rel": "-Fallback-scrubbed-MhjVbpcXX",
+        "href": "-Fallback-scrubbed-fHppgyyyPsiplSNBYJATlKrpQmMIhdgEgDthKQRRfwDedlDJamqysZezVjpEJXnFUgGXOidjIVseXgMUYBmFiTtNnZFcxVHsndTffZxHaEgxZjZQZJVSqPn",
+        "name": "Rebecca Morgan", "kind": "-Fallback-scrubbed-VBhf"}]}, {"BpvenCompCode":
+        "001", "BpvenCompName": "-Fallback-scrubbed-MNdzSJUVzOrYWdUPWxthjfiVmFCXL",
+        "BpvenBpCode": "-Fallback-scrubbed-vVaoG", "BpvenBpName": "-Fallback-scrubbed-gwoBKWOHmk",
+        "BpvenPayAdd1": "-Fallback-scrubbed-WDbHmFBtAyFIacXn", "BpvenPayAdd2": null,
+        "BpvenPayAdd3": "-Fallback-scrubbed-sRxQTlU", "BpvenPayRegionCode": "-Fallback-scrubbed-cj",
+        "BpvenPayRegionName": null, "BpvenPayCountry": "-Fallback-scrubbed-iGUjzr",
+        "BpvenPayPostalCode": "-Fallback-scrubbed-KvMYrDH", "BpvenPayContactName":
+        null, "BpvenPayPhone": null, "BpvenPayFax": null, "BpvenPayEmail": null, "BpvenWebSite":
+        null, "BpvenBuyCode": null, "BpvenClassCode": null, "BpvenClassName": null,
+        "BpvenStatusCode": "-Fallback-scrubbed-G", "BpvenPrefCode": null, "BpvenPrefName":
+        null, "BpvenTermCode": "-Fallback-scrubbed-pVElM", "BpvenTermName": "-Fallback-scrubbed-hBhPni",
+        "Bpven1099Code": null, "Bpven1099Name": null, "BpvenAltAddCode": null, "BpvenAltAddName":
+        null, "BpvenShpinstDesc": null, "BpvenActiveFlag": "-Fallback-scrubbed-O",
+        "Bpven5018RepFlag": "-Fallback-scrubbed-L", "BpvenOneTimeFlag": "-Fallback-scrubbed-m",
+        "BpvenUseApctrlComplFlag": null, "BpvenSpecialTermsFlag": "-Fallback-scrubbed-m",
+        "BpvenOrdAdd1": "-Fallback-scrubbed-WDbHmFBtAyFIacXn", "BpvenOrdAdd2": null,
+        "BpvenOrdAdd3": "-Fallback-scrubbed-sRxQTlU", "BpvenOrdRegionCode": "-Fallback-scrubbed-cj",
+        "BpvenOrdCountry": "-Fallback-scrubbed-iGUjzr", "BpvenOrdPostalCode": "-Fallback-scrubbed-KvMYrDH",
+        "BpvenOrdContactName": null, "BpvenOrdPhone": null, "BpvenOrdFax": null, "BpvenOrdEmail":
+        null, "BpvenCurrCode": "-Fallback-scrubbed-caY", "BpvenInvSerCode": null,
+        "BpvenDistTypeCode": "-Fallback-scrubbed-W", "BpvenHldbkPc": null, "BpvenAllowTranFlag":
+        "-Fallback-scrubbed-O", "BpvenCheckMergeFlag": "-Fallback-scrubbed-m", "BpvenDiscreteChqFlag":
+        "-Fallback-scrubbed-m", "BpvenPrenoteFlag": null, "BpvenTppayCode": null,
+        "BpvenDefaultPayCode": "-Fallback-scrubbed-m", "BpvenEftFlag": null, "BpvenEftEmail":
+        null, "BpvenPrefContactMth": "-Fallback-scrubbed-b", "BpvenEmpNo": null, "BpvenBankCode":
+        null, "BpvenBankAccNum1": null, "BpvenBankAccNum2": null, "BpvenBankAccNum3":
+        null, "BpvenPaymodeId": null, "BpvenIbanNum": null, "BpvenSwiftBicCode": null,
+        "BpvenApDeptCode": "-Fallback-scrubbed-RV", "BpvenApAccCode": "-Fallback-scrubbed-voVs",
+        "BpvenCashDeptCode": "-Fallback-scrubbed-RV", "BpvenCashAccCode": "-Fallback-scrubbed-bLYq",
+        "BpvenExpDeptCode": "-Fallback-scrubbed-RV", "BpvenExpAccCode": "-Fallback-scrubbed-AmvD",
+        "BpvenPpeDeptCode": "-Fallback-scrubbed-RV", "BpvenPpeAccCode": "-Fallback-scrubbed-Vsnf",
+        "BpvenDiscDeptCode": "-Fallback-scrubbed-RV", "BpvenDiscAccCode": "-Fallback-scrubbed-sNWn",
+        "BpvenHldbkDeptCode": "-Fallback-scrubbed-RV", "BpvenHldbkAccCode": "-Fallback-scrubbed-qLSZ",
+        "BpvenTax1Code": "-Fallback-scrubbed-Pq", "BpvenTaxlic1": null, "BpvenTax2Code":
+        null, "BpvenTaxlic2": null, "BpvenTax3Code": null, "BpvenTaxlic3": null, "BpvenTax4Code":
+        null, "BpvenTaxlic4": null, "BpvenTax5Code": null, "BpvenTaxlic5": null, "BpvenVUuid":
+        "2C4DCDDEC7794195E06331121DAC0429", "BpvenIuCreateDate": "2025-01-22T10:04:23-05:00",
+        "BpvenIuUpdateDate": "2026-07-21T08:59:46-04:00", "BpIuCreateDate": "-Fallback-scrubbed-ZLMkqsCwaGnJmQAZywkfZsmfT",
+        "BpIuUpdateDate": null, "BpvenEftPaymentType": null, "links": [{"rel": "-Fallback-scrubbed-HEdc",
+        "href": "-Fallback-scrubbed-otNiTZGUhhTCYQLssECySbFyssSIFMwRZaLPzkhywjKWXrvvqwOBCKmVvQupoxaXAjRRnNDgHUslpXqiZrpjBpaNCUwynGzCuObQcCwCAtaDlUsTjFKnZJa",
+        "name": "Rebecca Morgan", "kind": "-Fallback-scrubbed-VBhf"}, {"rel": "-Fallback-scrubbed-MhjVbpcXX",
+        "href": "-Fallback-scrubbed-otNiTZGUhhTCYQLssECySbFyssSIFMwRZaLPzkhywjKWXrvvqwOBCKmVvQupoxaXAjRRnNDgHUslpXqiZrpjBpaNCUwynGzCuObQcCwCAtaDlUsTjFKnZJa",
+        "name": "Rebecca Morgan", "kind": "-Fallback-scrubbed-VBhf"}]}, {"BpvenCompCode":
+        "001", "BpvenCompName": "-Fallback-scrubbed-MNdzSJUVzOrYWdUPWxthjfiVmFCXL",
+        "BpvenBpCode": "-Fallback-scrubbed-bYXMNH", "BpvenBpName": "-Fallback-scrubbed-FEhwQbeytPqLh",
+        "BpvenPayAdd1": null, "BpvenPayAdd2": null, "BpvenPayAdd3": null, "BpvenPayRegionCode":
+        null, "BpvenPayRegionName": null, "BpvenPayCountry": null, "BpvenPayPostalCode":
+        null, "BpvenPayContactName": null, "BpvenPayPhone": null, "BpvenPayFax": null,
+        "BpvenPayEmail": null, "BpvenWebSite": null, "BpvenBuyCode": null, "BpvenClassCode":
+        null, "BpvenClassName": null, "BpvenStatusCode": "-Fallback-scrubbed-G", "BpvenPrefCode":
+        null, "BpvenPrefName": null, "BpvenTermCode": "-Fallback-scrubbed-pVElM",
+        "BpvenTermName": "-Fallback-scrubbed-hBhPni", "Bpven1099Code": null, "Bpven1099Name":
+        null, "BpvenAltAddCode": null, "BpvenAltAddName": null, "BpvenShpinstDesc":
+        null, "BpvenActiveFlag": "-Fallback-scrubbed-O", "Bpven5018RepFlag": "-Fallback-scrubbed-L",
+        "BpvenOneTimeFlag": "-Fallback-scrubbed-m", "BpvenUseApctrlComplFlag": null,
+        "BpvenSpecialTermsFlag": "-Fallback-scrubbed-m", "BpvenOrdAdd1": null, "BpvenOrdAdd2":
+        null, "BpvenOrdAdd3": null, "BpvenOrdRegionCode": null, "BpvenOrdCountry":
+        null, "BpvenOrdPostalCode": null, "BpvenOrdContactName": null, "BpvenOrdPhone":
+        null, "BpvenOrdFax": null, "BpvenOrdEmail": null, "BpvenCurrCode": "-Fallback-scrubbed-caY",
+        "BpvenInvSerCode": null, "BpvenDistTypeCode": "-Fallback-scrubbed-W", "BpvenHldbkPc":
+        null, "BpvenAllowTranFlag": "-Fallback-scrubbed-O", "BpvenCheckMergeFlag":
+        "-Fallback-scrubbed-m", "BpvenDiscreteChqFlag": "-Fallback-scrubbed-m", "BpvenPrenoteFlag":
+        null, "BpvenTppayCode": null, "BpvenDefaultPayCode": "-Fallback-scrubbed-m",
+        "BpvenEftFlag": null, "BpvenEftEmail": null, "BpvenPrefContactMth": "-Fallback-scrubbed-b",
+        "BpvenEmpNo": null, "BpvenBankCode": null, "BpvenBankAccNum1": null, "BpvenBankAccNum2":
+        null, "BpvenBankAccNum3": null, "BpvenPaymodeId": null, "BpvenIbanNum": null,
+        "BpvenSwiftBicCode": null, "BpvenApDeptCode": "-Fallback-scrubbed-RV", "BpvenApAccCode":
+        "-Fallback-scrubbed-voVs", "BpvenCashDeptCode": "-Fallback-scrubbed-RV", "BpvenCashAccCode":
+        "-Fallback-scrubbed-bLYq", "BpvenExpDeptCode": "-Fallback-scrubbed-RV", "BpvenExpAccCode":
+        "-Fallback-scrubbed-AmvD", "BpvenPpeDeptCode": "-Fallback-scrubbed-RV", "BpvenPpeAccCode":
+        "-Fallback-scrubbed-Vsnf", "BpvenDiscDeptCode": "-Fallback-scrubbed-RV", "BpvenDiscAccCode":
+        "-Fallback-scrubbed-sNWn", "BpvenHldbkDeptCode": "-Fallback-scrubbed-RV",
+        "BpvenHldbkAccCode": "-Fallback-scrubbed-qLSZ", "BpvenTax1Code": null, "BpvenTaxlic1":
+        null, "BpvenTax2Code": null, "BpvenTaxlic2": null, "BpvenTax3Code": null,
+        "BpvenTaxlic3": null, "BpvenTax4Code": null, "BpvenTaxlic4": null, "BpvenTax5Code":
+        null, "BpvenTaxlic5": null, "BpvenVUuid": "5829F6A6023C41B9E06331121DACD731",
+        "BpvenIuCreateDate": "2026-08-03T14:47:19-04:00", "BpvenIuUpdateDate": "2026-08-03T14:48:48-04:00",
+        "BpIuCreateDate": "-Fallback-scrubbed-ejcLSaJAEuzHaGgfPghrdqzSw", "BpIuUpdateDate":
+        null, "BpvenEftPaymentType": null, "links": [{"rel": "-Fallback-scrubbed-HEdc",
+        "href": "-Fallback-scrubbed-UALWafEWJegDfsnaIaNNRdKHVrAHOMqESNZcNsUjerxilKyHVioIMPlZXLwAUbnSHiWKiuTYWFAbPFxSOClPUZkASyxffdMXXhQclINRWuJWdZHzcGGTRIN",
+        "name": "Rebecca Morgan", "kind": "-Fallback-scrubbed-VBhf"}, {"rel": "-Fallback-scrubbed-MhjVbpcXX",
+        "href": "-Fallback-scrubbed-UALWafEWJegDfsnaIaNNRdKHVrAHOMqESNZcNsUjerxilKyHVioIMPlZXLwAUbnSHiWKiuTYWFAbPFxSOClPUZkASyxffdMXXhQclINRWuJWdZHzcGGTRIN",
+        "name": "Rebecca Morgan", "kind": "-Fallback-scrubbed-VBhf"}]}, {"BpvenCompCode":
+        "001", "BpvenCompName": "-Fallback-scrubbed-MNdzSJUVzOrYWdUPWxthjfiVmFCXL",
+        "BpvenBpCode": "-Fallback-scrubbed-QJlMFZ", "BpvenBpName": "-Fallback-scrubbed-dqhbooYbPZLwiancqVuJQTnjt",
+        "BpvenPayAdd1": null, "BpvenPayAdd2": null, "BpvenPayAdd3": null, "BpvenPayRegionCode":
+        null, "BpvenPayRegionName": null, "BpvenPayCountry": null, "BpvenPayPostalCode":
+        null, "BpvenPayContactName": null, "BpvenPayPhone": null, "BpvenPayFax": null,
+        "BpvenPayEmail": null, "BpvenWebSite": null, "BpvenBuyCode": null, "BpvenClassCode":
+        null, "BpvenClassName": null, "BpvenStatusCode": "-Fallback-scrubbed-G", "BpvenPrefCode":
+        null, "BpvenPrefName": null, "BpvenTermCode": "-Fallback-scrubbed-pVElM",
+        "BpvenTermName": "-Fallback-scrubbed-hBhPni", "Bpven1099Code": null, "Bpven1099Name":
+        null, "BpvenAltAddCode": null, "BpvenAltAddName": null, "BpvenShpinstDesc":
+        null, "BpvenActiveFlag": "-Fallback-scrubbed-O", "Bpven5018RepFlag": "-Fallback-scrubbed-L",
+        "BpvenOneTimeFlag": "-Fallback-scrubbed-m", "BpvenUseApctrlComplFlag": null,
+        "BpvenSpecialTermsFlag": "-Fallback-scrubbed-m", "BpvenOrdAdd1": null, "BpvenOrdAdd2":
+        null, "BpvenOrdAdd3": null, "BpvenOrdRegionCode": null, "BpvenOrdCountry":
+        null, "BpvenOrdPostalCode": null, "BpvenOrdContactName": null, "BpvenOrdPhone":
+        null, "BpvenOrdFax": null, "BpvenOrdEmail": null, "BpvenCurrCode": "-Fallback-scrubbed-caY",
+        "BpvenInvSerCode": null, "BpvenDistTypeCode": "-Fallback-scrubbed-W", "BpvenHldbkPc":
+        null, "BpvenAllowTranFlag": "-Fallback-scrubbed-O", "BpvenCheckMergeFlag":
+        "-Fallback-scrubbed-m", "BpvenDiscreteChqFlag": "-Fallback-scrubbed-m", "BpvenPrenoteFlag":
+        null, "BpvenTppayCode": null, "BpvenDefaultPayCode": "-Fallback-scrubbed-m",
+        "BpvenEftFlag": null, "BpvenEftEmail": null, "BpvenPrefContactMth": "-Fallback-scrubbed-b",
+        "BpvenEmpNo": null, "BpvenBankCode": null, "BpvenBankAccNum1": null, "BpvenBankAccNum2":
+        null, "BpvenBankAccNum3": null, "BpvenPaymodeId": null, "BpvenIbanNum": null,
+        "BpvenSwiftBicCode": null, "BpvenApDeptCode": "-Fallback-scrubbed-RV", "BpvenApAccCode":
+        "-Fallback-scrubbed-voVs", "BpvenCashDeptCode": "-Fallback-scrubbed-RV", "BpvenCashAccCode":
+        "-Fallback-scrubbed-bLYq", "BpvenExpDeptCode": "-Fallback-scrubbed-RV", "BpvenExpAccCode":
+        "-Fallback-scrubbed-AmvD", "BpvenPpeDeptCode": "-Fallback-scrubbed-RV", "BpvenPpeAccCode":
+        "-Fallback-scrubbed-Vsnf", "BpvenDiscDeptCode": "-Fallback-scrubbed-RV", "BpvenDiscAccCode":
+        "-Fallback-scrubbed-sNWn", "BpvenHldbkDeptCode": "-Fallback-scrubbed-RV",
+        "BpvenHldbkAccCode": "-Fallback-scrubbed-qLSZ", "BpvenTax1Code": null, "BpvenTaxlic1":
+        null, "BpvenTax2Code": null, "BpvenTaxlic2": null, "BpvenTax3Code": null,
+        "BpvenTaxlic3": null, "BpvenTax4Code": null, "BpvenTaxlic4": null, "BpvenTax5Code":
+        null, "BpvenTaxlic5": null, "BpvenVUuid": "5829F6A6024741B9E06331121DACD731",
+        "BpvenIuCreateDate": "2026-08-03T14:51:09-04:00", "BpvenIuUpdateDate": "2026-08-03T14:55:26-04:00",
+        "BpIuCreateDate": "-Fallback-scrubbed-ggwgxOCiPMzyWvNkssbtpwaDl", "BpIuUpdateDate":
+        null, "BpvenEftPaymentType": null, "links": [{"rel": "-Fallback-scrubbed-HEdc",
+        "href": "-Fallback-scrubbed-eZRrhlRNuSJVRtgJEJFSrHotfPMOkoFrFRZemOSfYDRFFlsxUGmuikiIIYNReAzqDwURoPzMsvhxxPuzzEbtiQdmrzABXqfXoOiYhxRyeDTWkrKVkephbhD",
+        "name": "Rebecca Morgan", "kind": "-Fallback-scrubbed-VBhf"}, {"rel": "-Fallback-scrubbed-MhjVbpcXX",
+        "href": "-Fallback-scrubbed-eZRrhlRNuSJVRtgJEJFSrHotfPMOkoFrFRZemOSfYDRFFlsxUGmuikiIIYNReAzqDwURoPzMsvhxxPuzzEbtiQdmrzABXqfXoOiYhxRyeDTWkrKVkephbhD",
+        "name": "Rebecca Morgan", "kind": "-Fallback-scrubbed-VBhf"}]}, {"BpvenCompCode":
+        "001", "BpvenCompName": "-Fallback-scrubbed-MNdzSJUVzOrYWdUPWxthjfiVmFCXL",
+        "BpvenBpCode": "-Fallback-scrubbed-RjwDVg", "BpvenBpName": "-Fallback-scrubbed-aMSfrIjKXyITyvIGkupVvzErUpcpVsP",
+        "BpvenPayAdd1": null, "BpvenPayAdd2": null, "BpvenPayAdd3": null, "BpvenPayRegionCode":
+        null, "BpvenPayRegionName": null, "BpvenPayCountry": null, "BpvenPayPostalCode":
+        null, "BpvenPayContactName": null, "BpvenPayPhone": null, "BpvenPayFax": null,
+        "BpvenPayEmail": null, "BpvenWebSite": null, "BpvenBuyCode": null, "BpvenClassCode":
+        null, "BpvenClassName": null, "BpvenStatusCode": "-Fallback-scrubbed-G", "BpvenPrefCode":
+        null, "BpvenPrefName": null, "BpvenTermCode": "-Fallback-scrubbed-pVElM",
+        "BpvenTermName": "-Fallback-scrubbed-hBhPni", "Bpven1099Code": null, "Bpven1099Name":
+        null, "BpvenAltAddCode": null, "BpvenAltAddName": null, "BpvenShpinstDesc":
+        null, "BpvenActiveFlag": "-Fallback-scrubbed-O", "Bpven5018RepFlag": "-Fallback-scrubbed-L",
+        "BpvenOneTimeFlag": "-Fallback-scrubbed-m", "BpvenUseApctrlComplFlag": null,
+        "BpvenSpecialTermsFlag": "-Fallback-scrubbed-m", "BpvenOrdAdd1": null, "BpvenOrdAdd2":
+        null, "BpvenOrdAdd3": null, "BpvenOrdRegionCode": null, "BpvenOrdCountry":
+        null, "BpvenOrdPostalCode": null, "BpvenOrdContactName": null, "BpvenOrdPhone":
+        null, "BpvenOrdFax": null, "BpvenOrdEmail": null, "BpvenCurrCode": "-Fallback-scrubbed-caY",
+        "BpvenInvSerCode": null, "BpvenDistTypeCode": "-Fallback-scrubbed-W", "BpvenHldbkPc":
+        null, "BpvenAllowTranFlag": "-Fallback-scrubbed-O", "BpvenCheckMergeFlag":
+        "-Fallback-scrubbed-m", "BpvenDiscreteChqFlag": "-Fallback-scrubbed-m", "BpvenPrenoteFlag":
+        null, "BpvenTppayCode": null, "BpvenDefaultPayCode": "-Fallback-scrubbed-m",
+        "BpvenEftFlag": null, "BpvenEftEmail": null, "BpvenPrefContactMth": "-Fallback-scrubbed-b",
+        "BpvenEmpNo": null, "BpvenBankCode": null, "BpvenBankAccNum1": null, "BpvenBankAccNum2":
+        null, "BpvenBankAccNum3": null, "BpvenPaymodeId": null, "BpvenIbanNum": null,
+        "BpvenSwiftBicCode": null, "BpvenApDeptCode": "-Fallback-scrubbed-RV", "BpvenApAccCode":
+        "-Fallback-scrubbed-voVs", "BpvenCashDeptCode": "-Fallback-scrubbed-RV", "BpvenCashAccCode":
+        "-Fallback-scrubbed-bLYq", "BpvenExpDeptCode": "-Fallback-scrubbed-RV", "BpvenExpAccCode":
+        "-Fallback-scrubbed-AmvD", "BpvenPpeDeptCode": "-Fallback-scrubbed-RV", "BpvenPpeAccCode":
+        "-Fallback-scrubbed-Vsnf", "BpvenDiscDeptCode": "-Fallback-scrubbed-RV", "BpvenDiscAccCode":
+        "-Fallback-scrubbed-sNWn", "BpvenHldbkDeptCode": "-Fallback-scrubbed-RV",
+        "BpvenHldbkAccCode": "-Fallback-scrubbed-qLSZ", "BpvenTax1Code": null, "BpvenTaxlic1":
+        null, "BpvenTax2Code": null, "BpvenTaxlic2": null, "BpvenTax3Code": null,
+        "BpvenTaxlic3": null, "BpvenTax4Code": null, "BpvenTaxlic4": null, "BpvenTax5Code":
+        null, "BpvenTaxlic5": null, "BpvenVUuid": "5829F6A6024A41B9E06331121DACD731",
+        "BpvenIuCreateDate": "2026-08-03T14:52:10-04:00", "BpvenIuUpdateDate": "2026-08-03T14:57:24-04:00",
+        "BpIuCreateDate": "-Fallback-scrubbed-eOxqClKBoBfXkxeDLgDdnhavl", "BpIuUpdateDate":
+        null, "BpvenEftPaymentType": null, "links": [{"rel": "-Fallback-scrubbed-HEdc",
+        "href": "-Fallback-scrubbed-jxWqmXnSSMUnGLXjrBAttEstrizQhrOcTXtjkJHCmOAvmJiKYXsMlsErtrcPhLwGUJFUpWDCaSGywMvSHJEmWRkyEDkKAnjfMoPsMHMmmCDKxecolvfXuRF",
+        "name": "Rebecca Morgan", "kind": "-Fallback-scrubbed-VBhf"}, {"rel": "-Fallback-scrubbed-MhjVbpcXX",
+        "href": "-Fallback-scrubbed-jxWqmXnSSMUnGLXjrBAttEstrizQhrOcTXtjkJHCmOAvmJiKYXsMlsErtrcPhLwGUJFUpWDCaSGywMvSHJEmWRkyEDkKAnjfMoPsMHMmmCDKxecolvfXuRF",
+        "name": "Rebecca Morgan", "kind": "-Fallback-scrubbed-VBhf"}]}, {"BpvenCompCode":
+        "001", "BpvenCompName": "-Fallback-scrubbed-MNdzSJUVzOrYWdUPWxthjfiVmFCXL",
+        "BpvenBpCode": "-Fallback-scrubbed-XzcoUY", "BpvenBpName": "-Fallback-scrubbed-qeSojUJdSoawLeNImZdYQbcTUzfOXYYywZ",
+        "BpvenPayAdd1": "-Fallback-scrubbed-PhmUIYCZnVpmNwAaWoN", "BpvenPayAdd2":
+        "-Fallback-scrubbed-ZrHtigKCw", "BpvenPayAdd3": "-Fallback-scrubbed-OjBlcgWhR",
+        "BpvenPayRegionCode": "-Fallback-scrubbed-lU", "BpvenPayRegionName": null,
+        "BpvenPayCountry": "-Fallback-scrubbed-SPY", "BpvenPayPostalCode": "-Fallback-scrubbed-Whjhod",
+        "BpvenPayContactName": null, "BpvenPayPhone": null, "BpvenPayFax": null, "BpvenPayEmail":
+        null, "BpvenWebSite": null, "BpvenBuyCode": null, "BpvenClassCode": null,
+        "BpvenClassName": null, "BpvenStatusCode": "-Fallback-scrubbed-G", "BpvenPrefCode":
+        null, "BpvenPrefName": null, "BpvenTermCode": "-Fallback-scrubbed-pVElM",
+        "BpvenTermName": "-Fallback-scrubbed-hBhPni", "Bpven1099Code": null, "Bpven1099Name":
+        null, "BpvenAltAddCode": null, "BpvenAltAddName": null, "BpvenShpinstDesc":
+        null, "BpvenActiveFlag": "-Fallback-scrubbed-O", "Bpven5018RepFlag": "-Fallback-scrubbed-L",
+        "BpvenOneTimeFlag": "-Fallback-scrubbed-m", "BpvenUseApctrlComplFlag": null,
+        "BpvenSpecialTermsFlag": "-Fallback-scrubbed-m", "BpvenOrdAdd1": "-Fallback-scrubbed-PhmUIYCZnVpmNwAaWoN",
+        "BpvenOrdAdd2": "-Fallback-scrubbed-ZrHtigKCw", "BpvenOrdAdd3": "-Fallback-scrubbed-OjBlcgWhR",
+        "BpvenOrdRegionCode": "-Fallback-scrubbed-lU", "BpvenOrdCountry": "-Fallback-scrubbed-SPY",
+        "BpvenOrdPostalCode": "-Fallback-scrubbed-Whjhod", "BpvenOrdContactName":
+        null, "BpvenOrdPhone": null, "BpvenOrdFax": null, "BpvenOrdEmail": null, "BpvenCurrCode":
+        "-Fallback-scrubbed-caY", "BpvenInvSerCode": null, "BpvenDistTypeCode": "-Fallback-scrubbed-W",
+        "BpvenHldbkPc": null, "BpvenAllowTranFlag": "-Fallback-scrubbed-O", "BpvenCheckMergeFlag":
+        "-Fallback-scrubbed-m", "BpvenDiscreteChqFlag": "-Fallback-scrubbed-m", "BpvenPrenoteFlag":
+        null, "BpvenTppayCode": null, "BpvenDefaultPayCode": "-Fallback-scrubbed-m",
+        "BpvenEftFlag": null, "BpvenEftEmail": null, "BpvenPrefContactMth": "-Fallback-scrubbed-b",
+        "BpvenEmpNo": null, "BpvenBankCode": null, "BpvenBankAccNum1": null, "BpvenBankAccNum2":
+        null, "BpvenBankAccNum3": null, "BpvenPaymodeId": null, "BpvenIbanNum": null,
+        "BpvenSwiftBicCode": null, "BpvenApDeptCode": "-Fallback-scrubbed-RV", "BpvenApAccCode":
+        "-Fallback-scrubbed-voVs", "BpvenCashDeptCode": "-Fallback-scrubbed-RV", "BpvenCashAccCode":
+        "-Fallback-scrubbed-bLYq", "BpvenExpDeptCode": "-Fallback-scrubbed-RV", "BpvenExpAccCode":
+        "-Fallback-scrubbed-AmvD", "BpvenPpeDeptCode": "-Fallback-scrubbed-RV", "BpvenPpeAccCode":
+        "-Fallback-scrubbed-Vsnf", "BpvenDiscDeptCode": "-Fallback-scrubbed-RV", "BpvenDiscAccCode":
+        "-Fallback-scrubbed-sNWn", "BpvenHldbkDeptCode": "-Fallback-scrubbed-RV",
+        "BpvenHldbkAccCode": "-Fallback-scrubbed-qLSZ", "BpvenTax1Code": null, "BpvenTaxlic1":
+        null, "BpvenTax2Code": null, "BpvenTaxlic2": null, "BpvenTax3Code": null,
+        "BpvenTaxlic3": null, "BpvenTax4Code": null, "BpvenTaxlic4": null, "BpvenTax5Code":
+        null, "BpvenTaxlic5": null, "BpvenVUuid": "4C3980A7E2854A86E06331121DAC00DE",
+        "BpvenIuCreateDate": "2026-03-04T17:20:12-05:00", "BpvenIuUpdateDate": "2026-07-21T17:08:34-04:00",
+        "BpIuCreateDate": "-Fallback-scrubbed-pKtpaZHZxCwoRDpmSGIotRmWj", "BpIuUpdateDate":
+        null, "BpvenEftPaymentType": null, "links": [{"rel": "-Fallback-scrubbed-HEdc",
+        "href": "-Fallback-scrubbed-AscFrRoukMgEFFiQlwryNIXevlToMdMNDJuqIGUoBgbvkdPAkjZfNepAWZJSxqdxyoLCUZoFFVBYysJjqnamhxgqNWIVBqosXpWGnmfynaPzSwhToXWdAXk",
+        "name": "Rebecca Morgan", "kind": "-Fallback-scrubbed-VBhf"}, {"rel": "-Fallback-scrubbed-MhjVbpcXX",
+        "href": "-Fallback-scrubbed-AscFrRoukMgEFFiQlwryNIXevlToMdMNDJuqIGUoBgbvkdPAkjZfNepAWZJSxqdxyoLCUZoFFVBYysJjqnamhxgqNWIVBqosXpWGnmfynaPzSwhToXWdAXk",
+        "name": "Rebecca Morgan", "kind": "-Fallback-scrubbed-VBhf"}]}], "count":
+        1375, "hasMore": false, "limit": 5114, "offset": 2186, "links": [{"rel": "-Fallback-scrubbed-HEdc",
+        "href": "-Fallback-scrubbed-hSTUDkpAKMWfUmSjVigfKxrSBNYOyapqAXiGxqgmeuFvuuZcEhuyODpXVqsWynMjKlJRDjpTwHFopBSagmcoKu",
+        "name": "Rebecca Morgan", "kind": "-Fallback-scrubbed-VsWakvmbJn"}]}'
+    headers:
+      CF-RAY:
+      - a29a14c68bb8ebd9-GRU
+      Cache-Control:
+      - no-cache, no-store, must-revalidate
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/vnd.oracle.adf.resourcecollection+json
+      Date:
+      - Tue, 11 Aug 2026 20:44:56 GMT
+      Link:
+      - <http://partner-sandbox-api-basic.cmiccloud.com:80/cmicprtn/ap-rest-api/rest/1/apvendor>;rel="self";kind="collection";name="apvendor"
+      Location:
+      - ''
+      REST-Framework-Version:
+      - '2'
+      Server:
+      - cloudflare
+      Vary:
+      - Content-Encoding
+      - accept-encoding
+      X-ORACLE-DMS-ECID:
+      - 64ded8df-1c62-41c1-b6b9-05e93d6845d5-0000518c
+      X-ORACLE-DMS-RID:
+      - '0'
+      cf-cache-status:
+      - DYNAMIC
+      content-length:
+      - '31227'
+    status:
+      code: 200
+      message: OK
+version: 1

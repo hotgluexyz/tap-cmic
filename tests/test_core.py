@@ -16,6 +16,11 @@ SAMPLE_CONFIG = {
     "password": "placeholder",
 }
 
+SAMPLE_CONFIG_WITH_COMP_CODE = {
+    **SAMPLE_CONFIG,
+    "comp_code": "001",
+}
+
 # _test_stream_connections makes live HTTP calls; excluded by default.
 # Replace SAMPLE_CONFIG placeholders with real credentials and call it directly.
 _STANDARD_TESTS = [
@@ -69,11 +74,7 @@ def test_insurances_stream_uses_query_filter_params():
     assert params == {
         "limit": 500,
         "offset": 500,
-        "q": (
-            "InsCoverTypeCode = 'COI' "
-            f"and (InsIuUpdateDate >= '{start_time}' "
-            f"or InsIuCreateDate >= '{start_time}')"
-        ),
+        "q": (f"(InsIuUpdateDate >= '{start_time}' or InsIuCreateDate >= '{start_time}')"),
     }
 
 
@@ -203,3 +204,105 @@ def test_vouchers_post_process_falls_back_to_create_date():
 
     assert record is not None
     assert record["hg_modified_at"] == "2026-08-04T12:33:11-04:00"
+
+
+def test_projects_params_include_company_q_with_comp_code():
+    """With comp_code, projects keeps finder and adds GrpmpCompCode q."""
+    tap = TapCMiC(config=SAMPLE_CONFIG_WITH_COMP_CODE)
+    projects = cast(
+        CMiCStream,
+        next(stream for stream in tap.streams.values() if stream.name == "projects"),
+    )
+    projects._write_starting_replication_value(None)
+
+    params = projects.get_url_params(context=None, next_page_token=500)
+
+    assert params == {
+        "limit": 500,
+        "offset": 500,
+        "finder": (
+            f"selectByPmProjInfo;pmprojectDate="
+            f"{SAMPLE_CONFIG_WITH_COMP_CODE['start_date']}T00:00:00+0000"
+        ),
+        "q": f"GrpmpCompCode = '{SAMPLE_CONFIG_WITH_COMP_CODE['comp_code']}'",
+    }
+
+
+def test_companies_params_include_company_q_with_comp_code():
+    """With comp_code, companies keeps selectByDate finder and adds CompCode q."""
+    tap = TapCMiC(config=SAMPLE_CONFIG_WITH_COMP_CODE)
+    companies = cast(
+        CMiCStream,
+        next(stream for stream in tap.streams.values() if stream.name == "companies"),
+    )
+    companies._write_starting_replication_value(None)
+    start_time = (
+        datetime.datetime.fromisoformat(SAMPLE_CONFIG_WITH_COMP_CODE["start_date"]).replace(
+            tzinfo=datetime.timezone.utc,
+        )
+        + datetime.timedelta(seconds=1)
+    ).strftime("%Y-%m-%dT%H:%M:%S%z")
+
+    params = companies.get_url_params(context=None, next_page_token=500)
+
+    assert params == {
+        "limit": 500,
+        "offset": 500,
+        "finder": f"selectByDate;auditDate={start_time}",
+        "q": f"CompCode = '{SAMPLE_CONFIG_WITH_COMP_CODE['comp_code']}'",
+    }
+
+
+def test_insurances_params_wrap_query_with_comp_code():
+    """With comp_code, insurances wraps the query with InsCompCode."""
+    tap = TapCMiC(config=SAMPLE_CONFIG_WITH_COMP_CODE)
+    insurances = cast(
+        CMiCStream,
+        next(stream for stream in tap.streams.values() if stream.name == "insurances"),
+    )
+    insurances._write_starting_replication_value(None)
+    start_time = (
+        datetime.datetime.fromisoformat(SAMPLE_CONFIG_WITH_COMP_CODE["start_date"]).replace(
+            tzinfo=datetime.timezone.utc,
+        )
+        + datetime.timedelta(seconds=1)
+    ).strftime("%Y-%m-%dT%H:%M:%S%z")
+
+    params = insurances.get_url_params(context=None, next_page_token=500)
+
+    assert params == {
+        "limit": 500,
+        "offset": 500,
+        "q": (
+            f"InsCompCode = '{SAMPLE_CONFIG_WITH_COMP_CODE['comp_code']}' and "
+            f"((InsIuUpdateDate >= '{start_time}' "
+            f"or InsIuCreateDate >= '{start_time}'))"
+        ),
+    }
+
+
+def test_vouchers_params_wrap_query_with_comp_code():
+    """With comp_code, vouchers wraps the date query with VouCompCode."""
+    tap = TapCMiC(config=SAMPLE_CONFIG_WITH_COMP_CODE)
+    vouchers = cast(
+        CMiCStream,
+        next(stream for stream in tap.streams.values() if stream.name == "vouchers"),
+    )
+    vouchers._write_starting_replication_value(None)
+    start_time = (
+        datetime.datetime.fromisoformat(SAMPLE_CONFIG_WITH_COMP_CODE["start_date"]).replace(
+            tzinfo=datetime.timezone.utc,
+        )
+        + datetime.timedelta(seconds=1)
+    ).strftime("%Y-%m-%dT%H:%M:%S%z")
+
+    params = vouchers.get_url_params(context=None, next_page_token=500)
+
+    assert params == {
+        "limit": 500,
+        "offset": 500,
+        "q": (
+            f"VouCompCode = '{SAMPLE_CONFIG_WITH_COMP_CODE['comp_code']}' and "
+            f"(VouIuUpdateDate >= '{start_time}' or VouIuCreateDate >= '{start_time}')"
+        ),
+    }

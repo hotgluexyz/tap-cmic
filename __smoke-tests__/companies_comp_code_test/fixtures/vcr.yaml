@@ -1,0 +1,94 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.33.1
+    method: GET
+    uri: https://partner-sandbox-api-basic.cmiccloud.com/cmicprtn/glrestapi/rest/v1/glcompany?limit=500&finder=selectByDate%3BauditDate%3D2000-01-01T00%3A00%3A01%2B0000&q=CompCode+%3D+%27001%27
+  response:
+    body:
+      string: '{"items": [{"CompAccByCompFlag": null, "CompAccByDeptFlag": null, "CompAdd1":
+        "-Fallback-scrubbed-TQIKZTPBAOwfQFXBAK", "CompAdd2": null, "CompAdd3": "-Fallback-scrubbed-SieNw",
+        "CompArDepartmentName": null, "CompArchDate": "-Fallback-scrubbed-uGCgnttAoYsHrzzhOgCKijBZM",
+        "CompArctrlLogoFile": null, "CompCableNum": null, "CompCalcEndDate": null,
+        "CompCalcStartDate": null, "CompCkDigitCode": null, "CompCode": "001", "CompCompoundGstCode":
+        null, "CompConsCode": "-Fallback-scrubbed-YMEmmoz", "CompConschartCode": "-Fallback-scrubbed-KZmdi",
+        "CompConschartName": "-Fallback-scrubbed-IWubDAqfuFwlsLxYSmnxYrTtFKwUx", "CompConschartTypeCode":
+        null, "CompContactName": null, "CompCountry": null, "CompCtrlCode": null,
+        "CompCtrlFileExists": "-Fallback-scrubbed-D", "CompCurrCode": "-Fallback-scrubbed-Qtt",
+        "CompCurrName": "-Fallback-scrubbed-vkpAhUdDr", "CompCurrPer": 3530, "CompDefaultPyCountryCode":
+        "-Fallback-scrubbed-Za", "CompDeptCode": "-Fallback-scrubbed-D", "CompDistGlCompCode":
+        null, "CompDistGlDeptCode": null, "CompDistGlFlag": null, "CompDistGlLogDaysNum":
+        null, "CompEmailAdd": null, "CompEmpNum": null, "CompEstablishDate": null,
+        "CompF5trContPerson": null, "CompF5trContTelNo": null, "CompF5trDeclrId":
+        null, "CompF5trDeclrName": null, "CompF5trDesignation": null, "CompF5trGstRegNo":
+        null, "CompF5trRefNo": null, "CompFaxAreaCode": null, "CompFaxCountryCode":
+        null, "CompFaxNum": null, "CompFedTax1Code": null, "CompFedTax2Code": null,
+        "CompFiscalYr": 3097, "CompIcAccCode": null, "CompIcDeptCode": null, "CompIncomeCloseAccCode":
+        "-Fallback-scrubbed-DBcg", "CompIncomeCloseDeptCode": "-Fallback-scrubbed-wa",
+        "CompIntClrDeptCode": null, "CompIntintCode": null, "CompLegalName": null,
+        "CompLogoFile": null, "CompLogoFileOnWeb": null, "CompMaintainBalcurrFlag":
+        null, "CompMocrrCode": null, "CompName": "-Fallback-scrubbed-zrWpmSQeZLyNshTmbJoqympYIyRSs",
+        "CompOfGlFlag": null, "CompOfGlIdFlexCode": null, "CompOfGlIdFlexNum": null,
+        "CompOfGlSegments": null, "CompOfGlSetOfBooksId": null, "CompOfGlValues":
+        null, "CompOwnershipPc": null, "CompPerNum": 3877, "CompPhoneAreaCode": "-Fallback-scrubbed-prl",
+        "CompPhoneCountryCode": null, "CompPhoneNum": "-Fallback-scrubbed-EcjukLrN",
+        "CompPostalCode": "-Fallback-scrubbed-qSnQI", "CompRecognizeFxFlag": null,
+        "CompRegionCode": "-Fallback-scrubbed-fM", "CompRegionName": "-Fallback-scrubbed-EmjNnnC",
+        "CompRemeasureAdjAccCode": null, "CompRepCurr1Code": null, "CompRepCurr1Name":
+        null, "CompRepCurr2Code": null, "CompRepCurr2Name": null, "CompRepCurr3Code":
+        null, "CompRepCurr3Name": null, "CompRowid": "-Fallback-scrubbed-gpsvuHIWCjOErKaoWh",
+        "CompT619RegistrationCode": null, "CompTaxCode": null, "CompTaxDist": null,
+        "CompTelexNum": null, "CompTerrCode": null, "CompTypeCode": null, "CompUseTacFlag":
+        null, "CompVatRegNum": null, "CompWebAdd": "-Fallback-scrubbed-cAFHbTzlv",
+        "CompVUuid": "2C4DCDDEC5954195E06331121DAC0429", "CompIuCreateDate": "2025-01-22T10:04:22-05:00",
+        "CompIuCreateUser": "-Fallback-scrubbed-djqGzWbW", "CompIuUpdateDate": null,
+        "CompIuUpdateUser": null, "links": [{"rel": "-Fallback-scrubbed-paMf", "href":
+        "-Fallback-scrubbed-hLIgssxeJFpcArONJliqWyVoegDfNChmuzRkdTZEZEXIGZYhowNfWlXFJXjdaNOqMOLDuICtNTfTGeQQUsavisDkxtILyWVvKTtrBCDQVvXUxUpNLJwwWnD",
+        "name": "Ruth Stevens", "kind": "-Fallback-scrubbed-VRqV"}, {"rel": "-Fallback-scrubbed-JczAGHGEf",
+        "href": "-Fallback-scrubbed-hLIgssxeJFpcArONJliqWyVoegDfNChmuzRkdTZEZEXIGZYhowNfWlXFJXjdaNOqMOLDuICtNTfTGeQQUsavisDkxtILyWVvKTtrBCDQVvXUxUpNLJwwWnD",
+        "name": "Ruth Stevens", "kind": "-Fallback-scrubbed-VRqV"}]}], "count": 6261,
+        "hasMore": false, "limit": 8955, "offset": 561, "links": [{"rel": "-Fallback-scrubbed-paMf",
+        "href": "-Fallback-scrubbed-tajDwNDmgVFRYPIFfgSHMHwLPiACiXOFsXpgFzAaaMmLYoDMOppjgRtjKPrxsLhcDhbtCqhELigkEtSgurtytu",
+        "name": "Ruth Stevens", "kind": "-Fallback-scrubbed-ydQSQNKTqj"}]}'
+    headers:
+      CF-RAY:
+      - a29a146ded36228d-GRU
+      Cache-Control:
+      - no-cache, no-store, must-revalidate
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/vnd.oracle.adf.resourcecollection+json
+      Date:
+      - Tue, 11 Aug 2026 20:44:42 GMT
+      Link:
+      - <http://partner-sandbox-api-basic.cmiccloud.com:80/cmicprtn/glrestapi/rest/v1/glcompany>;rel="self";kind="collection";name="glcompany"
+      Location:
+      - ''
+      REST-Framework-Version:
+      - '2'
+      Server:
+      - cloudflare
+      Vary:
+      - Content-Encoding
+      - accept-encoding
+      X-ORACLE-DMS-ECID:
+      - 64ded8df-1c62-41c1-b6b9-05e93d6845d5-00005189
+      X-ORACLE-DMS-RID:
+      - '0'
+      cf-cache-status:
+      - DYNAMIC
+      content-length:
+      - '3836'
+    status:
+      code: 200
+      message: OK
+version: 1

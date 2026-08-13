@@ -1,0 +1,115 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.33.1
+    method: GET
+    uri: https://partner-sandbox-api-basic.cmiccloud.com/cmicprtn/pm-rest-api/rest/1/scmast?limit=500&finder=selectByPostDate%3BAuditDate%3D2026-08-04T13%3A39%3A43-0400&q=ScmstCompCode+%3D+%27001%27
+  response:
+    body:
+      string: '{"items": [{"CChangeDesc": "-Fallback-scrubbed-ULMKxPBxlHqPusj", "CNewRevisedDesc":
+        "-Fallback-scrubbed-TLZNpFPCgHU", "COriginalDesc": "-Fallback-scrubbed-NDAJlEbq",
+        "CRecievedDesc": "-Fallback-scrubbed-htZTInD", "CTitle1": "-Fallback-scrubbed-NDAJlEbq",
+        "CTitle2": "-Fallback-scrubbed-YwjWqzZcmXClx", "CTitle3": "-Fallback-scrubbed-eOnScOPedaqZhJ",
+        "CTitle4": "-Fallback-scrubbed-htZTInD", "CUnpostedDesc": "-Fallback-scrubbed-fbfXZfJnrWklKjCF",
+        "PartnTypeCode": "-Fallback-scrubbed-g", "PostOverrideFlag": "-Fallback-scrubbed-W",
+        "ScmstAbbrevPartnCode": "-Fallback-scrubbed-wZUGNi", "ScmstAcctDescription":
+        null, "ScmstActionCode": null, "ScmstAltVenAddCode": null, "ScmstAppCode":
+        null, "ScmstArAmt": null, "ScmstBankAccount": "-Fallback-scrubbed-mtwt", "ScmstBankDept":
+        "-Fallback-scrubbed-iY", "ScmstBillCode": null, "ScmstCashAmt": null, "ScmstCdiFlag":
+        "-Fallback-scrubbed-q", "ScmstChgCode": "-Fallback-scrubbed-gaM", "ScmstChqHandleCode":
+        null, "ScmstCloseDate": null, "ScmstClvValueCode1": null, "ScmstClvValueCode2":
+        null, "ScmstClvValueCode3": null, "ScmstClvValueCode4": null, "ScmstClvValueCode5":
+        null, "ScmstClvValueCode6": null, "ScmstCmBudrCode": null, "ScmstCmChgCode":
+        null, "ScmstCmCompCode": null, "ScmstCmJobCode": null, "ScmstCompCode": "001",
+        "ScmstComplFlag": "-Fallback-scrubbed-q", "ScmstContAmt": 5509, "ScmstContCode":
+        "-Fallback-scrubbed-qHFRCKbh", "ScmstContType": "-Fallback-scrubbed-GiENfvUGvfw",
+        "ScmstContactCode": null, "ScmstContactName": null, "ScmstCorrespAddCode":
+        null, "ScmstCreateContOnFlyFlag": "-Fallback-scrubbed-o", "ScmstCurcFactorNum":
+        4279, "ScmstCurrCode": "-Fallback-scrubbed-fhg", "ScmstCurrName": "-Fallback-scrubbed-kaRaRHgDg",
+        "ScmstDate": "-Fallback-scrubbed-JTdbBPEJIc", "ScmstDefaultTaxesFlag": "-Fallback-scrubbed-q",
+        "ScmstDesc": null, "ScmstDfltAmt": 9564, "ScmstDfltCatCode": null, "ScmstDfltPhsCode":
+        null, "ScmstDoNotExceedAmt": null, "ScmstEndDate": null, "ScmstExecutedDate":
+        null, "ScmstGcsPayRequestFlag": "-Fallback-scrubbed-q", "ScmstGstAmt": null,
+        "ScmstGstPc": 2295, "ScmstHldbkPc": 4466, "ScmstHldbkPcRule": null, "ScmstHldbkRlsFromSc":
+        "-Fallback-scrubbed-o", "ScmstHoldPaymentDays": 2295, "ScmstHoldPaymentFlag":
+        "-Fallback-scrubbed-o", "ScmstImpactDays": null, "ScmstInvEntryState": "-Fallback-scrubbed-KI",
+        "ScmstInvHldbkTaxFlag": "-Fallback-scrubbed-q", "ScmstIssuedDate": null, "ScmstIuCreateDate":
+        "2026-03-04T17:26:41-05:00", "ScmstIuUpdateDate": "2026-08-04T13:57:52-04:00",
+        "ScmstJobCode": "-Fallback-scrubbed-sDEzi", "ScmstJobCtrlCode": "-Fallback-scrubbed-IZJ",
+        "ScmstMainChgCode": null, "ScmstMainContCode": null, "ScmstMainVenCode": null,
+        "ScmstName": "-Fallback-scrubbed-pauJAVjkCByiRuQBXVCvpsnidjjMzFbXIObhqVXZMwIuDPNKeDV",
+        "ScmstNonCreditInclTaxAmt": null, "ScmstNonCreditTaxAmt": null, "ScmstOrigBidpAmt":
+        null, "ScmstOrigBidpOraseq": null, "ScmstOvrrideNotExceedFlag": "-Fallback-scrubbed-q",
+        "ScmstOverrideFlag": null, "ScmstPbContCode": null, "ScmstPbCustCode": null,
+        "ScmstPostBatch": null, "ScmstPostDate": null, "ScmstPreferedQuoteFlag": "-Fallback-scrubbed-o",
+        "ScmstPrintedCoFlag": "-Fallback-scrubbed-q", "ScmstProjOraseq": 9592, "ScmstRating":
+        null, "ScmstRctReferenceNum": null, "ScmstReceivedDate": null, "ScmstRecipientEmail":
+        null, "ScmstRevBatch": null, "ScmstRevDate": null, "ScmstScControlAmt": null,
+        "ScmstSchedExistsFlag": "-Fallback-scrubbed-o", "ScmstScheduleFlag": "-Fallback-scrubbed-q",
+        "ScmstScopeDesc": "-Fallback-scrubbed-pauJAVjkCByiRuQBXVCvpsnidjjMzFbXIObhqVXZMwIuDPNKeDV",
+        "ScmstScschLastSeqNumUsed": 3429, "ScmstSelfBilledFlag": "-Fallback-scrubbed-q",
+        "ScmstSenderEmail": null, "ScmstSepVouPerJobFlag": "-Fallback-scrubbed-q",
+        "ScmstSrcCode": null, "ScmstStartDate": null, "ScmstStatCode": "-Fallback-scrubbed-g",
+        "ScmstStatusCode": "-Fallback-scrubbed-uOuERMe", "ScmstSubcontrCode": "-Fallback-scrubbed-sTII",
+        "ScmstSubcontractorChgCode": null, "ScmstTax1Code": null, "ScmstTax2Code":
+        null, "ScmstTax3Code": null, "ScmstTermCode": "-Fallback-scrubbed-ZbqAV",
+        "ScmstTermName": "-Fallback-scrubbed-SUmSKw", "ScmstTexturaFlag": "-Fallback-scrubbed-q",
+        "ScmstUser": "-Fallback-scrubbed-oUxRGc", "ScmstUserPrvlgFlag": "-Fallback-scrubbed-o",
+        "ScmstVenCode": "-Fallback-scrubbed-wZUGNi", "ScmstVenName": "-Fallback-scrubbed-JSqSMZVCQEdwtheTRkKWLmuZYPZFEpYyiH",
+        "ScmstVUuid": "4C3B506970516376E06331121DAC10E3", "ScmstDepositAmt": 2295,
+        "ScmstDepositApprovalDate": "-Fallback-scrubbed-mBdtOGBcDZHJaHPpyRJXqtjUE",
+        "ScmstDepositPct": 2295, "ScmstWorkflowStatus": null, "ScmstDateTimePost":
+        null, "ScmstPost": null, "links": [{"rel": "-Fallback-scrubbed-SzhD", "href":
+        "-Fallback-scrubbed-VLtFOTzxbcwucoZQHBLOeYytaWmkPXfskEtkSqsOMvWgHmqYbnfDUBXjxvXJByBKFCFDzlGOMSDrGjRSblaThdJsbpWyJTcNMqrJichHSihTHEARndfDp",
+        "name": "Whitney Stanley", "kind": "-Fallback-scrubbed-EgXS"}, {"rel": "-Fallback-scrubbed-gnLHADCzj",
+        "href": "-Fallback-scrubbed-VLtFOTzxbcwucoZQHBLOeYytaWmkPXfskEtkSqsOMvWgHmqYbnfDUBXjxvXJByBKFCFDzlGOMSDrGjRSblaThdJsbpWyJTcNMqrJichHSihTHEARndfDp",
+        "name": "Whitney Stanley", "kind": "-Fallback-scrubbed-EgXS"}, {"rel": "-Fallback-scrubbed-DJNMI",
+        "href": "-Fallback-scrubbed-PdPQiIzXmmQmJVmqTySfbrhGFTPNwKFnxUnaeWZNjmrBarTWDrdIjuTBXxvrfzWMQXpXwFswmtxNbGsdzKlzKmGjneKJouJHAveVAJdYRsvbfQPixcnEaxQPPwpWunCicvhjmVneCcRGBsOaBCEp",
+        "name": "Christopher Watkins", "kind": "-Fallback-scrubbed-wzdUvCSjcU"}, {"rel":
+        "-Fallback-scrubbed-RiNAqvZSO", "href": "-Fallback-scrubbed-ijwRdAAYtwWitPariatgNPQNTlvoceEPeBvKmGvgRYnFxUKypjCdqzQPymXWxkIUboRSPWPJQLKtPAdpaqdkgcTWozRdQJRnJAEajmffakKgfTjaiIJKVIocOKDLkJidsHoIVaXATJEPfkMb",
+        "name": "Ashley Williams", "kind": "-Fallback-scrubbed-iGeyU"}]}], "count":
+        4279, "hasMore": false, "limit": 5695, "offset": 2295, "links": [{"rel": "-Fallback-scrubbed-SzhD",
+        "href": "-Fallback-scrubbed-lcUVDZhURlhSSCrpPxqNYqolBrzWukwLXbxgNXJUstPRIalMZGnyGawaoGTiwZMmUNiTJzlaGjfJEzPBljZm",
+        "name": "Whitney Stanley", "kind": "-Fallback-scrubbed-wzdUvCSjcU"}]}'
+    headers:
+      CF-RAY:
+      - a29a15238c15344f-GRU
+      Cache-Control:
+      - no-cache, no-store, must-revalidate
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/vnd.oracle.adf.resourcecollection+json
+      Date:
+      - Tue, 11 Aug 2026 20:45:11 GMT
+      Link:
+      - <http://partner-sandbox-api-basic.cmiccloud.com:80/cmicprtn/pm-rest-api/rest/1/scmast>;rel="self";kind="collection";name="scmast"
+      Location:
+      - ''
+      REST-Framework-Version:
+      - '2'
+      Server:
+      - cloudflare
+      Vary:
+      - Content-Encoding
+      - accept-encoding
+      X-ORACLE-DMS-ECID:
+      - 64ded8df-1c62-41c1-b6b9-05e93d6845d5-00005198
+      X-ORACLE-DMS-RID:
+      - '0'
+      cf-cache-status:
+      - DYNAMIC
+      content-length:
+      - '5435'
+    status:
+      code: 200
+      message: OK
+version: 1

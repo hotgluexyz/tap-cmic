@@ -23,6 +23,7 @@ class CompaniesStream(CMiCStream):
     replication_key_sources = ("CompIuUpdateDate", "CompIuCreateDate")
     finder_template = "selectByDate;auditDate={replication_key_value}"
     is_inclusive = True
+    comp_code_field = "CompCode"
     schema = COMPANIES_SCHEMA
 
 
@@ -35,6 +36,7 @@ class ProjectsStream(CMiCStream):
     replication_key = "hg_modified_at"
     replication_key_sources = ("GrpmpIuUpdateDate", "GrpmpIuCreateDate")
     finder_template = "selectByPmProjInfo;pmprojectDate={replication_key_value}"
+    comp_code_field = "GrpmpCompCode"
     schema = PROJECTS_SCHEMA
 
 
@@ -48,6 +50,7 @@ class ContractsStream(CMiCStream):
     replication_key_sources = ("ScmstIuUpdateDate", "ScmstIuCreateDate")
     finder_template = "selectByPostDate;AuditDate={replication_key_value}"
     is_inclusive = True
+    comp_code_field = "ScmstCompCode"
     schema = CONTRACTS_SCHEMA
 
 
@@ -64,6 +67,7 @@ class VouchersStream(CMiCStream):
         "or VouIuCreateDate >= '{replication_key_value}'"
     )
     is_inclusive = True
+    comp_code_field = "VouCompCode"
     schema = VOUCHERS_SCHEMA
 
 
@@ -77,6 +81,7 @@ class VendorsStream(CMiCStream):
     replication_key_sources = ("BpvenIuUpdateDate", "BpvenIuCreateDate")
     finder_template = "selectByDate;auditDate={replication_key_value}"
     is_inclusive = True
+    comp_code_field = "BpvenCompCode"
     schema = VENDORS_SCHEMA
 
 
@@ -89,9 +94,9 @@ class InsurancesStream(CMiCStream):
     replication_key = "hg_modified_at"
     replication_key_sources = ("InsIuUpdateDate", "InsIuCreateDate")
     query_template = (
-        "InsCoverTypeCode = 'COI' "
-        "and (InsIuUpdateDate >= '{replication_key_value}' "
+        "(InsIuUpdateDate >= '{replication_key_value}' "
         "or InsIuCreateDate >= '{replication_key_value}')"
     )
     is_inclusive = True
+    comp_code_field = "InsCompCode"
     schema = INSURANCES_SCHEMA

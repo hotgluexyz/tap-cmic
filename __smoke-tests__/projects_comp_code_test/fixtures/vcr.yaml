@@ -1,0 +1,876 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.33.1
+    method: GET
+    uri: https://partner-sandbox-api-basic.cmiccloud.com/cmicprtn/pm-rest-api/rest/1/pmproject?limit=500&finder=selectByPmProjInfo%3BpmprojectDate%3D2000-01-01T00%3A00%3A00%2B0000&q=GrpmpCompCode+%3D+%27001%27
+  response:
+    body:
+      string: '{"items": [{"GrpmpAddContactName": null, "GrpmpAddLine1": null, "GrpmpAddLine2":
+        null, "GrpmpAddLine3": null, "GrpmpAgendaItemIdMask": "-Fallback-scrubbed-JvYOGrFXV",
+        "GrpmpArchitectName": null, "GrpmpAutoCalcMarkupFlag": "-Fallback-scrubbed-Z",
+        "GrpmpBallInCourtReportFlg": "-Fallback-scrubbed-Z", "GrpmpBidDate": null,
+        "GrpmpBidJobCode": null, "GrpmpBidJobDeptCode": null, "GrpmpBidJobDeptName":
+        null, "GrpmpBidJobName": null, "GrpmpBidMask": "-Fallback-scrubbed-zV", "GrpmpBidMaskOverride":
+        "-Fallback-scrubbed-Z", "GrpmpBidMaskSeqProj": "-Fallback-scrubbed-M", "GrpmpBidWonLostDate":
+        "-Fallback-scrubbed-fgOjnzEJrz", "GrpmpCalcIssueDtOnWrkdys": "-Fallback-scrubbed-Z",
+        "GrpmpCalcOcoDtOnWrkdys": "-Fallback-scrubbed-M", "GrpmpCalcPmntcDtOnWrkdys":
+        "-Fallback-scrubbed-Z", "GrpmpCalcPmplDtOnWrkdys": "-Fallback-scrubbed-Z",
+        "GrpmpCalcRfiDtOnWrkdys": "-Fallback-scrubbed-Z", "GrpmpCalcSbmtDtOnWrkdys":
+        "-Fallback-scrubbed-Z", "GrpmpClosedDate": "-Fallback-scrubbed-pzIlTekZWUAxCCPZZideypgGi",
+        "GrpmpClvValueCode1": null, "GrpmpClvValueCode2": null, "GrpmpClvValueCode3":
+        null, "GrpmpClvValueCode4": null, "GrpmpClvValueCode5": null, "GrpmpClvValueCode6":
+        null, "GrpmpCollabUrl": "-Fallback-scrubbed-tsNwbaAODJwSwVYumjZdHamvgVZQKbtLYFtAoPxydOgmrsrpilLuPTZnhXQCCKeLgNWRUUOAGpNQnqEANqwTqXKJvENNSbbbwiBeFmxfdeWPORbHFmrdWdxWMYlqadfeCfMqhbfRAzKnGznAkjKBRnLtOyedvvktGtQHKUrrlkYIhqQZaWiDbIiGvaImTYXwjIWOJIziFBiDiRLfhWyVdhxbdnOiiXMUjtaUBURmNaPbWJQKILZzNYypnntXKis",
+        "GrpmpCommlgMask": "-Fallback-scrubbed-xfJb", "GrpmpCommlgMaskOverride": "-Fallback-scrubbed-Z",
+        "GrpmpCommlgMaskSeqProj": "-Fallback-scrubbed-M", "GrpmpCompCode": "001",
+        "GrpmpCompName": "-Fallback-scrubbed-XlPawnIuvWFszzOItdvRohrdMQBEq", "GrpmpCorrAdd1":
+        null, "GrpmpCorrAdd2": null, "GrpmpCorrAdd3": null, "GrpmpCorrAddContactName":
+        null, "GrpmpCorrCountry": null, "GrpmpCorrPostalCode": null, "GrpmpCorrRegionCode":
+        null, "GrpmpCorrespondenceAddrCode": null, "GrpmpCountry": null, "GrpmpCreateJobFlag":
+        "-Fallback-scrubbed-u", "GrpmpCurrContAmt": 8543, "GrpmpCustAdd1": "-Fallback-scrubbed-IWjsdbcFSL",
+        "GrpmpCustAdd2": null, "GrpmpCustAdd3": "-Fallback-scrubbed-jdlJnkL", "GrpmpCustAddCode":
+        null, "GrpmpCustAddContactName": null, "GrpmpCustCode": "-Fallback-scrubbed-Xlmjxm",
+        "GrpmpCustCountry": "-Fallback-scrubbed-JlA", "GrpmpCustName": "-Fallback-scrubbed-JqzmJsoSd",
+        "GrpmpCustPostalCode": "-Fallback-scrubbed-gRoPp", "GrpmpCustRegionCode":
+        "-Fallback-scrubbed-cI", "GrpmpDayjrMask": "-Fallback-scrubbed-fRZrNxSf",
+        "GrpmpDayjrMaskOverride": "-Fallback-scrubbed-Z", "GrpmpDayjrMaskSeqProj":
+        "-Fallback-scrubbed-M", "GrpmpDefaultBillTypeCode": "-Fallback-scrubbed-AU",
+        "GrpmpDefaultBillTypeName": "-Fallback-scrubbed-PjcUZbYjilBwXRBrtSDvJrGyxVD",
+        "GrpmpDefaultBilltoAddCode": null, "GrpmpDefaultBilltoAddName": null, "GrpmpDefaultBuyCode":
+        null, "GrpmpDefaultDeliveryPeriod": null, "GrpmpDefaultInvoiceFormat": "-Fallback-scrubbed-fsEN",
+        "GrpmpDefaultJbMapCode": "-Fallback-scrubbed-GjZH", "GrpmpDefaultJbMapName":
+        "-Fallback-scrubbed-fENAvHQAomeMrxQqhyQWW", "GrpmpDefaultJobBillMethod": "-Fallback-scrubbed-KV",
+        "GrpmpDefaultReqCode": null, "GrpmpDefaultRfiPeriod": 7409, "GrpmpDefaultShiptoAddCode":
+        null, "GrpmpDefaultShiptoAddName": null, "GrpmpDeptCode": "-Fallback-scrubbed-JVU",
+        "GrpmpDeptName": "-Fallback-scrubbed-pMYTGxDrngoWARtXCjmq", "GrpmpDfltCmdetailMode":
+        "-Fallback-scrubbed-m", "GrpmpDfltDjAttachmentFlag": "-Fallback-scrubbed-Z",
+        "GrpmpDfltDjGeneralFlag": "-Fallback-scrubbed-Z", "GrpmpDfltDjLabForceFlag":
+        "-Fallback-scrubbed-Z", "GrpmpDfltDjMaterialsFlag": "-Fallback-scrubbed-Z",
+        "GrpmpDfltDjNotesFlag": "-Fallback-scrubbed-Z", "GrpmpDfltDjOeOnJobFlag":
+        "-Fallback-scrubbed-Z", "GrpmpDfltDjOwnEqpFlag": "-Fallback-scrubbed-Z", "GrpmpDfltDjOwnLabFlag":
+        "-Fallback-scrubbed-Z", "GrpmpDfltDjSafetyFlag": "-Fallback-scrubbed-Z", "GrpmpDfltDjTasksFlag":
+        "-Fallback-scrubbed-M", "GrpmpDfltDjTlCompFlag": "-Fallback-scrubbed-M", "GrpmpDfltDjTradeEqpFlag":
+        "-Fallback-scrubbed-M", "GrpmpDfltDjTradeLabFlag": "-Fallback-scrubbed-M",
+        "GrpmpDfltDjUnitcFlag": "-Fallback-scrubbed-Z", "GrpmpDfltDjVisitorsFlag":
+        "-Fallback-scrubbed-Z", "GrpmpDfltInvoiceFormatNm": "-Fallback-scrubbed-LvYdwesRwzkjAyhcjqhxEOcqrKZ",
+        "GrpmpDfltIssueRevPeriod": 7409, "GrpmpDfltLeadTimeStage1": 8803, "GrpmpDfltLeadTimeStage2":
+        3351, "GrpmpDfltLeadTimeStage3": 8623, "GrpmpDfltLeadTimeStage4": 8803, "GrpmpDfltLeadTimeStage5":
+        8623, "GrpmpDfltLeadTimeStage6": 7409, "GrpmpDfltMeetingFootnote": "-Fallback-scrubbed-LgCbDrahIREkMkinEBVukKZuxLoULDYEvMElRWvmcFfJIExKtfddlhCHrXNzDwJNwNtpCPxXcjtwzqZvGmUoGFmIfCEpLHpjljsZiPtAFRrUqxrcSFPwumRIjbKnBgdGL",
+        "GrpmpDfltPlistComplPeriod": 7409, "GrpmpDfltPmntcRevPeriod": 7409, "GrpmpDfltRfiContactCode":
+        null, "GrpmpDfltRfiContactName": null, "GrpmpDfltRfiPartnCode": null, "GrpmpDfltRfiPartnTypeCode":
+        null, "GrpmpDfltRfqReviewDays": 8803, "GrpmpDfltSbmtContactCode": null, "GrpmpDfltSbmtContactName":
+        null, "GrpmpDfltSbmtPartnCode": null, "GrpmpDfltSbmtPtnTypeCode": null, "GrpmpEndDate":
+        "-Fallback-scrubbed-fimGpqumub", "GrpmpEntryRfiAnsByFlag": "-Fallback-scrubbed-M",
+        "GrpmpEntryRfiAnsDateFlag": "-Fallback-scrubbed-M", "GrpmpFaxNum": null, "GrpmpFwdMask":
+        "-Fallback-scrubbed-FfF", "GrpmpFwdMaskOverride": "-Fallback-scrubbed-Z",
+        "GrpmpFwdMaskSeqProj": "-Fallback-scrubbed-M", "GrpmpHardBidFlag": "-Fallback-scrubbed-Z",
+        "GrpmpIssueIdMask": "-Fallback-scrubbed-FfF", "GrpmpIssueIdMaskOverride":
+        "-Fallback-scrubbed-Z", "GrpmpIssueIdMaskSeqProj": "-Fallback-scrubbed-M",
+        "GrpmpItbSenderEmail": null, "GrpmpItbSenderName": null, "GrpmpIuCreateDate":
+        "2025-01-22T10:08:08-05:00", "GrpmpIuUpdateDate": "2026-08-03T13:49:39-04:00",
+        "GrpmpJobAllowTransFlag": "-Fallback-scrubbed-M", "GrpmpJobBidFlag": "-Fallback-scrubbed-Z",
+        "GrpmpJobBillMethCode": "-Fallback-scrubbed-KV", "GrpmpJobBillingTypeCode":
+        "-Fallback-scrubbed-AU", "GrpmpJobBillingTypeName": "-Fallback-scrubbed-PjcUZbYjilBwXRBrtSDvJrGyxVD",
+        "GrpmpJobCode": "-Fallback-scrubbed-xqltU", "GrpmpJobCreationDate": null,
+        "GrpmpJobDeptCode": "-Fallback-scrubbed-JVU", "GrpmpJobDeptName": "-Fallback-scrubbed-pMYTGxDrngoWARtXCjmq",
+        "GrpmpJobInvoiceFormatCode": "-Fallback-scrubbed-fsEN", "GrpmpJobInvoiceFormatNm":
+        "-Fallback-scrubbed-LvYdwesRwzkjAyhcjqhxEOcqrKZ", "GrpmpJobJbMapCode": "-Fallback-scrubbed-GjZH",
+        "GrpmpJobJbMapName": "-Fallback-scrubbed-fENAvHQAomeMrxQqhyQWW", "GrpmpJobName":
+        "-Fallback-scrubbed-MlbjaFHLSOECbbFaZrgWIExKZejaxE", "GrpmpJobOrigBudgetEffDate":
+        null, "GrpmpJobSecGroup": "-Fallback-scrubbed-zNRULIeJtl", "GrpmpJobStatusCode":
+        "-Fallback-scrubbed-I", "GrpmpKeyWordDesc": null, "GrpmpLienWaiverText": null,
+        "GrpmpManagerName": null, "GrpmpMeetingIdMask": null, "GrpmpMobileUrl": "-Fallback-scrubbed-tsNwbaAODJwSwVYumjZdHamvgVZQKbtLYFtAoPxydOgmrsrpilLuPTZnhXQCCKeLgNWRUUOAGpNQnqEANqwTqXKJvENNSbbbwiBeFmxfdeWPORbHFmrdWdxWMYlqadfeCfMqhbfRAzKnGznAkjKBRnLtOyedvvktGtQHKUrrlkYIhqQZaWiDbIiGvaImTYXwjIWOJIziFBiDiRLfhWyVdhxbdnOiiXMUjtaUBURmNaPbWJQKILZzNYypnntXKis",
+        "GrpmpNoticeMask": "-Fallback-scrubbed-FfF", "GrpmpNoticeMaskOverride": "-Fallback-scrubbed-Z",
+        "GrpmpNoticeMaskSeqProj": "-Fallback-scrubbed-M", "GrpmpOcoOrigContAmtOvrd":
+        "-Fallback-scrubbed-M", "GrpmpOrigContOverrideAmt": null, "GrpmpPartnAbbrevInRfiId":
+        "-Fallback-scrubbed-M", "GrpmpPartnAbbrevInTrnsmId": "-Fallback-scrubbed-M",
+        "GrpmpPciUseScopeAmtFlag": "-Fallback-scrubbed-Z", "GrpmpPhoneNum": null,
+        "GrpmpPmplMask": "-Fallback-scrubbed-zV", "GrpmpPmplMaskOverride": "-Fallback-scrubbed-Z",
+        "GrpmpPmplMaskSeqProj": "-Fallback-scrubbed-M", "GrpmpPmpliMask": "-Fallback-scrubbed-FfF",
+        "GrpmpPmpliMaskSeqProj": "-Fallback-scrubbed-Z", "GrpmpPostalCode": null,
+        "GrpmpProjCode": "-Fallback-scrubbed-xqltU", "GrpmpProjCtrlCode": "-Fallback-scrubbed-vDn",
+        "GrpmpProjDescription": "-Fallback-scrubbed-kfCMPxKtiCxfyXkskxoIIGOmdlRPJLoIUowmzKeALZygplQ",
+        "GrpmpProjEndDtUpdateable": "-Fallback-scrubbed-M", "GrpmpProjName": "-Fallback-scrubbed-MlbjaFHLSOECbbFaZrgWIExKZejaxE",
+        "GrpmpProjPhotoUrl": null, "GrpmpRegionCode": null, "GrpmpRegionName": null,
+        "GrpmpRfiMask": "-Fallback-scrubbed-xfJb", "GrpmpRfiMaskOverride": "-Fallback-scrubbed-Z",
+        "GrpmpRfiMaskSeqProj": "-Fallback-scrubbed-M", "GrpmpRsschedVerCode": null,
+        "GrpmpRsschedVerName": null, "GrpmpSbmtApprvContactCode": null, "GrpmpSbmtApprvPartnCode":
+        null, "GrpmpSbmtApprvPtnTypeCode": null, "GrpmpSbmtMask": "-Fallback-scrubbed-PDAulFmUPM",
+        "GrpmpSbmtMaskOverride": "-Fallback-scrubbed-Z", "GrpmpSbmtMaskSeqProj": "-Fallback-scrubbed-M",
+        "GrpmpSbmtpMask": "-Fallback-scrubbed-zV", "GrpmpSbmtpMaskOverride": "-Fallback-scrubbed-Z",
+        "GrpmpSbmtpMaskSeqProj": "-Fallback-scrubbed-M", "GrpmpStartDate": "-Fallback-scrubbed-zrSaYemOFX",
+        "GrpmpStartPageUrl": null, "GrpmpStatusCode": "-Fallback-scrubbed-udTnlO",
+        "GrpmpSubcontractedVolumeAmt": 8543, "GrpmpSuperintName": null, "GrpmpTrnsmMask":
+        "-Fallback-scrubbed-reANEcMSf", "GrpmpTrnsmMaskOverride": "-Fallback-scrubbed-Z",
+        "GrpmpTrnsmMaskSeqProj": "-Fallback-scrubbed-M", "GrpmpUseBidItemEaFlag":
+        "-Fallback-scrubbed-pz", "GrpmpVUuid": "2C4DDC7AD64A42C4E06331121DACB10C",
+        "GrpmpWorkLocCode": null, "GrpmpWorkLocName": null, "GrpmpOwnerCode": null,
+        "GrpmpConttypeCode": null, "links": [{"rel": "-Fallback-scrubbed-BlPi", "href":
+        "-Fallback-scrubbed-auidpEcCWvwgjCTXLsjJqcBoUvPwcciaLycKobIoDFygYZLCsfpXUQhwJkZNoNNjNrNgOCxdyhTSfYYFIoEalkHTedrchMbWzLVWZkEhttCdSyklORWHPVXD",
+        "name": "Crystal Davis", "kind": "-Fallback-scrubbed-nwDX"}, {"rel": "-Fallback-scrubbed-iRTzcEPhi",
+        "href": "-Fallback-scrubbed-auidpEcCWvwgjCTXLsjJqcBoUvPwcciaLycKobIoDFygYZLCsfpXUQhwJkZNoNNjNrNgOCxdyhTSfYYFIoEalkHTedrchMbWzLVWZkEhttCdSyklORWHPVXD",
+        "name": "Crystal Davis", "kind": "-Fallback-scrubbed-nwDX"}]}, {"GrpmpAddContactName":
+        null, "GrpmpAddLine1": null, "GrpmpAddLine2": null, "GrpmpAddLine3": null,
+        "GrpmpAgendaItemIdMask": "-Fallback-scrubbed-JvYOGrFXV", "GrpmpArchitectName":
+        null, "GrpmpAutoCalcMarkupFlag": "-Fallback-scrubbed-Z", "GrpmpBallInCourtReportFlg":
+        "-Fallback-scrubbed-Z", "GrpmpBidDate": null, "GrpmpBidJobCode": null, "GrpmpBidJobDeptCode":
+        null, "GrpmpBidJobDeptName": null, "GrpmpBidJobName": null, "GrpmpBidMask":
+        "-Fallback-scrubbed-zV", "GrpmpBidMaskOverride": "-Fallback-scrubbed-Z", "GrpmpBidMaskSeqProj":
+        "-Fallback-scrubbed-M", "GrpmpBidWonLostDate": null, "GrpmpCalcIssueDtOnWrkdys":
+        "-Fallback-scrubbed-Z", "GrpmpCalcOcoDtOnWrkdys": "-Fallback-scrubbed-M",
+        "GrpmpCalcPmntcDtOnWrkdys": "-Fallback-scrubbed-Z", "GrpmpCalcPmplDtOnWrkdys":
+        "-Fallback-scrubbed-Z", "GrpmpCalcRfiDtOnWrkdys": "-Fallback-scrubbed-Z",
+        "GrpmpCalcSbmtDtOnWrkdys": "-Fallback-scrubbed-Z", "GrpmpClosedDate": null,
+        "GrpmpClvValueCode1": null, "GrpmpClvValueCode2": null, "GrpmpClvValueCode3":
+        null, "GrpmpClvValueCode4": null, "GrpmpClvValueCode5": null, "GrpmpClvValueCode6":
+        null, "GrpmpCollabUrl": "-Fallback-scrubbed-tsNwbaAODJwSwVYumjZdHamvgVZQKbtLYFtAoPxydOgmrsrpilLuPTZnhXQCCKeLgNWRUUOAGpNQnqEANqwTqXKJvENNSbbbwiBeFmxfdeWPORbHFmrdWdxWMYlqadfeCfMqhbfRAzKnGznAkjKBRnLtOyedvvktGtQHKUrrlkYIhqQZaWiDbIiGvaImTYXwjIWOJIziFBiDiRLfhWyVdhxbdnOiiXMUjtaUBURmNaPbWJQKILZzNYypnntXKis",
+        "GrpmpCommlgMask": "-Fallback-scrubbed-xfJb", "GrpmpCommlgMaskOverride": "-Fallback-scrubbed-Z",
+        "GrpmpCommlgMaskSeqProj": "-Fallback-scrubbed-M", "GrpmpCompCode": "001",
+        "GrpmpCompName": "-Fallback-scrubbed-XlPawnIuvWFszzOItdvRohrdMQBEq", "GrpmpCorrAdd1":
+        null, "GrpmpCorrAdd2": null, "GrpmpCorrAdd3": null, "GrpmpCorrAddContactName":
+        null, "GrpmpCorrCountry": null, "GrpmpCorrPostalCode": null, "GrpmpCorrRegionCode":
+        null, "GrpmpCorrespondenceAddrCode": null, "GrpmpCountry": null, "GrpmpCreateJobFlag":
+        "-Fallback-scrubbed-u", "GrpmpCurrContAmt": 6235, "GrpmpCustAdd1": null, "GrpmpCustAdd2":
+        null, "GrpmpCustAdd3": null, "GrpmpCustAddCode": null, "GrpmpCustAddContactName":
+        null, "GrpmpCustCode": "-Fallback-scrubbed-LxBdEev", "GrpmpCustCountry": null,
+        "GrpmpCustName": "-Fallback-scrubbed-woqMgyYoUccAGqalNXujjn", "GrpmpCustPostalCode":
+        null, "GrpmpCustRegionCode": null, "GrpmpDayjrMask": "-Fallback-scrubbed-fRZrNxSf",
+        "GrpmpDayjrMaskOverride": "-Fallback-scrubbed-Z", "GrpmpDayjrMaskSeqProj":
+        "-Fallback-scrubbed-M", "GrpmpDefaultBillTypeCode": "-Fallback-scrubbed-AU",
+        "GrpmpDefaultBillTypeName": "-Fallback-scrubbed-PjcUZbYjilBwXRBrtSDvJrGyxVD",
+        "GrpmpDefaultBilltoAddCode": null, "GrpmpDefaultBilltoAddName": null, "GrpmpDefaultBuyCode":
+        null, "GrpmpDefaultDeliveryPeriod": null, "GrpmpDefaultInvoiceFormat": "-Fallback-scrubbed-fsEN",
+        "GrpmpDefaultJbMapCode": "-Fallback-scrubbed-GjZH", "GrpmpDefaultJbMapName":
+        "-Fallback-scrubbed-fENAvHQAomeMrxQqhyQWW", "GrpmpDefaultJobBillMethod": "-Fallback-scrubbed-KV",
+        "GrpmpDefaultReqCode": null, "GrpmpDefaultRfiPeriod": 7409, "GrpmpDefaultShiptoAddCode":
+        null, "GrpmpDefaultShiptoAddName": null, "GrpmpDeptCode": "-Fallback-scrubbed-yl",
+        "GrpmpDeptName": "-Fallback-scrubbed-CrVtpklyGovNU", "GrpmpDfltCmdetailMode":
+        "-Fallback-scrubbed-m", "GrpmpDfltDjAttachmentFlag": "-Fallback-scrubbed-Z",
+        "GrpmpDfltDjGeneralFlag": "-Fallback-scrubbed-Z", "GrpmpDfltDjLabForceFlag":
+        "-Fallback-scrubbed-Z", "GrpmpDfltDjMaterialsFlag": "-Fallback-scrubbed-Z",
+        "GrpmpDfltDjNotesFlag": "-Fallback-scrubbed-Z", "GrpmpDfltDjOeOnJobFlag":
+        "-Fallback-scrubbed-Z", "GrpmpDfltDjOwnEqpFlag": "-Fallback-scrubbed-Z", "GrpmpDfltDjOwnLabFlag":
+        "-Fallback-scrubbed-Z", "GrpmpDfltDjSafetyFlag": "-Fallback-scrubbed-Z", "GrpmpDfltDjTasksFlag":
+        "-Fallback-scrubbed-M", "GrpmpDfltDjTlCompFlag": "-Fallback-scrubbed-M", "GrpmpDfltDjTradeEqpFlag":
+        "-Fallback-scrubbed-M", "GrpmpDfltDjTradeLabFlag": "-Fallback-scrubbed-M",
+        "GrpmpDfltDjUnitcFlag": "-Fallback-scrubbed-Z", "GrpmpDfltDjVisitorsFlag":
+        "-Fallback-scrubbed-Z", "GrpmpDfltInvoiceFormatNm": "-Fallback-scrubbed-LvYdwesRwzkjAyhcjqhxEOcqrKZ",
+        "GrpmpDfltIssueRevPeriod": 7409, "GrpmpDfltLeadTimeStage1": 8803, "GrpmpDfltLeadTimeStage2":
+        3351, "GrpmpDfltLeadTimeStage3": 8623, "GrpmpDfltLeadTimeStage4": 8803, "GrpmpDfltLeadTimeStage5":
+        8623, "GrpmpDfltLeadTimeStage6": 7409, "GrpmpDfltMeetingFootnote": "-Fallback-scrubbed-LgCbDrahIREkMkinEBVukKZuxLoULDYEvMElRWvmcFfJIExKtfddlhCHrXNzDwJNwNtpCPxXcjtwzqZvGmUoGFmIfCEpLHpjljsZiPtAFRrUqxrcSFPwumRIjbKnBgdGL",
+        "GrpmpDfltPlistComplPeriod": 7409, "GrpmpDfltPmntcRevPeriod": 7409, "GrpmpDfltRfiContactCode":
+        null, "GrpmpDfltRfiContactName": null, "GrpmpDfltRfiPartnCode": null, "GrpmpDfltRfiPartnTypeCode":
+        null, "GrpmpDfltRfqReviewDays": 8803, "GrpmpDfltSbmtContactCode": null, "GrpmpDfltSbmtContactName":
+        null, "GrpmpDfltSbmtPartnCode": null, "GrpmpDfltSbmtPtnTypeCode": null, "GrpmpEndDate":
+        "-Fallback-scrubbed-nBGiuqUudq", "GrpmpEntryRfiAnsByFlag": "-Fallback-scrubbed-M",
+        "GrpmpEntryRfiAnsDateFlag": "-Fallback-scrubbed-M", "GrpmpFaxNum": null, "GrpmpFwdMask":
+        "-Fallback-scrubbed-FfF", "GrpmpFwdMaskOverride": "-Fallback-scrubbed-Z",
+        "GrpmpFwdMaskSeqProj": "-Fallback-scrubbed-M", "GrpmpHardBidFlag": "-Fallback-scrubbed-Z",
+        "GrpmpIssueIdMask": "-Fallback-scrubbed-FfF", "GrpmpIssueIdMaskOverride":
+        "-Fallback-scrubbed-Z", "GrpmpIssueIdMaskSeqProj": "-Fallback-scrubbed-M",
+        "GrpmpItbSenderEmail": null, "GrpmpItbSenderName": null, "GrpmpIuCreateDate":
+        "2026-07-20T17:56:49-04:00", "GrpmpIuUpdateDate": "2026-07-31T17:55:48-04:00",
+        "GrpmpJobAllowTransFlag": "-Fallback-scrubbed-M", "GrpmpJobBidFlag": "-Fallback-scrubbed-Z",
+        "GrpmpJobBillMethCode": "-Fallback-scrubbed-KV", "GrpmpJobBillingTypeCode":
+        "-Fallback-scrubbed-AU", "GrpmpJobBillingTypeName": "-Fallback-scrubbed-PjcUZbYjilBwXRBrtSDvJrGyxVD",
+        "GrpmpJobCode": "-Fallback-scrubbed-IbbOymECdd", "GrpmpJobCreationDate": null,
+        "GrpmpJobDeptCode": "-Fallback-scrubbed-yl", "GrpmpJobDeptName": "-Fallback-scrubbed-CrVtpklyGovNU",
+        "GrpmpJobInvoiceFormatCode": "-Fallback-scrubbed-fsEN", "GrpmpJobInvoiceFormatNm":
+        "-Fallback-scrubbed-LvYdwesRwzkjAyhcjqhxEOcqrKZ", "GrpmpJobJbMapCode": "-Fallback-scrubbed-GjZH",
+        "GrpmpJobJbMapName": "-Fallback-scrubbed-fENAvHQAomeMrxQqhyQWW", "GrpmpJobName":
+        "-Fallback-scrubbed-BQxGBJLubBpBLNqwYT", "GrpmpJobOrigBudgetEffDate": "-Fallback-scrubbed-FxetpxBAtx",
+        "GrpmpJobSecGroup": "-Fallback-scrubbed-zNRULIeJtl", "GrpmpJobStatusCode":
+        "-Fallback-scrubbed-D", "GrpmpKeyWordDesc": null, "GrpmpLienWaiverText": null,
+        "GrpmpManagerName": null, "GrpmpMeetingIdMask": null, "GrpmpMobileUrl": "-Fallback-scrubbed-tsNwbaAODJwSwVYumjZdHamvgVZQKbtLYFtAoPxydOgmrsrpilLuPTZnhXQCCKeLgNWRUUOAGpNQnqEANqwTqXKJvENNSbbbwiBeFmxfdeWPORbHFmrdWdxWMYlqadfeCfMqhbfRAzKnGznAkjKBRnLtOyedvvktGtQHKUrrlkYIhqQZaWiDbIiGvaImTYXwjIWOJIziFBiDiRLfhWyVdhxbdnOiiXMUjtaUBURmNaPbWJQKILZzNYypnntXKis",
+        "GrpmpNoticeMask": "-Fallback-scrubbed-FfF", "GrpmpNoticeMaskOverride": "-Fallback-scrubbed-Z",
+        "GrpmpNoticeMaskSeqProj": "-Fallback-scrubbed-M", "GrpmpOcoOrigContAmtOvrd":
+        "-Fallback-scrubbed-M", "GrpmpOrigContOverrideAmt": null, "GrpmpPartnAbbrevInRfiId":
+        "-Fallback-scrubbed-M", "GrpmpPartnAbbrevInTrnsmId": "-Fallback-scrubbed-M",
+        "GrpmpPciUseScopeAmtFlag": "-Fallback-scrubbed-Z", "GrpmpPhoneNum": null,
+        "GrpmpPmplMask": "-Fallback-scrubbed-zV", "GrpmpPmplMaskOverride": "-Fallback-scrubbed-Z",
+        "GrpmpPmplMaskSeqProj": "-Fallback-scrubbed-M", "GrpmpPmpliMask": "-Fallback-scrubbed-FfF",
+        "GrpmpPmpliMaskSeqProj": "-Fallback-scrubbed-Z", "GrpmpPostalCode": null,
+        "GrpmpProjCode": "-Fallback-scrubbed-IbbOymECdd", "GrpmpProjCtrlCode": "-Fallback-scrubbed-vDn",
+        "GrpmpProjDescription": "-Fallback-scrubbed-TODOjOAhLKUifYWBJzPtWdXzdhQtYF",
+        "GrpmpProjEndDtUpdateable": "-Fallback-scrubbed-M", "GrpmpProjName": "-Fallback-scrubbed-BQxGBJLubBpBLNqwYT",
+        "GrpmpProjPhotoUrl": null, "GrpmpRegionCode": null, "GrpmpRegionName": null,
+        "GrpmpRfiMask": "-Fallback-scrubbed-xfJb", "GrpmpRfiMaskOverride": "-Fallback-scrubbed-Z",
+        "GrpmpRfiMaskSeqProj": "-Fallback-scrubbed-M", "GrpmpRsschedVerCode": null,
+        "GrpmpRsschedVerName": null, "GrpmpSbmtApprvContactCode": null, "GrpmpSbmtApprvPartnCode":
+        null, "GrpmpSbmtApprvPtnTypeCode": null, "GrpmpSbmtMask": "-Fallback-scrubbed-PDAulFmUPM",
+        "GrpmpSbmtMaskOverride": "-Fallback-scrubbed-Z", "GrpmpSbmtMaskSeqProj": "-Fallback-scrubbed-M",
+        "GrpmpSbmtpMask": "-Fallback-scrubbed-zV", "GrpmpSbmtpMaskOverride": "-Fallback-scrubbed-Z",
+        "GrpmpSbmtpMaskSeqProj": "-Fallback-scrubbed-M", "GrpmpStartDate": "-Fallback-scrubbed-fFIcLFZDHh",
+        "GrpmpStartPageUrl": null, "GrpmpStatusCode": "-Fallback-scrubbed-imdj", "GrpmpSubcontractedVolumeAmt":
+        8803, "GrpmpSuperintName": null, "GrpmpTrnsmMask": "-Fallback-scrubbed-reANEcMSf",
+        "GrpmpTrnsmMaskOverride": "-Fallback-scrubbed-Z", "GrpmpTrnsmMaskSeqProj":
+        "-Fallback-scrubbed-M", "GrpmpUseBidItemEaFlag": "-Fallback-scrubbed-pz",
+        "GrpmpVUuid": "5712FBB797E573F0E06331121DAC026B", "GrpmpWorkLocCode": null,
+        "GrpmpWorkLocName": null, "GrpmpOwnerCode": null, "GrpmpConttypeCode": null,
+        "links": [{"rel": "-Fallback-scrubbed-BlPi", "href": "-Fallback-scrubbed-ljjTlXzhOEBSkpOQtnRxrLlsvdunqojfledyYFSLRvxmDiJoIeREdpABmmoHPENhBFfqDmYBOtmNYyvMczmFoMrqUMhCvLMFfDotSVnDkUOhojTRCRGTBpAS",
+        "name": "Crystal Davis", "kind": "-Fallback-scrubbed-nwDX"}, {"rel": "-Fallback-scrubbed-iRTzcEPhi",
+        "href": "-Fallback-scrubbed-ljjTlXzhOEBSkpOQtnRxrLlsvdunqojfledyYFSLRvxmDiJoIeREdpABmmoHPENhBFfqDmYBOtmNYyvMczmFoMrqUMhCvLMFfDotSVnDkUOhojTRCRGTBpAS",
+        "name": "Crystal Davis", "kind": "-Fallback-scrubbed-nwDX"}]}, {"GrpmpAddContactName":
+        null, "GrpmpAddLine1": null, "GrpmpAddLine2": null, "GrpmpAddLine3": null,
+        "GrpmpAgendaItemIdMask": "-Fallback-scrubbed-JvYOGrFXV", "GrpmpArchitectName":
+        null, "GrpmpAutoCalcMarkupFlag": "-Fallback-scrubbed-Z", "GrpmpBallInCourtReportFlg":
+        "-Fallback-scrubbed-Z", "GrpmpBidDate": null, "GrpmpBidJobCode": null, "GrpmpBidJobDeptCode":
+        "-Fallback-scrubbed-yl", "GrpmpBidJobDeptName": "-Fallback-scrubbed-CrVtpklyGovNU",
+        "GrpmpBidJobName": null, "GrpmpBidMask": "-Fallback-scrubbed-zV", "GrpmpBidMaskOverride":
+        "-Fallback-scrubbed-Z", "GrpmpBidMaskSeqProj": "-Fallback-scrubbed-M", "GrpmpBidWonLostDate":
+        null, "GrpmpCalcIssueDtOnWrkdys": "-Fallback-scrubbed-Z", "GrpmpCalcOcoDtOnWrkdys":
+        "-Fallback-scrubbed-M", "GrpmpCalcPmntcDtOnWrkdys": "-Fallback-scrubbed-Z",
+        "GrpmpCalcPmplDtOnWrkdys": "-Fallback-scrubbed-Z", "GrpmpCalcRfiDtOnWrkdys":
+        "-Fallback-scrubbed-Z", "GrpmpCalcSbmtDtOnWrkdys": "-Fallback-scrubbed-Z",
+        "GrpmpClosedDate": null, "GrpmpClvValueCode1": null, "GrpmpClvValueCode2":
+        null, "GrpmpClvValueCode3": null, "GrpmpClvValueCode4": null, "GrpmpClvValueCode5":
+        null, "GrpmpClvValueCode6": null, "GrpmpCollabUrl": "-Fallback-scrubbed-tsNwbaAODJwSwVYumjZdHamvgVZQKbtLYFtAoPxydOgmrsrpilLuPTZnhXQCCKeLgNWRUUOAGpNQnqEANqwTqXKJvENNSbbbwiBeFmxfdeWPORbHFmrdWdxWMYlqadfeCfMqhbfRAzKnGznAkjKBRnLtOyedvvktGtQHKUrrlkYIhqQZaWiDbIiGvaImTYXwjIWOJIziFBiDiRLfhWyVdhxbdnOiiXMUjtaUBURmNaPbWJQKILZzNYypnntXKis",
+        "GrpmpCommlgMask": "-Fallback-scrubbed-xfJb", "GrpmpCommlgMaskOverride": "-Fallback-scrubbed-Z",
+        "GrpmpCommlgMaskSeqProj": "-Fallback-scrubbed-M", "GrpmpCompCode": "001",
+        "GrpmpCompName": "-Fallback-scrubbed-XlPawnIuvWFszzOItdvRohrdMQBEq", "GrpmpCorrAdd1":
+        null, "GrpmpCorrAdd2": null, "GrpmpCorrAdd3": null, "GrpmpCorrAddContactName":
+        null, "GrpmpCorrCountry": null, "GrpmpCorrPostalCode": null, "GrpmpCorrRegionCode":
+        null, "GrpmpCorrespondenceAddrCode": null, "GrpmpCountry": null, "GrpmpCreateJobFlag":
+        "-Fallback-scrubbed-u", "GrpmpCurrContAmt": 4283, "GrpmpCustAdd1": null, "GrpmpCustAdd2":
+        null, "GrpmpCustAdd3": null, "GrpmpCustAddCode": null, "GrpmpCustAddContactName":
+        null, "GrpmpCustCode": "-Fallback-scrubbed-LxBdEev", "GrpmpCustCountry": null,
+        "GrpmpCustName": "-Fallback-scrubbed-woqMgyYoUccAGqalNXujjn", "GrpmpCustPostalCode":
+        null, "GrpmpCustRegionCode": null, "GrpmpDayjrMask": "-Fallback-scrubbed-fRZrNxSf",
+        "GrpmpDayjrMaskOverride": "-Fallback-scrubbed-Z", "GrpmpDayjrMaskSeqProj":
+        "-Fallback-scrubbed-M", "GrpmpDefaultBillTypeCode": "-Fallback-scrubbed-AU",
+        "GrpmpDefaultBillTypeName": "-Fallback-scrubbed-PjcUZbYjilBwXRBrtSDvJrGyxVD",
+        "GrpmpDefaultBilltoAddCode": null, "GrpmpDefaultBilltoAddName": null, "GrpmpDefaultBuyCode":
+        null, "GrpmpDefaultDeliveryPeriod": null, "GrpmpDefaultInvoiceFormat": "-Fallback-scrubbed-fsEN",
+        "GrpmpDefaultJbMapCode": "-Fallback-scrubbed-GjZH", "GrpmpDefaultJbMapName":
+        "-Fallback-scrubbed-fENAvHQAomeMrxQqhyQWW", "GrpmpDefaultJobBillMethod": "-Fallback-scrubbed-KV",
+        "GrpmpDefaultReqCode": null, "GrpmpDefaultRfiPeriod": 7409, "GrpmpDefaultShiptoAddCode":
+        null, "GrpmpDefaultShiptoAddName": null, "GrpmpDeptCode": "-Fallback-scrubbed-yl",
+        "GrpmpDeptName": "-Fallback-scrubbed-CrVtpklyGovNU", "GrpmpDfltCmdetailMode":
+        "-Fallback-scrubbed-m", "GrpmpDfltDjAttachmentFlag": "-Fallback-scrubbed-Z",
+        "GrpmpDfltDjGeneralFlag": "-Fallback-scrubbed-Z", "GrpmpDfltDjLabForceFlag":
+        "-Fallback-scrubbed-Z", "GrpmpDfltDjMaterialsFlag": "-Fallback-scrubbed-Z",
+        "GrpmpDfltDjNotesFlag": "-Fallback-scrubbed-Z", "GrpmpDfltDjOeOnJobFlag":
+        "-Fallback-scrubbed-Z", "GrpmpDfltDjOwnEqpFlag": "-Fallback-scrubbed-Z", "GrpmpDfltDjOwnLabFlag":
+        "-Fallback-scrubbed-Z", "GrpmpDfltDjSafetyFlag": "-Fallback-scrubbed-Z", "GrpmpDfltDjTasksFlag":
+        "-Fallback-scrubbed-M", "GrpmpDfltDjTlCompFlag": "-Fallback-scrubbed-M", "GrpmpDfltDjTradeEqpFlag":
+        "-Fallback-scrubbed-M", "GrpmpDfltDjTradeLabFlag": "-Fallback-scrubbed-M",
+        "GrpmpDfltDjUnitcFlag": "-Fallback-scrubbed-Z", "GrpmpDfltDjVisitorsFlag":
+        "-Fallback-scrubbed-Z", "GrpmpDfltInvoiceFormatNm": "-Fallback-scrubbed-LvYdwesRwzkjAyhcjqhxEOcqrKZ",
+        "GrpmpDfltIssueRevPeriod": 7409, "GrpmpDfltLeadTimeStage1": 8803, "GrpmpDfltLeadTimeStage2":
+        3351, "GrpmpDfltLeadTimeStage3": 8623, "GrpmpDfltLeadTimeStage4": 8803, "GrpmpDfltLeadTimeStage5":
+        8623, "GrpmpDfltLeadTimeStage6": 7409, "GrpmpDfltMeetingFootnote": "-Fallback-scrubbed-LgCbDrahIREkMkinEBVukKZuxLoULDYEvMElRWvmcFfJIExKtfddlhCHrXNzDwJNwNtpCPxXcjtwzqZvGmUoGFmIfCEpLHpjljsZiPtAFRrUqxrcSFPwumRIjbKnBgdGL",
+        "GrpmpDfltPlistComplPeriod": 7409, "GrpmpDfltPmntcRevPeriod": 7409, "GrpmpDfltRfiContactCode":
+        null, "GrpmpDfltRfiContactName": null, "GrpmpDfltRfiPartnCode": null, "GrpmpDfltRfiPartnTypeCode":
+        null, "GrpmpDfltRfqReviewDays": 8803, "GrpmpDfltSbmtContactCode": "-Fallback-scrubbed-RX",
+        "GrpmpDfltSbmtContactName": "-Fallback-scrubbed-xuursJRDfVFL", "GrpmpDfltSbmtPartnCode":
+        "-Fallback-scrubbed-pBc", "GrpmpDfltSbmtPtnTypeCode": "-Fallback-scrubbed-e",
+        "GrpmpEndDate": "-Fallback-scrubbed-ONLkxAZHjM", "GrpmpEntryRfiAnsByFlag":
+        "-Fallback-scrubbed-M", "GrpmpEntryRfiAnsDateFlag": "-Fallback-scrubbed-M",
+        "GrpmpFaxNum": null, "GrpmpFwdMask": "-Fallback-scrubbed-FfF", "GrpmpFwdMaskOverride":
+        "-Fallback-scrubbed-Z", "GrpmpFwdMaskSeqProj": "-Fallback-scrubbed-M", "GrpmpHardBidFlag":
+        "-Fallback-scrubbed-Z", "GrpmpIssueIdMask": "-Fallback-scrubbed-FfF", "GrpmpIssueIdMaskOverride":
+        "-Fallback-scrubbed-Z", "GrpmpIssueIdMaskSeqProj": "-Fallback-scrubbed-M",
+        "GrpmpItbSenderEmail": null, "GrpmpItbSenderName": null, "GrpmpIuCreateDate":
+        "2026-07-21T16:20:48-04:00", "GrpmpIuUpdateDate": "2026-07-21T17:42:10-04:00",
+        "GrpmpJobAllowTransFlag": "-Fallback-scrubbed-M", "GrpmpJobBidFlag": "-Fallback-scrubbed-Z",
+        "GrpmpJobBillMethCode": "-Fallback-scrubbed-KV", "GrpmpJobBillingTypeCode":
+        "-Fallback-scrubbed-AU", "GrpmpJobBillingTypeName": "-Fallback-scrubbed-PjcUZbYjilBwXRBrtSDvJrGyxVD",
+        "GrpmpJobCode": "-Fallback-scrubbed-UDDZtAr", "GrpmpJobCreationDate": null,
+        "GrpmpJobDeptCode": "-Fallback-scrubbed-yl", "GrpmpJobDeptName": "-Fallback-scrubbed-CrVtpklyGovNU",
+        "GrpmpJobInvoiceFormatCode": "-Fallback-scrubbed-fsEN", "GrpmpJobInvoiceFormatNm":
+        "-Fallback-scrubbed-LvYdwesRwzkjAyhcjqhxEOcqrKZ", "GrpmpJobJbMapCode": "-Fallback-scrubbed-GjZH",
+        "GrpmpJobJbMapName": "-Fallback-scrubbed-fENAvHQAomeMrxQqhyQWW", "GrpmpJobName":
+        "-Fallback-scrubbed-LtFhkPpQbxfIaADrwKarsvMw", "GrpmpJobOrigBudgetEffDate":
+        null, "GrpmpJobSecGroup": "-Fallback-scrubbed-zNRULIeJtl", "GrpmpJobStatusCode":
+        "-Fallback-scrubbed-I", "GrpmpKeyWordDesc": null, "GrpmpLienWaiverText": null,
+        "GrpmpManagerName": null, "GrpmpMeetingIdMask": null, "GrpmpMobileUrl": "-Fallback-scrubbed-tsNwbaAODJwSwVYumjZdHamvgVZQKbtLYFtAoPxydOgmrsrpilLuPTZnhXQCCKeLgNWRUUOAGpNQnqEANqwTqXKJvENNSbbbwiBeFmxfdeWPORbHFmrdWdxWMYlqadfeCfMqhbfRAzKnGznAkjKBRnLtOyedvvktGtQHKUrrlkYIhqQZaWiDbIiGvaImTYXwjIWOJIziFBiDiRLfhWyVdhxbdnOiiXMUjtaUBURmNaPbWJQKILZzNYypnntXKis",
+        "GrpmpNoticeMask": "-Fallback-scrubbed-FfF", "GrpmpNoticeMaskOverride": "-Fallback-scrubbed-Z",
+        "GrpmpNoticeMaskSeqProj": "-Fallback-scrubbed-M", "GrpmpOcoOrigContAmtOvrd":
+        "-Fallback-scrubbed-M", "GrpmpOrigContOverrideAmt": null, "GrpmpPartnAbbrevInRfiId":
+        "-Fallback-scrubbed-M", "GrpmpPartnAbbrevInTrnsmId": "-Fallback-scrubbed-M",
+        "GrpmpPciUseScopeAmtFlag": "-Fallback-scrubbed-Z", "GrpmpPhoneNum": null,
+        "GrpmpPmplMask": "-Fallback-scrubbed-zV", "GrpmpPmplMaskOverride": "-Fallback-scrubbed-Z",
+        "GrpmpPmplMaskSeqProj": "-Fallback-scrubbed-M", "GrpmpPmpliMask": "-Fallback-scrubbed-FfF",
+        "GrpmpPmpliMaskSeqProj": "-Fallback-scrubbed-Z", "GrpmpPostalCode": null,
+        "GrpmpProjCode": "-Fallback-scrubbed-UDDZtAr", "GrpmpProjCtrlCode": "-Fallback-scrubbed-vDn",
+        "GrpmpProjDescription": "-Fallback-scrubbed-hudVkCOUquRcGULjZLeYxluDy", "GrpmpProjEndDtUpdateable":
+        "-Fallback-scrubbed-M", "GrpmpProjName": "-Fallback-scrubbed-LtFhkPpQbxfIaADrwKarsvMw",
+        "GrpmpProjPhotoUrl": null, "GrpmpRegionCode": null, "GrpmpRegionName": null,
+        "GrpmpRfiMask": "-Fallback-scrubbed-xfJb", "GrpmpRfiMaskOverride": "-Fallback-scrubbed-Z",
+        "GrpmpRfiMaskSeqProj": "-Fallback-scrubbed-M", "GrpmpRsschedVerCode": null,
+        "GrpmpRsschedVerName": null, "GrpmpSbmtApprvContactCode": null, "GrpmpSbmtApprvPartnCode":
+        null, "GrpmpSbmtApprvPtnTypeCode": null, "GrpmpSbmtMask": "-Fallback-scrubbed-PDAulFmUPM",
+        "GrpmpSbmtMaskOverride": "-Fallback-scrubbed-Z", "GrpmpSbmtMaskSeqProj": "-Fallback-scrubbed-M",
+        "GrpmpSbmtpMask": "-Fallback-scrubbed-zV", "GrpmpSbmtpMaskOverride": "-Fallback-scrubbed-Z",
+        "GrpmpSbmtpMaskSeqProj": "-Fallback-scrubbed-M", "GrpmpStartDate": "-Fallback-scrubbed-JpAluTOSwz",
+        "GrpmpStartPageUrl": null, "GrpmpStatusCode": "-Fallback-scrubbed-imdj", "GrpmpSubcontractedVolumeAmt":
+        4283, "GrpmpSuperintName": null, "GrpmpTrnsmMask": "-Fallback-scrubbed-reANEcMSf",
+        "GrpmpTrnsmMaskOverride": "-Fallback-scrubbed-Z", "GrpmpTrnsmMaskSeqProj":
+        "-Fallback-scrubbed-M", "GrpmpUseBidItemEaFlag": "-Fallback-scrubbed-pz",
+        "GrpmpVUuid": "5725C22FB6D911E4E06331121DACD25B", "GrpmpWorkLocCode": null,
+        "GrpmpWorkLocName": null, "GrpmpOwnerCode": null, "GrpmpConttypeCode": null,
+        "links": [{"rel": "-Fallback-scrubbed-BlPi", "href": "-Fallback-scrubbed-ZOOzIDnKVwzXrnEYATqLtcPMYVOiaoVslpIAxGrfdDHxggRCkWiWlUiygukEPekHGRwaxouextPHIwoGsMIhquQpojVVyAWWgqXrGyhIojkMjgfhnUdWoVNH",
+        "name": "Crystal Davis", "kind": "-Fallback-scrubbed-nwDX"}, {"rel": "-Fallback-scrubbed-iRTzcEPhi",
+        "href": "-Fallback-scrubbed-ZOOzIDnKVwzXrnEYATqLtcPMYVOiaoVslpIAxGrfdDHxggRCkWiWlUiygukEPekHGRwaxouextPHIwoGsMIhquQpojVVyAWWgqXrGyhIojkMjgfhnUdWoVNH",
+        "name": "Crystal Davis", "kind": "-Fallback-scrubbed-nwDX"}]}, {"GrpmpAddContactName":
+        "-Fallback-scrubbed-rVkxFyZkG", "GrpmpAddLine1": "-Fallback-scrubbed-fn",
+        "GrpmpAddLine2": "-Fallback-scrubbed-VvSIommwFMO", "GrpmpAddLine3": "-Fallback-scrubbed-XvyzPrRyVU",
+        "GrpmpAgendaItemIdMask": "-Fallback-scrubbed-JvYOGrFXV", "GrpmpArchitectName":
+        null, "GrpmpAutoCalcMarkupFlag": "-Fallback-scrubbed-Z", "GrpmpBallInCourtReportFlg":
+        "-Fallback-scrubbed-Z", "GrpmpBidDate": "-Fallback-scrubbed-FvVmzhsUwH", "GrpmpBidJobCode":
+        null, "GrpmpBidJobDeptCode": null, "GrpmpBidJobDeptName": null, "GrpmpBidJobName":
+        null, "GrpmpBidMask": "-Fallback-scrubbed-zV", "GrpmpBidMaskOverride": "-Fallback-scrubbed-Z",
+        "GrpmpBidMaskSeqProj": "-Fallback-scrubbed-M", "GrpmpBidWonLostDate": "-Fallback-scrubbed-vvmXVRqjaH",
+        "GrpmpCalcIssueDtOnWrkdys": "-Fallback-scrubbed-Z", "GrpmpCalcOcoDtOnWrkdys":
+        "-Fallback-scrubbed-M", "GrpmpCalcPmntcDtOnWrkdys": "-Fallback-scrubbed-Z",
+        "GrpmpCalcPmplDtOnWrkdys": "-Fallback-scrubbed-Z", "GrpmpCalcRfiDtOnWrkdys":
+        "-Fallback-scrubbed-Z", "GrpmpCalcSbmtDtOnWrkdys": "-Fallback-scrubbed-Z",
+        "GrpmpClosedDate": null, "GrpmpClvValueCode1": null, "GrpmpClvValueCode2":
+        null, "GrpmpClvValueCode3": null, "GrpmpClvValueCode4": null, "GrpmpClvValueCode5":
+        null, "GrpmpClvValueCode6": null, "GrpmpCollabUrl": "-Fallback-scrubbed-tsNwbaAODJwSwVYumjZdHamvgVZQKbtLYFtAoPxydOgmrsrpilLuPTZnhXQCCKeLgNWRUUOAGpNQnqEANqwTqXKJvENNSbbbwiBeFmxfdeWPORbHFmrdWdxWMYlqadfeCfMqhbfRAzKnGznAkjKBRnLtOyedvvktGtQHKUrrlkYIhqQZaWiDbIiGvaImTYXwjIWOJIziFBiDiRLfhWyVdhxbdnOiiXMUjtaUBURmNaPbWJQKILZzNYypnntXKis",
+        "GrpmpCommlgMask": "-Fallback-scrubbed-xfJb", "GrpmpCommlgMaskOverride": "-Fallback-scrubbed-Z",
+        "GrpmpCommlgMaskSeqProj": "-Fallback-scrubbed-M", "GrpmpCompCode": "001",
+        "GrpmpCompName": "-Fallback-scrubbed-XlPawnIuvWFszzOItdvRohrdMQBEq", "GrpmpCorrAdd1":
+        null, "GrpmpCorrAdd2": null, "GrpmpCorrAdd3": null, "GrpmpCorrAddContactName":
+        null, "GrpmpCorrCountry": null, "GrpmpCorrPostalCode": null, "GrpmpCorrRegionCode":
+        null, "GrpmpCorrespondenceAddrCode": null, "GrpmpCountry": "-Fallback-scrubbed-Ns",
+        "GrpmpCreateJobFlag": "-Fallback-scrubbed-u", "GrpmpCurrContAmt": 8543, "GrpmpCustAdd1":
+        "-Fallback-scrubbed-IWjsdbcFSL", "GrpmpCustAdd2": null, "GrpmpCustAdd3": "-Fallback-scrubbed-jdlJnkL",
+        "GrpmpCustAddCode": null, "GrpmpCustAddContactName": null, "GrpmpCustCode":
+        "-Fallback-scrubbed-Xlmjxm", "GrpmpCustCountry": "-Fallback-scrubbed-JlA",
+        "GrpmpCustName": "-Fallback-scrubbed-JqzmJsoSd", "GrpmpCustPostalCode": "-Fallback-scrubbed-gRoPp",
+        "GrpmpCustRegionCode": "-Fallback-scrubbed-cI", "GrpmpDayjrMask": "-Fallback-scrubbed-fRZrNxSf",
+        "GrpmpDayjrMaskOverride": "-Fallback-scrubbed-Z", "GrpmpDayjrMaskSeqProj":
+        "-Fallback-scrubbed-M", "GrpmpDefaultBillTypeCode": "-Fallback-scrubbed-AU",
+        "GrpmpDefaultBillTypeName": "-Fallback-scrubbed-PjcUZbYjilBwXRBrtSDvJrGyxVD",
+        "GrpmpDefaultBilltoAddCode": null, "GrpmpDefaultBilltoAddName": null, "GrpmpDefaultBuyCode":
+        null, "GrpmpDefaultDeliveryPeriod": null, "GrpmpDefaultInvoiceFormat": "-Fallback-scrubbed-fsEN",
+        "GrpmpDefaultJbMapCode": "-Fallback-scrubbed-GjZH", "GrpmpDefaultJbMapName":
+        "-Fallback-scrubbed-fENAvHQAomeMrxQqhyQWW", "GrpmpDefaultJobBillMethod": "-Fallback-scrubbed-NP",
+        "GrpmpDefaultReqCode": null, "GrpmpDefaultRfiPeriod": 7409, "GrpmpDefaultShiptoAddCode":
+        null, "GrpmpDefaultShiptoAddName": null, "GrpmpDeptCode": "-Fallback-scrubbed-goy",
+        "GrpmpDeptName": "-Fallback-scrubbed-AbDQtWdquKsdn", "GrpmpDfltCmdetailMode":
+        "-Fallback-scrubbed-m", "GrpmpDfltDjAttachmentFlag": "-Fallback-scrubbed-Z",
+        "GrpmpDfltDjGeneralFlag": "-Fallback-scrubbed-Z", "GrpmpDfltDjLabForceFlag":
+        "-Fallback-scrubbed-Z", "GrpmpDfltDjMaterialsFlag": "-Fallback-scrubbed-Z",
+        "GrpmpDfltDjNotesFlag": "-Fallback-scrubbed-Z", "GrpmpDfltDjOeOnJobFlag":
+        "-Fallback-scrubbed-Z", "GrpmpDfltDjOwnEqpFlag": "-Fallback-scrubbed-Z", "GrpmpDfltDjOwnLabFlag":
+        "-Fallback-scrubbed-Z", "GrpmpDfltDjSafetyFlag": "-Fallback-scrubbed-Z", "GrpmpDfltDjTasksFlag":
+        "-Fallback-scrubbed-M", "GrpmpDfltDjTlCompFlag": "-Fallback-scrubbed-M", "GrpmpDfltDjTradeEqpFlag":
+        "-Fallback-scrubbed-M", "GrpmpDfltDjTradeLabFlag": "-Fallback-scrubbed-M",
+        "GrpmpDfltDjUnitcFlag": "-Fallback-scrubbed-Z", "GrpmpDfltDjVisitorsFlag":
+        "-Fallback-scrubbed-Z", "GrpmpDfltInvoiceFormatNm": "-Fallback-scrubbed-LvYdwesRwzkjAyhcjqhxEOcqrKZ",
+        "GrpmpDfltIssueRevPeriod": 7409, "GrpmpDfltLeadTimeStage1": 8803, "GrpmpDfltLeadTimeStage2":
+        3351, "GrpmpDfltLeadTimeStage3": 8623, "GrpmpDfltLeadTimeStage4": 8803, "GrpmpDfltLeadTimeStage5":
+        8623, "GrpmpDfltLeadTimeStage6": 7409, "GrpmpDfltMeetingFootnote": "-Fallback-scrubbed-LgCbDrahIREkMkinEBVukKZuxLoULDYEvMElRWvmcFfJIExKtfddlhCHrXNzDwJNwNtpCPxXcjtwzqZvGmUoGFmIfCEpLHpjljsZiPtAFRrUqxrcSFPwumRIjbKnBgdGL",
+        "GrpmpDfltPlistComplPeriod": 7409, "GrpmpDfltPmntcRevPeriod": 7409, "GrpmpDfltRfiContactCode":
+        null, "GrpmpDfltRfiContactName": null, "GrpmpDfltRfiPartnCode": null, "GrpmpDfltRfiPartnTypeCode":
+        null, "GrpmpDfltRfqReviewDays": 8803, "GrpmpDfltSbmtContactCode": null, "GrpmpDfltSbmtContactName":
+        null, "GrpmpDfltSbmtPartnCode": null, "GrpmpDfltSbmtPtnTypeCode": null, "GrpmpEndDate":
+        "-Fallback-scrubbed-illSPcgCUv", "GrpmpEntryRfiAnsByFlag": "-Fallback-scrubbed-M",
+        "GrpmpEntryRfiAnsDateFlag": "-Fallback-scrubbed-M", "GrpmpFaxNum": null, "GrpmpFwdMask":
+        "-Fallback-scrubbed-FfF", "GrpmpFwdMaskOverride": "-Fallback-scrubbed-Z",
+        "GrpmpFwdMaskSeqProj": "-Fallback-scrubbed-M", "GrpmpHardBidFlag": "-Fallback-scrubbed-Z",
+        "GrpmpIssueIdMask": "-Fallback-scrubbed-FfF", "GrpmpIssueIdMaskOverride":
+        "-Fallback-scrubbed-Z", "GrpmpIssueIdMaskSeqProj": "-Fallback-scrubbed-M",
+        "GrpmpItbSenderEmail": null, "GrpmpItbSenderName": null, "GrpmpIuCreateDate":
+        "2026-07-30T15:06:54-04:00", "GrpmpIuUpdateDate": "2026-08-03T14:10:05-04:00",
+        "GrpmpJobAllowTransFlag": "-Fallback-scrubbed-M", "GrpmpJobBidFlag": "-Fallback-scrubbed-Z",
+        "GrpmpJobBillMethCode": "-Fallback-scrubbed-NP", "GrpmpJobBillingTypeCode":
+        "-Fallback-scrubbed-AU", "GrpmpJobBillingTypeName": "-Fallback-scrubbed-PjcUZbYjilBwXRBrtSDvJrGyxVD",
+        "GrpmpJobCode": "-Fallback-scrubbed-XxWyrYQqfN", "GrpmpJobCreationDate": null,
+        "GrpmpJobDeptCode": "-Fallback-scrubbed-goy", "GrpmpJobDeptName": "-Fallback-scrubbed-AbDQtWdquKsdn",
+        "GrpmpJobInvoiceFormatCode": "-Fallback-scrubbed-fsEN", "GrpmpJobInvoiceFormatNm":
+        "-Fallback-scrubbed-LvYdwesRwzkjAyhcjqhxEOcqrKZ", "GrpmpJobJbMapCode": "-Fallback-scrubbed-GjZH",
+        "GrpmpJobJbMapName": "-Fallback-scrubbed-fENAvHQAomeMrxQqhyQWW", "GrpmpJobName":
+        "-Fallback-scrubbed-iWlccOlqULtHjVpASCVGrPNE", "GrpmpJobOrigBudgetEffDate":
+        "-Fallback-scrubbed-dSUDSpOgjM", "GrpmpJobSecGroup": "-Fallback-scrubbed-zNRULIeJtl",
+        "GrpmpJobStatusCode": "-Fallback-scrubbed-D", "GrpmpKeyWordDesc": null, "GrpmpLienWaiverText":
+        null, "GrpmpManagerName": null, "GrpmpMeetingIdMask": null, "GrpmpMobileUrl":
+        "-Fallback-scrubbed-tsNwbaAODJwSwVYumjZdHamvgVZQKbtLYFtAoPxydOgmrsrpilLuPTZnhXQCCKeLgNWRUUOAGpNQnqEANqwTqXKJvENNSbbbwiBeFmxfdeWPORbHFmrdWdxWMYlqadfeCfMqhbfRAzKnGznAkjKBRnLtOyedvvktGtQHKUrrlkYIhqQZaWiDbIiGvaImTYXwjIWOJIziFBiDiRLfhWyVdhxbdnOiiXMUjtaUBURmNaPbWJQKILZzNYypnntXKis",
+        "GrpmpNoticeMask": "-Fallback-scrubbed-FfF", "GrpmpNoticeMaskOverride": "-Fallback-scrubbed-Z",
+        "GrpmpNoticeMaskSeqProj": "-Fallback-scrubbed-M", "GrpmpOcoOrigContAmtOvrd":
+        "-Fallback-scrubbed-M", "GrpmpOrigContOverrideAmt": null, "GrpmpPartnAbbrevInRfiId":
+        "-Fallback-scrubbed-M", "GrpmpPartnAbbrevInTrnsmId": "-Fallback-scrubbed-M",
+        "GrpmpPciUseScopeAmtFlag": "-Fallback-scrubbed-Z", "GrpmpPhoneNum": "-Fallback-scrubbed-YqkqYODzfN",
+        "GrpmpPmplMask": "-Fallback-scrubbed-zV", "GrpmpPmplMaskOverride": "-Fallback-scrubbed-Z",
+        "GrpmpPmplMaskSeqProj": "-Fallback-scrubbed-M", "GrpmpPmpliMask": "-Fallback-scrubbed-FfF",
+        "GrpmpPmpliMaskSeqProj": "-Fallback-scrubbed-Z", "GrpmpPostalCode": "-Fallback-scrubbed-WceTY",
+        "GrpmpProjCode": "-Fallback-scrubbed-XxWyrYQqfN", "GrpmpProjCtrlCode": "-Fallback-scrubbed-vDn",
+        "GrpmpProjDescription": "-Fallback-scrubbed-VtKnjQTeSuBzwqHbxixVblEdVAGkyRKXJVqULzeZreJpZoeJC",
+        "GrpmpProjEndDtUpdateable": "-Fallback-scrubbed-M", "GrpmpProjName": "-Fallback-scrubbed-iWlccOlqULtHjVpASCVGrPNE",
+        "GrpmpProjPhotoUrl": null, "GrpmpRegionCode": "-Fallback-scrubbed-xO", "GrpmpRegionName":
+        "-Fallback-scrubbed-xTXmMJoSpXcJdJnHueQk", "GrpmpRfiMask": "-Fallback-scrubbed-xfJb",
+        "GrpmpRfiMaskOverride": "-Fallback-scrubbed-Z", "GrpmpRfiMaskSeqProj": "-Fallback-scrubbed-M",
+        "GrpmpRsschedVerCode": null, "GrpmpRsschedVerName": null, "GrpmpSbmtApprvContactCode":
+        null, "GrpmpSbmtApprvPartnCode": null, "GrpmpSbmtApprvPtnTypeCode": null,
+        "GrpmpSbmtMask": "-Fallback-scrubbed-PDAulFmUPM", "GrpmpSbmtMaskOverride":
+        "-Fallback-scrubbed-Z", "GrpmpSbmtMaskSeqProj": "-Fallback-scrubbed-M", "GrpmpSbmtpMask":
+        "-Fallback-scrubbed-zV", "GrpmpSbmtpMaskOverride": "-Fallback-scrubbed-Z",
+        "GrpmpSbmtpMaskSeqProj": "-Fallback-scrubbed-M", "GrpmpStartDate": "-Fallback-scrubbed-dSUDSpOgjM",
+        "GrpmpStartPageUrl": null, "GrpmpStatusCode": "-Fallback-scrubbed-imdj", "GrpmpSubcontractedVolumeAmt":
+        8543, "GrpmpSuperintName": null, "GrpmpTrnsmMask": "-Fallback-scrubbed-reANEcMSf",
+        "GrpmpTrnsmMaskOverride": "-Fallback-scrubbed-Z", "GrpmpTrnsmMaskSeqProj":
+        "-Fallback-scrubbed-M", "GrpmpUseBidItemEaFlag": "-Fallback-scrubbed-pz",
+        "GrpmpVUuid": "57D9C6795837D78FE06331121DAC3856", "GrpmpWorkLocCode": null,
+        "GrpmpWorkLocName": null, "GrpmpOwnerCode": null, "GrpmpConttypeCode": null,
+        "links": [{"rel": "-Fallback-scrubbed-BlPi", "href": "-Fallback-scrubbed-MgQHPaWxqZGkGdqlVmsxGeYBjkHHblQrwGfTJaNQznrVfOBXqSnnzobgmFSgzFXEfHRraPxTytfCuiYLnnMFHCNYWeOZxFDHsMWlWKOzXVxrLqKMsxhArYww",
+        "name": "Crystal Davis", "kind": "-Fallback-scrubbed-nwDX"}, {"rel": "-Fallback-scrubbed-iRTzcEPhi",
+        "href": "-Fallback-scrubbed-MgQHPaWxqZGkGdqlVmsxGeYBjkHHblQrwGfTJaNQznrVfOBXqSnnzobgmFSgzFXEfHRraPxTytfCuiYLnnMFHCNYWeOZxFDHsMWlWKOzXVxrLqKMsxhArYww",
+        "name": "Crystal Davis", "kind": "-Fallback-scrubbed-nwDX"}]}, {"GrpmpAddContactName":
+        "-Fallback-scrubbed-rVkxFyZkG", "GrpmpAddLine1": "-Fallback-scrubbed-fn",
+        "GrpmpAddLine2": "-Fallback-scrubbed-VvSIommwFMO", "GrpmpAddLine3": "-Fallback-scrubbed-XvyzPrRyVU",
+        "GrpmpAgendaItemIdMask": "-Fallback-scrubbed-JvYOGrFXV", "GrpmpArchitectName":
+        null, "GrpmpAutoCalcMarkupFlag": "-Fallback-scrubbed-Z", "GrpmpBallInCourtReportFlg":
+        "-Fallback-scrubbed-Z", "GrpmpBidDate": null, "GrpmpBidJobCode": null, "GrpmpBidJobDeptCode":
+        "-Fallback-scrubbed-yl", "GrpmpBidJobDeptName": "-Fallback-scrubbed-CrVtpklyGovNU",
+        "GrpmpBidJobName": null, "GrpmpBidMask": "-Fallback-scrubbed-zV", "GrpmpBidMaskOverride":
+        "-Fallback-scrubbed-Z", "GrpmpBidMaskSeqProj": "-Fallback-scrubbed-M", "GrpmpBidWonLostDate":
+        null, "GrpmpCalcIssueDtOnWrkdys": "-Fallback-scrubbed-Z", "GrpmpCalcOcoDtOnWrkdys":
+        "-Fallback-scrubbed-M", "GrpmpCalcPmntcDtOnWrkdys": "-Fallback-scrubbed-Z",
+        "GrpmpCalcPmplDtOnWrkdys": "-Fallback-scrubbed-Z", "GrpmpCalcRfiDtOnWrkdys":
+        "-Fallback-scrubbed-Z", "GrpmpCalcSbmtDtOnWrkdys": "-Fallback-scrubbed-Z",
+        "GrpmpClosedDate": null, "GrpmpClvValueCode1": null, "GrpmpClvValueCode2":
+        null, "GrpmpClvValueCode3": null, "GrpmpClvValueCode4": null, "GrpmpClvValueCode5":
+        null, "GrpmpClvValueCode6": null, "GrpmpCollabUrl": "-Fallback-scrubbed-tsNwbaAODJwSwVYumjZdHamvgVZQKbtLYFtAoPxydOgmrsrpilLuPTZnhXQCCKeLgNWRUUOAGpNQnqEANqwTqXKJvENNSbbbwiBeFmxfdeWPORbHFmrdWdxWMYlqadfeCfMqhbfRAzKnGznAkjKBRnLtOyedvvktGtQHKUrrlkYIhqQZaWiDbIiGvaImTYXwjIWOJIziFBiDiRLfhWyVdhxbdnOiiXMUjtaUBURmNaPbWJQKILZzNYypnntXKis",
+        "GrpmpCommlgMask": "-Fallback-scrubbed-xfJb", "GrpmpCommlgMaskOverride": "-Fallback-scrubbed-Z",
+        "GrpmpCommlgMaskSeqProj": "-Fallback-scrubbed-M", "GrpmpCompCode": "001",
+        "GrpmpCompName": "-Fallback-scrubbed-XlPawnIuvWFszzOItdvRohrdMQBEq", "GrpmpCorrAdd1":
+        null, "GrpmpCorrAdd2": null, "GrpmpCorrAdd3": null, "GrpmpCorrAddContactName":
+        null, "GrpmpCorrCountry": null, "GrpmpCorrPostalCode": null, "GrpmpCorrRegionCode":
+        null, "GrpmpCorrespondenceAddrCode": null, "GrpmpCountry": "-Fallback-scrubbed-Ns",
+        "GrpmpCreateJobFlag": "-Fallback-scrubbed-u", "GrpmpCurrContAmt": null, "GrpmpCustAdd1":
+        null, "GrpmpCustAdd2": null, "GrpmpCustAdd3": null, "GrpmpCustAddCode": null,
+        "GrpmpCustAddContactName": null, "GrpmpCustCode": "-Fallback-scrubbed-LxBdEev",
+        "GrpmpCustCountry": null, "GrpmpCustName": "-Fallback-scrubbed-woqMgyYoUccAGqalNXujjn",
+        "GrpmpCustPostalCode": null, "GrpmpCustRegionCode": null, "GrpmpDayjrMask":
+        "-Fallback-scrubbed-fRZrNxSf", "GrpmpDayjrMaskOverride": "-Fallback-scrubbed-Z",
+        "GrpmpDayjrMaskSeqProj": "-Fallback-scrubbed-M", "GrpmpDefaultBillTypeCode":
+        "-Fallback-scrubbed-AU", "GrpmpDefaultBillTypeName": "-Fallback-scrubbed-PjcUZbYjilBwXRBrtSDvJrGyxVD",
+        "GrpmpDefaultBilltoAddCode": null, "GrpmpDefaultBilltoAddName": null, "GrpmpDefaultBuyCode":
+        null, "GrpmpDefaultDeliveryPeriod": null, "GrpmpDefaultInvoiceFormat": "-Fallback-scrubbed-fsEN",
+        "GrpmpDefaultJbMapCode": "-Fallback-scrubbed-GjZH", "GrpmpDefaultJbMapName":
+        "-Fallback-scrubbed-fENAvHQAomeMrxQqhyQWW", "GrpmpDefaultJobBillMethod": "-Fallback-scrubbed-KV",
+        "GrpmpDefaultReqCode": null, "GrpmpDefaultRfiPeriod": 7409, "GrpmpDefaultShiptoAddCode":
+        null, "GrpmpDefaultShiptoAddName": null, "GrpmpDeptCode": "-Fallback-scrubbed-yl",
+        "GrpmpDeptName": "-Fallback-scrubbed-CrVtpklyGovNU", "GrpmpDfltCmdetailMode":
+        "-Fallback-scrubbed-m", "GrpmpDfltDjAttachmentFlag": "-Fallback-scrubbed-Z",
+        "GrpmpDfltDjGeneralFlag": "-Fallback-scrubbed-Z", "GrpmpDfltDjLabForceFlag":
+        "-Fallback-scrubbed-Z", "GrpmpDfltDjMaterialsFlag": "-Fallback-scrubbed-Z",
+        "GrpmpDfltDjNotesFlag": "-Fallback-scrubbed-Z", "GrpmpDfltDjOeOnJobFlag":
+        "-Fallback-scrubbed-Z", "GrpmpDfltDjOwnEqpFlag": "-Fallback-scrubbed-Z", "GrpmpDfltDjOwnLabFlag":
+        "-Fallback-scrubbed-Z", "GrpmpDfltDjSafetyFlag": "-Fallback-scrubbed-Z", "GrpmpDfltDjTasksFlag":
+        "-Fallback-scrubbed-M", "GrpmpDfltDjTlCompFlag": "-Fallback-scrubbed-M", "GrpmpDfltDjTradeEqpFlag":
+        "-Fallback-scrubbed-M", "GrpmpDfltDjTradeLabFlag": "-Fallback-scrubbed-M",
+        "GrpmpDfltDjUnitcFlag": "-Fallback-scrubbed-Z", "GrpmpDfltDjVisitorsFlag":
+        "-Fallback-scrubbed-Z", "GrpmpDfltInvoiceFormatNm": "-Fallback-scrubbed-LvYdwesRwzkjAyhcjqhxEOcqrKZ",
+        "GrpmpDfltIssueRevPeriod": 7409, "GrpmpDfltLeadTimeStage1": 8803, "GrpmpDfltLeadTimeStage2":
+        3351, "GrpmpDfltLeadTimeStage3": 8623, "GrpmpDfltLeadTimeStage4": 8803, "GrpmpDfltLeadTimeStage5":
+        8623, "GrpmpDfltLeadTimeStage6": 7409, "GrpmpDfltMeetingFootnote": "-Fallback-scrubbed-LgCbDrahIREkMkinEBVukKZuxLoULDYEvMElRWvmcFfJIExKtfddlhCHrXNzDwJNwNtpCPxXcjtwzqZvGmUoGFmIfCEpLHpjljsZiPtAFRrUqxrcSFPwumRIjbKnBgdGL",
+        "GrpmpDfltPlistComplPeriod": 7409, "GrpmpDfltPmntcRevPeriod": 7409, "GrpmpDfltRfiContactCode":
+        null, "GrpmpDfltRfiContactName": null, "GrpmpDfltRfiPartnCode": null, "GrpmpDfltRfiPartnTypeCode":
+        null, "GrpmpDfltRfqReviewDays": 8803, "GrpmpDfltSbmtContactCode": null, "GrpmpDfltSbmtContactName":
+        null, "GrpmpDfltSbmtPartnCode": null, "GrpmpDfltSbmtPtnTypeCode": null, "GrpmpEndDate":
+        "-Fallback-scrubbed-yoZehRRzNK", "GrpmpEntryRfiAnsByFlag": "-Fallback-scrubbed-M",
+        "GrpmpEntryRfiAnsDateFlag": "-Fallback-scrubbed-M", "GrpmpFaxNum": null, "GrpmpFwdMask":
+        "-Fallback-scrubbed-FfF", "GrpmpFwdMaskOverride": "-Fallback-scrubbed-Z",
+        "GrpmpFwdMaskSeqProj": "-Fallback-scrubbed-M", "GrpmpHardBidFlag": "-Fallback-scrubbed-Z",
+        "GrpmpIssueIdMask": "-Fallback-scrubbed-FfF", "GrpmpIssueIdMaskOverride":
+        "-Fallback-scrubbed-Z", "GrpmpIssueIdMaskSeqProj": "-Fallback-scrubbed-M",
+        "GrpmpItbSenderEmail": null, "GrpmpItbSenderName": null, "GrpmpIuCreateDate":
+        "2026-06-30T14:48:16-04:00", "GrpmpIuUpdateDate": "2026-06-30T14:52:06-04:00",
+        "GrpmpJobAllowTransFlag": "-Fallback-scrubbed-M", "GrpmpJobBidFlag": "-Fallback-scrubbed-Z",
+        "GrpmpJobBillMethCode": "-Fallback-scrubbed-KV", "GrpmpJobBillingTypeCode":
+        "-Fallback-scrubbed-AU", "GrpmpJobBillingTypeName": "-Fallback-scrubbed-PjcUZbYjilBwXRBrtSDvJrGyxVD",
+        "GrpmpJobCode": "-Fallback-scrubbed-IogjFiRZA", "GrpmpJobCreationDate": null,
+        "GrpmpJobDeptCode": "-Fallback-scrubbed-yl", "GrpmpJobDeptName": "-Fallback-scrubbed-CrVtpklyGovNU",
+        "GrpmpJobInvoiceFormatCode": "-Fallback-scrubbed-fsEN", "GrpmpJobInvoiceFormatNm":
+        "-Fallback-scrubbed-LvYdwesRwzkjAyhcjqhxEOcqrKZ", "GrpmpJobJbMapCode": "-Fallback-scrubbed-GjZH",
+        "GrpmpJobJbMapName": "-Fallback-scrubbed-fENAvHQAomeMrxQqhyQWW", "GrpmpJobName":
+        "-Fallback-scrubbed-JyqtrqTcgkjmTc", "GrpmpJobOrigBudgetEffDate": null, "GrpmpJobSecGroup":
+        "-Fallback-scrubbed-zNRULIeJtl", "GrpmpJobStatusCode": "-Fallback-scrubbed-I",
+        "GrpmpKeyWordDesc": null, "GrpmpLienWaiverText": null, "GrpmpManagerName":
+        null, "GrpmpMeetingIdMask": null, "GrpmpMobileUrl": "-Fallback-scrubbed-tsNwbaAODJwSwVYumjZdHamvgVZQKbtLYFtAoPxydOgmrsrpilLuPTZnhXQCCKeLgNWRUUOAGpNQnqEANqwTqXKJvENNSbbbwiBeFmxfdeWPORbHFmrdWdxWMYlqadfeCfMqhbfRAzKnGznAkjKBRnLtOyedvvktGtQHKUrrlkYIhqQZaWiDbIiGvaImTYXwjIWOJIziFBiDiRLfhWyVdhxbdnOiiXMUjtaUBURmNaPbWJQKILZzNYypnntXKis",
+        "GrpmpNoticeMask": "-Fallback-scrubbed-FfF", "GrpmpNoticeMaskOverride": "-Fallback-scrubbed-Z",
+        "GrpmpNoticeMaskSeqProj": "-Fallback-scrubbed-M", "GrpmpOcoOrigContAmtOvrd":
+        "-Fallback-scrubbed-M", "GrpmpOrigContOverrideAmt": null, "GrpmpPartnAbbrevInRfiId":
+        "-Fallback-scrubbed-M", "GrpmpPartnAbbrevInTrnsmId": "-Fallback-scrubbed-M",
+        "GrpmpPciUseScopeAmtFlag": "-Fallback-scrubbed-Z", "GrpmpPhoneNum": "-Fallback-scrubbed-YqkqYODzfN",
+        "GrpmpPmplMask": "-Fallback-scrubbed-zV", "GrpmpPmplMaskOverride": "-Fallback-scrubbed-Z",
+        "GrpmpPmplMaskSeqProj": "-Fallback-scrubbed-M", "GrpmpPmpliMask": "-Fallback-scrubbed-FfF",
+        "GrpmpPmpliMaskSeqProj": "-Fallback-scrubbed-Z", "GrpmpPostalCode": "-Fallback-scrubbed-WceTY",
+        "GrpmpProjCode": "-Fallback-scrubbed-IogjFiRZA", "GrpmpProjCtrlCode": "-Fallback-scrubbed-vDn",
+        "GrpmpProjDescription": null, "GrpmpProjEndDtUpdateable": "-Fallback-scrubbed-M",
+        "GrpmpProjName": "-Fallback-scrubbed-cgKddMJJAJwBfBZuXDaOsM", "GrpmpProjPhotoUrl":
+        null, "GrpmpRegionCode": "-Fallback-scrubbed-xO", "GrpmpRegionName": "-Fallback-scrubbed-xTXmMJoSpXcJdJnHueQk",
+        "GrpmpRfiMask": "-Fallback-scrubbed-xfJb", "GrpmpRfiMaskOverride": "-Fallback-scrubbed-Z",
+        "GrpmpRfiMaskSeqProj": "-Fallback-scrubbed-M", "GrpmpRsschedVerCode": null,
+        "GrpmpRsschedVerName": null, "GrpmpSbmtApprvContactCode": null, "GrpmpSbmtApprvPartnCode":
+        null, "GrpmpSbmtApprvPtnTypeCode": null, "GrpmpSbmtMask": "-Fallback-scrubbed-PDAulFmUPM",
+        "GrpmpSbmtMaskOverride": "-Fallback-scrubbed-Z", "GrpmpSbmtMaskSeqProj": "-Fallback-scrubbed-M",
+        "GrpmpSbmtpMask": "-Fallback-scrubbed-zV", "GrpmpSbmtpMaskOverride": "-Fallback-scrubbed-Z",
+        "GrpmpSbmtpMaskSeqProj": "-Fallback-scrubbed-M", "GrpmpStartDate": "-Fallback-scrubbed-KHuzzTBpuQ",
+        "GrpmpStartPageUrl": null, "GrpmpStatusCode": "-Fallback-scrubbed-imdj", "GrpmpSubcontractedVolumeAmt":
+        8803, "GrpmpSuperintName": null, "GrpmpTrnsmMask": "-Fallback-scrubbed-reANEcMSf",
+        "GrpmpTrnsmMaskOverride": "-Fallback-scrubbed-Z", "GrpmpTrnsmMaskSeqProj":
+        "-Fallback-scrubbed-M", "GrpmpUseBidItemEaFlag": "-Fallback-scrubbed-pz",
+        "GrpmpVUuid": "557DA0D4161E56E8E06331121DAC9786", "GrpmpWorkLocCode": null,
+        "GrpmpWorkLocName": null, "GrpmpOwnerCode": null, "GrpmpConttypeCode": null,
+        "links": [{"rel": "-Fallback-scrubbed-BlPi", "href": "-Fallback-scrubbed-yHkUBdGPPrfNPzOZcxuAlXOWaxRPjqEKRfervhSDXMfGQZUGdXpjtiuvpCDeClWjhpNesAHvABCyfAToXHevinqscynljKYnbTQsMGTvybJlLkiAgeivwxPe",
+        "name": "Crystal Davis", "kind": "-Fallback-scrubbed-nwDX"}, {"rel": "-Fallback-scrubbed-iRTzcEPhi",
+        "href": "-Fallback-scrubbed-yHkUBdGPPrfNPzOZcxuAlXOWaxRPjqEKRfervhSDXMfGQZUGdXpjtiuvpCDeClWjhpNesAHvABCyfAToXHevinqscynljKYnbTQsMGTvybJlLkiAgeivwxPe",
+        "name": "Crystal Davis", "kind": "-Fallback-scrubbed-nwDX"}]}, {"GrpmpAddContactName":
+        "-Fallback-scrubbed-rVkxFyZkG", "GrpmpAddLine1": "-Fallback-scrubbed-fn",
+        "GrpmpAddLine2": "-Fallback-scrubbed-VvSIommwFMO", "GrpmpAddLine3": "-Fallback-scrubbed-XvyzPrRyVU",
+        "GrpmpAgendaItemIdMask": "-Fallback-scrubbed-JvYOGrFXV", "GrpmpArchitectName":
+        null, "GrpmpAutoCalcMarkupFlag": "-Fallback-scrubbed-Z", "GrpmpBallInCourtReportFlg":
+        "-Fallback-scrubbed-Z", "GrpmpBidDate": null, "GrpmpBidJobCode": null, "GrpmpBidJobDeptCode":
+        "-Fallback-scrubbed-yl", "GrpmpBidJobDeptName": "-Fallback-scrubbed-CrVtpklyGovNU",
+        "GrpmpBidJobName": null, "GrpmpBidMask": "-Fallback-scrubbed-zV", "GrpmpBidMaskOverride":
+        "-Fallback-scrubbed-Z", "GrpmpBidMaskSeqProj": "-Fallback-scrubbed-M", "GrpmpBidWonLostDate":
+        null, "GrpmpCalcIssueDtOnWrkdys": "-Fallback-scrubbed-Z", "GrpmpCalcOcoDtOnWrkdys":
+        "-Fallback-scrubbed-M", "GrpmpCalcPmntcDtOnWrkdys": "-Fallback-scrubbed-Z",
+        "GrpmpCalcPmplDtOnWrkdys": "-Fallback-scrubbed-Z", "GrpmpCalcRfiDtOnWrkdys":
+        "-Fallback-scrubbed-Z", "GrpmpCalcSbmtDtOnWrkdys": "-Fallback-scrubbed-Z",
+        "GrpmpClosedDate": null, "GrpmpClvValueCode1": null, "GrpmpClvValueCode2":
+        null, "GrpmpClvValueCode3": null, "GrpmpClvValueCode4": null, "GrpmpClvValueCode5":
+        null, "GrpmpClvValueCode6": null, "GrpmpCollabUrl": "-Fallback-scrubbed-tsNwbaAODJwSwVYumjZdHamvgVZQKbtLYFtAoPxydOgmrsrpilLuPTZnhXQCCKeLgNWRUUOAGpNQnqEANqwTqXKJvENNSbbbwiBeFmxfdeWPORbHFmrdWdxWMYlqadfeCfMqhbfRAzKnGznAkjKBRnLtOyedvvktGtQHKUrrlkYIhqQZaWiDbIiGvaImTYXwjIWOJIziFBiDiRLfhWyVdhxbdnOiiXMUjtaUBURmNaPbWJQKILZzNYypnntXKis",
+        "GrpmpCommlgMask": "-Fallback-scrubbed-xfJb", "GrpmpCommlgMaskOverride": "-Fallback-scrubbed-Z",
+        "GrpmpCommlgMaskSeqProj": "-Fallback-scrubbed-M", "GrpmpCompCode": "001",
+        "GrpmpCompName": "-Fallback-scrubbed-XlPawnIuvWFszzOItdvRohrdMQBEq", "GrpmpCorrAdd1":
+        null, "GrpmpCorrAdd2": null, "GrpmpCorrAdd3": null, "GrpmpCorrAddContactName":
+        null, "GrpmpCorrCountry": null, "GrpmpCorrPostalCode": null, "GrpmpCorrRegionCode":
+        null, "GrpmpCorrespondenceAddrCode": null, "GrpmpCountry": "-Fallback-scrubbed-Ns",
+        "GrpmpCreateJobFlag": "-Fallback-scrubbed-u", "GrpmpCurrContAmt": null, "GrpmpCustAdd1":
+        null, "GrpmpCustAdd2": null, "GrpmpCustAdd3": null, "GrpmpCustAddCode": null,
+        "GrpmpCustAddContactName": null, "GrpmpCustCode": "-Fallback-scrubbed-LxBdEev",
+        "GrpmpCustCountry": null, "GrpmpCustName": "-Fallback-scrubbed-woqMgyYoUccAGqalNXujjn",
+        "GrpmpCustPostalCode": null, "GrpmpCustRegionCode": null, "GrpmpDayjrMask":
+        "-Fallback-scrubbed-fRZrNxSf", "GrpmpDayjrMaskOverride": "-Fallback-scrubbed-Z",
+        "GrpmpDayjrMaskSeqProj": "-Fallback-scrubbed-M", "GrpmpDefaultBillTypeCode":
+        "-Fallback-scrubbed-AU", "GrpmpDefaultBillTypeName": "-Fallback-scrubbed-PjcUZbYjilBwXRBrtSDvJrGyxVD",
+        "GrpmpDefaultBilltoAddCode": null, "GrpmpDefaultBilltoAddName": null, "GrpmpDefaultBuyCode":
+        null, "GrpmpDefaultDeliveryPeriod": null, "GrpmpDefaultInvoiceFormat": "-Fallback-scrubbed-fsEN",
+        "GrpmpDefaultJbMapCode": "-Fallback-scrubbed-GjZH", "GrpmpDefaultJbMapName":
+        "-Fallback-scrubbed-fENAvHQAomeMrxQqhyQWW", "GrpmpDefaultJobBillMethod": "-Fallback-scrubbed-KV",
+        "GrpmpDefaultReqCode": null, "GrpmpDefaultRfiPeriod": 7409, "GrpmpDefaultShiptoAddCode":
+        null, "GrpmpDefaultShiptoAddName": null, "GrpmpDeptCode": "-Fallback-scrubbed-yl",
+        "GrpmpDeptName": "-Fallback-scrubbed-CrVtpklyGovNU", "GrpmpDfltCmdetailMode":
+        "-Fallback-scrubbed-m", "GrpmpDfltDjAttachmentFlag": "-Fallback-scrubbed-Z",
+        "GrpmpDfltDjGeneralFlag": "-Fallback-scrubbed-Z", "GrpmpDfltDjLabForceFlag":
+        "-Fallback-scrubbed-Z", "GrpmpDfltDjMaterialsFlag": "-Fallback-scrubbed-Z",
+        "GrpmpDfltDjNotesFlag": "-Fallback-scrubbed-Z", "GrpmpDfltDjOeOnJobFlag":
+        "-Fallback-scrubbed-Z", "GrpmpDfltDjOwnEqpFlag": "-Fallback-scrubbed-Z", "GrpmpDfltDjOwnLabFlag":
+        "-Fallback-scrubbed-Z", "GrpmpDfltDjSafetyFlag": "-Fallback-scrubbed-Z", "GrpmpDfltDjTasksFlag":
+        "-Fallback-scrubbed-M", "GrpmpDfltDjTlCompFlag": "-Fallback-scrubbed-M", "GrpmpDfltDjTradeEqpFlag":
+        "-Fallback-scrubbed-M", "GrpmpDfltDjTradeLabFlag": "-Fallback-scrubbed-M",
+        "GrpmpDfltDjUnitcFlag": "-Fallback-scrubbed-Z", "GrpmpDfltDjVisitorsFlag":
+        "-Fallback-scrubbed-Z", "GrpmpDfltInvoiceFormatNm": "-Fallback-scrubbed-LvYdwesRwzkjAyhcjqhxEOcqrKZ",
+        "GrpmpDfltIssueRevPeriod": 7409, "GrpmpDfltLeadTimeStage1": 8803, "GrpmpDfltLeadTimeStage2":
+        3351, "GrpmpDfltLeadTimeStage3": 8623, "GrpmpDfltLeadTimeStage4": 8803, "GrpmpDfltLeadTimeStage5":
+        8623, "GrpmpDfltLeadTimeStage6": 7409, "GrpmpDfltMeetingFootnote": "-Fallback-scrubbed-LgCbDrahIREkMkinEBVukKZuxLoULDYEvMElRWvmcFfJIExKtfddlhCHrXNzDwJNwNtpCPxXcjtwzqZvGmUoGFmIfCEpLHpjljsZiPtAFRrUqxrcSFPwumRIjbKnBgdGL",
+        "GrpmpDfltPlistComplPeriod": 7409, "GrpmpDfltPmntcRevPeriod": 7409, "GrpmpDfltRfiContactCode":
+        null, "GrpmpDfltRfiContactName": null, "GrpmpDfltRfiPartnCode": null, "GrpmpDfltRfiPartnTypeCode":
+        null, "GrpmpDfltRfqReviewDays": 8803, "GrpmpDfltSbmtContactCode": null, "GrpmpDfltSbmtContactName":
+        null, "GrpmpDfltSbmtPartnCode": null, "GrpmpDfltSbmtPtnTypeCode": null, "GrpmpEndDate":
+        "-Fallback-scrubbed-xHEZZjuLBK", "GrpmpEntryRfiAnsByFlag": "-Fallback-scrubbed-M",
+        "GrpmpEntryRfiAnsDateFlag": "-Fallback-scrubbed-M", "GrpmpFaxNum": null, "GrpmpFwdMask":
+        "-Fallback-scrubbed-FfF", "GrpmpFwdMaskOverride": "-Fallback-scrubbed-Z",
+        "GrpmpFwdMaskSeqProj": "-Fallback-scrubbed-M", "GrpmpHardBidFlag": "-Fallback-scrubbed-Z",
+        "GrpmpIssueIdMask": "-Fallback-scrubbed-FfF", "GrpmpIssueIdMaskOverride":
+        "-Fallback-scrubbed-Z", "GrpmpIssueIdMaskSeqProj": "-Fallback-scrubbed-M",
+        "GrpmpItbSenderEmail": null, "GrpmpItbSenderName": null, "GrpmpIuCreateDate":
+        "2026-02-25T11:09:57-05:00", "GrpmpIuUpdateDate": "2026-03-03T15:57:06-05:00",
+        "GrpmpJobAllowTransFlag": "-Fallback-scrubbed-M", "GrpmpJobBidFlag": "-Fallback-scrubbed-Z",
+        "GrpmpJobBillMethCode": "-Fallback-scrubbed-KV", "GrpmpJobBillingTypeCode":
+        "-Fallback-scrubbed-AU", "GrpmpJobBillingTypeName": "-Fallback-scrubbed-PjcUZbYjilBwXRBrtSDvJrGyxVD",
+        "GrpmpJobCode": "-Fallback-scrubbed-gkIAwJTMFA", "GrpmpJobCreationDate": null,
+        "GrpmpJobDeptCode": "-Fallback-scrubbed-yl", "GrpmpJobDeptName": "-Fallback-scrubbed-CrVtpklyGovNU",
+        "GrpmpJobInvoiceFormatCode": "-Fallback-scrubbed-fsEN", "GrpmpJobInvoiceFormatNm":
+        "-Fallback-scrubbed-LvYdwesRwzkjAyhcjqhxEOcqrKZ", "GrpmpJobJbMapCode": "-Fallback-scrubbed-GjZH",
+        "GrpmpJobJbMapName": "-Fallback-scrubbed-fENAvHQAomeMrxQqhyQWW", "GrpmpJobName":
+        "-Fallback-scrubbed-NyHzLuVMucCORtMdJuLwqWPhjGciLHMN", "GrpmpJobOrigBudgetEffDate":
+        "-Fallback-scrubbed-kmfisplZnv", "GrpmpJobSecGroup": "-Fallback-scrubbed-zNRULIeJtl",
+        "GrpmpJobStatusCode": "-Fallback-scrubbed-I", "GrpmpKeyWordDesc": null, "GrpmpLienWaiverText":
+        null, "GrpmpManagerName": null, "GrpmpMeetingIdMask": null, "GrpmpMobileUrl":
+        "-Fallback-scrubbed-tsNwbaAODJwSwVYumjZdHamvgVZQKbtLYFtAoPxydOgmrsrpilLuPTZnhXQCCKeLgNWRUUOAGpNQnqEANqwTqXKJvENNSbbbwiBeFmxfdeWPORbHFmrdWdxWMYlqadfeCfMqhbfRAzKnGznAkjKBRnLtOyedvvktGtQHKUrrlkYIhqQZaWiDbIiGvaImTYXwjIWOJIziFBiDiRLfhWyVdhxbdnOiiXMUjtaUBURmNaPbWJQKILZzNYypnntXKis",
+        "GrpmpNoticeMask": "-Fallback-scrubbed-FfF", "GrpmpNoticeMaskOverride": "-Fallback-scrubbed-Z",
+        "GrpmpNoticeMaskSeqProj": "-Fallback-scrubbed-M", "GrpmpOcoOrigContAmtOvrd":
+        "-Fallback-scrubbed-M", "GrpmpOrigContOverrideAmt": null, "GrpmpPartnAbbrevInRfiId":
+        "-Fallback-scrubbed-M", "GrpmpPartnAbbrevInTrnsmId": "-Fallback-scrubbed-M",
+        "GrpmpPciUseScopeAmtFlag": "-Fallback-scrubbed-Z", "GrpmpPhoneNum": "-Fallback-scrubbed-YqkqYODzfN",
+        "GrpmpPmplMask": "-Fallback-scrubbed-zV", "GrpmpPmplMaskOverride": "-Fallback-scrubbed-Z",
+        "GrpmpPmplMaskSeqProj": "-Fallback-scrubbed-M", "GrpmpPmpliMask": "-Fallback-scrubbed-FfF",
+        "GrpmpPmpliMaskSeqProj": "-Fallback-scrubbed-Z", "GrpmpPostalCode": "-Fallback-scrubbed-WceTY",
+        "GrpmpProjCode": "-Fallback-scrubbed-gkIAwJTMFA", "GrpmpProjCtrlCode": "-Fallback-scrubbed-vDn",
+        "GrpmpProjDescription": "-Fallback-scrubbed-tdJNERIHeDmuELONzavtFcXuoqwWbqsdSuxnSkXWZAVOYNUq",
+        "GrpmpProjEndDtUpdateable": "-Fallback-scrubbed-M", "GrpmpProjName": "-Fallback-scrubbed-NyHzLuVMucCORtMdJuLwqWPhjGciLHMN",
+        "GrpmpProjPhotoUrl": null, "GrpmpRegionCode": "-Fallback-scrubbed-xO", "GrpmpRegionName":
+        "-Fallback-scrubbed-xTXmMJoSpXcJdJnHueQk", "GrpmpRfiMask": "-Fallback-scrubbed-xfJb",
+        "GrpmpRfiMaskOverride": "-Fallback-scrubbed-Z", "GrpmpRfiMaskSeqProj": "-Fallback-scrubbed-M",
+        "GrpmpRsschedVerCode": null, "GrpmpRsschedVerName": null, "GrpmpSbmtApprvContactCode":
+        null, "GrpmpSbmtApprvPartnCode": null, "GrpmpSbmtApprvPtnTypeCode": null,
+        "GrpmpSbmtMask": "-Fallback-scrubbed-PDAulFmUPM", "GrpmpSbmtMaskOverride":
+        "-Fallback-scrubbed-Z", "GrpmpSbmtMaskSeqProj": "-Fallback-scrubbed-M", "GrpmpSbmtpMask":
+        "-Fallback-scrubbed-zV", "GrpmpSbmtpMaskOverride": "-Fallback-scrubbed-Z",
+        "GrpmpSbmtpMaskSeqProj": "-Fallback-scrubbed-M", "GrpmpStartDate": "-Fallback-scrubbed-bYTmrhmdnC",
+        "GrpmpStartPageUrl": null, "GrpmpStatusCode": "-Fallback-scrubbed-imdj", "GrpmpSubcontractedVolumeAmt":
+        8803, "GrpmpSuperintName": null, "GrpmpTrnsmMask": "-Fallback-scrubbed-reANEcMSf",
+        "GrpmpTrnsmMaskOverride": "-Fallback-scrubbed-Z", "GrpmpTrnsmMaskSeqProj":
+        "-Fallback-scrubbed-M", "GrpmpUseBidItemEaFlag": "-Fallback-scrubbed-pz",
+        "GrpmpVUuid": "4BA92BD671443ADDE06331121DAC9C37", "GrpmpWorkLocCode": null,
+        "GrpmpWorkLocName": null, "GrpmpOwnerCode": null, "GrpmpConttypeCode": null,
+        "links": [{"rel": "-Fallback-scrubbed-BlPi", "href": "-Fallback-scrubbed-QbelKprPDLksqTZHLZYBTAZNyoJgvSvZFkXDRpYTccfTQOOCcAoPGcGxFoLmxqitpBuafpiCrByjKrjBlBPXqGzLdzycHqXzOgDcCSbNTSOpvRbxWbsuanyX",
+        "name": "Crystal Davis", "kind": "-Fallback-scrubbed-nwDX"}, {"rel": "-Fallback-scrubbed-iRTzcEPhi",
+        "href": "-Fallback-scrubbed-QbelKprPDLksqTZHLZYBTAZNyoJgvSvZFkXDRpYTccfTQOOCcAoPGcGxFoLmxqitpBuafpiCrByjKrjBlBPXqGzLdzycHqXzOgDcCSbNTSOpvRbxWbsuanyX",
+        "name": "Crystal Davis", "kind": "-Fallback-scrubbed-nwDX"}]}, {"GrpmpAddContactName":
+        null, "GrpmpAddLine1": null, "GrpmpAddLine2": null, "GrpmpAddLine3": null,
+        "GrpmpAgendaItemIdMask": "-Fallback-scrubbed-JvYOGrFXV", "GrpmpArchitectName":
+        null, "GrpmpAutoCalcMarkupFlag": "-Fallback-scrubbed-Z", "GrpmpBallInCourtReportFlg":
+        "-Fallback-scrubbed-Z", "GrpmpBidDate": "-Fallback-scrubbed-ScHpotBAkR", "GrpmpBidJobCode":
+        null, "GrpmpBidJobDeptCode": "-Fallback-scrubbed-yl", "GrpmpBidJobDeptName":
+        "-Fallback-scrubbed-CrVtpklyGovNU", "GrpmpBidJobName": null, "GrpmpBidMask":
+        "-Fallback-scrubbed-zV", "GrpmpBidMaskOverride": "-Fallback-scrubbed-Z", "GrpmpBidMaskSeqProj":
+        "-Fallback-scrubbed-M", "GrpmpBidWonLostDate": null, "GrpmpCalcIssueDtOnWrkdys":
+        "-Fallback-scrubbed-Z", "GrpmpCalcOcoDtOnWrkdys": "-Fallback-scrubbed-M",
+        "GrpmpCalcPmntcDtOnWrkdys": "-Fallback-scrubbed-Z", "GrpmpCalcPmplDtOnWrkdys":
+        "-Fallback-scrubbed-Z", "GrpmpCalcRfiDtOnWrkdys": "-Fallback-scrubbed-Z",
+        "GrpmpCalcSbmtDtOnWrkdys": "-Fallback-scrubbed-Z", "GrpmpClosedDate": null,
+        "GrpmpClvValueCode1": null, "GrpmpClvValueCode2": null, "GrpmpClvValueCode3":
+        null, "GrpmpClvValueCode4": null, "GrpmpClvValueCode5": null, "GrpmpClvValueCode6":
+        null, "GrpmpCollabUrl": "-Fallback-scrubbed-tsNwbaAODJwSwVYumjZdHamvgVZQKbtLYFtAoPxydOgmrsrpilLuPTZnhXQCCKeLgNWRUUOAGpNQnqEANqwTqXKJvENNSbbbwiBeFmxfdeWPORbHFmrdWdxWMYlqadfeCfMqhbfRAzKnGznAkjKBRnLtOyedvvktGtQHKUrrlkYIhqQZaWiDbIiGvaImTYXwjIWOJIziFBiDiRLfhWyVdhxbdnOiiXMUjtaUBURmNaPbWJQKILZzNYypnntXKis",
+        "GrpmpCommlgMask": "-Fallback-scrubbed-xfJb", "GrpmpCommlgMaskOverride": "-Fallback-scrubbed-Z",
+        "GrpmpCommlgMaskSeqProj": "-Fallback-scrubbed-M", "GrpmpCompCode": "001",
+        "GrpmpCompName": "-Fallback-scrubbed-XlPawnIuvWFszzOItdvRohrdMQBEq", "GrpmpCorrAdd1":
+        null, "GrpmpCorrAdd2": null, "GrpmpCorrAdd3": null, "GrpmpCorrAddContactName":
+        null, "GrpmpCorrCountry": null, "GrpmpCorrPostalCode": null, "GrpmpCorrRegionCode":
+        null, "GrpmpCorrespondenceAddrCode": null, "GrpmpCountry": null, "GrpmpCreateJobFlag":
+        "-Fallback-scrubbed-u", "GrpmpCurrContAmt": null, "GrpmpCustAdd1": "-Fallback-scrubbed-IWjsdbcFSL",
+        "GrpmpCustAdd2": null, "GrpmpCustAdd3": "-Fallback-scrubbed-jdlJnkL", "GrpmpCustAddCode":
+        null, "GrpmpCustAddContactName": null, "GrpmpCustCode": "-Fallback-scrubbed-Xlmjxm",
+        "GrpmpCustCountry": "-Fallback-scrubbed-JlA", "GrpmpCustName": "-Fallback-scrubbed-JqzmJsoSd",
+        "GrpmpCustPostalCode": "-Fallback-scrubbed-gRoPp", "GrpmpCustRegionCode":
+        "-Fallback-scrubbed-cI", "GrpmpDayjrMask": "-Fallback-scrubbed-fRZrNxSf",
+        "GrpmpDayjrMaskOverride": "-Fallback-scrubbed-Z", "GrpmpDayjrMaskSeqProj":
+        "-Fallback-scrubbed-M", "GrpmpDefaultBillTypeCode": "-Fallback-scrubbed-AU",
+        "GrpmpDefaultBillTypeName": "-Fallback-scrubbed-PjcUZbYjilBwXRBrtSDvJrGyxVD",
+        "GrpmpDefaultBilltoAddCode": null, "GrpmpDefaultBilltoAddName": null, "GrpmpDefaultBuyCode":
+        null, "GrpmpDefaultDeliveryPeriod": null, "GrpmpDefaultInvoiceFormat": "-Fallback-scrubbed-fsEN",
+        "GrpmpDefaultJbMapCode": "-Fallback-scrubbed-GjZH", "GrpmpDefaultJbMapName":
+        "-Fallback-scrubbed-fENAvHQAomeMrxQqhyQWW", "GrpmpDefaultJobBillMethod": "-Fallback-scrubbed-KV",
+        "GrpmpDefaultReqCode": null, "GrpmpDefaultRfiPeriod": 7409, "GrpmpDefaultShiptoAddCode":
+        null, "GrpmpDefaultShiptoAddName": null, "GrpmpDeptCode": "-Fallback-scrubbed-yl",
+        "GrpmpDeptName": "-Fallback-scrubbed-CrVtpklyGovNU", "GrpmpDfltCmdetailMode":
+        "-Fallback-scrubbed-m", "GrpmpDfltDjAttachmentFlag": "-Fallback-scrubbed-Z",
+        "GrpmpDfltDjGeneralFlag": "-Fallback-scrubbed-Z", "GrpmpDfltDjLabForceFlag":
+        "-Fallback-scrubbed-Z", "GrpmpDfltDjMaterialsFlag": "-Fallback-scrubbed-Z",
+        "GrpmpDfltDjNotesFlag": "-Fallback-scrubbed-Z", "GrpmpDfltDjOeOnJobFlag":
+        "-Fallback-scrubbed-Z", "GrpmpDfltDjOwnEqpFlag": "-Fallback-scrubbed-Z", "GrpmpDfltDjOwnLabFlag":
+        "-Fallback-scrubbed-Z", "GrpmpDfltDjSafetyFlag": "-Fallback-scrubbed-Z", "GrpmpDfltDjTasksFlag":
+        "-Fallback-scrubbed-M", "GrpmpDfltDjTlCompFlag": "-Fallback-scrubbed-M", "GrpmpDfltDjTradeEqpFlag":
+        "-Fallback-scrubbed-M", "GrpmpDfltDjTradeLabFlag": "-Fallback-scrubbed-M",
+        "GrpmpDfltDjUnitcFlag": "-Fallback-scrubbed-Z", "GrpmpDfltDjVisitorsFlag":
+        "-Fallback-scrubbed-Z", "GrpmpDfltInvoiceFormatNm": "-Fallback-scrubbed-LvYdwesRwzkjAyhcjqhxEOcqrKZ",
+        "GrpmpDfltIssueRevPeriod": 7409, "GrpmpDfltLeadTimeStage1": 8803, "GrpmpDfltLeadTimeStage2":
+        3351, "GrpmpDfltLeadTimeStage3": 8623, "GrpmpDfltLeadTimeStage4": 8803, "GrpmpDfltLeadTimeStage5":
+        8623, "GrpmpDfltLeadTimeStage6": 7409, "GrpmpDfltMeetingFootnote": "-Fallback-scrubbed-LgCbDrahIREkMkinEBVukKZuxLoULDYEvMElRWvmcFfJIExKtfddlhCHrXNzDwJNwNtpCPxXcjtwzqZvGmUoGFmIfCEpLHpjljsZiPtAFRrUqxrcSFPwumRIjbKnBgdGL",
+        "GrpmpDfltPlistComplPeriod": 7409, "GrpmpDfltPmntcRevPeriod": 7409, "GrpmpDfltRfiContactCode":
+        null, "GrpmpDfltRfiContactName": null, "GrpmpDfltRfiPartnCode": null, "GrpmpDfltRfiPartnTypeCode":
+        null, "GrpmpDfltRfqReviewDays": 8803, "GrpmpDfltSbmtContactCode": null, "GrpmpDfltSbmtContactName":
+        null, "GrpmpDfltSbmtPartnCode": null, "GrpmpDfltSbmtPtnTypeCode": null, "GrpmpEndDate":
+        "-Fallback-scrubbed-MVTSyjUsxz", "GrpmpEntryRfiAnsByFlag": "-Fallback-scrubbed-M",
+        "GrpmpEntryRfiAnsDateFlag": "-Fallback-scrubbed-M", "GrpmpFaxNum": null, "GrpmpFwdMask":
+        "-Fallback-scrubbed-FfF", "GrpmpFwdMaskOverride": "-Fallback-scrubbed-Z",
+        "GrpmpFwdMaskSeqProj": "-Fallback-scrubbed-M", "GrpmpHardBidFlag": "-Fallback-scrubbed-Z",
+        "GrpmpIssueIdMask": "-Fallback-scrubbed-FfF", "GrpmpIssueIdMaskOverride":
+        "-Fallback-scrubbed-Z", "GrpmpIssueIdMaskSeqProj": "-Fallback-scrubbed-M",
+        "GrpmpItbSenderEmail": null, "GrpmpItbSenderName": null, "GrpmpIuCreateDate":
+        "2026-03-04T16:36:20-05:00", "GrpmpIuUpdateDate": null, "GrpmpJobAllowTransFlag":
+        "-Fallback-scrubbed-M", "GrpmpJobBidFlag": "-Fallback-scrubbed-Z", "GrpmpJobBillMethCode":
+        "-Fallback-scrubbed-KV", "GrpmpJobBillingTypeCode": "-Fallback-scrubbed-AU",
+        "GrpmpJobBillingTypeName": "-Fallback-scrubbed-PjcUZbYjilBwXRBrtSDvJrGyxVD",
+        "GrpmpJobCode": "-Fallback-scrubbed-RQBOhnWtPE", "GrpmpJobCreationDate": null,
+        "GrpmpJobDeptCode": "-Fallback-scrubbed-yl", "GrpmpJobDeptName": "-Fallback-scrubbed-CrVtpklyGovNU",
+        "GrpmpJobInvoiceFormatCode": "-Fallback-scrubbed-fsEN", "GrpmpJobInvoiceFormatNm":
+        "-Fallback-scrubbed-LvYdwesRwzkjAyhcjqhxEOcqrKZ", "GrpmpJobJbMapCode": "-Fallback-scrubbed-GjZH",
+        "GrpmpJobJbMapName": "-Fallback-scrubbed-fENAvHQAomeMrxQqhyQWW", "GrpmpJobName":
+        "-Fallback-scrubbed-QIFNtREfxoRYdYKQxzmTFNMbCek", "GrpmpJobOrigBudgetEffDate":
+        null, "GrpmpJobSecGroup": "-Fallback-scrubbed-zNRULIeJtl", "GrpmpJobStatusCode":
+        "-Fallback-scrubbed-I", "GrpmpKeyWordDesc": null, "GrpmpLienWaiverText": null,
+        "GrpmpManagerName": null, "GrpmpMeetingIdMask": null, "GrpmpMobileUrl": "-Fallback-scrubbed-tsNwbaAODJwSwVYumjZdHamvgVZQKbtLYFtAoPxydOgmrsrpilLuPTZnhXQCCKeLgNWRUUOAGpNQnqEANqwTqXKJvENNSbbbwiBeFmxfdeWPORbHFmrdWdxWMYlqadfeCfMqhbfRAzKnGznAkjKBRnLtOyedvvktGtQHKUrrlkYIhqQZaWiDbIiGvaImTYXwjIWOJIziFBiDiRLfhWyVdhxbdnOiiXMUjtaUBURmNaPbWJQKILZzNYypnntXKis",
+        "GrpmpNoticeMask": "-Fallback-scrubbed-FfF", "GrpmpNoticeMaskOverride": "-Fallback-scrubbed-Z",
+        "GrpmpNoticeMaskSeqProj": "-Fallback-scrubbed-M", "GrpmpOcoOrigContAmtOvrd":
+        "-Fallback-scrubbed-M", "GrpmpOrigContOverrideAmt": null, "GrpmpPartnAbbrevInRfiId":
+        "-Fallback-scrubbed-M", "GrpmpPartnAbbrevInTrnsmId": "-Fallback-scrubbed-M",
+        "GrpmpPciUseScopeAmtFlag": "-Fallback-scrubbed-Z", "GrpmpPhoneNum": null,
+        "GrpmpPmplMask": "-Fallback-scrubbed-zV", "GrpmpPmplMaskOverride": "-Fallback-scrubbed-Z",
+        "GrpmpPmplMaskSeqProj": "-Fallback-scrubbed-M", "GrpmpPmpliMask": "-Fallback-scrubbed-FfF",
+        "GrpmpPmpliMaskSeqProj": "-Fallback-scrubbed-Z", "GrpmpPostalCode": null,
+        "GrpmpProjCode": "-Fallback-scrubbed-RQBOhnWtPE", "GrpmpProjCtrlCode": "-Fallback-scrubbed-vDn",
+        "GrpmpProjDescription": "-Fallback-scrubbed-gSVtHQdXOYPhdwRcSXhJWFMqOcUkRRlXOsjeGDTXtwFneZTStUiHDhrgZbzwCyXrgtuvXxTxUXSRcpgPsliBRskfLvbkSHDMQckGEIuvIdqCJVaMMjAfWfcwOjgKBdEaFUmhTwMPKUJonLRKEVMlpRt",
+        "GrpmpProjEndDtUpdateable": "-Fallback-scrubbed-M", "GrpmpProjName": "-Fallback-scrubbed-QIFNtREfxoRYdYKQxzmTFNMbCek",
+        "GrpmpProjPhotoUrl": null, "GrpmpRegionCode": null, "GrpmpRegionName": null,
+        "GrpmpRfiMask": "-Fallback-scrubbed-xfJb", "GrpmpRfiMaskOverride": "-Fallback-scrubbed-Z",
+        "GrpmpRfiMaskSeqProj": "-Fallback-scrubbed-M", "GrpmpRsschedVerCode": null,
+        "GrpmpRsschedVerName": null, "GrpmpSbmtApprvContactCode": null, "GrpmpSbmtApprvPartnCode":
+        null, "GrpmpSbmtApprvPtnTypeCode": null, "GrpmpSbmtMask": "-Fallback-scrubbed-PDAulFmUPM",
+        "GrpmpSbmtMaskOverride": "-Fallback-scrubbed-Z", "GrpmpSbmtMaskSeqProj": "-Fallback-scrubbed-M",
+        "GrpmpSbmtpMask": "-Fallback-scrubbed-zV", "GrpmpSbmtpMaskOverride": "-Fallback-scrubbed-Z",
+        "GrpmpSbmtpMaskSeqProj": "-Fallback-scrubbed-M", "GrpmpStartDate": "-Fallback-scrubbed-gkzLDcMERS",
+        "GrpmpStartPageUrl": null, "GrpmpStatusCode": "-Fallback-scrubbed-imdj", "GrpmpSubcontractedVolumeAmt":
+        8803, "GrpmpSuperintName": null, "GrpmpTrnsmMask": "-Fallback-scrubbed-reANEcMSf",
+        "GrpmpTrnsmMaskOverride": "-Fallback-scrubbed-Z", "GrpmpTrnsmMaskSeqProj":
+        "-Fallback-scrubbed-M", "GrpmpUseBidItemEaFlag": "-Fallback-scrubbed-pz",
+        "GrpmpVUuid": "4C3A9C5976556378E06331121DACD93A", "GrpmpWorkLocCode": null,
+        "GrpmpWorkLocName": null, "GrpmpOwnerCode": null, "GrpmpConttypeCode": null,
+        "links": [{"rel": "-Fallback-scrubbed-BlPi", "href": "-Fallback-scrubbed-zsniWTUVqdgCVUErqzGSZPBfOjsYfzUFWHhCEIXUaXbdgLFDOEFrszgQvtKkiNkWofgfMOeJwMuKqJXGuTEoLVYTAUPidUHJaZCJpMMEFEjpmiqaNdbBBDjE",
+        "name": "Crystal Davis", "kind": "-Fallback-scrubbed-nwDX"}, {"rel": "-Fallback-scrubbed-iRTzcEPhi",
+        "href": "-Fallback-scrubbed-zsniWTUVqdgCVUErqzGSZPBfOjsYfzUFWHhCEIXUaXbdgLFDOEFrszgQvtKkiNkWofgfMOeJwMuKqJXGuTEoLVYTAUPidUHJaZCJpMMEFEjpmiqaNdbBBDjE",
+        "name": "Crystal Davis", "kind": "-Fallback-scrubbed-nwDX"}]}, {"GrpmpAddContactName":
+        null, "GrpmpAddLine1": null, "GrpmpAddLine2": null, "GrpmpAddLine3": null,
+        "GrpmpAgendaItemIdMask": "-Fallback-scrubbed-JvYOGrFXV", "GrpmpArchitectName":
+        null, "GrpmpAutoCalcMarkupFlag": "-Fallback-scrubbed-Z", "GrpmpBallInCourtReportFlg":
+        "-Fallback-scrubbed-Z", "GrpmpBidDate": null, "GrpmpBidJobCode": null, "GrpmpBidJobDeptCode":
+        "-Fallback-scrubbed-yl", "GrpmpBidJobDeptName": "-Fallback-scrubbed-CrVtpklyGovNU",
+        "GrpmpBidJobName": null, "GrpmpBidMask": "-Fallback-scrubbed-zV", "GrpmpBidMaskOverride":
+        "-Fallback-scrubbed-Z", "GrpmpBidMaskSeqProj": "-Fallback-scrubbed-M", "GrpmpBidWonLostDate":
+        null, "GrpmpCalcIssueDtOnWrkdys": "-Fallback-scrubbed-Z", "GrpmpCalcOcoDtOnWrkdys":
+        "-Fallback-scrubbed-M", "GrpmpCalcPmntcDtOnWrkdys": "-Fallback-scrubbed-Z",
+        "GrpmpCalcPmplDtOnWrkdys": "-Fallback-scrubbed-Z", "GrpmpCalcRfiDtOnWrkdys":
+        "-Fallback-scrubbed-Z", "GrpmpCalcSbmtDtOnWrkdys": "-Fallback-scrubbed-Z",
+        "GrpmpClosedDate": null, "GrpmpClvValueCode1": null, "GrpmpClvValueCode2":
+        null, "GrpmpClvValueCode3": null, "GrpmpClvValueCode4": null, "GrpmpClvValueCode5":
+        null, "GrpmpClvValueCode6": null, "GrpmpCollabUrl": "-Fallback-scrubbed-tsNwbaAODJwSwVYumjZdHamvgVZQKbtLYFtAoPxydOgmrsrpilLuPTZnhXQCCKeLgNWRUUOAGpNQnqEANqwTqXKJvENNSbbbwiBeFmxfdeWPORbHFmrdWdxWMYlqadfeCfMqhbfRAzKnGznAkjKBRnLtOyedvvktGtQHKUrrlkYIhqQZaWiDbIiGvaImTYXwjIWOJIziFBiDiRLfhWyVdhxbdnOiiXMUjtaUBURmNaPbWJQKILZzNYypnntXKis",
+        "GrpmpCommlgMask": "-Fallback-scrubbed-xfJb", "GrpmpCommlgMaskOverride": "-Fallback-scrubbed-Z",
+        "GrpmpCommlgMaskSeqProj": "-Fallback-scrubbed-M", "GrpmpCompCode": "001",
+        "GrpmpCompName": "-Fallback-scrubbed-XlPawnIuvWFszzOItdvRohrdMQBEq", "GrpmpCorrAdd1":
+        null, "GrpmpCorrAdd2": null, "GrpmpCorrAdd3": null, "GrpmpCorrAddContactName":
+        null, "GrpmpCorrCountry": null, "GrpmpCorrPostalCode": null, "GrpmpCorrRegionCode":
+        null, "GrpmpCorrespondenceAddrCode": null, "GrpmpCountry": null, "GrpmpCreateJobFlag":
+        "-Fallback-scrubbed-u", "GrpmpCurrContAmt": null, "GrpmpCustAdd1": "-Fallback-scrubbed-IWjsdbcFSL",
+        "GrpmpCustAdd2": null, "GrpmpCustAdd3": "-Fallback-scrubbed-jdlJnkL", "GrpmpCustAddCode":
+        null, "GrpmpCustAddContactName": null, "GrpmpCustCode": "-Fallback-scrubbed-Xlmjxm",
+        "GrpmpCustCountry": "-Fallback-scrubbed-JlA", "GrpmpCustName": "-Fallback-scrubbed-JqzmJsoSd",
+        "GrpmpCustPostalCode": "-Fallback-scrubbed-gRoPp", "GrpmpCustRegionCode":
+        "-Fallback-scrubbed-cI", "GrpmpDayjrMask": "-Fallback-scrubbed-fRZrNxSf",
+        "GrpmpDayjrMaskOverride": "-Fallback-scrubbed-Z", "GrpmpDayjrMaskSeqProj":
+        "-Fallback-scrubbed-M", "GrpmpDefaultBillTypeCode": "-Fallback-scrubbed-AU",
+        "GrpmpDefaultBillTypeName": "-Fallback-scrubbed-PjcUZbYjilBwXRBrtSDvJrGyxVD",
+        "GrpmpDefaultBilltoAddCode": null, "GrpmpDefaultBilltoAddName": null, "GrpmpDefaultBuyCode":
+        null, "GrpmpDefaultDeliveryPeriod": null, "GrpmpDefaultInvoiceFormat": "-Fallback-scrubbed-fsEN",
+        "GrpmpDefaultJbMapCode": "-Fallback-scrubbed-GjZH", "GrpmpDefaultJbMapName":
+        "-Fallback-scrubbed-fENAvHQAomeMrxQqhyQWW", "GrpmpDefaultJobBillMethod": "-Fallback-scrubbed-KV",
+        "GrpmpDefaultReqCode": null, "GrpmpDefaultRfiPeriod": 7409, "GrpmpDefaultShiptoAddCode":
+        null, "GrpmpDefaultShiptoAddName": null, "GrpmpDeptCode": "-Fallback-scrubbed-yl",
+        "GrpmpDeptName": "-Fallback-scrubbed-CrVtpklyGovNU", "GrpmpDfltCmdetailMode":
+        "-Fallback-scrubbed-m", "GrpmpDfltDjAttachmentFlag": "-Fallback-scrubbed-Z",
+        "GrpmpDfltDjGeneralFlag": "-Fallback-scrubbed-Z", "GrpmpDfltDjLabForceFlag":
+        "-Fallback-scrubbed-Z", "GrpmpDfltDjMaterialsFlag": "-Fallback-scrubbed-Z",
+        "GrpmpDfltDjNotesFlag": "-Fallback-scrubbed-Z", "GrpmpDfltDjOeOnJobFlag":
+        "-Fallback-scrubbed-Z", "GrpmpDfltDjOwnEqpFlag": "-Fallback-scrubbed-Z", "GrpmpDfltDjOwnLabFlag":
+        "-Fallback-scrubbed-Z", "GrpmpDfltDjSafetyFlag": "-Fallback-scrubbed-Z", "GrpmpDfltDjTasksFlag":
+        "-Fallback-scrubbed-M", "GrpmpDfltDjTlCompFlag": "-Fallback-scrubbed-M", "GrpmpDfltDjTradeEqpFlag":
+        "-Fallback-scrubbed-M", "GrpmpDfltDjTradeLabFlag": "-Fallback-scrubbed-M",
+        "GrpmpDfltDjUnitcFlag": "-Fallback-scrubbed-Z", "GrpmpDfltDjVisitorsFlag":
+        "-Fallback-scrubbed-Z", "GrpmpDfltInvoiceFormatNm": "-Fallback-scrubbed-LvYdwesRwzkjAyhcjqhxEOcqrKZ",
+        "GrpmpDfltIssueRevPeriod": 7409, "GrpmpDfltLeadTimeStage1": 8803, "GrpmpDfltLeadTimeStage2":
+        3351, "GrpmpDfltLeadTimeStage3": 8623, "GrpmpDfltLeadTimeStage4": 8803, "GrpmpDfltLeadTimeStage5":
+        8623, "GrpmpDfltLeadTimeStage6": 7409, "GrpmpDfltMeetingFootnote": "-Fallback-scrubbed-LgCbDrahIREkMkinEBVukKZuxLoULDYEvMElRWvmcFfJIExKtfddlhCHrXNzDwJNwNtpCPxXcjtwzqZvGmUoGFmIfCEpLHpjljsZiPtAFRrUqxrcSFPwumRIjbKnBgdGL",
+        "GrpmpDfltPlistComplPeriod": 7409, "GrpmpDfltPmntcRevPeriod": 7409, "GrpmpDfltRfiContactCode":
+        null, "GrpmpDfltRfiContactName": null, "GrpmpDfltRfiPartnCode": null, "GrpmpDfltRfiPartnTypeCode":
+        null, "GrpmpDfltRfqReviewDays": 8803, "GrpmpDfltSbmtContactCode": null, "GrpmpDfltSbmtContactName":
+        null, "GrpmpDfltSbmtPartnCode": null, "GrpmpDfltSbmtPtnTypeCode": null, "GrpmpEndDate":
+        "-Fallback-scrubbed-OqbxrBGlzd", "GrpmpEntryRfiAnsByFlag": "-Fallback-scrubbed-M",
+        "GrpmpEntryRfiAnsDateFlag": "-Fallback-scrubbed-M", "GrpmpFaxNum": null, "GrpmpFwdMask":
+        "-Fallback-scrubbed-FfF", "GrpmpFwdMaskOverride": "-Fallback-scrubbed-Z",
+        "GrpmpFwdMaskSeqProj": "-Fallback-scrubbed-M", "GrpmpHardBidFlag": "-Fallback-scrubbed-Z",
+        "GrpmpIssueIdMask": "-Fallback-scrubbed-FfF", "GrpmpIssueIdMaskOverride":
+        "-Fallback-scrubbed-Z", "GrpmpIssueIdMaskSeqProj": "-Fallback-scrubbed-M",
+        "GrpmpItbSenderEmail": null, "GrpmpItbSenderName": null, "GrpmpIuCreateDate":
+        "2026-03-04T17:25:18-05:00", "GrpmpIuUpdateDate": null, "GrpmpJobAllowTransFlag":
+        "-Fallback-scrubbed-M", "GrpmpJobBidFlag": "-Fallback-scrubbed-Z", "GrpmpJobBillMethCode":
+        "-Fallback-scrubbed-KV", "GrpmpJobBillingTypeCode": "-Fallback-scrubbed-AU",
+        "GrpmpJobBillingTypeName": "-Fallback-scrubbed-PjcUZbYjilBwXRBrtSDvJrGyxVD",
+        "GrpmpJobCode": "-Fallback-scrubbed-BCCzaJvRVS", "GrpmpJobCreationDate": null,
+        "GrpmpJobDeptCode": "-Fallback-scrubbed-yl", "GrpmpJobDeptName": "-Fallback-scrubbed-CrVtpklyGovNU",
+        "GrpmpJobInvoiceFormatCode": "-Fallback-scrubbed-fsEN", "GrpmpJobInvoiceFormatNm":
+        "-Fallback-scrubbed-LvYdwesRwzkjAyhcjqhxEOcqrKZ", "GrpmpJobJbMapCode": "-Fallback-scrubbed-GjZH",
+        "GrpmpJobJbMapName": "-Fallback-scrubbed-fENAvHQAomeMrxQqhyQWW", "GrpmpJobName":
+        "-Fallback-scrubbed-mTSGdUfOcnBqATcACFIEVVhhKXkxX", "GrpmpJobOrigBudgetEffDate":
+        null, "GrpmpJobSecGroup": "-Fallback-scrubbed-zNRULIeJtl", "GrpmpJobStatusCode":
+        "-Fallback-scrubbed-I", "GrpmpKeyWordDesc": null, "GrpmpLienWaiverText": null,
+        "GrpmpManagerName": null, "GrpmpMeetingIdMask": null, "GrpmpMobileUrl": "-Fallback-scrubbed-tsNwbaAODJwSwVYumjZdHamvgVZQKbtLYFtAoPxydOgmrsrpilLuPTZnhXQCCKeLgNWRUUOAGpNQnqEANqwTqXKJvENNSbbbwiBeFmxfdeWPORbHFmrdWdxWMYlqadfeCfMqhbfRAzKnGznAkjKBRnLtOyedvvktGtQHKUrrlkYIhqQZaWiDbIiGvaImTYXwjIWOJIziFBiDiRLfhWyVdhxbdnOiiXMUjtaUBURmNaPbWJQKILZzNYypnntXKis",
+        "GrpmpNoticeMask": "-Fallback-scrubbed-FfF", "GrpmpNoticeMaskOverride": "-Fallback-scrubbed-Z",
+        "GrpmpNoticeMaskSeqProj": "-Fallback-scrubbed-M", "GrpmpOcoOrigContAmtOvrd":
+        "-Fallback-scrubbed-M", "GrpmpOrigContOverrideAmt": null, "GrpmpPartnAbbrevInRfiId":
+        "-Fallback-scrubbed-M", "GrpmpPartnAbbrevInTrnsmId": "-Fallback-scrubbed-M",
+        "GrpmpPciUseScopeAmtFlag": "-Fallback-scrubbed-Z", "GrpmpPhoneNum": null,
+        "GrpmpPmplMask": "-Fallback-scrubbed-zV", "GrpmpPmplMaskOverride": "-Fallback-scrubbed-Z",
+        "GrpmpPmplMaskSeqProj": "-Fallback-scrubbed-M", "GrpmpPmpliMask": "-Fallback-scrubbed-FfF",
+        "GrpmpPmpliMaskSeqProj": "-Fallback-scrubbed-Z", "GrpmpPostalCode": null,
+        "GrpmpProjCode": "-Fallback-scrubbed-BCCzaJvRVS", "GrpmpProjCtrlCode": "-Fallback-scrubbed-vDn",
+        "GrpmpProjDescription": "-Fallback-scrubbed-NYYKuhdWkWaBotiHJYOPuuAomBVjgbzEXCVrdJnTdvglbNyyeknScATTufHJcpYABJXVNmQlNjmUkhKByBjIqbehkLZZhp",
+        "GrpmpProjEndDtUpdateable": "-Fallback-scrubbed-M", "GrpmpProjName": "-Fallback-scrubbed-mTSGdUfOcnBqATcACFIEVVhhKXkxX",
+        "GrpmpProjPhotoUrl": null, "GrpmpRegionCode": null, "GrpmpRegionName": null,
+        "GrpmpRfiMask": "-Fallback-scrubbed-xfJb", "GrpmpRfiMaskOverride": "-Fallback-scrubbed-Z",
+        "GrpmpRfiMaskSeqProj": "-Fallback-scrubbed-M", "GrpmpRsschedVerCode": null,
+        "GrpmpRsschedVerName": null, "GrpmpSbmtApprvContactCode": null, "GrpmpSbmtApprvPartnCode":
+        null, "GrpmpSbmtApprvPtnTypeCode": null, "GrpmpSbmtMask": "-Fallback-scrubbed-PDAulFmUPM",
+        "GrpmpSbmtMaskOverride": "-Fallback-scrubbed-Z", "GrpmpSbmtMaskSeqProj": "-Fallback-scrubbed-M",
+        "GrpmpSbmtpMask": "-Fallback-scrubbed-zV", "GrpmpSbmtpMaskOverride": "-Fallback-scrubbed-Z",
+        "GrpmpSbmtpMaskSeqProj": "-Fallback-scrubbed-M", "GrpmpStartDate": "-Fallback-scrubbed-WCJhsuEDZH",
+        "GrpmpStartPageUrl": null, "GrpmpStatusCode": "-Fallback-scrubbed-imdj", "GrpmpSubcontractedVolumeAmt":
+        8803, "GrpmpSuperintName": null, "GrpmpTrnsmMask": "-Fallback-scrubbed-reANEcMSf",
+        "GrpmpTrnsmMaskOverride": "-Fallback-scrubbed-Z", "GrpmpTrnsmMaskSeqProj":
+        "-Fallback-scrubbed-M", "GrpmpUseBidItemEaFlag": "-Fallback-scrubbed-pz",
+        "GrpmpVUuid": "4C3A9C5976876378E06331121DACD93A", "GrpmpWorkLocCode": null,
+        "GrpmpWorkLocName": null, "GrpmpOwnerCode": null, "GrpmpConttypeCode": null,
+        "links": [{"rel": "-Fallback-scrubbed-BlPi", "href": "-Fallback-scrubbed-TDAnCSsoTvXIlFkJzXrrWqZXfpOvDatoXBBmyiHyYsfqldUAnHxBbcbmsvdhNtZswkjPWbQGLTPRDGbEUPjVOslUDWaScCzHEUnYpMjLDwmajFppkxUNWqvA",
+        "name": "Crystal Davis", "kind": "-Fallback-scrubbed-nwDX"}, {"rel": "-Fallback-scrubbed-iRTzcEPhi",
+        "href": "-Fallback-scrubbed-TDAnCSsoTvXIlFkJzXrrWqZXfpOvDatoXBBmyiHyYsfqldUAnHxBbcbmsvdhNtZswkjPWbQGLTPRDGbEUPjVOslUDWaScCzHEUnYpMjLDwmajFppkxUNWqvA",
+        "name": "Crystal Davis", "kind": "-Fallback-scrubbed-nwDX"}]}], "count": 2271,
+        "hasMore": false, "limit": 5571, "offset": 8803, "links": [{"rel": "-Fallback-scrubbed-BlPi",
+        "href": "-Fallback-scrubbed-dsyzCjGQVtxeqpYPSLRUlHoRqtANPLmfhZVrznZTXvzeMIwFcdTLLBVVQjYgUVJaAWgOWxTuIlhCnikwJZYoCnf",
+        "name": "Crystal Davis", "kind": "-Fallback-scrubbed-bxsXdqNrCs"}]}'
+    headers:
+      CF-RAY:
+      - a29a14a95b1d1da1-GRU
+      Cache-Control:
+      - no-cache, no-store, must-revalidate
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/vnd.oracle.adf.resourcecollection+json
+      Date:
+      - Tue, 11 Aug 2026 20:44:52 GMT
+      Link:
+      - <http://partner-sandbox-api-basic.cmiccloud.com:80/cmicprtn/pm-rest-api/rest/1/pmproject>;rel="self";kind="collection";name="pmproject"
+      Location:
+      - ''
+      REST-Framework-Version:
+      - '2'
+      Server:
+      - cloudflare
+      Vary:
+      - Content-Encoding
+      - accept-encoding
+      X-ORACLE-DMS-ECID:
+      - 64ded8df-1c62-41c1-b6b9-05e93d6845d5-0000518b
+      X-ORACLE-DMS-RID:
+      - '0'
+      cf-cache-status:
+      - DYNAMIC
+      content-length:
+      - '67202'
+    status:
+      code: 200
+      message: OK
+version: 1

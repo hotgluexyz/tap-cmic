@@ -7,15 +7,17 @@ A [Singer](https://www.singer.io/) tap that extracts data from **CMiC**. It is b
 - **REST**-style HTTP streams (see `client.py` / `streams.py`).
 - **Basic** authentication (`username` / `password`).
 
-- Configurable **`base_url`** and optional **`start_date`** (see [Configuration](#configuration)).
-- Incremental sync uses CMiC `finder` request parameters and bookmarks on synthetic `hg_modified_at`.
+- Configurable **`base_url`**, optional **`start_date`**, and optional **`comp_code`** (see [Configuration](#configuration)).
+- Incremental sync uses CMiC `finder` or `q` request parameters and bookmarks on synthetic `hg_modified_at`.
 
 ### Streams
 
 | Stream | Endpoint / notes | Primary key | Replication key |
 | ------ | ---------------- | ----------- | ----------------- |
+| `companies` | `GET /glrestapi/rest/v1/glcompany` | `CompVUuid` | `hg_modified_at` from `CompIuUpdateDate` / `CompIuCreateDate` |
 | `projects` | `GET /pm-rest-api/rest/1/pmproject` | `GrpmpVUuid` | `hg_modified_at` from `GrpmpIuUpdateDate` / `GrpmpIuCreateDate` |
 | `contracts` | `GET /pm-rest-api/rest/1/scmast` | `ScmstVUuid` | `hg_modified_at` from `ScmstIuUpdateDate` / `ScmstIuCreateDate` |
+| `vouchers` | `GET /ap-rest-api/rest/1/apallvouchers` | `VouNum` | `hg_modified_at` from `VouIuUpdateDate` / `VouIuCreateDate` |
 | `vendors` | `GET /ap-rest-api/rest/1/apvendor` | `BpvenVUuid` | `hg_modified_at` from `BpvenIuUpdateDate` / `BpvenIuCreateDate` |
 | `insurances` | `GET /ap-rest-api/rest/1/apinsurance` | `InsVUuid` | `hg_modified_at` from `InsIuUpdateDate` / `InsIuCreateDate` |
 
@@ -58,6 +60,8 @@ tap-cmic --help
 | `base_url` | string | yes | — | CMiC Basic Auth API base URL, without a trailing slash. See CMiC's [Cloud Web APP and API URLs](https://developers.cmicglobal.com/v1/docs/cloud-api-server-urls). |
 | `username` | string | yes | — | Account username. |
 | `password` | string | yes | — | Account password. |
+| `comp_code` | string | no | — | Optional CMiC company code (`CompCode`). When set, streams are scoped to that company via API `q` filters. |
+
 
 Run `tap-cmic --about` (or `tap-cmic --about --format=markdown`) for the authoritative schema for your installed version.
 
@@ -68,7 +72,8 @@ Run `tap-cmic --about` (or `tap-cmic --about --format=markdown`) for the authori
   "start_date": "2000-01-01T00:00:00Z",
   "base_url": "https://atlas-api.cmiccloud.com/cmicprod",
   "username": "YOUR_API_SERVICE_ACCOUNT",
-  "password": "YOUR_PASSWORD"
+  "password": "YOUR_PASSWORD",
+  "comp_code": "001"
 }
 ```
 

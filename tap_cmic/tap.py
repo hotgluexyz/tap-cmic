@@ -55,6 +55,12 @@ class TapCMiC(Tap):
             required=True,
             description="The CMiC password",
         ),
+        th.Property(
+            "comp_code",
+            th.StringType,
+            required=False,
+            description="Selected CMiC company code (CompCode)",
+        ),
     ).to_dict()
 
     @override
