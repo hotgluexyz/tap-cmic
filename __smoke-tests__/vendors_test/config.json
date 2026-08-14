@@ -1,5 +1,6 @@
 {
     "base_url": "https://partner-sandbox-api-basic.cmiccloud.com/cmicprtn",
-    "username": "CON***",
+    "client_id": "CON***",
+    "user_id": "BRI***",
     "password": "Con***"
 }

@@ -38,7 +38,7 @@ class CMiCStream(RESTStream):
         """
         return BasicAuthenticator(
             stream=self,
-            username=self.config["username"],
+            username=f"{self.config['client_id']}||{self.config['user_id']}",
             password=self.config["password"],
         )
 

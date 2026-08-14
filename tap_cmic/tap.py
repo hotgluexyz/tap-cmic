@@ -44,10 +44,16 @@ class TapCMiC(Tap):
             description="Base URL for the CMiC API",
         ),
         th.Property(
-            "username",
+            "client_id",
             th.StringType,
             required=True,
-            description="The CMiC username",
+            description="The CMiC Client ID",
+        ),
+        th.Property(
+            "user_id",
+            th.StringType,
+            required=True,
+            description="The CMiC User ID",
         ),
         th.Property(
             "password",
