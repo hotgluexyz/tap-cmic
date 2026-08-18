@@ -19,9 +19,13 @@ plugins:
 
     # TODO: Declare settings and their types here:
     settings:
-    - name: username
-      label: Username
-      description: The CMiC API service account username
+    - name: client_id
+      label: Client ID
+      description: The CMiC API service account Client ID
+
+    - name: user_id
+      label: User ID
+      description: The CMiC API service account User ID
 
     - name: password
       label: Password
@@ -39,7 +43,7 @@ plugins:
 
     # TODO: Declare required settings here:
     settings_group_validation:
-    - [base_url, username, password]
+    - [base_url, client_id, user_id, password]
 
     # TODO: Declare default configuration values here:
     config:

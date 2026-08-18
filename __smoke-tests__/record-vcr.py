@@ -39,7 +39,7 @@ class Runner(VCRTapTestRunner):
         "InsIuCreateDate",
         "InsCompCode",
     }
-    TOKEN_KEYS = {*VCRTapTestRunner.TOKEN_KEYS, "username"}
+    TOKEN_KEYS = {*VCRTapTestRunner.TOKEN_KEYS, "client_id", "user_id"}
 
     def module(self) -> str:
         return "tap_cmic.tap"

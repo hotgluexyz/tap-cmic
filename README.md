@@ -5,7 +5,7 @@ A [Singer](https://www.singer.io/) tap that extracts data from **CMiC**. It is b
 ## Features
 
 - **REST**-style HTTP streams (see `client.py` / `streams.py`).
-- **Basic** authentication (`username` / `password`).
+- **Basic** authentication (`client_id`||`user_id` / `password`).
 
 - Configurable **`base_url`**, optional **`start_date`**, and optional **`comp_code`** (see [Configuration](#configuration)).
 - Incremental sync uses CMiC `finder` or `q` request parameters and bookmarks on synthetic `hg_modified_at`.
@@ -58,7 +58,8 @@ tap-cmic --help
 | ------- | ---- | -------- | ------- | ----------- |
 | `start_date` | string (datetime) | no | `2000-01-01T00:00:00Z` | Earliest record date to sync. |
 | `base_url` | string | yes | — | CMiC Basic Auth API base URL, without a trailing slash. See CMiC's [Cloud Web APP and API URLs](https://developers.cmicglobal.com/v1/docs/cloud-api-server-urls). |
-| `username` | string | yes | — | Account username. |
+| `client_id`| string | yes | — | CMIC Client ID.   |
+| `user_id`  | string | yes | — | CMIC User ID.     |
 | `password` | string | yes | — | Account password. |
 | `comp_code` | string | no | — | Optional CMiC company code (`CompCode`). When set, streams are scoped to that company via API `q` filters. |
 
@@ -71,7 +72,8 @@ Run `tap-cmic --about` (or `tap-cmic --about --format=markdown`) for the authori
 {
   "start_date": "2000-01-01T00:00:00Z",
   "base_url": "https://atlas-api.cmiccloud.com/cmicprod",
-  "username": "YOUR_API_SERVICE_ACCOUNT",
+  "client_id": "Client_ID",
+  "user_id": "User_ID",
   "password": "YOUR_PASSWORD",
   "comp_code": "001"
 }
