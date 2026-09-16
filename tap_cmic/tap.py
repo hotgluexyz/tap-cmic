@@ -47,19 +47,32 @@ class TapCMiC(Tap):
             "client_id",
             th.StringType,
             required=True,
-            description="The CMiC Client ID",
+            description="CMiC tenant id (Basic) or Entra application (client) id (OAuth)",
         ),
         th.Property(
             "user_id",
             th.StringType,
-            required=True,
-            description="The CMiC User ID",
+            description="CMiC user id (Basic Auth)",
         ),
         th.Property(
             "password",
             th.StringType,
-            required=True,
-            description="The CMiC password",
+            description="CMiC password (Basic Auth)",
+        ),
+        th.Property(
+            "client_secret",
+            th.StringType,
+            description="Entra client secret (OAuth client credentials)",
+        ),
+        th.Property(
+            "tenant_id",
+            th.StringType,
+            description="Entra directory (tenant) id (OAuth)",
+        ),
+        th.Property(
+            "token_url",
+            th.StringType,
+            description="Entra OAuth token URL (OAuth); defaults from tenant_id",
         ),
         th.Property(
             "comp_code",

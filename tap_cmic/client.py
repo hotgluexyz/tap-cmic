@@ -5,9 +5,11 @@ from __future__ import annotations
 from typing import Any
 
 import requests
-from hotglue_singer_sdk.authenticators import BasicAuthenticator
+from hotglue_singer_sdk.authenticators import BasicAuthenticator, OAuthAuthenticator
 from hotglue_singer_sdk.streams import RESTStream
 from typing_extensions import override
+
+from tap_cmic.auth import CMiCOAuthAuthenticator
 
 
 class CMiCStream(RESTStream):
@@ -30,12 +32,10 @@ class CMiCStream(RESTStream):
 
     @override
     @property
-    def authenticator(self) -> BasicAuthenticator:
-        """Return a new authenticator object.
-
-        Returns:
-            An authenticator instance.
-        """
+    def authenticator(self) -> BasicAuthenticator | OAuthAuthenticator:
+        """Return Basic or OAuth authenticator based on config."""
+        if self.config.get("client_secret"):
+            return CMiCOAuthAuthenticator.create_for_stream(self)
         return BasicAuthenticator(
             stream=self,
             username=f"{self.config['client_id']}||{self.config['user_id']}",
