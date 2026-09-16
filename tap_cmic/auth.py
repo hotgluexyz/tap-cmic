@@ -15,9 +15,7 @@ def resolve_token_url(config: Mapping[str, Any]) -> str:
         return token_url
     tenant_id = config.get("tenant_id")
     if not tenant_id:
-        raise RuntimeError(
-            "tenant_id or token_url is required for OAuth client credentials."
-        )
+        raise RuntimeError("tenant_id or token_url is required for OAuth client credentials.")
     return f"https://login.microsoftonline.com/{tenant_id}/oauth2/v2.0/token"
 
 

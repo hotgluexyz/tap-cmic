@@ -329,9 +329,7 @@ def test_authenticator_basic_vs_oauth():
     oauth_stream = cast(CMiCStream, next(iter(oauth_tap.streams.values())))
     auth = oauth_stream.authenticator
     assert isinstance(auth, CMiCOAuthAuthenticator)
-    assert auth.auth_endpoint == (
-        "https://login.microsoftonline.com/tenant-id/oauth2/v2.0/token"
-    )
+    assert auth.auth_endpoint == ("https://login.microsoftonline.com/tenant-id/oauth2/v2.0/token")
     assert auth.oauth_request_body == {
         "grant_type": "client_credentials",
         "client_id": "app-id",
