@@ -2,8 +2,23 @@
 
 from __future__ import annotations
 
+from typing import Any, Mapping
+
 from hotglue_singer_sdk.authenticators import OAuthAuthenticator, SingletonMeta
 from hotglue_singer_sdk.streams import Stream as RESTStreamBase
+
+
+def resolve_token_url(config: Mapping[str, Any]) -> str:
+    """Return Entra token URL from config (`token_url` or `tenant_id`)."""
+    token_url = config.get("token_url")
+    if token_url:
+        return token_url
+    tenant_id = config.get("tenant_id")
+    if not tenant_id:
+        raise RuntimeError(
+            "tenant_id or token_url is required for OAuth client credentials."
+        )
+    return f"https://login.microsoftonline.com/{tenant_id}/oauth2/v2.0/token"
 
 
 class CMiCOAuthAuthenticator(OAuthAuthenticator, metaclass=SingletonMeta):
@@ -21,14 +36,4 @@ class CMiCOAuthAuthenticator(OAuthAuthenticator, metaclass=SingletonMeta):
 
     @classmethod
     def create_for_stream(cls, stream: RESTStreamBase) -> CMiCOAuthAuthenticator:
-        token_url = stream.config.get("token_url")
-        if not token_url:
-            tenant_id = stream.config.get("tenant_id")
-            if not tenant_id:
-                raise RuntimeError(
-                    "tenant_id or token_url is required for OAuth client credentials."
-                )
-            token_url = (
-                f"https://login.microsoftonline.com/{tenant_id}/oauth2/v2.0/token"
-            )
-        return cls(stream=stream, auth_endpoint=token_url)
+        return cls(stream=stream, auth_endpoint=resolve_token_url(stream.config))

@@ -6,6 +6,7 @@ from hotglue_singer_sdk import Stream, Tap
 from hotglue_singer_sdk import typing as th  # JSON schema typing helpers
 from typing_extensions import override
 
+from tap_cmic.auth import CMiCOAuthAuthenticator, resolve_token_url
 from tap_cmic.streams import (
     CompaniesStream,
     ContractsStream,
@@ -47,12 +48,12 @@ class TapCMiC(Tap):
             "client_id",
             th.StringType,
             required=True,
-            description="CMiC tenant id (Basic) or Entra application (client) id (OAuth)",
+            description="CMiC Client ID (Basic) or Entra application (client) id (OAuth)",
         ),
         th.Property(
             "user_id",
             th.StringType,
-            description="CMiC user id (Basic Auth)",
+            description="CMiC User ID (Basic Auth)",
         ),
         th.Property(
             "password",
@@ -62,7 +63,7 @@ class TapCMiC(Tap):
         th.Property(
             "client_secret",
             th.StringType,
-            description="Entra client secret (OAuth client credentials)",
+            description="Entra client secret (OAuth)",
         ),
         th.Property(
             "tenant_id",
@@ -72,7 +73,17 @@ class TapCMiC(Tap):
         th.Property(
             "token_url",
             th.StringType,
-            description="Entra OAuth token URL (OAuth); defaults from tenant_id",
+            description="Entra OAuth token URL (OAuth);",
+        ),
+        th.Property(
+            "access_token",
+            th.StringType,
+            description="OAuth access token",
+        ),
+        th.Property(
+            "scope",
+            th.StringType,
+            description="OAuth scope; defaults to api://{client_id}/.default",
         ),
         th.Property(
             "comp_code",
@@ -81,6 +92,13 @@ class TapCMiC(Tap):
             description="Selected CMiC company code (CompCode)",
         ),
     ).to_dict()
+
+    @classmethod
+    def access_token_support(cls, connector=None):
+        """Return authenticator class and auth endpoint for --access-token."""
+        if connector is None:
+            return CMiCOAuthAuthenticator, ""
+        return CMiCOAuthAuthenticator, resolve_token_url(connector.config)
 
     @override
     def discover_streams(self) -> list[Stream]:
