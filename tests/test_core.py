@@ -307,3 +307,32 @@ def test_vouchers_params_wrap_query_with_comp_code():
             f"(VouIuUpdateDate >= '{start_time}' or VouIuCreateDate >= '{start_time}')"
         ),
     }
+
+
+def test_authenticator_basic_vs_oauth():
+    """client_secret selects OAuth; otherwise Basic."""
+    from hotglue_singer_sdk.authenticators import BasicAuthenticator
+
+    from tap_cmic.auth import CMiCOAuthAuthenticator
+
+    basic_tap = TapCMiC(config=SAMPLE_CONFIG)
+    basic_stream = cast(CMiCStream, next(iter(basic_tap.streams.values())))
+    assert isinstance(basic_stream.authenticator, BasicAuthenticator)
+
+    oauth_config = {
+        "base_url": "https://example.com/cmicprtn",
+        "client_id": "app-id",
+        "client_secret": "secret",
+        "tenant_id": "tenant-id",
+    }
+    oauth_tap = TapCMiC(config=oauth_config)
+    oauth_stream = cast(CMiCStream, next(iter(oauth_tap.streams.values())))
+    auth = oauth_stream.authenticator
+    assert isinstance(auth, CMiCOAuthAuthenticator)
+    assert auth.auth_endpoint == ("https://login.microsoftonline.com/tenant-id/oauth2/v2.0/token")
+    assert auth.oauth_request_body == {
+        "grant_type": "client_credentials",
+        "client_id": "app-id",
+        "client_secret": "secret",
+        "scope": "api://app-id/.default",
+    }

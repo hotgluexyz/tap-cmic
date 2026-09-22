@@ -5,8 +5,7 @@ A [Singer](https://www.singer.io/) tap that extracts data from **CMiC**. It is b
 ## Features
 
 - **REST**-style HTTP streams (see `client.py` / `streams.py`).
-- **Basic** authentication (`client_id`||`user_id` / `password`).
-
+- **Basic** authentication (`client_id`||`user_id` / `password`) or **OAuth 2.0 client credentials** (Entra / Azure AD).
 - Configurable **`base_url`**, optional **`start_date`**, and optional **`comp_code`** (see [Configuration](#configuration)).
 - Incremental sync uses CMiC `finder` or `q` request parameters and bookmarks on synthetic `hg_modified_at`.
 
@@ -54,19 +53,28 @@ tap-cmic --help
 
 ## Configuration
 
+Auth mode is selected from config: if `client_secret` is set, the tap uses OAuth client credentials; otherwise Basic Auth.
+
+CMiC Cloud uses separate API hosts for Basic vs OAuth. Use the host that matches your auth mode. See CMiC's [Cloud Web APP and API URLs](https://developers.cmicglobal.com/v1/docs/cloud-api-server-urls).
+
 | Setting | Type | Required | Default | Description |
 | ------- | ---- | -------- | ------- | ----------- |
 | `start_date` | string (datetime) | no | `2000-01-01T00:00:00Z` | Earliest record date to sync. |
-| `base_url` | string | yes | — | CMiC Basic Auth API base URL, without a trailing slash. See CMiC's [Cloud Web APP and API URLs](https://developers.cmicglobal.com/v1/docs/cloud-api-server-urls). |
-| `client_id`| string | yes | — | CMIC Client ID.   |
-| `user_id`  | string | yes | — | CMIC User ID.     |
-| `password` | string | yes | — | Account password. |
+| `base_url` | string | yes | — | CMiC API base URL, without a trailing slash (Basic or OAuth host). |
+| `client_id` | string | yes | — | CMiC Client ID (Basic) or Entra application (client) ID (OAuth). |
+| `user_id` | string | Basic | — | CMiC User ID (Basic Auth). |
+| `password` | string | Basic | — | Account password (Basic Auth). |
+| `client_secret` | string | OAuth | — | Entra client secret. |
+| `tenant_id` | string | OAuth* | — | Entra directory (tenant) ID. |
+| `token_url` | string | OAuth* | `https://login.microsoftonline.com/{tenant_id}/oauth2/v2.0/token` | Entra token endpoint. Built from `tenant_id` when omitted. |
+| `scope` | string | no | `api://{client_id}/.default` | OAuth scope for client credentials. |
 | `comp_code` | string | no | — | Optional CMiC company code (`CompCode`). When set, streams are scoped to that company via API `q` filters. |
 
+\* OAuth requires `client_secret` plus either `tenant_id` or `token_url`.
 
 Run `tap-cmic --about` (or `tap-cmic --about --format=markdown`) for the authoritative schema for your installed version.
 
-### Example `config.json`
+### Example Basic Auth `config.json`
 
 ```json
 {
@@ -77,6 +85,25 @@ Run `tap-cmic --about` (or `tap-cmic --about --format=markdown`) for the authori
   "password": "YOUR_PASSWORD",
   "comp_code": "001"
 }
+```
+
+### Example OAuth `config.json`
+
+```json
+{
+  "start_date": "2000-01-01T00:00:00Z",
+  "base_url": "https://atlas-api-oauth.cmiccloud.com/cmicprod",
+  "client_id": "ENTRA_APPLICATION_CLIENT_ID",
+  "client_secret": "ENTRA_CLIENT_SECRET",
+  "tenant_id": "ENTRA_TENANT_ID",
+  "comp_code": "001"
+}
+```
+
+Mint or refresh a token into the config file:
+
+```bash
+tap-cmic --config config.json --access-token
 ```
 
 Do not commit real credentials. Prefer environment variables or a secrets manager in production.
