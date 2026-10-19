@@ -4,9 +4,11 @@ import datetime
 from typing import cast
 
 import pytest
+from dateutil.relativedelta import relativedelta
 from hotglue_singer_sdk.testing import get_standard_tap_tests
 
 from tap_cmic.client import CMiCStream
+from tap_cmic.streams import InsurancesStream
 from tap_cmic.tap import TapCMiC
 
 SAMPLE_CONFIG = {
@@ -56,26 +58,29 @@ def test_stream_params_match_cmic_definition():
 
 
 def test_insurances_stream_uses_query_filter_params():
-    """insurances uses q because CMiC rejects finder for this endpoint."""
+    """insurances uses monthly-bounded q because CMiC rejects finder for this endpoint."""
     tap = TapCMiC(config=SAMPLE_CONFIG)
     insurances = cast(
-        CMiCStream,
+        InsurancesStream,
         next(stream for stream in tap.streams.values() if stream.name == "insurances"),
     )
     insurances._write_starting_replication_value(None)
-    start_time = (
-        datetime.datetime.fromisoformat(SAMPLE_CONFIG["start_date"]).replace(
-            tzinfo=datetime.timezone.utc,
-        )
-        + datetime.timedelta(seconds=1)
-    ).strftime("%Y-%m-%dT%H:%M:%S%z")
+    start = datetime.datetime.fromisoformat(SAMPLE_CONFIG["start_date"]).replace(
+        tzinfo=datetime.timezone.utc,
+    ) + datetime.timedelta(seconds=1)
+    end = start + relativedelta(months=1)
+    window_start = start.strftime("%Y-%m-%dT%H:%M:%S%z")
+    window_end = end.strftime("%Y-%m-%dT%H:%M:%S%z")
 
     params = insurances.get_url_params(context=None, next_page_token=500)
 
     assert params == {
         "limit": 500,
         "offset": 500,
-        "q": (f"(InsIuUpdateDate >= '{start_time}' or InsIuCreateDate >= '{start_time}')"),
+        "q": (
+            f"((InsIuUpdateDate >= '{window_start}' and InsIuUpdateDate < '{window_end}') "
+            f"or (InsIuCreateDate >= '{window_start}' and InsIuCreateDate < '{window_end}'))"
+        ),
     }
 
 
@@ -258,16 +263,16 @@ def test_insurances_params_wrap_query_with_comp_code():
     """With comp_code, insurances wraps the query with InsCompCode."""
     tap = TapCMiC(config=SAMPLE_CONFIG_WITH_COMP_CODE)
     insurances = cast(
-        CMiCStream,
+        InsurancesStream,
         next(stream for stream in tap.streams.values() if stream.name == "insurances"),
     )
     insurances._write_starting_replication_value(None)
-    start_time = (
-        datetime.datetime.fromisoformat(SAMPLE_CONFIG_WITH_COMP_CODE["start_date"]).replace(
-            tzinfo=datetime.timezone.utc,
-        )
-        + datetime.timedelta(seconds=1)
-    ).strftime("%Y-%m-%dT%H:%M:%S%z")
+    start = datetime.datetime.fromisoformat(
+        SAMPLE_CONFIG_WITH_COMP_CODE["start_date"],
+    ).replace(tzinfo=datetime.timezone.utc) + datetime.timedelta(seconds=1)
+    end = start + relativedelta(months=1)
+    window_start = start.strftime("%Y-%m-%dT%H:%M:%S%z")
+    window_end = end.strftime("%Y-%m-%dT%H:%M:%S%z")
 
     params = insurances.get_url_params(context=None, next_page_token=500)
 
@@ -276,10 +281,31 @@ def test_insurances_params_wrap_query_with_comp_code():
         "offset": 500,
         "q": (
             f"InsCompCode = '{SAMPLE_CONFIG_WITH_COMP_CODE['comp_code']}' and "
-            f"((InsIuUpdateDate >= '{start_time}' "
-            f"or InsIuCreateDate >= '{start_time}'))"
+            f"(((InsIuUpdateDate >= '{window_start}' and InsIuUpdateDate < '{window_end}') "
+            f"or (InsIuCreateDate >= '{window_start}' and InsIuCreateDate < '{window_end}')))"
         ),
     }
+
+
+def test_insurances_post_process_dedupes_by_pk():
+    """Cross-window OR hits are skipped after the first InsVUuid."""
+    tap = TapCMiC(config=SAMPLE_CONFIG)
+    insurances = cast(
+        InsurancesStream,
+        next(stream for stream in tap.streams.values() if stream.name == "insurances"),
+    )
+    row = {
+        "InsVUuid": "pk-1",
+        "InsIuCreateDate": "2024-01-01T00:00:00Z",
+        "InsIuUpdateDate": "2024-02-01T00:00:00Z",
+    }
+
+    first = insurances.post_process(dict(row))
+    second = insurances.post_process(dict(row))
+
+    assert first is not None
+    assert first["hg_modified_at"] == "2024-02-01T00:00:00Z"
+    assert second is None
 
 
 def test_vouchers_params_wrap_query_with_comp_code():
