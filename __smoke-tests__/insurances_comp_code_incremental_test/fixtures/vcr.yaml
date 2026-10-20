@@ -11,96 +11,95 @@ interactions:
       User-Agent:
       - python-requests/2.33.1
     method: GET
-    uri: https://partner-sandbox-api-basic.cmiccloud.com/cmicprtn/ap-rest-api/rest/1/apinsurance?limit=500&q=InsCompCode+%3D+%27001%27+and+%28%28InsIuUpdateDate+%3E%3D+%272026-08-03T14%3A57%3A25-0400%27+or+InsIuCreateDate+%3E%3D+%272026-08-03T14%3A57%3A25-0400%27%29%29
+    uri: https://partner-sandbox-api-basic.cmiccloud.com/cmicprtn/ap-rest-api/rest/1/apinsurance?limit=500&q=InsCompCode+%3D+%27001%27+and+%28%28%28InsIuUpdateDate+%3E%3D+%272026-08-03T14%3A57%3A25-0400%27+and+InsIuUpdateDate+%3C+%272026-09-03T14%3A57%3A25-0400%27%29+or+%28InsIuCreateDate+%3E%3D+%272026-08-03T14%3A57%3A25-0400%27+and+InsIuCreateDate+%3C+%272026-09-03T14%3A57%3A25-0400%27%29%29%29
   response:
     body:
-      string: '{"items": [{"InsAmt": null, "InsCPoAutoAssignFlag": "-Fallback-scrubbed-U",
-        "InsCScAutoAssignFlag": "-Fallback-scrubbed-c", "InsCertLoc": null, "InsCertNum":
-        "-Fallback-scrubbed-J", "InsCompCode": "001", "InsComplType": "-Fallback-scrubbed-zcF",
-        "InsComplianceFlag": "-Fallback-scrubbed-c", "InsCoverTypeCode": "COI", "InsCoverTypeDesc":
-        "-Fallback-scrubbed-oDooPBmcMDjKhJLIFTNUhpax", "InsDateComplianceFlag": "-Fallback-scrubbed-c",
-        "InsDateSensitiveFlag": "-Fallback-scrubbed-c", "InsDeleteFlag": "-Fallback-scrubbed-c",
-        "InsEndDate": "-Fallback-scrubbed-RBsodgVNxO", "InsInscompCode": "-Fallback-scrubbed-J",
-        "InsInscompName": "-Fallback-scrubbed-ruNXKukZjPwemW", "InsNotesFlag": null,
-        "InsPoAutoAssignFlag": "-Fallback-scrubbed-U", "InsPoNum": null, "InsPoReleaseNum":
-        null, "InsScAutoAssignFlag": "-Fallback-scrubbed-U", "InsScContCode": null,
-        "InsScJobCode": null, "InsStartDate": "-Fallback-scrubbed-bmmhunJbWJ", "InsUpdateDate":
-        null, "InsUpdateFlag": "-Fallback-scrubbed-c", "InsUpdateUser": null, "InsVUuid":
-        "583C35F2C021AC24E06331121DAC9F3F", "InsVenCode": "-Fallback-scrubbed-wtEpmvF",
-        "InsVouNum": 4455, "InsVouRemitDesc": null, "OrigCertNum": "-Fallback-scrubbed-J",
-        "OrigInscompCode": "-Fallback-scrubbed-J", "InsApriVUuid": null, "InsApriInvCode":
+      string: '{"items": [{"InsAmt": null, "InsCPoAutoAssignFlag": "-Fallback-scrubbed-i",
+        "InsCScAutoAssignFlag": "-Fallback-scrubbed-E", "InsCertLoc": null, "InsCertNum":
+        "-Fallback-scrubbed-Y", "InsCompCode": "001", "InsComplType": "-Fallback-scrubbed-lOH",
+        "InsComplianceFlag": "-Fallback-scrubbed-E", "InsCoverTypeCode": "COI", "InsCoverTypeDesc":
+        "-Fallback-scrubbed-vPcNJAwRZESDssjSNPkehSiD", "InsDateComplianceFlag": "-Fallback-scrubbed-E",
+        "InsDateSensitiveFlag": "-Fallback-scrubbed-E", "InsDeleteFlag": "-Fallback-scrubbed-E",
+        "InsEndDate": "1992-06-24", "InsInscompCode": "-Fallback-scrubbed-Y", "InsInscompName":
+        "-Fallback-scrubbed-vBKckBfYkSnFlp", "InsNotesFlag": null, "InsPoAutoAssignFlag":
+        "-Fallback-scrubbed-i", "InsPoNum": null, "InsPoReleaseNum": null, "InsScAutoAssignFlag":
+        "-Fallback-scrubbed-i", "InsScContCode": null, "InsScJobCode": null, "InsStartDate":
+        "2000-07-27", "InsUpdateDate": null, "InsUpdateFlag": "-Fallback-scrubbed-E",
+        "InsUpdateUser": null, "InsVUuid": "583C35F2C021AC24E06331121DAC9F3F", "InsVenCode":
+        "-Fallback-scrubbed-SwBXyUE", "InsVouNum": 6956, "InsVouRemitDesc": null,
+        "OrigCertNum": "-Fallback-scrubbed-Y", "OrigInscompCode": "-Fallback-scrubbed-Y",
+        "InsApriVUuid": null, "InsApriInvCode": null, "InsIuCreateDate": "2026-08-04T12:33:11-04:00",
+        "InsIuUpdateDate": null, "InsUpdateVoucher": "-Fallback-scrubbed-i", "links":
+        [{"rel": "-Fallback-scrubbed-LFEC", "href": "-Fallback-scrubbed-BIjcGaZSEHriUsrOKFZVnEFdmROriWjzgFpTnlEuBYRaqpuxkjIwZxSXiTPiBgOtutSmKRkmOIQOUlXjOlwNAeePDhSwNXEcfMZZPzqVOVWKSyRXmNqJzWsIhP",
+        "name": "Fake-Javier Singh", "kind": "-Fallback-scrubbed-nNdb"}, {"rel": "-Fallback-scrubbed-tCksDpasM",
+        "href": "-Fallback-scrubbed-BIjcGaZSEHriUsrOKFZVnEFdmROriWjzgFpTnlEuBYRaqpuxkjIwZxSXiTPiBgOtutSmKRkmOIQOUlXjOlwNAeePDhSwNXEcfMZZPzqVOVWKSyRXmNqJzWsIhP",
+        "name": "Fake-Javier Singh", "kind": "-Fallback-scrubbed-nNdb"}]}, {"InsAmt":
+        null, "InsCPoAutoAssignFlag": "-Fallback-scrubbed-i", "InsCScAutoAssignFlag":
+        "-Fallback-scrubbed-E", "InsCertLoc": null, "InsCertNum": "-Fallback-scrubbed-Y",
+        "InsCompCode": "001", "InsComplType": "-Fallback-scrubbed-lOH", "InsComplianceFlag":
+        "-Fallback-scrubbed-i", "InsCoverTypeCode": "EXECUTE", "InsCoverTypeDesc":
+        "-Fallback-scrubbed-rKhNQhKGcEoYBUuXUAQNE", "InsDateComplianceFlag": "-Fallback-scrubbed-i",
+        "InsDateSensitiveFlag": "-Fallback-scrubbed-i", "InsDeleteFlag": "-Fallback-scrubbed-E",
+        "InsEndDate": null, "InsInscompCode": "-Fallback-scrubbed-Y", "InsInscompName":
+        "-Fallback-scrubbed-vBKckBfYkSnFlp", "InsNotesFlag": null, "InsPoAutoAssignFlag":
+        "-Fallback-scrubbed-i", "InsPoNum": null, "InsPoReleaseNum": null, "InsScAutoAssignFlag":
+        "-Fallback-scrubbed-i", "InsScContCode": null, "InsScJobCode": null, "InsStartDate":
+        null, "InsUpdateDate": null, "InsUpdateFlag": "-Fallback-scrubbed-E", "InsUpdateUser":
+        null, "InsVUuid": "583C35F2C022AC24E06331121DAC9F3F", "InsVenCode": "-Fallback-scrubbed-SwBXyUE",
+        "InsVouNum": 6956, "InsVouRemitDesc": null, "OrigCertNum": "-Fallback-scrubbed-Y",
+        "OrigInscompCode": "-Fallback-scrubbed-Y", "InsApriVUuid": null, "InsApriInvCode":
         null, "InsIuCreateDate": "2026-08-04T12:33:11-04:00", "InsIuUpdateDate": null,
-        "InsUpdateVoucher": "-Fallback-scrubbed-U", "links": [{"rel": "-Fallback-scrubbed-ppqf",
-        "href": "-Fallback-scrubbed-wPBmrQleFDIuLXPDjGUmrprUeoWvBjBkkTGMqsZCzJWxpEBCAvKMneHDqYrXsIqKbDfDdmGCjBmMtDXYNJuoDkkgsJBVgFCrpJuWhscUvdthtaagZEWNnkfnvL",
-        "name": "Sarah Preston", "kind": "-Fallback-scrubbed-Qasz"}, {"rel": "-Fallback-scrubbed-lxwGBUosm",
-        "href": "-Fallback-scrubbed-wPBmrQleFDIuLXPDjGUmrprUeoWvBjBkkTGMqsZCzJWxpEBCAvKMneHDqYrXsIqKbDfDdmGCjBmMtDXYNJuoDkkgsJBVgFCrpJuWhscUvdthtaagZEWNnkfnvL",
-        "name": "Sarah Preston", "kind": "-Fallback-scrubbed-Qasz"}]}, {"InsAmt":
-        null, "InsCPoAutoAssignFlag": "-Fallback-scrubbed-U", "InsCScAutoAssignFlag":
-        "-Fallback-scrubbed-c", "InsCertLoc": null, "InsCertNum": "-Fallback-scrubbed-J",
-        "InsCompCode": "001", "InsComplType": "-Fallback-scrubbed-zcF", "InsComplianceFlag":
-        "-Fallback-scrubbed-U", "InsCoverTypeCode": "EXECUTE", "InsCoverTypeDesc":
-        "-Fallback-scrubbed-rpZnqLPMyVwYTEAQSMfAk", "InsDateComplianceFlag": "-Fallback-scrubbed-U",
-        "InsDateSensitiveFlag": "-Fallback-scrubbed-U", "InsDeleteFlag": "-Fallback-scrubbed-c",
-        "InsEndDate": null, "InsInscompCode": "-Fallback-scrubbed-J", "InsInscompName":
-        "-Fallback-scrubbed-ruNXKukZjPwemW", "InsNotesFlag": null, "InsPoAutoAssignFlag":
-        "-Fallback-scrubbed-U", "InsPoNum": null, "InsPoReleaseNum": null, "InsScAutoAssignFlag":
-        "-Fallback-scrubbed-U", "InsScContCode": null, "InsScJobCode": null, "InsStartDate":
-        null, "InsUpdateDate": null, "InsUpdateFlag": "-Fallback-scrubbed-c", "InsUpdateUser":
-        null, "InsVUuid": "583C35F2C022AC24E06331121DAC9F3F", "InsVenCode": "-Fallback-scrubbed-wtEpmvF",
-        "InsVouNum": 4455, "InsVouRemitDesc": null, "OrigCertNum": "-Fallback-scrubbed-J",
-        "OrigInscompCode": "-Fallback-scrubbed-J", "InsApriVUuid": null, "InsApriInvCode":
-        null, "InsIuCreateDate": "2026-08-04T12:33:11-04:00", "InsIuUpdateDate": null,
-        "InsUpdateVoucher": "-Fallback-scrubbed-U", "links": [{"rel": "-Fallback-scrubbed-ppqf",
-        "href": "-Fallback-scrubbed-aIMKSSLngGFoVXIoogQuAQlabEgiQQyyeNKalNoPNfbVtRphUJAqnoqAlVIOiOSIfhZgGtLjgeQdwKNEmcyeUvmAccVFBzrmiRQqMQegdnbuYJskfSmwOEPvKp",
-        "name": "Sarah Preston", "kind": "-Fallback-scrubbed-Qasz"}, {"rel": "-Fallback-scrubbed-lxwGBUosm",
-        "href": "-Fallback-scrubbed-aIMKSSLngGFoVXIoogQuAQlabEgiQQyyeNKalNoPNfbVtRphUJAqnoqAlVIOiOSIfhZgGtLjgeQdwKNEmcyeUvmAccVFBzrmiRQqMQegdnbuYJskfSmwOEPvKp",
-        "name": "Sarah Preston", "kind": "-Fallback-scrubbed-Qasz"}]}, {"InsAmt":
-        null, "InsCPoAutoAssignFlag": "-Fallback-scrubbed-U", "InsCScAutoAssignFlag":
-        "-Fallback-scrubbed-c", "InsCertLoc": null, "InsCertNum": "-Fallback-scrubbed-J",
-        "InsCompCode": "001", "InsComplType": "-Fallback-scrubbed-zcF", "InsComplianceFlag":
-        "-Fallback-scrubbed-U", "InsCoverTypeCode": "LW", "InsCoverTypeDesc": "-Fallback-scrubbed-wIUfsghuXNE",
-        "InsDateComplianceFlag": "-Fallback-scrubbed-U", "InsDateSensitiveFlag": "-Fallback-scrubbed-U",
-        "InsDeleteFlag": "-Fallback-scrubbed-c", "InsEndDate": null, "InsInscompCode":
-        "-Fallback-scrubbed-J", "InsInscompName": "-Fallback-scrubbed-ruNXKukZjPwemW",
-        "InsNotesFlag": null, "InsPoAutoAssignFlag": "-Fallback-scrubbed-U", "InsPoNum":
-        null, "InsPoReleaseNum": null, "InsScAutoAssignFlag": "-Fallback-scrubbed-U",
+        "InsUpdateVoucher": "-Fallback-scrubbed-i", "links": [{"rel": "-Fallback-scrubbed-LFEC",
+        "href": "-Fallback-scrubbed-QXcotavHWHwYMfonSkofcYvHxnkQcJIVkVFUvIzuiUHVGIEPXjcIQGmlcMYtgRdJrRNUwGzsdwDsnCnQDccHLjbBsxjgMTABQpwALuqNZIxyOygAUOcReBIcJQ",
+        "name": "Fake-Javier Singh", "kind": "-Fallback-scrubbed-nNdb"}, {"rel": "-Fallback-scrubbed-tCksDpasM",
+        "href": "-Fallback-scrubbed-QXcotavHWHwYMfonSkofcYvHxnkQcJIVkVFUvIzuiUHVGIEPXjcIQGmlcMYtgRdJrRNUwGzsdwDsnCnQDccHLjbBsxjgMTABQpwALuqNZIxyOygAUOcReBIcJQ",
+        "name": "Fake-Javier Singh", "kind": "-Fallback-scrubbed-nNdb"}]}, {"InsAmt":
+        null, "InsCPoAutoAssignFlag": "-Fallback-scrubbed-i", "InsCScAutoAssignFlag":
+        "-Fallback-scrubbed-E", "InsCertLoc": null, "InsCertNum": "-Fallback-scrubbed-Y",
+        "InsCompCode": "001", "InsComplType": "-Fallback-scrubbed-lOH", "InsComplianceFlag":
+        "-Fallback-scrubbed-i", "InsCoverTypeCode": "LW", "InsCoverTypeDesc": "-Fallback-scrubbed-TdCNYoneYNu",
+        "InsDateComplianceFlag": "-Fallback-scrubbed-i", "InsDateSensitiveFlag": "-Fallback-scrubbed-i",
+        "InsDeleteFlag": "-Fallback-scrubbed-E", "InsEndDate": null, "InsInscompCode":
+        "-Fallback-scrubbed-Y", "InsInscompName": "-Fallback-scrubbed-vBKckBfYkSnFlp",
+        "InsNotesFlag": null, "InsPoAutoAssignFlag": "-Fallback-scrubbed-i", "InsPoNum":
+        null, "InsPoReleaseNum": null, "InsScAutoAssignFlag": "-Fallback-scrubbed-i",
         "InsScContCode": null, "InsScJobCode": null, "InsStartDate": null, "InsUpdateDate":
-        null, "InsUpdateFlag": "-Fallback-scrubbed-c", "InsUpdateUser": null, "InsVUuid":
-        "583C35F2C023AC24E06331121DAC9F3F", "InsVenCode": "-Fallback-scrubbed-wtEpmvF",
-        "InsVouNum": 4455, "InsVouRemitDesc": null, "OrigCertNum": "-Fallback-scrubbed-J",
-        "OrigInscompCode": "-Fallback-scrubbed-J", "InsApriVUuid": null, "InsApriInvCode":
+        null, "InsUpdateFlag": "-Fallback-scrubbed-E", "InsUpdateUser": null, "InsVUuid":
+        "583C35F2C023AC24E06331121DAC9F3F", "InsVenCode": "-Fallback-scrubbed-SwBXyUE",
+        "InsVouNum": 6956, "InsVouRemitDesc": null, "OrigCertNum": "-Fallback-scrubbed-Y",
+        "OrigInscompCode": "-Fallback-scrubbed-Y", "InsApriVUuid": null, "InsApriInvCode":
         null, "InsIuCreateDate": "2026-08-04T12:33:11-04:00", "InsIuUpdateDate": null,
-        "InsUpdateVoucher": "-Fallback-scrubbed-U", "links": [{"rel": "-Fallback-scrubbed-ppqf",
-        "href": "-Fallback-scrubbed-mkhaObHByALrtsPkeVtmoKjTFXCnEpJhcUDcTgmHJeSEURNJuWBvoZALURYyIhKmlJLfgYJAuYDraPkhgCtaaLeJeAinobBCcEvIMzpLPmqHUXlkkogKSnzLBA",
-        "name": "Sarah Preston", "kind": "-Fallback-scrubbed-Qasz"}, {"rel": "-Fallback-scrubbed-lxwGBUosm",
-        "href": "-Fallback-scrubbed-mkhaObHByALrtsPkeVtmoKjTFXCnEpJhcUDcTgmHJeSEURNJuWBvoZALURYyIhKmlJLfgYJAuYDraPkhgCtaaLeJeAinobBCcEvIMzpLPmqHUXlkkogKSnzLBA",
-        "name": "Sarah Preston", "kind": "-Fallback-scrubbed-Qasz"}]}, {"InsAmt":
-        null, "InsCPoAutoAssignFlag": "-Fallback-scrubbed-U", "InsCScAutoAssignFlag":
-        "-Fallback-scrubbed-c", "InsCertLoc": null, "InsCertNum": "-Fallback-scrubbed-J",
-        "InsCompCode": "001", "InsComplType": "-Fallback-scrubbed-zcF", "InsComplianceFlag":
-        "-Fallback-scrubbed-U", "InsCoverTypeCode": "CLOSEDOC", "InsCoverTypeDesc":
-        "-Fallback-scrubbed-ldAJNkABVkJPdaLKVJ", "InsDateComplianceFlag": "-Fallback-scrubbed-U",
-        "InsDateSensitiveFlag": "-Fallback-scrubbed-U", "InsDeleteFlag": "-Fallback-scrubbed-c",
-        "InsEndDate": null, "InsInscompCode": "-Fallback-scrubbed-J", "InsInscompName":
-        "-Fallback-scrubbed-ruNXKukZjPwemW", "InsNotesFlag": null, "InsPoAutoAssignFlag":
-        "-Fallback-scrubbed-U", "InsPoNum": null, "InsPoReleaseNum": null, "InsScAutoAssignFlag":
-        "-Fallback-scrubbed-U", "InsScContCode": null, "InsScJobCode": null, "InsStartDate":
-        null, "InsUpdateDate": null, "InsUpdateFlag": "-Fallback-scrubbed-c", "InsUpdateUser":
-        null, "InsVUuid": "583C35F2C024AC24E06331121DAC9F3F", "InsVenCode": "-Fallback-scrubbed-wtEpmvF",
-        "InsVouNum": 4455, "InsVouRemitDesc": null, "OrigCertNum": "-Fallback-scrubbed-J",
-        "OrigInscompCode": "-Fallback-scrubbed-J", "InsApriVUuid": null, "InsApriInvCode":
+        "InsUpdateVoucher": "-Fallback-scrubbed-i", "links": [{"rel": "-Fallback-scrubbed-LFEC",
+        "href": "-Fallback-scrubbed-McsBiNOEiiPtbwzqGEXQJfRwFxfpPjCzQZDOJApCBanbCsqDRpzTOswnWbzNDmBZLwGVYWZDXWuIclSouJuohwEWvMGBADZETFWILkRPPWBZtQgoSGbzCrRNlE",
+        "name": "Fake-Javier Singh", "kind": "-Fallback-scrubbed-nNdb"}, {"rel": "-Fallback-scrubbed-tCksDpasM",
+        "href": "-Fallback-scrubbed-McsBiNOEiiPtbwzqGEXQJfRwFxfpPjCzQZDOJApCBanbCsqDRpzTOswnWbzNDmBZLwGVYWZDXWuIclSouJuohwEWvMGBADZETFWILkRPPWBZtQgoSGbzCrRNlE",
+        "name": "Fake-Javier Singh", "kind": "-Fallback-scrubbed-nNdb"}]}, {"InsAmt":
+        null, "InsCPoAutoAssignFlag": "-Fallback-scrubbed-i", "InsCScAutoAssignFlag":
+        "-Fallback-scrubbed-E", "InsCertLoc": null, "InsCertNum": "-Fallback-scrubbed-Y",
+        "InsCompCode": "001", "InsComplType": "-Fallback-scrubbed-lOH", "InsComplianceFlag":
+        "-Fallback-scrubbed-i", "InsCoverTypeCode": "CLOSEDOC", "InsCoverTypeDesc":
+        "-Fallback-scrubbed-ZyArfstmbFoXfbRPFc", "InsDateComplianceFlag": "-Fallback-scrubbed-i",
+        "InsDateSensitiveFlag": "-Fallback-scrubbed-i", "InsDeleteFlag": "-Fallback-scrubbed-E",
+        "InsEndDate": null, "InsInscompCode": "-Fallback-scrubbed-Y", "InsInscompName":
+        "-Fallback-scrubbed-vBKckBfYkSnFlp", "InsNotesFlag": null, "InsPoAutoAssignFlag":
+        "-Fallback-scrubbed-i", "InsPoNum": null, "InsPoReleaseNum": null, "InsScAutoAssignFlag":
+        "-Fallback-scrubbed-i", "InsScContCode": null, "InsScJobCode": null, "InsStartDate":
+        null, "InsUpdateDate": null, "InsUpdateFlag": "-Fallback-scrubbed-E", "InsUpdateUser":
+        null, "InsVUuid": "583C35F2C024AC24E06331121DAC9F3F", "InsVenCode": "-Fallback-scrubbed-SwBXyUE",
+        "InsVouNum": 6956, "InsVouRemitDesc": null, "OrigCertNum": "-Fallback-scrubbed-Y",
+        "OrigInscompCode": "-Fallback-scrubbed-Y", "InsApriVUuid": null, "InsApriInvCode":
         null, "InsIuCreateDate": "2026-08-04T12:33:11-04:00", "InsIuUpdateDate": null,
-        "InsUpdateVoucher": "-Fallback-scrubbed-U", "links": [{"rel": "-Fallback-scrubbed-ppqf",
-        "href": "-Fallback-scrubbed-jzNwLmMkmvisVKRvvNFBySAYsKJChSWXVeBpQFBpaVoCGNwTVJlnqmdXIeseYXfWvpivdEisQgnQTOMHiJGLWXNytnWMJaMamtMWeJpWwwIjItfSNQrElCKDCz",
-        "name": "Sarah Preston", "kind": "-Fallback-scrubbed-Qasz"}, {"rel": "-Fallback-scrubbed-lxwGBUosm",
-        "href": "-Fallback-scrubbed-jzNwLmMkmvisVKRvvNFBySAYsKJChSWXVeBpQFBpaVoCGNwTVJlnqmdXIeseYXfWvpivdEisQgnQTOMHiJGLWXNytnWMJaMamtMWeJpWwwIjItfSNQrElCKDCz",
-        "name": "Sarah Preston", "kind": "-Fallback-scrubbed-Qasz"}]}], "count": 4810,
-        "hasMore": false, "limit": 6856, "offset": 2398, "links": [{"rel": "-Fallback-scrubbed-ppqf",
-        "href": "-Fallback-scrubbed-LqZGjhogFDAzZIpVkewellTwaoTpgxjBXtHMZdxOpUtXxHTLqfDrFwKYQBJEQJbpJXeTOlwTtOnZScErhiKSHAkMe",
-        "name": "Sarah Preston", "kind": "-Fallback-scrubbed-YcoJrcMVFZ"}]}'
+        "InsUpdateVoucher": "-Fallback-scrubbed-i", "links": [{"rel": "-Fallback-scrubbed-LFEC",
+        "href": "-Fallback-scrubbed-xxAVYuKFGZHpwAyxJUMVLWOWDNaHrJxBuKKWGLHjvfspzFvsSmfwGHeMKftlNlWmvOWpMAaQjeufDTZTxUKwtqyyNqEMnmisbImlBIRgCODIlqNrqgIdeCfeJl",
+        "name": "Fake-Javier Singh", "kind": "-Fallback-scrubbed-nNdb"}, {"rel": "-Fallback-scrubbed-tCksDpasM",
+        "href": "-Fallback-scrubbed-xxAVYuKFGZHpwAyxJUMVLWOWDNaHrJxBuKKWGLHjvfspzFvsSmfwGHeMKftlNlWmvOWpMAaQjeufDTZTxUKwtqyyNqEMnmisbImlBIRgCODIlqNrqgIdeCfeJl",
+        "name": "Fake-Javier Singh", "kind": "-Fallback-scrubbed-nNdb"}]}], "count":
+        491, "hasMore": false, "limit": 6610, "offset": 4632, "links": [{"rel": "-Fallback-scrubbed-LFEC",
+        "href": "-Fallback-scrubbed-AccdUhaIZgHlergVmgRfDzpgahVlPdZfLYUuIJlILUitjyskeyaMizLlnOfQrlVISKRcYwjURCFtKXgssIDPdMozA",
+        "name": "Fake-Javier Singh", "kind": "-Fallback-scrubbed-CmMQsyszel"}]}'
     headers:
       CF-RAY:
-      - a2a12c671af097d0-GRU
+      - a4d8ba3ca87cc50d-GRU
       Cache-Control:
       - no-cache, no-store, must-revalidate
       Connection:
@@ -108,7 +107,7 @@ interactions:
       Content-Type:
       - application/vnd.oracle.adf.resourcecollection+json
       Date:
-      - Wed, 12 Aug 2026 17:24:25 GMT
+      - Tue, 20 Oct 2026 14:31:40 GMT
       Link:
       - <http://partner-sandbox-api-basic.cmiccloud.com:80/cmicprtn/ap-rest-api/rest/1/apinsurance>;rel="self";kind="collection";name="apinsurance"
       Location:
@@ -117,17 +116,142 @@ interactions:
       - '2'
       Server:
       - cloudflare
+      Server-Timing:
+      - dtTrId;desc="c3404e8663146ac7feb895259a84396d", dtRpid;desc="-1813470736",
+        dtSInfo;desc="0"
       Vary:
       - Content-Encoding
       - accept-encoding
       X-ORACLE-DMS-ECID:
-      - 93bfa666-0ec6-4f7c-a5b3-cbd0ad64c7a6-00003788
+      - b7dfd916-e0e0-49b3-8b24-6ecf2a6cc8aa-00004ada
       X-ORACLE-DMS-RID:
       - '0'
+      X-OneAgent-JS-Injection:
+      - 'true'
       cf-cache-status:
       - DYNAMIC
       content-length:
       - '6900'
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Cookie:
+      - __cf_bm=4uOyTBEt7vY_L2YtjB0X.PG8e4_Hb5ZoY8QCDgbC0Hs-1792506700.2691596-1.0.1.1-EbLksW0tUDqdG3VvF9PSQ_K_idusMtS6Hc8Y0ub9nn3QkaVDuOCPAjhMONge4Rd3PltYh1F9AuoW9qJgFFuxxebbSvVghLq8GK9vaiea.n_af67zBkaGnJJtE5TdFc9j;
+        dtCookie=v_4_srv_9_sn_6204C8EE8113082FB3FA5B924B242CDE_perc_100000_ol_0_mul_1_app-3Aea7c4b59f27d43eb_1;
+        cmicprtn_MOB=zwlZuaJB9xE9qGI720eJXON47a1NK1jTL7Mv-mSon6Ym9qyQxtVv!985436381
+      User-Agent:
+      - python-requests/2.33.1
+    method: GET
+    uri: https://partner-sandbox-api-basic.cmiccloud.com/cmicprtn/ap-rest-api/rest/1/apinsurance?limit=500&q=InsCompCode+%3D+%27001%27+and+%28%28%28InsIuUpdateDate+%3E%3D+%272026-09-03T14%3A57%3A25-0400%27+and+InsIuUpdateDate+%3C+%272026-10-03T14%3A57%3A25-0400%27%29+or+%28InsIuCreateDate+%3E%3D+%272026-09-03T14%3A57%3A25-0400%27+and+InsIuCreateDate+%3C+%272026-10-03T14%3A57%3A25-0400%27%29%29%29
+  response:
+    body:
+      string: '{"items": [], "count": 4632, "hasMore": false, "limit": 6610, "offset":
+        4632, "links": [{"rel": "-Fallback-scrubbed-LFEC", "href": "-Fallback-scrubbed-AccdUhaIZgHlergVmgRfDzpgahVlPdZfLYUuIJlILUitjyskeyaMizLlnOfQrlVISKRcYwjURCFtKXgssIDPdMozA",
+        "name": "Fake-Javier Singh", "kind": "-Fallback-scrubbed-CmMQsyszel"}]}'
+    headers:
+      CF-RAY:
+      - a4d8ba3e8d29f214-GRU
+      Cache-Control:
+      - no-cache, no-store, must-revalidate
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/vnd.oracle.adf.resourcecollection+json
+      Date:
+      - Tue, 20 Oct 2026 14:31:40 GMT
+      Link:
+      - <http://partner-sandbox-api-basic.cmiccloud.com:80/cmicprtn/ap-rest-api/rest/1/apinsurance>;rel="self";kind="collection";name="apinsurance"
+      Location:
+      - ''
+      REST-Framework-Version:
+      - '2'
+      Server:
+      - cloudflare
+      Server-Timing:
+      - dtTrId;desc="08518122e436c5a233559827946e0882", dtRpid;desc="-705671236",
+        dtSInfo;desc="0"
+      Vary:
+      - Content-Encoding
+      - accept-encoding
+      X-ORACLE-DMS-ECID:
+      - b7dfd916-e0e0-49b3-8b24-6ecf2a6cc8aa-00004adb
+      X-ORACLE-DMS-RID:
+      - '0'
+      X-OneAgent-JS-Injection:
+      - 'true'
+      cf-cache-status:
+      - DYNAMIC
+      content-length:
+      - '291'
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Cookie:
+      - __cf_bm=4uOyTBEt7vY_L2YtjB0X.PG8e4_Hb5ZoY8QCDgbC0Hs-1792506700.2691596-1.0.1.1-EbLksW0tUDqdG3VvF9PSQ_K_idusMtS6Hc8Y0ub9nn3QkaVDuOCPAjhMONge4Rd3PltYh1F9AuoW9qJgFFuxxebbSvVghLq8GK9vaiea.n_af67zBkaGnJJtE5TdFc9j;
+        dtCookie=v_4_srv_9_sn_6204C8EE8113082FB3FA5B924B242CDE_perc_100000_ol_0_mul_1_app-3Aea7c4b59f27d43eb_1;
+        cmicprtn_MOB=zwlZuaJB9xE9qGI720eJXON47a1NK1jTL7Mv-mSon6Ym9qyQxtVv!985436381
+      User-Agent:
+      - python-requests/2.33.1
+    method: GET
+    uri: https://partner-sandbox-api-basic.cmiccloud.com/cmicprtn/ap-rest-api/rest/1/apinsurance?limit=500&q=InsCompCode+%3D+%27001%27+and+%28%28%28InsIuUpdateDate+%3E%3D+%272026-10-03T14%3A57%3A25-0400%27+and+InsIuUpdateDate+%3C+%272026-11-03T14%3A57%3A25-0400%27%29+or+%28InsIuCreateDate+%3E%3D+%272026-10-03T14%3A57%3A25-0400%27+and+InsIuCreateDate+%3C+%272026-11-03T14%3A57%3A25-0400%27%29%29%29
+  response:
+    body:
+      string: '{"items": [], "count": 4632, "hasMore": false, "limit": 6610, "offset":
+        4632, "links": [{"rel": "-Fallback-scrubbed-LFEC", "href": "-Fallback-scrubbed-AccdUhaIZgHlergVmgRfDzpgahVlPdZfLYUuIJlILUitjyskeyaMizLlnOfQrlVISKRcYwjURCFtKXgssIDPdMozA",
+        "name": "Fake-Javier Singh", "kind": "-Fallback-scrubbed-CmMQsyszel"}]}'
+    headers:
+      CF-RAY:
+      - a4d8ba40280af1d9-GRU
+      Cache-Control:
+      - no-cache, no-store, must-revalidate
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/vnd.oracle.adf.resourcecollection+json
+      Date:
+      - Tue, 20 Oct 2026 14:31:41 GMT
+      Link:
+      - <http://partner-sandbox-api-basic.cmiccloud.com:80/cmicprtn/ap-rest-api/rest/1/apinsurance>;rel="self";kind="collection";name="apinsurance"
+      Location:
+      - ''
+      REST-Framework-Version:
+      - '2'
+      Server:
+      - cloudflare
+      Server-Timing:
+      - dtTrId;desc="ac986e81ac163823d56a19bf27fa45e0", dtRpid;desc="-1336627716",
+        dtSInfo;desc="0"
+      Vary:
+      - Content-Encoding
+      - accept-encoding
+      X-ORACLE-DMS-ECID:
+      - b7dfd916-e0e0-49b3-8b24-6ecf2a6cc8aa-00004adc
+      X-ORACLE-DMS-RID:
+      - '0'
+      X-OneAgent-JS-Injection:
+      - 'true'
+      cf-cache-status:
+      - DYNAMIC
+      content-length:
+      - '291'
     status:
       code: 200
       message: OK
