@@ -25,8 +25,9 @@ All streams use CMiC's offset pagination with `limit=500`.
 ### Insurance vendor exclusions
 
 The `insurances` stream supports available filters with a **Vendor Name (ID)**
-multiselect and the **NOT IN** operator. Conditions are joined with **AND** only;
-OR and nested groups are not supported. Other streams are unaffected.
+multiselect and the **NOT IN** operator in a single clause. Select all vendors
+to exclude in that clause; logical operators and nested groups are not offered.
+Other streams are unaffected.
 
 Vendor options include the full company-scoped vendor list, independent of the
 incremental start date. Selected values use `Vendor Name (ID)` labels; the tap

@@ -135,9 +135,9 @@ class InsurancesStream(CMiCStream):
     date_window = relativedelta(months=1)
 
     def get_available_filters_metadata(self) -> dict[str, Any]:
-        """Offer vendor exclusions only, joined with AND."""
+        """Offer a single vendor exclusion multiselect."""
         return {
-            "supported_operators": ["AND"],
+            "supported_operators": [],
             "supports_nesting_clauses": False,
             "filters": {
                 "vendors": {
