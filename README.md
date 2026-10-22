@@ -19,6 +19,7 @@ A [Singer](https://www.singer.io/) tap that extracts data from **CMiC**. It is b
 | `vouchers` | `GET /ap-rest-api/rest/1/apallvouchers` | `VouNum` | `hg_modified_at` from `VouIuUpdateDate` / `VouIuCreateDate` |
 | `vendors` | `GET /ap-rest-api/rest/1/apvendor` | `BpvenVUuid` | `hg_modified_at` from `BpvenIuUpdateDate` / `BpvenIuCreateDate` |
 | `insurances` | `GET /ap-rest-api/rest/1/apinsurance` | `InsVUuid` | `hg_modified_at` from `InsIuUpdateDate` / `InsIuCreateDate` |
+| `general_contractor_users` | `GET /sys-rest-api/jersey/v1/users?compCode=` | `uuid` | full table |
 
 All streams use CMiC's offset pagination with `limit=500`.
 
