@@ -152,17 +152,10 @@ class InsurancesStream(CMiCStream):
     def setup_selected_filters(self) -> None:
         """Convert the selected vendor labels to CMiC vendor codes."""
         for key, clause in self._selected_filters.items():
-            if key.startswith("operator_") and clause == "AND":
-                continue
-            if (
-                not key.startswith("clause_")
-                or clause["field"] != "InsVenCode"
-                or clause["operator"] != "NOT IN"
-            ):
-                raise ValueError("Insurances supports only AND-joined vendor NOT IN filters")
-            self._excluded_vendor_codes.update(
-                value.rsplit(" (", 1)[-1].removesuffix(")") for value in clause["value"]
-            )
+            if key.startswith("clause_"):
+                self._excluded_vendor_codes.update(
+                    value.rsplit(" (", 1)[-1].removesuffix(")") for value in clause["value"]
+                )
 
     def __init__(self, *args: Any, **kwargs: Any) -> None:
         self._excluded_vendor_codes: set[str] = set()
