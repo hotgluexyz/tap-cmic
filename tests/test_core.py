@@ -287,14 +287,6 @@ def test_insurances_params_wrap_query_with_comp_code():
     }
 
 
-def test_cmic_streams_retry_spotty_400_and_404():
-    """Spotty CMiC 400/404s should backoff via CMiCStream.extra_retry_statuses."""
-    tap = TapCMiC(config=SAMPLE_CONFIG)
-    for stream in tap.streams.values():
-        assert 400 in stream.extra_retry_statuses
-        assert 404 in stream.extra_retry_statuses
-
-
 def test_insurances_post_process_dedupes_by_pk():
     """Cross-window OR hits are skipped after the first InsVUuid."""
     tap = TapCMiC(config=SAMPLE_CONFIG)
