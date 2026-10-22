@@ -8,7 +8,7 @@ from dateutil.relativedelta import relativedelta
 from hotglue_singer_sdk.testing import get_standard_tap_tests
 
 from tap_cmic.client import CMiCStream
-from tap_cmic.streams import InsurancesStream
+from tap_cmic.streams import GeneralContractorUsersStream, InsurancesStream
 from tap_cmic.tap import TapCMiC
 
 SAMPLE_CONFIG = {
@@ -55,6 +55,69 @@ def test_stream_params_match_cmic_definition():
         "offset": 500,
         "finder": f"selectByPmProjInfo;pmprojectDate={SAMPLE_CONFIG['start_date']}T00:00:00+0000",
     }
+
+
+def test_general_contractor_users_stream_uses_comp_code_query_param():
+    """general_contractor_users scopes via Jersey compCode when configured."""
+    tap = TapCMiC(config=SAMPLE_CONFIG_WITH_COMP_CODE)
+    users = cast(
+        GeneralContractorUsersStream,
+        next(
+            stream
+            for stream in tap.streams.values()
+            if stream.name == "general_contractor_users"
+        ),
+    )
+
+    assert users.get_url_params(context=None, next_page_token=None) == {
+        "limit": 500,
+        "compCode": "001",
+    }
+    assert users.get_url_params(context=None, next_page_token=500) == {
+        "limit": 500,
+        "compCode": "001",
+        "offset": 500,
+    }
+
+    tap_no_comp = TapCMiC(config=SAMPLE_CONFIG)
+    users_no_comp = cast(
+        GeneralContractorUsersStream,
+        next(
+            stream
+            for stream in tap_no_comp.streams.values()
+            if stream.name == "general_contractor_users"
+        ),
+    )
+    assert users_no_comp.get_url_params(context=None, next_page_token=None) == {
+        "limit": 500,
+    }
+
+
+class _FakeUsersResponse:
+    def __init__(self, items: list) -> None:
+        self._items = items
+
+    def json(self) -> dict:
+        return {"items": self._items}
+
+
+def test_general_contractor_users_stream_pages_without_has_more():
+    """Jersey users responses omit hasMore; page on item count instead."""
+    tap = TapCMiC(config=SAMPLE_CONFIG_WITH_COMP_CODE)
+    users = cast(
+        GeneralContractorUsersStream,
+        next(
+            stream
+            for stream in tap.streams.values()
+            if stream.name == "general_contractor_users"
+        ),
+    )
+    users.page_size = 2
+
+    assert users.get_next_page_token(_FakeUsersResponse([{}, {}]), None) == 2
+    assert users.get_next_page_token(_FakeUsersResponse([{}, {}]), 2) == 4
+    assert users.get_next_page_token(_FakeUsersResponse([{}]), 4) is None
+    assert users.get_next_page_token(_FakeUsersResponse([]), 4) is None
 
 
 def test_insurances_stream_uses_query_filter_params():
