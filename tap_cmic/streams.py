@@ -150,7 +150,7 @@ class InsurancesStream(CMiCStream):
         }
 
     def setup_selected_filters(self) -> None:
-        """Convert the selected vendor labels to CMiC vendor codes."""
+        """Extract vendor IDs from selected labels, e.g. 'Example Vendor (00123)' → '00123'."""
         for key, clause in self._selected_filters.items():
             if key.startswith("clause_"):
                 self._excluded_vendor_codes.update(
