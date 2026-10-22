@@ -151,7 +151,6 @@ class InsurancesStream(CMiCStream):
 
     def setup_selected_filters(self) -> None:
         """Convert the selected vendor labels to CMiC vendor codes."""
-        self._excluded_vendor_codes: set[str] = set()
         for key, clause in self._selected_filters.items():
             if key.startswith("operator_") and clause == "AND":
                 continue
