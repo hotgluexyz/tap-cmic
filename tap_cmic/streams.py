@@ -91,6 +91,28 @@ class VendorsStream(CMiCStream):
     comp_code_field = "BpvenCompCode"
     schema = VENDORS_SCHEMA
 
+    def get_available_filters_reference_data(
+        self, fields_to_include: set[str]
+    ) -> list[dict[str, Any]]:
+        """Load named vendor options without incremental date restrictions."""
+        vendors = []
+        params: dict[str, Any] = {"limit": self.page_size}
+        if self.comp_code:
+            params["q"] = self._company_scoped_query("")
+        while True:
+            request = self.build_prepared_request(
+                "GET", f"{self.url_base}{self.path}", params=params
+            )
+            response = self.request_decorator(self._request)(request, None)
+            vendors.extend(
+                {"name_code": f"{row['BpvenBpName']} ({row['BpvenBpCode']})"}
+                for row in response.json()["items"]
+            )
+            token = self.get_next_page_token(response, params.get("offset"))
+            if token is None:
+                return vendors
+            params["offset"] = token
+
 
 class InsurancesStream(CMiCStream):
     """Stream for ``insurances``.
@@ -112,7 +134,39 @@ class InsurancesStream(CMiCStream):
     schema = INSURANCES_SCHEMA
     date_window = relativedelta(months=1)
 
+    def get_available_filters_metadata(self) -> dict[str, Any]:
+        """Offer vendor exclusions only, joined with AND."""
+        return {
+            "supported_operators": ["AND"],
+            "supports_nesting_clauses": False,
+            "filters": {
+                "vendors": {
+                    "label": "Vendor Name (ID)",
+                    "supported_operators": ["NOT IN"],
+                    "target_field": "InsVenCode",
+                    "options": "reference_data.vendors.name_code",
+                }
+            },
+        }
+
+    def setup_selected_filters(self) -> None:
+        """Convert the selected vendor labels to CMiC vendor codes."""
+        self._excluded_vendor_codes: set[str] = set()
+        for key, clause in self._selected_filters.items():
+            if key.startswith("operator_") and clause == "AND":
+                continue
+            if (
+                not key.startswith("clause_")
+                or clause["field"] != "InsVenCode"
+                or clause["operator"] != "NOT IN"
+            ):
+                raise ValueError("Insurances supports only AND-joined vendor NOT IN filters")
+            self._excluded_vendor_codes.update(
+                value.rsplit(" (", 1)[-1].removesuffix(")") for value in clause["value"]
+            )
+
     def __init__(self, *args: Any, **kwargs: Any) -> None:
+        self._excluded_vendor_codes: set[str] = set()
         super().__init__(*args, **kwargs)
         self._window_start: datetime | None = None
         self._window_end: datetime | None = None
@@ -156,6 +210,9 @@ class InsurancesStream(CMiCStream):
         )
         if self.comp_code and self.comp_code_field:
             params["q"] = self._company_scoped_query(params["q"])
+        for code in sorted(self._excluded_vendor_codes):
+            escaped_code = code.replace("'", "''")
+            params["q"] += f" and InsVenCode != '{escaped_code}'"
         return params
 
     @override
