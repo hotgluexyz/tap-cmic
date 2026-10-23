@@ -23,6 +23,8 @@ class CMiCStream(RESTStream):
     query_template: str | None = None
     is_inclusive = False
     comp_code_field: str | None = None
+    # CMiC occasionally returns spotty 400/404s under load; retry with SDK backoff.
+    extra_retry_statuses = [429, 400, 404]
 
     @override
     @property
