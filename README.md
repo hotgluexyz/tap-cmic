@@ -22,6 +22,36 @@ A [Singer](https://www.singer.io/) tap that extracts data from **CMiC**. It is b
 
 All streams use CMiC's offset pagination with `limit=500`.
 
+### Insurance vendor exclusions
+
+The `insurances` stream supports available filters with a **Vendor Name (ID)**
+multiselect and the **NOT IN** operator in a single clause. Select all vendors
+to exclude in that clause; logical operators and nested groups are not offered.
+Other streams are unaffected.
+
+Vendor options include the full company-scoped vendor list, independent of the
+incremental start date. Selected values use `Vendor Name (ID)` labels; the tap
+extracts the vendor code (`BpvenBpCode`) and excludes matching `InsVenCode`
+values in CMiC requests, retaining the company and monthly date constraints.
+
+Generate options with `--get-available-filters --config config.json --catalog
+catalog.json`. Pass selections using `--selected-filters selected-filters.json`:
+
+```json
+{
+  "filters_version": "1.0.0",
+  "streams": {
+    "insurances": {
+      "clause_1": {
+        "field": "InsVenCode",
+        "operator": "NOT IN",
+        "value": ["Example Vendor (00123)", "Another Vendor (00456)"]
+      }
+    }
+  }
+}
+```
+
 ## Requirements
 
 - Python **3.10+** (see `requires-python` in `pyproject.toml`).
