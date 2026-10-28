@@ -15,6 +15,7 @@ from tap_cmic.schemas import (
     CONTRACTS_SCHEMA,
     INSURANCES_SCHEMA,
     PROJECTS_SCHEMA,
+    GENERAL_CONTRACTOR_USERS_SCHEMA,
     VENDORS_SCHEMA,
     VOUCHERS_SCHEMA,
 )
@@ -90,6 +91,40 @@ class VendorsStream(CMiCStream):
     is_inclusive = True
     comp_code_field = "BpvenCompCode"
     schema = VENDORS_SCHEMA
+
+
+class GeneralContractorUsersStream(CMiCStream):
+    """GC users from User Maintenance (``/sys-rest-api/jersey/v1/users``)."""
+
+    name = "general_contractor_users"
+    path = "/sys-rest-api/jersey/v1/users"
+    primary_keys = ["uuid"]
+    schema = GENERAL_CONTRACTOR_USERS_SCHEMA
+
+    @override
+    def get_url_params(
+        self,
+        context: dict | None,
+        next_page_token: Any | None,
+    ) -> dict[str, Any]:
+        params: dict[str, Any] = {"limit": self.page_size}
+        if self.comp_code:
+            params["compCode"] = self.comp_code
+        if next_page_token is not None:
+            params["offset"] = next_page_token
+        return params
+
+    @override
+    def get_next_page_token(
+        self,
+        response: requests.Response,
+        previous_token: Any | None,
+    ) -> Any | None:
+        # Jersey users API has no hasMore; stop when the page is short or empty.
+        items = response.json()["items"]
+        if len(items) < self.page_size:
+            return None
+        return (previous_token or 0) + self.page_size
 
 
 class InsurancesStream(CMiCStream):

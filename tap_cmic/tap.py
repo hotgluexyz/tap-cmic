@@ -12,8 +12,9 @@ from tap_cmic.streams import (
     ContractsStream,
     InsurancesStream,
     ProjectsStream,
-    VouchersStream,
+    GeneralContractorUsersStream,
     VendorsStream,
+    VouchersStream,
 )
 
 STREAM_TYPES = [
@@ -21,8 +22,9 @@ STREAM_TYPES = [
     ContractsStream,
     InsurancesStream,
     ProjectsStream,
-    VouchersStream,
+    GeneralContractorUsersStream,
     VendorsStream,
+    VouchersStream,
 ]
 
 
