@@ -8,6 +8,7 @@ from typing_extensions import override
 
 from tap_cmic.auth import CMiCOAuthAuthenticator, resolve_token_url
 from tap_cmic.streams import (
+    BusinessPartnersStream,
     CompaniesStream,
     ContractsStream,
     InsurancesStream,
@@ -18,6 +19,7 @@ from tap_cmic.streams import (
 )
 
 STREAM_TYPES = [
+    BusinessPartnersStream,
     CompaniesStream,
     ContractsStream,
     InsurancesStream,
