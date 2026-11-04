@@ -2,6 +2,18 @@
 
 from __future__ import annotations
 
+BUSINESS_PARTNERS_SCHEMA = {
+    "type": "object",
+    "properties": {
+        "hg_modified_at": {"type": ["string", "null"], "format": "date-time"},
+        "BpVUuid": {"type": ["string", "null"]},
+        "BpCode": {"type": ["string", "null"]},
+        "BpRegistrationCode": {"type": ["string", "null"]},
+        "BpIuCreateDate": {"type": ["string", "null"], "format": "date-time"},
+        "BpIuUpdateDate": {"type": ["string", "null"], "format": "date-time"},
+    },
+}
+
 PROJECTS_SCHEMA = {
     "type": "object",
     "properties": {

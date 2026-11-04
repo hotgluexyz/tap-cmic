@@ -13,6 +13,7 @@ A [Singer](https://www.singer.io/) tap that extracts data from **CMiC**. It is b
 
 | Stream | Endpoint / notes | Primary key | Replication key |
 | ------ | ---------------- | ----------- | ----------------- |
+| `business_partners` | `GET /sys-rest-api/rest/1/businesspartner` | `BpVUuid` | `hg_modified_at` from `BpIuUpdateDate` / `BpIuCreateDate` |
 | `companies` | `GET /glrestapi/rest/v1/glcompany` | `CompVUuid` | `hg_modified_at` from `CompIuUpdateDate` / `CompIuCreateDate` |
 | `projects` | `GET /pm-rest-api/rest/1/pmproject` | `GrpmpVUuid` | `hg_modified_at` from `GrpmpIuUpdateDate` / `GrpmpIuCreateDate` |
 | `contracts` | `GET /pm-rest-api/rest/1/scmast` | `ScmstVUuid` | `hg_modified_at` from `ScmstIuUpdateDate` / `ScmstIuCreateDate` |

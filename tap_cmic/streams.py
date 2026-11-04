@@ -11,6 +11,7 @@ from typing_extensions import override
 
 from tap_cmic.client import CMiCStream
 from tap_cmic.schemas import (
+    BUSINESS_PARTNERS_SCHEMA,
     COMPANIES_SCHEMA,
     CONTRACTS_SCHEMA,
     INSURANCES_SCHEMA,
@@ -77,6 +78,21 @@ class VouchersStream(CMiCStream):
     is_inclusive = True
     comp_code_field = "VouCompCode"
     schema = VOUCHERS_SCHEMA
+
+
+class BusinessPartnersStream(CMiCStream):
+    """Business partner identities and government registration codes."""
+
+    name = "business_partners"
+    path = "/sys-rest-api/rest/1/businesspartner"
+    primary_keys = ["BpVUuid"]
+    replication_key = "hg_modified_at"
+    replication_key_sources = ("BpIuUpdateDate", "BpIuCreateDate")
+    query_template = (
+        "BpIuUpdateDate >= '{replication_key_value}' or BpIuCreateDate >= '{replication_key_value}'"
+    )
+    is_inclusive = True
+    schema = BUSINESS_PARTNERS_SCHEMA
 
 
 class VendorsStream(CMiCStream):

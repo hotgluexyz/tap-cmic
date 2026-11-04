@@ -57,6 +57,35 @@ def test_stream_params_match_cmic_definition():
     }
 
 
+def test_business_partners_exposes_registration_codes_without_company_filter():
+    """Shared partners use their own audit dates, independently of company vendors."""
+    tap = TapCMiC(config={**SAMPLE_CONFIG_WITH_COMP_CODE, "start_date": "2026-01-01"})
+    partners = cast(CMiCStream, tap.streams["business_partners"])
+    partners._write_starting_replication_value(None)
+
+    assert partners.get_url_params(context=None, next_page_token=500) == {
+        "limit": 500,
+        "offset": 500,
+        "q": (
+            "BpIuUpdateDate >= '2026-01-01T00:00:01+0000' "
+            "or BpIuCreateDate >= '2026-01-01T00:00:01+0000'"
+        ),
+    }
+    assert partners.primary_keys == ["BpVUuid"]
+    assert partners.schema["properties"]["BpRegistrationCode"]["type"] == ["string", "null"]
+    record = partners.post_process(
+        {
+            "BpVUuid": "partner-uuid",
+            "BpCode": "00042",
+            "BpRegistrationCode": "001234567",
+            "BpIuCreateDate": "2025-01-01T00:00:00Z",
+            "BpIuUpdateDate": "2026-02-01T00:00:00Z",
+        }
+    )
+    assert record["BpRegistrationCode"] == "001234567"
+    assert record["hg_modified_at"] == "2026-02-01T00:00:00Z"
+
+
 def test_insurances_stream_uses_query_filter_params():
     """insurances uses monthly-bounded q because CMiC rejects finder for this endpoint."""
     tap = TapCMiC(config=SAMPLE_CONFIG)
