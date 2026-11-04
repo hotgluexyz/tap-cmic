@@ -24,12 +24,6 @@ A [Singer](https://www.singer.io/) tap that extracts data from **CMiC**. It is b
 
 All streams use CMiC's offset pagination with `limit=500`.
 
-`business_partners` exposes `BpCode` and `BpRegistrationCode` (the government
-registration code / US TIN). Join `BpCode` to `vendors.BpvenBpCode` in downstream
-transformations. Business partners are shared across companies, so this stream
-is not filtered by `comp_code`. `vendors.BpvenTax1Code` is a purchase-tax code,
-not the business partner's TIN.
-
 ### Insurance vendor exclusions
 
 The `insurances` stream supports available filters with a **Vendor Name (ID)**
